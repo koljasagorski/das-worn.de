@@ -1,0 +1,9 @@
+{
+  "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string).",
+  "1": {
+    "question": "Welcher Politiker hat Activision wegen Call of Duty: Black Ops 2 verklagt, weil er negativ dargestellt wurde?",
+    "answer": "Manuel Noriega, ehemaliger Diktator von Panama. Die Klage wurde im Oktober 2014 abgewiesen.",
+    "winner": null,
+    "notes": "Allererste Folge. Rätsel wurde nicht eindeutig einem Punkt zugeordnet."
+  }
+}
