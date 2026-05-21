@@ -1,14 +1,14 @@
 {
   "episodeCount": 361,
-  "skippedRaetselCount": 5,
+  "skippedRaetselCount": 6,
   "totalWords": 5177810,
   "totalChars": 30359563,
   "avgWords": 14343,
   "winners": {
-    "etienne": 91,
-    "jochen": 125,
+    "etienne": 101,
+    "jochen": 134,
     "georg": 11,
-    "unknown": 129
+    "unknown": 109
   },
   "totalMentions": {
     "etienne": 3409,

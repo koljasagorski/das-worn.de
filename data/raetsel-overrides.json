@@ -2799,6 +2799,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "281": {
+    "winner": "etienne",
+    "question": "Riesenhamsterratte Magawa erhielt 2020 einen Verdienstorden. Für was?",
+    "answer": "Sie wurde für das Aufspüren von Landminen und nicht explodierten Sprengkörpern in Kambodscha ausgezeichnet.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit der Frage 'Ist sie zum Minen riechen eingesetzt worden?' und erhält den Punkt von Georg. Jochen protestiert danach, weil Georg bei der vorherigen Militär-Frage zu früh ein Ja gegeben hat, wird aber letztlich akzeptiert.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "282": {
     "winner": null,
     "question": "Welche Eigenschaft von Straftätern kann dazu führen, dass sie bis zu dreimal so lange Strafen bekommen?",
@@ -2879,12 +2889,242 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "290": {
+    "winner": "jochen",
+    "question": "Die italienische Polizei nutzte 2020 ein Lamborghini-Dienstfahrzeug, um was zu tun?",
+    "answer": "Um Spenderorgane (zwei Nieren) von Rom nach Padua zu transportieren.",
+    "skipped": false,
+    "notes": "Halbe Punkte für Jochen und Etienne: Jochen riet die Kategorie 'Organ' (korrekt), hatte zuvor aber 'Herz' geraten (falsch). Etienne stellte präzise Fragen und protestierte gegen Jochens fehlerhafte Vermutungen. Georg akzeptiert beide halben Punkte (Nieren waren die genaue Antwort).",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "291": {
+    "winner": "jochen",
+    "question": "Im Oktober 1839 machte Robert Cornelius das erste Was?",
+    "answer": "Das erste Selfie",
+    "skipped": false,
+    "notes": "Jochen löst mit 'Ein Selfie?', explizit bestätigt mit 'Ja, das ist die Lösung.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "292": {
+    "winner": "jochen",
+    "question": "Warum werden etwa 30% aller Militärpiloten als nicht mehr flugtauglich eingestuft?",
+    "answer": "Wenn sie schon einmal einen Schleudersitz betätigt haben und dadurch Wirbelsäulenverletzungen durch extreme G-Kräfte erleiden",
+    "skipped": false,
+    "notes": "Lösung explizit genannt. Schleudersitze erzeugen bis zu 20G Fliehkräfte; über 50% erleiden schwere Verletzungen, häufigste sind Wirbelsäulenfrakturen.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "293": {
+    "winner": "etienne",
+    "question": "Was ist ein Schwanzwort?",
+    "answer": "Ein Kurzwort, das aus dem Ende eines Ursprungswortes gebildet wird, z.B. Bus statt Omnibus oder Fax statt Telefax.",
+    "skipped": false,
+    "notes": "Etienne gab das richtige Beispiel 'Schläger' (von Tennisschläger), worauf Georg mehrfach sagte 'Der hat es gelöst.' Georg erklärte anschließend die korrekte Definition. Etienne erhielt den Punkt, obwohl er selbst später sagte, es nicht wirklich verstanden zu haben.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "294": {
+    "winner": "etienne",
+    "question": "Wofür wurde TNT mehr als drei Jahrzehnte lang verwendet, bevor man seine explosiven Eigenschaften erkannte?",
+    "answer": "TNT war ein gelber Farbstoff und wurde zum Anstreichen verwendet.",
+    "skipped": false,
+    "notes": "Georg bestätigt explizit 'Völlig richtig' auf Etienns Lösung. Etienne hatte zuvor gegoogelt, was er am Ende zugibt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "295": {
+    "winner": "etienne",
+    "question": "Welche ungewöhnliche Gemeinsamkeit haben Helmut Kohl, El Gore und Werner Herzog?",
+    "answer": "Alle drei haben Hühner hypnotisiert.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit 'Die haben die Hühner hypnotisiert' nach langer Fragerunde. Georg bestätigt die Lösung explizit.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "296": {
+    "winner": "etienne",
+    "question": "Wer ist Daisy, die im Auftrag von Virgin Media O2 in Großbritannien arbeitet?",
+    "answer": "Daisy ist ein KI-Chatbot, der automatisch bei Betrrugsanrufen antwortet und die Scammer mit erfundenen Geschichten und falschen Bankdaten bis zu 40 Minuten lang am Telefon hält.",
+    "skipped": false,
+    "notes": "Jochen kam sehr nah ran und verstand das Konzept korrekt (Betrüger, falschen Daten, Zeit verschwenden), aber Georg sagte explizit 'Eddie holt den Punkt'. Die endgültige Bestätigung erfolgte eher implizit.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "297": {
+    "winner": "jochen",
+    "question": "Welche Aufgabe hat ein 246 Meter hoher Turm in der Nähe von Rottweil?",
+    "answer": "Ein Aufzugsturm (TK-Elevator-Testturm), wo Aufzüge mit extremen Geschwindigkeiten und unter Windlastsimulation getestet werden.",
+    "skipped": false,
+    "notes": "Halbe Punkte verteilt: Etienne nannte Aufzüge (0,5 Pkt), Jochen erkannte die Testfunktion/TÜV-Zweck (0,5 Pkt). Jochen als Hauptgewinner für präzisere Lösung der Aufgabenfrage.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "298": {
+    "winner": "etienne",
+    "question": "Was überführte einen Kita-Einbrecher in NRW im Jahr 2021?",
+    "answer": "Eine Tonibox, die über ihr Benutzerprofil und ihre IP-Adresse nachverfolgbar war.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "299": {
+    "winner": "etienne",
+    "question": "Was erfand Dr. David J. Bradley im Jahr 1981?",
+    "answer": "Steuerung Alt Entfernen (Ctrl+Alt+Delete) – eine Tastenkombination für PC-Reset",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "300": {
     "winner": "etienne",
-    "question": "Was ist ein Übungsgummi?",
-    "answer": "Gummiauflagen für Schlagzeug, die man auf die Trommel legt, damit diese bei geringer Lautstärke nicht so laut ist.",
+    "question": "Was ist ein Übungsgummi? (Ein tellerförmiges Gummi, das man auf ein vibrierndes Gerät legt)",
+    "answer": "Gummiauflagen für ein Schlagzeug, um beim Üben mit geringerer Lautstärke proben zu können.",
     "skipped": false,
-    "notes": "Larissa hat das Rätsel eingereicht. Am Ende der Auflösung wird 'Fredienne' als Punktgewinner genannt, was wahrscheinlich ein Tipp-Fehler für 'Etienne' ist.",
+    "notes": "Jochen und Etienne raten gemeinsam die Antwort 'Schlagzeug', Auflösung bestätigt sich mit dem Hinweis auf Gummimatten für Trommeln (Snare, High-Hat). Sieger im Transkript als 'Fredienne' transkribiert, wahrscheinlich Etienne gemeint. Es ist die erste Punkt-Notiz 'in diesem Jahr'.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "301": {
+    "winner": "jochen",
+    "question": "Was haben der Kölner Dom und die Keops-Pyramide gemeinsam?",
+    "answer": "Beide waren zu ihrer Bauzeit die höchsten Gebäude der Welt.",
+    "skipped": false,
+    "notes": "Jochen löste mit substanzieller Hilfe durch Tipps von Etienne. Georg bestätigte die Antwort mit 'Richtig'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "302": {
+    "winner": null,
+    "question": "Was schickte eine Frau der Ex-Freundin ihres Partners, wofür sie zu einer Geldstrafe verurteilt wurde?",
+    "answer": "Furzvideos",
+    "skipped": false,
+    "notes": "Jochen vermutet die Lösung ('sie hat gefurzt'), wird aber von Georg abgewiesen mit 'du bist nicht an der Reihe'. Es entsteht ein Streit um die Punkt-Vergabe. Die Hosts beenden ihn mit einem Witz über ein 'unabhängiges Schiedsgericht' und präsentieren dann die Lösung. Eindeutige Punkt-Vergabe bleibt ungeklärt.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "303": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Georg schlägt vor, heute kein Rätsel zu machen, da er in Zeitdruck ist und zur Schule muss. Etienne und Jochen stimmen zu. Stattdessen werden Patreon-Fragen beantwortet.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "304": {
+    "winner": "jochen",
+    "question": "Was ist ein Nackenbeißer?",
+    "answer": "Ein Liebesroman-Genre, benannt nach den Cover-Illustrationen, auf denen ein Mann eine Frau leidenschaftlich umarmt und ihr in den Nacken beißt oder küsst.",
+    "skipped": false,
+    "notes": "Georg sagt explizit zu Jochen: 'Den Punkt hast du verdient' nach Jochens Lösung mit 'Schnulzen/Liebesroman'. Der Lösungsprozess war lang und chaotisch, mit vielen Tippfragen von Etienne und Jochen.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "305": {
+    "winner": "jochen",
+    "question": "Warum haben die Plastikbecher im Stadion von Ingolstadt einen abgeschrägten Boden?",
+    "answer": "Der schräge Boden sorgt beim Werfen für einen Drehimpuls, durch den sich die Becher schnell entleeren, weniger weit fliegen und damit ein geringeres Verletzungsrisiko darstellen.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "307": {
+    "winner": "etienne",
+    "question": "Was ist ein Scheißtag?",
+    "answer": "Ein unbezahlter Arbeitstag bei Knechten und Dienstbooten in Süddeutschland und Österreich zur Ausgleichung der durch Stuhlgang verlorenen Arbeitszeit.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "308": {
+    "winner": "jochen",
+    "question": "Woran darf man in der Fummelzone fummeln?",
+    "answer": "In der Fummelzone (Sicherheitszone) beim Sportschießen darf man Schusswaffen reinigen, reparieren und auseinanderbauen; das Nachladen und der Umgang mit Munition sind dort strengstens untersagt.",
+    "skipped": false,
+    "notes": "Jochen identifizierte korrekt, dass es um Waffenunterhalt beim Schießsport geht. Die Antwort wurde mit 'Das lasse ich gelten' vom Fragesteller akzeptiert.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "309": {
+    "winner": "georg",
+    "question": "Mit einem einzigen Satz generierte ein Mann aus Philadelphia mehr als 400 Millionen Dollar Umsatz. Welcher Satz war es?",
+    "answer": "Let's Get Ready to Rumble - Michael Buffer registrierte diesen Satz als Markenzeichen in den 80er Jahren und generierte damit über 400 Millionen Dollar Umsatz",
+    "skipped": false,
+    "notes": "Mehrdeutig. Etienne sagt mehrmals 'Ich möchte lösen' und 'Ich will den Punkt haben', aber Georg macht einen Countdown und nennt die Lösung 'Let's get ready to rumble' zuerst. Georg sagt am Ende 'Nee, ich will deine', was darauf hindeutet, dass er sich selbst den Punkt gibt. Etienne bestätigt die Lösung aber auch unmittelbar danach.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "310": {
+    "winner": "etienne",
+    "question": "Wo fanden im Jahr 2014 Kämpfe statt, die nach heutigem Wert Gesamtschäden von knapp einer halben Million Dollar zur Folge hatten?",
+    "answer": "In der Battle of BR 5 RB in Eve Online, einer PVP-Schlacht mit über 7500 Spielern, die über 11 Billionen ISK (ca. 432.000 Dollar) an virtuellen Raumschiffen zerstörten.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "311": {
+    "winner": "jochen",
+    "question": "Warum wurde David McNamara für eine von ihm organisierte Runde Schere, Stein, Papier bestraft?",
+    "answer": "Er war Schiedsrichter bei einem Fußballspiel zwischen Manchester City und Reading, vergaß die Münze für den Münzwurf und ließ die Spielführerinnen daher per Schere-Stein-Papier über Seitenwahl und Anstoßrecht entscheiden. Die FA sperrte ihn 2018 für drei Wochen.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "312": {
+    "winner": "jochen",
+    "question": "Was zeigte das britische Fernsehen erstmals im Jahr 2018 in voller Länge?",
+    "answer": "Die Sketch-Sendung Dinner for One",
+    "skipped": false,
+    "notes": "Jochen hat die Frage mit 'Dinner for One' gelöst. Die genaue Stelle des Gewinns ist aus dem Transkript nicht völlig eindeutig erkennbar, aber basierend auf den Sprechmustern ('Geht es um Dinner for One? Das ist die Lösung') und der folgenden Bestätigung durch Georg ist Jochen der wahrscheinliche Gewinner.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "313": {
+    "winner": null,
+    "question": "Was kann der Biss einer brasilianischen Wanderspinne beim Menschen auslösen?",
+    "answer": "Eine Dauerererektion (prolonged erection), die mehrere Stunden andauern kann",
+    "skipped": false,
+    "notes": "Kollaborative Lösungsfindung durch mehrere Fehlversuche (Halluzination, Schwangerschaft, Haarwuchs, etc.) über Diskussionen zum Schwellkörper. Die genaue Attribution einer konkreten Lösungsperson ist aufgrund der Dialogstruktur und fehlender eindeutiger Sprecherzuweisungen nicht nachvollziehbar. Mehrere Personen trugen zur schrittweisen Annäherung bei.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "315": {
+    "winner": "etienne",
+    "question": "Was war ungewöhnlich an FDC Willard, der in den 70er Jahren zwei Arbeiten zum Thema Tieftemperatur veröffentlichte?",
+    "answer": "FDC Willard war eine Katze namens Chester, deren Name als Co-Autor auf einem wissenschaftlichen Aufsatz stand. Der Forscher Jack Hatherington hatte seine Arbeit in der Wir-Form geschrieben; die Fachzeitschrift monierte das. Um nicht die ganze Arbeit neu zu schreiben, trug er seine Katze als zweiten Autor ein. FDC steht für Felis Domesticus Chester, Willard war der Name von Chesters Vater.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit der Antwort 'Katze'. Georg bestätigt explizit: 'Das ist wohl richtig, Etienne. du hast das Rätsel gelöst.' und wiederholt am Ende: 'Okay, Eddie kriegt den Punkt.'",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
