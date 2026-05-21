@@ -1809,6 +1809,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "182": {
+    "winner": "etienne",
+    "question": "Der etwa 60 m hohe Turm auf der Spitze des Empire State Buildings sollte ursprünglich welchem Zweck dienen?",
+    "answer": "Der Turm war als Anlegestelle für Zeppeline (Luftschiffe) gedacht.",
+    "skipped": false,
+    "notes": "Etienne löste das Rätsel mit 'Zeppeline', Georg bestätigte deutlich mit 'Ja, natürlich, Zeppeline'. Jochen war mit 'Haltestelle für Heißluftballons' nah dran.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "183": {
     "winner": "jochen",
     "question": "Warum ist ein 1974 ausgestellter Reisepass für einen Ägypter als der ungewöhnlichste der Welt bekannt?",
@@ -1867,6 +1877,36 @@
     "notes": "Halber Punkt geteilt mit Etienne. Jochen war näher an der Lösung mit seiner Vermutung, dass der König einen Teil der Ware garantiert abnehmen würde.",
     "_auto": true,
     "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "191": {
+    "winner": "etienne",
+    "question": "Warum wuchs der damals 51-Jährige Scott Kelly innerhalb eines Jahres um knapp 5 Zentimeter?",
+    "answer": "Weil er ein Jahr auf der ISS verbrachte. Die fehlende Erdanziehungskraft entlastet die Wirbelsäule, die dadurch an Länge zunimmt.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "192": {
+    "winner": "etienne",
+    "question": "Warum stand gegen Ende der 1980er Jahre an vielen Supermarktkassen ein Eiermann (Überraschungsei-Maskottchen)?",
+    "answer": "Der Eiermann war ein Barcode-Dummy für Kassierinnen und Kassierer: Weil die Überraschungseier eine geriffelte Oberfläche haben, ließ sich der Barcode schwer mit Scanner einscannen und die Eier gingen kaputt. Der Eiermann hatte einen glatten, flachen Boden mit dem gleichen Barcode, über den die Kassiererin die Waren einscannen konnte, ohne die echten Eier zu beschädigen.",
+    "skipped": false,
+    "notes": "Jochen kam dem Rätsel sehr nahe (Barcode-Thematik), aber Etienne gab letztlich die vollständige, korrekte Lösung. Georg bestätigte explizit: 'Das ist hundertprozentig richtig, genau das ist die Lösung.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "193": {
+    "winner": "jochen",
+    "question": "Was beschreibt das Geburtstagsparadoxon?",
+    "answer": "Das mathematische Phänomen, dass bei einer Gruppe von 23 Personen die Wahrscheinlichkeit über 50 Prozent liegt, dass mindestens zwei Personen am gleichen Tag Geburtstag haben – Menschen unterschätzen diese Wahrscheinlichkeit massiv.",
+    "skipped": false,
+    "notes": "Jochen formuliert die korrekte Frage zur Wahrscheinlichkeit (mindestens zwei Leute am gleichen Tag Geburtstag bei 23 Personen) und Georg bestätigt mit 'Exakt' sowie 'Lass es gelten'. Georg gab entscheidende Tipps (Zahl 23, Fehleinschätzung von Wahrscheinlichkeit) bevor Jochen es löste.",
+    "_auto": true,
+    "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
   "200": {
