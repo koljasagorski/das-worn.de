@@ -1,6 +1,7 @@
 import { Hono } from "hono";
 import episodes from "../data/episodes.json";
 import stats from "../data/stats.json";
+import gags from "../data/gags-resolved.json";
 import {
   renderHome,
   renderEpisodesList,
@@ -10,6 +11,8 @@ import {
   renderStats,
   renderAbout,
   renderNotFound,
+  renderLoreIndex,
+  renderLoreDetail,
 } from "./views/pages.js";
 
 const app = new Hono();
@@ -23,7 +26,7 @@ app.use("*", async (c, next) => {
 
 const html = (c, body) => c.html(body, 200, { "Cache-Control": "public, max-age=600" });
 
-app.get("/", (c) => html(c, renderHome({ stats, episodes })));
+app.get("/", (c) => html(c, renderHome({ stats, episodes, gags })));
 
 app.get("/folgen", (c) => html(c, renderEpisodesList({ episodes, query: c.req.query("q") })));
 
@@ -44,6 +47,13 @@ app.get("/hosts", (c) => html(c, renderHosts({ stats })));
 app.get("/raetsel", (c) => html(c, renderRaetsel({ episodes, stats })));
 app.get("/statistiken", (c) => html(c, renderStats({ stats })));
 app.get("/about", (c) => html(c, renderAbout({ stats })));
+
+app.get("/lore", (c) => html(c, renderLoreIndex({ gags })));
+app.get("/lore/:key", (c) => {
+  const gag = gags[c.req.param("key")];
+  if (!gag) return c.html(renderNotFound(), 404);
+  return html(c, renderLoreDetail({ gag, episodes }));
+});
 
 app.get("/random", (c) => {
   const ep = episodes[Math.floor(Math.random() * episodes.length)];

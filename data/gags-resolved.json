@@ -1,0 +1,2552 @@
+{
+  "kreidefrau": {
+    "name": "Die Kreidefrau",
+    "emoji": "🖍️",
+    "description": "Eine Frau in Jochens Viertel schreibt mit Kreide Anti-Müll-Botschaften auf den Bürgersteig: 'Wirf keinen Müll und keine Kippen auf die Erde'. Jochen sieht sie öfter, hat aber laut eigener Aussage festgestellt, dass sie 'immun gegen alle Waffen' sei, die ihm zur Verfügung stehen – inklusive Rechtschreib-Korrekturen. Die Kreidefrau erlangt im Laufe des Podcasts Berühmtheit: Hörer schicken Fotos von ihren Kreidezeichnungen, sogar das Umweltbundesamt postet welche auf Instagram.",
+    "origin": "Erste Sichtung dokumentiert in Folge #30. Es gibt eine eigene Themenfolge #35 'Die Rückkehr der Kreidefrau'.",
+    "pattern": "kreidefra[uw]",
+    "dedicatedEpisodes": [
+      35
+    ],
+    "host": "jochen",
+    "key": "kreidefrau",
+    "episodeCount": 29,
+    "totalMentions": 75,
+    "episodes": [
+      {
+        "number": 30,
+        "title": "Begegnungen im Park",
+        "mentions": 6
+      },
+      {
+        "number": 33,
+        "title": "Der Kimmen-Kärcher",
+        "mentions": 4
+      },
+      {
+        "number": 34,
+        "title": "DJ Jochen",
+        "mentions": 3
+      },
+      {
+        "number": 35,
+        "title": "Die Rückkehr der Kreidefrau",
+        "mentions": 6
+      },
+      {
+        "number": 36,
+        "title": "Einbahnstrasse und Fleischwolf",
+        "mentions": 1
+      },
+      {
+        "number": 37,
+        "title": "Salmonella Wursthusten",
+        "mentions": 5
+      },
+      {
+        "number": 39,
+        "title": "Warzen-Leberwurstbrot",
+        "mentions": 8
+      },
+      {
+        "number": 41,
+        "title": "Etienne der Pädagoge",
+        "mentions": 1
+      },
+      {
+        "number": 42,
+        "title": "Das CSyou Desaster",
+        "mentions": 4
+      },
+      {
+        "number": 45,
+        "title": "Urlaubsende",
+        "mentions": 1
+      },
+      {
+        "number": 50,
+        "title": "a walk in the park",
+        "mentions": 4
+      },
+      {
+        "number": 66,
+        "title": "Gittarenspieler Etienne",
+        "mentions": 1
+      },
+      {
+        "number": 78,
+        "title": "Flamingo im Studio",
+        "mentions": 2
+      },
+      {
+        "number": 79,
+        "title": "Etienne auf Reisen",
+        "mentions": 4
+      },
+      {
+        "number": 81,
+        "title": "Das beschissene Geschenk",
+        "mentions": 1
+      },
+      {
+        "number": 83,
+        "title": "Gelbe Gummibärchen",
+        "mentions": 1
+      },
+      {
+        "number": 87,
+        "title": "Das erotische Hörspiel",
+        "mentions": 2
+      },
+      {
+        "number": 98,
+        "title": "Sockenprobleme",
+        "mentions": 1
+      },
+      {
+        "number": 100,
+        "title": "Dreistellig",
+        "mentions": 1
+      },
+      {
+        "number": 110,
+        "title": "Das Eierproblem",
+        "mentions": 2
+      },
+      {
+        "number": 113,
+        "title": "Eddi der Betrüger",
+        "mentions": 2
+      },
+      {
+        "number": 125,
+        "title": "Der Gleitcreme-Flieger",
+        "mentions": 1
+      },
+      {
+        "number": 147,
+        "title": "Laufie-Sprechie",
+        "mentions": 1
+      },
+      {
+        "number": 159,
+        "title": "Erotik-Sprecher",
+        "mentions": 1
+      },
+      {
+        "number": 161,
+        "title": "Abspritzpumpe",
+        "mentions": 3
+      },
+      {
+        "number": 212,
+        "title": "Umzug",
+        "mentions": 3
+      },
+      {
+        "number": 324,
+        "title": "Nüsselsuppe",
+        "mentions": 1
+      },
+      {
+        "number": 328,
+        "title": "Wasserball",
+        "mentions": 1
+      },
+      {
+        "number": 341,
+        "title": "Polarlichter und das Gute- Morgen-Bäuerchen",
+        "mentions": 4
+      }
+    ]
+  },
+  "porsche": {
+    "name": "Der vergammelnde Porsche",
+    "emoji": "🚗",
+    "description": "Ein silbergrauer Porsche 911 (996er-Baureihe) steht in Jochens Viertel vor einem Haus geparkt. Jochen ist seit seiner Kindheit Fan dieser Baureihe, was den Verfall des Wagens umso schmerzhafter macht: Frontleuchten ausgebaut, Stoßstange weggeflext, Lack abblättert. In schöner Regelmäßigkeit gibt Jochen Verfalls-Updates.",
+    "origin": "Erste Bestandsaufnahme in Folge #34, danach in unregelmäßigen Abständen.",
+    "pattern": "porsche",
+    "dedicatedEpisodes": [],
+    "host": "jochen",
+    "key": "porsche",
+    "episodeCount": 44,
+    "totalMentions": 156,
+    "episodes": [
+      {
+        "number": 34,
+        "title": "DJ Jochen",
+        "mentions": 11
+      },
+      {
+        "number": 35,
+        "title": "Die Rückkehr der Kreidefrau",
+        "mentions": 4
+      },
+      {
+        "number": 36,
+        "title": "Einbahnstrasse und Fleischwolf",
+        "mentions": 15
+      },
+      {
+        "number": 37,
+        "title": "Salmonella Wursthusten",
+        "mentions": 1
+      },
+      {
+        "number": 38,
+        "title": "Der Bluetooth-Anruf",
+        "mentions": 11
+      },
+      {
+        "number": 41,
+        "title": "Etienne der Pädagoge",
+        "mentions": 3
+      },
+      {
+        "number": 43,
+        "title": "Imagewechsel",
+        "mentions": 4
+      },
+      {
+        "number": 46,
+        "title": "Regalbau und Backsendungen",
+        "mentions": 1
+      },
+      {
+        "number": 50,
+        "title": "a walk in the park",
+        "mentions": 13
+      },
+      {
+        "number": 51,
+        "title": "Gans schön lecker",
+        "mentions": 2
+      },
+      {
+        "number": 54,
+        "title": "Stradivari",
+        "mentions": 3
+      },
+      {
+        "number": 65,
+        "title": "Etienne im Tigerentenclub",
+        "mentions": 7
+      },
+      {
+        "number": 92,
+        "title": "Gruseln in Mölln",
+        "mentions": 1
+      },
+      {
+        "number": 95,
+        "title": "Die große Pferdelüge",
+        "mentions": 1
+      },
+      {
+        "number": 99,
+        "title": "Das Badewannenkissen",
+        "mentions": 1
+      },
+      {
+        "number": 108,
+        "title": "Stinkefinger im Garten",
+        "mentions": 19
+      },
+      {
+        "number": 113,
+        "title": "Eddi der Betrüger",
+        "mentions": 1
+      },
+      {
+        "number": 159,
+        "title": "Erotik-Sprecher",
+        "mentions": 3
+      },
+      {
+        "number": 167,
+        "title": "Baustelle",
+        "mentions": 1
+      },
+      {
+        "number": 170,
+        "title": "Körperhygiene",
+        "mentions": 1
+      },
+      {
+        "number": 178,
+        "title": "Achtung shitstorm!",
+        "mentions": 1
+      },
+      {
+        "number": 181,
+        "title": "Essig im Periodensystem",
+        "mentions": 1
+      },
+      {
+        "number": 185,
+        "title": "Der magische Thermobecher",
+        "mentions": 1
+      },
+      {
+        "number": 191,
+        "title": "Marihuana",
+        "mentions": 1
+      },
+      {
+        "number": 193,
+        "title": "Luxus-Influencer",
+        "mentions": 3
+      },
+      {
+        "number": 214,
+        "title": "Luftgekühlte Hoden",
+        "mentions": 5
+      },
+      {
+        "number": 218,
+        "title": "Saug-Roboter",
+        "mentions": 1
+      },
+      {
+        "number": 220,
+        "title": "Star Wars und der große Pferdebetrug",
+        "mentions": 1
+      },
+      {
+        "number": 244,
+        "title": "Feuchte Träume und Teleportationslöcher",
+        "mentions": 1
+      },
+      {
+        "number": 248,
+        "title": "Ede und das \"Apple-Leertasten-Parkhaus-Desaster",
+        "mentions": 1
+      },
+      {
+        "number": 249,
+        "title": "Weihnachtsmarkt-Crêpes",
+        "mentions": 1
+      },
+      {
+        "number": 252,
+        "title": "Das rosane Loch",
+        "mentions": 5
+      },
+      {
+        "number": 264,
+        "title": "Diddy Hallervorden",
+        "mentions": 4
+      },
+      {
+        "number": 275,
+        "title": "Highlight in Tüten",
+        "mentions": 1
+      },
+      {
+        "number": 287,
+        "title": "Bilderbuchautor des Kapitalismus",
+        "mentions": 2
+      },
+      {
+        "number": 290,
+        "title": "Das muss nicht sein!!",
+        "mentions": 1
+      },
+      {
+        "number": 308,
+        "title": "Das Klingelsäckchen Dingdong",
+        "mentions": 1
+      },
+      {
+        "number": 322,
+        "title": "Folge ohne richtigen Namen",
+        "mentions": 5
+      },
+      {
+        "number": 333,
+        "title": "Auf Achse",
+        "mentions": 6
+      },
+      {
+        "number": 338,
+        "title": "Der Lieblingsstuhl",
+        "mentions": 4
+      },
+      {
+        "number": 347,
+        "title": "Die Abrechnung",
+        "mentions": 1
+      },
+      {
+        "number": 349,
+        "title": "Hells Angels im Twingo",
+        "mentions": 4
+      },
+      {
+        "number": 352,
+        "title": "Sieben",
+        "mentions": 1
+      },
+      {
+        "number": 353,
+        "title": "Häh?",
+        "mentions": 1
+      }
+    ]
+  },
+  "stradivari": {
+    "name": "Die Dachboden-Stradivari",
+    "emoji": "🎻",
+    "description": "Beim Kauf eines Hauses werden Schränke und ein alter Geigenkasten zurückgelassen. Im Kasten steht 'Antonius Stradivari, Cremonensis 1730'. Echt oder Fake? Wenn echt, wären die Hosts auf einen Schlag Millionäre. Die Antwort bleibt offen – das Wiki wäre dann vermutlich aus Marketing-Gründen kein Wiki mehr.",
+    "origin": "Eigene Folge #54 'Stradivari'.",
+    "pattern": "stradivari",
+    "dedicatedEpisodes": [
+      54
+    ],
+    "host": "jochen",
+    "key": "stradivari",
+    "episodeCount": 29,
+    "totalMentions": 116,
+    "episodes": [
+      {
+        "number": 54,
+        "title": "Stradivari",
+        "mentions": 41
+      },
+      {
+        "number": 55,
+        "title": "Fettleber",
+        "mentions": 3
+      },
+      {
+        "number": 56,
+        "title": "Arzt-Toilette",
+        "mentions": 4
+      },
+      {
+        "number": 62,
+        "title": "Tumor-Gemetzel",
+        "mentions": 4
+      },
+      {
+        "number": 64,
+        "title": "Soziale Isolierung",
+        "mentions": 4
+      },
+      {
+        "number": 66,
+        "title": "Gittarenspieler Etienne",
+        "mentions": 2
+      },
+      {
+        "number": 68,
+        "title": "Frösche und Klobrillen",
+        "mentions": 5
+      },
+      {
+        "number": 75,
+        "title": "E.T. ist ein Arsch",
+        "mentions": 1
+      },
+      {
+        "number": 88,
+        "title": "Wer wird Millionär?",
+        "mentions": 9
+      },
+      {
+        "number": 97,
+        "title": "Serientipps",
+        "mentions": 1
+      },
+      {
+        "number": 121,
+        "title": "Camping",
+        "mentions": 9
+      },
+      {
+        "number": 124,
+        "title": "Die Einzelhandelfreundlichkeitskonstante",
+        "mentions": 1
+      },
+      {
+        "number": 127,
+        "title": "Etienne ist sickig",
+        "mentions": 1
+      },
+      {
+        "number": 138,
+        "title": "Entenhausen",
+        "mentions": 1
+      },
+      {
+        "number": 167,
+        "title": "Baustelle",
+        "mentions": 2
+      },
+      {
+        "number": 169,
+        "title": "Schwimmbad",
+        "mentions": 1
+      },
+      {
+        "number": 178,
+        "title": "Achtung shitstorm!",
+        "mentions": 3
+      },
+      {
+        "number": 181,
+        "title": "Essig im Periodensystem",
+        "mentions": 1
+      },
+      {
+        "number": 183,
+        "title": "Pappstrohalme im DFB Tresor",
+        "mentions": 7
+      },
+      {
+        "number": 184,
+        "title": "Schlossknacker auf dem E-Scooter",
+        "mentions": 1
+      },
+      {
+        "number": 192,
+        "title": "Der 100.000 Euro Wein",
+        "mentions": 3
+      },
+      {
+        "number": 229,
+        "title": "Klo-Hanteln",
+        "mentions": 1
+      },
+      {
+        "number": 261,
+        "title": "Etiennes türkische Wurzeln",
+        "mentions": 3
+      },
+      {
+        "number": 280,
+        "title": "Ab 18!",
+        "mentions": 2
+      },
+      {
+        "number": 295,
+        "title": "Das überfahrene Dings",
+        "mentions": 1
+      },
+      {
+        "number": 302,
+        "title": "Das \"Low Impact Trampolin",
+        "mentions": 2
+      },
+      {
+        "number": 303,
+        "title": "Mundwinkelschlafsabberpfütze",
+        "mentions": 1
+      },
+      {
+        "number": 311,
+        "title": "Der Waschanlangen Knigge",
+        "mentions": 1
+      },
+      {
+        "number": 338,
+        "title": "Der Lieblingsstuhl",
+        "mentions": 1
+      }
+    ]
+  },
+  "poppy": {
+    "name": "Poppy",
+    "emoji": "🐕",
+    "description": "Jochens Hund. Hatte mal ein gerissenes Band. Tritt immer wieder in Geschichten auf: Begegnungen im Park, Spaziergänge durchs Viertel (wo dann häufig Kreidefrau- oder Porsche-Sichtungen passieren). Sozusagen der heimliche vierte Host.",
+    "origin": "Wird ab Folge #1 immer wieder erwähnt.",
+    "pattern": "poppy",
+    "dedicatedEpisodes": [],
+    "host": "jochen",
+    "key": "poppy",
+    "episodeCount": 42,
+    "totalMentions": 86,
+    "episodes": [
+      {
+        "number": 1,
+        "title": "Katzen und Bitcoins",
+        "mentions": 1
+      },
+      {
+        "number": 11,
+        "title": "Brötchen im Motorraum",
+        "mentions": 5
+      },
+      {
+        "number": 15,
+        "title": "Taxi",
+        "mentions": 1
+      },
+      {
+        "number": 21,
+        "title": "Der erste Weihnachtsbaum",
+        "mentions": 5
+      },
+      {
+        "number": 27,
+        "title": "Tellerlift",
+        "mentions": 3
+      },
+      {
+        "number": 32,
+        "title": "Der Tokyo Trip",
+        "mentions": 8
+      },
+      {
+        "number": 34,
+        "title": "DJ Jochen",
+        "mentions": 1
+      },
+      {
+        "number": 38,
+        "title": "Der Bluetooth-Anruf",
+        "mentions": 1
+      },
+      {
+        "number": 41,
+        "title": "Etienne der Pädagoge",
+        "mentions": 2
+      },
+      {
+        "number": 50,
+        "title": "a walk in the park",
+        "mentions": 7
+      },
+      {
+        "number": 96,
+        "title": "Jochen wird Hundefreund",
+        "mentions": 1
+      },
+      {
+        "number": 98,
+        "title": "Sockenprobleme",
+        "mentions": 7
+      },
+      {
+        "number": 108,
+        "title": "Stinkefinger im Garten",
+        "mentions": 1
+      },
+      {
+        "number": 110,
+        "title": "Das Eierproblem",
+        "mentions": 1
+      },
+      {
+        "number": 114,
+        "title": "Schöne Wurzelbehandlung",
+        "mentions": 3
+      },
+      {
+        "number": 118,
+        "title": "Die perfekte Bolognese",
+        "mentions": 1
+      },
+      {
+        "number": 132,
+        "title": "Relax, it's vacation",
+        "mentions": 1
+      },
+      {
+        "number": 133,
+        "title": "Einstein und die Sexroboter",
+        "mentions": 1
+      },
+      {
+        "number": 172,
+        "title": "Live vom OMR Festival",
+        "mentions": 1
+      },
+      {
+        "number": 175,
+        "title": "Der Horror-Park",
+        "mentions": 5
+      },
+      {
+        "number": 180,
+        "title": "Der charmante Proktologe",
+        "mentions": 1
+      },
+      {
+        "number": 201,
+        "title": "Boris Becker und die Stadionwurst",
+        "mentions": 2
+      },
+      {
+        "number": 206,
+        "title": "Doris61",
+        "mentions": 1
+      },
+      {
+        "number": 208,
+        "title": "Wasserschaden",
+        "mentions": 2
+      },
+      {
+        "number": 242,
+        "title": "Zieh den Bauch ein Dicker",
+        "mentions": 1
+      },
+      {
+        "number": 252,
+        "title": "Das rosane Loch",
+        "mentions": 1
+      },
+      {
+        "number": 262,
+        "title": "Glasfaser",
+        "mentions": 1
+      },
+      {
+        "number": 277,
+        "title": "Einlaufkinder",
+        "mentions": 1
+      },
+      {
+        "number": 278,
+        "title": "Endlich Millionär",
+        "mentions": 2
+      },
+      {
+        "number": 295,
+        "title": "Das überfahrene Dings",
+        "mentions": 1
+      },
+      {
+        "number": 297,
+        "title": "Die neue Furzblase",
+        "mentions": 1
+      },
+      {
+        "number": 298,
+        "title": "Der kopflose Timmi",
+        "mentions": 2
+      },
+      {
+        "number": 299,
+        "title": "Parmesan mit Peilsender",
+        "mentions": 2
+      },
+      {
+        "number": 310,
+        "title": "Hubschraubereinsatz",
+        "mentions": 1
+      },
+      {
+        "number": 322,
+        "title": "Folge ohne richtigen Namen",
+        "mentions": 1
+      },
+      {
+        "number": 329,
+        "title": "Die Perinalfeuchte",
+        "mentions": 1
+      },
+      {
+        "number": 336,
+        "title": "Abführmittel",
+        "mentions": 1
+      },
+      {
+        "number": 340,
+        "title": "Kein Ständer auf der ISS",
+        "mentions": 1
+      },
+      {
+        "number": 346,
+        "title": "85 Grad...",
+        "mentions": 2
+      },
+      {
+        "number": 347,
+        "title": "Die Abrechnung",
+        "mentions": 1
+      },
+      {
+        "number": 354,
+        "title": "Die Kongruenz schläft nicht",
+        "mentions": 2
+      },
+      {
+        "number": 358,
+        "title": "Das zweite Gehirn",
+        "mentions": 2
+      }
+    ]
+  },
+  "lobberich": {
+    "name": "FC Lobberich-Dick",
+    "emoji": "⚽",
+    "description": "Ein lokaler Fußballverein vom Niederrhein, dessen Name die Hosts dauerhaft amüsiert. Es gibt Merch (Lobberich-Dick-Hoodies & T-Shirts) und regelmäßige Spielbericht-Updates – inklusive einem epischen Spielabbruch, bei dem der Gegner mit zu wenig Spielern antrat, das Spiel abbrach und so 100 € Strafe an den Verband sparte (Wertung 2:0 für Lobberich).",
+    "origin": "Erste Erwähnung um Folge #130.",
+    "pattern": "lobberich",
+    "dedicatedEpisodes": [],
+    "host": "georg",
+    "key": "lobberich",
+    "episodeCount": 40,
+    "totalMentions": 130,
+    "episodes": [
+      {
+        "number": 130,
+        "title": "Gute Pommes",
+        "mentions": 5
+      },
+      {
+        "number": 131,
+        "title": "Das Referenzloch",
+        "mentions": 3
+      },
+      {
+        "number": 135,
+        "title": "Saisonstart",
+        "mentions": 13
+      },
+      {
+        "number": 136,
+        "title": "Der optimistische Muskelmann",
+        "mentions": 10
+      },
+      {
+        "number": 137,
+        "title": "Der Hänger",
+        "mentions": 6
+      },
+      {
+        "number": 138,
+        "title": "Entenhausen",
+        "mentions": 2
+      },
+      {
+        "number": 139,
+        "title": "Vergnügungspark",
+        "mentions": 1
+      },
+      {
+        "number": 140,
+        "title": "Der Streckenposten",
+        "mentions": 3
+      },
+      {
+        "number": 141,
+        "title": "Eddi ist der neue Bond",
+        "mentions": 1
+      },
+      {
+        "number": 143,
+        "title": "Das Flugzeugsitzenachhintenkippenproblem",
+        "mentions": 6
+      },
+      {
+        "number": 144,
+        "title": "Himbärgeist",
+        "mentions": 1
+      },
+      {
+        "number": 145,
+        "title": "Das Freitagabendprogramm",
+        "mentions": 4
+      },
+      {
+        "number": 146,
+        "title": "Wasserrutschenrekord 8,90 sec",
+        "mentions": 5
+      },
+      {
+        "number": 147,
+        "title": "Laufie-Sprechie",
+        "mentions": 2
+      },
+      {
+        "number": 148,
+        "title": "Honigperlenmelanie",
+        "mentions": 2
+      },
+      {
+        "number": 149,
+        "title": "Kofferangriff",
+        "mentions": 1
+      },
+      {
+        "number": 150,
+        "title": "Squidgames in der Impfschlange",
+        "mentions": 3
+      },
+      {
+        "number": 151,
+        "title": "Weihnachtsmarkt",
+        "mentions": 3
+      },
+      {
+        "number": 152,
+        "title": "7 vs. Wild",
+        "mentions": 1
+      },
+      {
+        "number": 153,
+        "title": "Akkuschrauberliebe",
+        "mentions": 6
+      },
+      {
+        "number": 154,
+        "title": "Pizza Auktion",
+        "mentions": 1
+      },
+      {
+        "number": 155,
+        "title": "Andreas Elsholz",
+        "mentions": 1
+      },
+      {
+        "number": 156,
+        "title": "Schneid das raus....Bitte!",
+        "mentions": 2
+      },
+      {
+        "number": 157,
+        "title": "Party Crasher",
+        "mentions": 5
+      },
+      {
+        "number": 158,
+        "title": "Tennisstar",
+        "mentions": 4
+      },
+      {
+        "number": 159,
+        "title": "Erotik-Sprecher",
+        "mentions": 4
+      },
+      {
+        "number": 160,
+        "title": "Helene Fischer",
+        "mentions": 3
+      },
+      {
+        "number": 161,
+        "title": "Abspritzpumpe",
+        "mentions": 2
+      },
+      {
+        "number": 162,
+        "title": "Skiurlaub",
+        "mentions": 7
+      },
+      {
+        "number": 163,
+        "title": "Rattenalarm",
+        "mentions": 1
+      },
+      {
+        "number": 164,
+        "title": "Kettensäge",
+        "mentions": 3
+      },
+      {
+        "number": 165,
+        "title": "Backpfeife",
+        "mentions": 2
+      },
+      {
+        "number": 167,
+        "title": "Baustelle",
+        "mentions": 1
+      },
+      {
+        "number": 170,
+        "title": "Körperhygiene",
+        "mentions": 1
+      },
+      {
+        "number": 190,
+        "title": "Küssen",
+        "mentions": 3
+      },
+      {
+        "number": 192,
+        "title": "Der 100.000 Euro Wein",
+        "mentions": 2
+      },
+      {
+        "number": 193,
+        "title": "Luxus-Influencer",
+        "mentions": 7
+      },
+      {
+        "number": 194,
+        "title": "Frösche im Hals",
+        "mentions": 1
+      },
+      {
+        "number": 204,
+        "title": "Bundeskanzler Gardé",
+        "mentions": 1
+      },
+      {
+        "number": 233,
+        "title": "Urlaubsmitbringsel-Dings",
+        "mentions": 1
+      }
+    ]
+  },
+  "kaercher": {
+    "name": "Der Kimmen-Kärcher",
+    "emoji": "🚿",
+    "description": "Eine offenbar wahre Geschichte aus dem Bekanntenkreis um einen Hochdruckreiniger und sehr persönliche Hygiene. Der 'Kimmen-Kärcher' hat eine eigene Folge und kehrt später als 'Return of the Kärcher-Gang' (#307) zurück.",
+    "origin": "Eigene Folge #33 'Der Kimmen-Kärcher', Rückkehr in #307.",
+    "pattern": "k(ä|ae)rcher",
+    "dedicatedEpisodes": [
+      33,
+      307
+    ],
+    "host": "georg",
+    "key": "kaercher",
+    "episodeCount": 37,
+    "totalMentions": 109,
+    "episodes": [
+      {
+        "number": 28,
+        "title": "Eddi und der Shitstorm",
+        "mentions": 7
+      },
+      {
+        "number": 29,
+        "title": "Synchronsprecher Eddi",
+        "mentions": 5
+      },
+      {
+        "number": 31,
+        "title": "Ein Glückskeks und ein Raffaelo",
+        "mentions": 7
+      },
+      {
+        "number": 32,
+        "title": "Der Tokyo Trip",
+        "mentions": 6
+      },
+      {
+        "number": 33,
+        "title": "Der Kimmen-Kärcher",
+        "mentions": 2
+      },
+      {
+        "number": 34,
+        "title": "DJ Jochen",
+        "mentions": 1
+      },
+      {
+        "number": 35,
+        "title": "Die Rückkehr der Kreidefrau",
+        "mentions": 1
+      },
+      {
+        "number": 43,
+        "title": "Imagewechsel",
+        "mentions": 2
+      },
+      {
+        "number": 51,
+        "title": "Gans schön lecker",
+        "mentions": 2
+      },
+      {
+        "number": 56,
+        "title": "Arzt-Toilette",
+        "mentions": 4
+      },
+      {
+        "number": 68,
+        "title": "Frösche und Klobrillen",
+        "mentions": 1
+      },
+      {
+        "number": 79,
+        "title": "Etienne auf Reisen",
+        "mentions": 2
+      },
+      {
+        "number": 164,
+        "title": "Kettensäge",
+        "mentions": 2
+      },
+      {
+        "number": 173,
+        "title": "Sackfalten",
+        "mentions": 5
+      },
+      {
+        "number": 177,
+        "title": "Der perfekte Zaubertrick",
+        "mentions": 1
+      },
+      {
+        "number": 222,
+        "title": "Die Zauberjacke",
+        "mentions": 1
+      },
+      {
+        "number": 226,
+        "title": "Der Zilpzalp",
+        "mentions": 2
+      },
+      {
+        "number": 265,
+        "title": "22 Grad Raumtemperatur",
+        "mentions": 5
+      },
+      {
+        "number": 266,
+        "title": "Der Würger von Willich",
+        "mentions": 8
+      },
+      {
+        "number": 282,
+        "title": "Du Lügengesicht!",
+        "mentions": 1
+      },
+      {
+        "number": 284,
+        "title": "Die Hochdruckreiniger Gang",
+        "mentions": 8
+      },
+      {
+        "number": 285,
+        "title": "Der gemütliche Kassierer",
+        "mentions": 5
+      },
+      {
+        "number": 286,
+        "title": "Endlich richtig Nageln",
+        "mentions": 1
+      },
+      {
+        "number": 287,
+        "title": "Bilderbuchautor des Kapitalismus",
+        "mentions": 1
+      },
+      {
+        "number": 290,
+        "title": "Das muss nicht sein!!",
+        "mentions": 2
+      },
+      {
+        "number": 291,
+        "title": "Die Mietwagen Abzocke",
+        "mentions": 6
+      },
+      {
+        "number": 294,
+        "title": "Die korrekten Kommissare",
+        "mentions": 1
+      },
+      {
+        "number": 301,
+        "title": "Die Dubai Hantel",
+        "mentions": 1
+      },
+      {
+        "number": 308,
+        "title": "Das Klingelsäckchen Dingdong",
+        "mentions": 2
+      },
+      {
+        "number": 316,
+        "title": "Bitte langsam!",
+        "mentions": 2
+      },
+      {
+        "number": 318,
+        "title": "Beinverlängerung - Darf es ein bisschen mehr sein?",
+        "mentions": 1
+      },
+      {
+        "number": 319,
+        "title": "Der krumme Mauszeiger",
+        "mentions": 3
+      },
+      {
+        "number": 327,
+        "title": "Zappelphillipp",
+        "mentions": 1
+      },
+      {
+        "number": 337,
+        "title": "Günther Jauch und das neue Pony",
+        "mentions": 2
+      },
+      {
+        "number": 341,
+        "title": "Polarlichter und das Gute- Morgen-Bäuerchen",
+        "mentions": 5
+      },
+      {
+        "number": 347,
+        "title": "Die Abrechnung",
+        "mentions": 1
+      },
+      {
+        "number": 354,
+        "title": "Die Kongruenz schläft nicht",
+        "mentions": 2
+      }
+    ]
+  },
+  "tiefkuehlpommes": {
+    "name": "Tiefkühlpommes in der Mikrowelle",
+    "emoji": "🍟",
+    "description": "Etienne hat einmal allen Ernstes versucht, Tiefkühlpommes in der Mikrowelle zuzubereiten. Diese eine Tat hat solche Schmach hervorgerufen, dass sie in den offiziellen Intro-Jingle aufgenommen wurde: 'Du hast nicht ernsthaft versucht, Tiefkühlpommes in der Mikrowelle zu machen.' Der Wiki-Stat-Counter 'Pommes' geht zu wesentlichen Teilen darauf zurück.",
+    "origin": "Die ursprüngliche Tat liegt im Dunkeln, aber das Intro begleitet die Hörer seitdem.",
+    "pattern": "tiefk(ü|ue)hl[\\s-]?pommes",
+    "dedicatedEpisodes": [],
+    "host": "etienne",
+    "key": "tiefkuehlpommes",
+    "episodeCount": 268,
+    "totalMentions": 470,
+    "episodes": [
+      {
+        "number": 23,
+        "title": "Peinliche Geheimnisse",
+        "mentions": 3
+      },
+      {
+        "number": 26,
+        "title": "Grünes Curry",
+        "mentions": 1
+      },
+      {
+        "number": 27,
+        "title": "Tellerlift",
+        "mentions": 1
+      },
+      {
+        "number": 28,
+        "title": "Eddi und der Shitstorm",
+        "mentions": 2
+      },
+      {
+        "number": 29,
+        "title": "Synchronsprecher Eddi",
+        "mentions": 2
+      },
+      {
+        "number": 30,
+        "title": "Begegnungen im Park",
+        "mentions": 2
+      },
+      {
+        "number": 31,
+        "title": "Ein Glückskeks und ein Raffaelo",
+        "mentions": 1
+      },
+      {
+        "number": 32,
+        "title": "Der Tokyo Trip",
+        "mentions": 1
+      },
+      {
+        "number": 33,
+        "title": "Der Kimmen-Kärcher",
+        "mentions": 2
+      },
+      {
+        "number": 34,
+        "title": "DJ Jochen",
+        "mentions": 2
+      },
+      {
+        "number": 35,
+        "title": "Die Rückkehr der Kreidefrau",
+        "mentions": 2
+      },
+      {
+        "number": 36,
+        "title": "Einbahnstrasse und Fleischwolf",
+        "mentions": 1
+      },
+      {
+        "number": 37,
+        "title": "Salmonella Wursthusten",
+        "mentions": 3
+      },
+      {
+        "number": 38,
+        "title": "Der Bluetooth-Anruf",
+        "mentions": 2
+      },
+      {
+        "number": 39,
+        "title": "Warzen-Leberwurstbrot",
+        "mentions": 2
+      },
+      {
+        "number": 41,
+        "title": "Etienne der Pädagoge",
+        "mentions": 2
+      },
+      {
+        "number": 42,
+        "title": "Das CSyou Desaster",
+        "mentions": 2
+      },
+      {
+        "number": 43,
+        "title": "Imagewechsel",
+        "mentions": 2
+      },
+      {
+        "number": 44,
+        "title": "- \"Ein absolut reines Gewissen!",
+        "mentions": 1
+      },
+      {
+        "number": 45,
+        "title": "Urlaubsende",
+        "mentions": 2
+      },
+      {
+        "number": 46,
+        "title": "Regalbau und Backsendungen",
+        "mentions": 2
+      },
+      {
+        "number": 47,
+        "title": "Delfine können sich ficken",
+        "mentions": 1
+      },
+      {
+        "number": 48,
+        "title": "Falschparker",
+        "mentions": 2
+      },
+      {
+        "number": 49,
+        "title": "Fast überfahren",
+        "mentions": 2
+      },
+      {
+        "number": 51,
+        "title": "Gans schön lecker",
+        "mentions": 2
+      },
+      {
+        "number": 52,
+        "title": "Toupets und Veganer",
+        "mentions": 1
+      },
+      {
+        "number": 53,
+        "title": "Weihnachtszeit",
+        "mentions": 2
+      },
+      {
+        "number": 54,
+        "title": "Stradivari",
+        "mentions": 1
+      },
+      {
+        "number": 55,
+        "title": "Fettleber",
+        "mentions": 2
+      },
+      {
+        "number": 56,
+        "title": "Arzt-Toilette",
+        "mentions": 2
+      },
+      {
+        "number": 57,
+        "title": "18.000 Lumen",
+        "mentions": 2
+      },
+      {
+        "number": 58,
+        "title": "Froschschenkel",
+        "mentions": 1
+      },
+      {
+        "number": 59,
+        "title": "Bienenkotze",
+        "mentions": 2
+      },
+      {
+        "number": 60,
+        "title": "90 Millionen Euro",
+        "mentions": 2
+      },
+      {
+        "number": 61,
+        "title": "Rätsel,Rätsel,Rätsel....",
+        "mentions": 1
+      },
+      {
+        "number": 62,
+        "title": "Tumor-Gemetzel",
+        "mentions": 2
+      },
+      {
+        "number": 63,
+        "title": "Coronavirus leicht erklärt",
+        "mentions": 2
+      },
+      {
+        "number": 64,
+        "title": "Soziale Isolierung",
+        "mentions": 2
+      },
+      {
+        "number": 65,
+        "title": "Etienne im Tigerentenclub",
+        "mentions": 2
+      },
+      {
+        "number": 66,
+        "title": "Gittarenspieler Etienne",
+        "mentions": 1
+      },
+      {
+        "number": 67,
+        "title": "Lieblingsserien der Kindheit",
+        "mentions": 2
+      },
+      {
+        "number": 68,
+        "title": "Frösche und Klobrillen",
+        "mentions": 2
+      },
+      {
+        "number": 69,
+        "title": "Meerschweinchen",
+        "mentions": 2
+      },
+      {
+        "number": 70,
+        "title": "Stachel auf dem Kopf",
+        "mentions": 2
+      },
+      {
+        "number": 71,
+        "title": "Ziegelstein und Kammerjäger",
+        "mentions": 2
+      },
+      {
+        "number": 72,
+        "title": "Loch in der Hand",
+        "mentions": 1
+      },
+      {
+        "number": 73,
+        "title": "Achtung Gitarre!",
+        "mentions": 2
+      },
+      {
+        "number": 74,
+        "title": "Der Zaun und der Ring",
+        "mentions": 1
+      },
+      {
+        "number": 75,
+        "title": "E.T. ist ein Arsch",
+        "mentions": 2
+      },
+      {
+        "number": 76,
+        "title": "Kondome im Pokal",
+        "mentions": 1
+      },
+      {
+        "number": 77,
+        "title": "Schnauze, Brigitte!",
+        "mentions": 2
+      },
+      {
+        "number": 78,
+        "title": "Flamingo im Studio",
+        "mentions": 1
+      },
+      {
+        "number": 79,
+        "title": "Etienne auf Reisen",
+        "mentions": 1
+      },
+      {
+        "number": 81,
+        "title": "Das beschissene Geschenk",
+        "mentions": 2
+      },
+      {
+        "number": 82,
+        "title": "Comic-Bestellung",
+        "mentions": 1
+      },
+      {
+        "number": 83,
+        "title": "Gelbe Gummibärchen",
+        "mentions": 2
+      },
+      {
+        "number": 84,
+        "title": "Herr Müller",
+        "mentions": 2
+      },
+      {
+        "number": 85,
+        "title": "Was ist mit dem Suppenkasper passiert",
+        "mentions": 1
+      },
+      {
+        "number": 86,
+        "title": "Der geheime Club",
+        "mentions": 1
+      },
+      {
+        "number": 87,
+        "title": "Das erotische Hörspiel",
+        "mentions": 2
+      },
+      {
+        "number": 88,
+        "title": "Wer wird Millionär?",
+        "mentions": 1
+      },
+      {
+        "number": 89,
+        "title": "Der Coronatest",
+        "mentions": 2
+      },
+      {
+        "number": 90,
+        "title": "Plastikstrohhalm",
+        "mentions": 2
+      },
+      {
+        "number": 91,
+        "title": "Der Besuch",
+        "mentions": 2
+      },
+      {
+        "number": 92,
+        "title": "Gruseln in Mölln",
+        "mentions": 2
+      },
+      {
+        "number": 93,
+        "title": "Pfeiffen im Ohr",
+        "mentions": 2
+      },
+      {
+        "number": 94,
+        "title": "Marktlücke Schreibwarenladen",
+        "mentions": 2
+      },
+      {
+        "number": 95,
+        "title": "Die große Pferdelüge",
+        "mentions": 1
+      },
+      {
+        "number": 96,
+        "title": "Jochen wird Hundefreund",
+        "mentions": 2
+      },
+      {
+        "number": 97,
+        "title": "Serientipps",
+        "mentions": 2
+      },
+      {
+        "number": 98,
+        "title": "Sockenprobleme",
+        "mentions": 2
+      },
+      {
+        "number": 99,
+        "title": "Das Badewannenkissen",
+        "mentions": 1
+      },
+      {
+        "number": 100,
+        "title": "Dreistellig",
+        "mentions": 1
+      },
+      {
+        "number": 101,
+        "title": "True Crime Outing",
+        "mentions": 1
+      },
+      {
+        "number": 102,
+        "title": "Der perfekte Witz",
+        "mentions": 2
+      },
+      {
+        "number": 103,
+        "title": "Melitta-Mann",
+        "mentions": 1
+      },
+      {
+        "number": 104,
+        "title": "Clubhouse",
+        "mentions": 2
+      },
+      {
+        "number": 105,
+        "title": "Schlange mi Klo",
+        "mentions": 2
+      },
+      {
+        "number": 106,
+        "title": "Eddi der Profi-Boxer",
+        "mentions": 2
+      },
+      {
+        "number": 107,
+        "title": "Das Ruder Einmaleins",
+        "mentions": 1
+      },
+      {
+        "number": 108,
+        "title": "Stinkefinger im Garten",
+        "mentions": 2
+      },
+      {
+        "number": 109,
+        "title": "Riesen-Spinne",
+        "mentions": 2
+      },
+      {
+        "number": 110,
+        "title": "Das Eierproblem",
+        "mentions": 2
+      },
+      {
+        "number": 111,
+        "title": "Augen auf im Supermarkt",
+        "mentions": 2
+      },
+      {
+        "number": 112,
+        "title": "Der besondere Klodeckel",
+        "mentions": 2
+      },
+      {
+        "number": 113,
+        "title": "Eddi der Betrüger",
+        "mentions": 2
+      },
+      {
+        "number": 114,
+        "title": "Schöne Wurzelbehandlung",
+        "mentions": 1
+      },
+      {
+        "number": 115,
+        "title": "Notruf und Ostereier",
+        "mentions": 2
+      },
+      {
+        "number": 116,
+        "title": "Das gefährliche Pferd",
+        "mentions": 2
+      },
+      {
+        "number": 117,
+        "title": "Plastik grillen",
+        "mentions": 2
+      },
+      {
+        "number": 118,
+        "title": "Die perfekte Bolognese",
+        "mentions": 2
+      },
+      {
+        "number": 119,
+        "title": "Impfen",
+        "mentions": 2
+      },
+      {
+        "number": 120,
+        "title": "Traumjob Taxifahrer",
+        "mentions": 1
+      },
+      {
+        "number": 121,
+        "title": "Camping",
+        "mentions": 2
+      },
+      {
+        "number": 122,
+        "title": "Rhabarberkuchen",
+        "mentions": 2
+      },
+      {
+        "number": 123,
+        "title": "Wer ist Will?",
+        "mentions": 2
+      },
+      {
+        "number": 125,
+        "title": "Der Gleitcreme-Flieger",
+        "mentions": 2
+      },
+      {
+        "number": 126,
+        "title": "Morbus Google",
+        "mentions": 1
+      },
+      {
+        "number": 127,
+        "title": "Etienne ist sickig",
+        "mentions": 1
+      },
+      {
+        "number": 128,
+        "title": "Der hängende Hoden",
+        "mentions": 1
+      },
+      {
+        "number": 129,
+        "title": "Die Wasserbomben",
+        "mentions": 2
+      },
+      {
+        "number": 130,
+        "title": "Gute Pommes",
+        "mentions": 3
+      },
+      {
+        "number": 131,
+        "title": "Das Referenzloch",
+        "mentions": 3
+      },
+      {
+        "number": 132,
+        "title": "Relax, it's vacation",
+        "mentions": 2
+      },
+      {
+        "number": 133,
+        "title": "Einstein und die Sexroboter",
+        "mentions": 2
+      },
+      {
+        "number": 134,
+        "title": "Kennen sie Etienne?!!!",
+        "mentions": 2
+      },
+      {
+        "number": 135,
+        "title": "Saisonstart",
+        "mentions": 2
+      },
+      {
+        "number": 136,
+        "title": "Der optimistische Muskelmann",
+        "mentions": 1
+      },
+      {
+        "number": 137,
+        "title": "Der Hänger",
+        "mentions": 2
+      },
+      {
+        "number": 138,
+        "title": "Entenhausen",
+        "mentions": 2
+      },
+      {
+        "number": 139,
+        "title": "Vergnügungspark",
+        "mentions": 1
+      },
+      {
+        "number": 140,
+        "title": "Der Streckenposten",
+        "mentions": 2
+      },
+      {
+        "number": 141,
+        "title": "Eddi ist der neue Bond",
+        "mentions": 2
+      },
+      {
+        "number": 142,
+        "title": "Urlaub",
+        "mentions": 2
+      },
+      {
+        "number": 143,
+        "title": "Das Flugzeugsitzenachhintenkippenproblem",
+        "mentions": 2
+      },
+      {
+        "number": 144,
+        "title": "Himbärgeist",
+        "mentions": 1
+      },
+      {
+        "number": 145,
+        "title": "Das Freitagabendprogramm",
+        "mentions": 2
+      },
+      {
+        "number": 146,
+        "title": "Wasserrutschenrekord 8,90 sec",
+        "mentions": 2
+      },
+      {
+        "number": 147,
+        "title": "Laufie-Sprechie",
+        "mentions": 2
+      },
+      {
+        "number": 148,
+        "title": "Honigperlenmelanie",
+        "mentions": 1
+      },
+      {
+        "number": 149,
+        "title": "Kofferangriff",
+        "mentions": 2
+      },
+      {
+        "number": 150,
+        "title": "Squidgames in der Impfschlange",
+        "mentions": 2
+      },
+      {
+        "number": 151,
+        "title": "Weihnachtsmarkt",
+        "mentions": 2
+      },
+      {
+        "number": 152,
+        "title": "7 vs. Wild",
+        "mentions": 2
+      },
+      {
+        "number": 153,
+        "title": "Akkuschrauberliebe",
+        "mentions": 2
+      },
+      {
+        "number": 154,
+        "title": "Pizza Auktion",
+        "mentions": 4
+      },
+      {
+        "number": 155,
+        "title": "Andreas Elsholz",
+        "mentions": 2
+      },
+      {
+        "number": 156,
+        "title": "Schneid das raus....Bitte!",
+        "mentions": 2
+      },
+      {
+        "number": 157,
+        "title": "Party Crasher",
+        "mentions": 2
+      },
+      {
+        "number": 158,
+        "title": "Tennisstar",
+        "mentions": 2
+      },
+      {
+        "number": 159,
+        "title": "Erotik-Sprecher",
+        "mentions": 1
+      },
+      {
+        "number": 160,
+        "title": "Helene Fischer",
+        "mentions": 2
+      },
+      {
+        "number": 161,
+        "title": "Abspritzpumpe",
+        "mentions": 2
+      },
+      {
+        "number": 162,
+        "title": "Skiurlaub",
+        "mentions": 1
+      },
+      {
+        "number": 163,
+        "title": "Rattenalarm",
+        "mentions": 2
+      },
+      {
+        "number": 164,
+        "title": "Kettensäge",
+        "mentions": 1
+      },
+      {
+        "number": 165,
+        "title": "Backpfeife",
+        "mentions": 2
+      },
+      {
+        "number": 166,
+        "title": "Monkey Island",
+        "mentions": 1
+      },
+      {
+        "number": 167,
+        "title": "Baustelle",
+        "mentions": 2
+      },
+      {
+        "number": 168,
+        "title": "Keine Fotos bitte!",
+        "mentions": 2
+      },
+      {
+        "number": 178,
+        "title": "Achtung shitstorm!",
+        "mentions": 2
+      },
+      {
+        "number": 179,
+        "title": "Rätsel-Spezial",
+        "mentions": 2
+      },
+      {
+        "number": 184,
+        "title": "Schlossknacker auf dem E-Scooter",
+        "mentions": 1
+      },
+      {
+        "number": 186,
+        "title": "Die Wunder-Mayonnaise",
+        "mentions": 2
+      },
+      {
+        "number": 191,
+        "title": "Marihuana",
+        "mentions": 2
+      },
+      {
+        "number": 196,
+        "title": "Das sonnige Perineum",
+        "mentions": 2
+      },
+      {
+        "number": 216,
+        "title": "Der Nächste bitte....nicht!",
+        "mentions": 2
+      },
+      {
+        "number": 222,
+        "title": "Die Zauberjacke",
+        "mentions": 2
+      },
+      {
+        "number": 225,
+        "title": "Maikäfer und anderes Gesocks",
+        "mentions": 2
+      },
+      {
+        "number": 226,
+        "title": "Der Zilpzalp",
+        "mentions": 2
+      },
+      {
+        "number": 227,
+        "title": "Der Lügenkörper",
+        "mentions": 2
+      },
+      {
+        "number": 228,
+        "title": "Schlaaaaaaaange !",
+        "mentions": 1
+      },
+      {
+        "number": 229,
+        "title": "Klo-Hanteln",
+        "mentions": 2
+      },
+      {
+        "number": 230,
+        "title": "Das Drohnen-Dilemma",
+        "mentions": 2
+      },
+      {
+        "number": 231,
+        "title": "Berühmt",
+        "mentions": 2
+      },
+      {
+        "number": 232,
+        "title": "Edel-Frettchen-Futterhändler",
+        "mentions": 1
+      },
+      {
+        "number": 235,
+        "title": "Der Zahnarzt-Proktologe",
+        "mentions": 2
+      },
+      {
+        "number": 237,
+        "title": "Wasser+Rohr+Bruch",
+        "mentions": 2
+      },
+      {
+        "number": 238,
+        "title": "Mutterkuchen des Stahls",
+        "mentions": 2
+      },
+      {
+        "number": 239,
+        "title": "Das Holodeck ist zugemüllt",
+        "mentions": 1
+      },
+      {
+        "number": 240,
+        "title": "Stress mit der security",
+        "mentions": 1
+      },
+      {
+        "number": 241,
+        "title": "Traumurlaub",
+        "mentions": 2
+      },
+      {
+        "number": 242,
+        "title": "Zieh den Bauch ein Dicker",
+        "mentions": 1
+      },
+      {
+        "number": 243,
+        "title": "Die Wachsfigurenkabinett-Lüge",
+        "mentions": 2
+      },
+      {
+        "number": 248,
+        "title": "Ede und das \"Apple-Leertasten-Parkhaus-Desaster",
+        "mentions": 1
+      },
+      {
+        "number": 249,
+        "title": "Weihnachtsmarkt-Crêpes",
+        "mentions": 2
+      },
+      {
+        "number": 250,
+        "title": "Das Parfum",
+        "mentions": 2
+      },
+      {
+        "number": 251,
+        "title": "Blechschaden",
+        "mentions": 2
+      },
+      {
+        "number": 252,
+        "title": "Das rosane Loch",
+        "mentions": 2
+      },
+      {
+        "number": 253,
+        "title": "Aliens und Übergewicht",
+        "mentions": 2
+      },
+      {
+        "number": 254,
+        "title": "Achtung Polizei",
+        "mentions": 2
+      },
+      {
+        "number": 255,
+        "title": "Schmalwichser!",
+        "mentions": 2
+      },
+      {
+        "number": 256,
+        "title": "Die Schmach vom Millerntor",
+        "mentions": 2
+      },
+      {
+        "number": 257,
+        "title": "Baumeister Eddi",
+        "mentions": 1
+      },
+      {
+        "number": 258,
+        "title": "Die Freundlichkeitskonstante",
+        "mentions": 2
+      },
+      {
+        "number": 259,
+        "title": "Nussecken bauen",
+        "mentions": 2
+      },
+      {
+        "number": 260,
+        "title": "Acht Zwerge und zwei Heidis",
+        "mentions": 2
+      },
+      {
+        "number": 261,
+        "title": "Etiennes türkische Wurzeln",
+        "mentions": 2
+      },
+      {
+        "number": 262,
+        "title": "Glasfaser",
+        "mentions": 1
+      },
+      {
+        "number": 263,
+        "title": "Hähnchen mit Pommes",
+        "mentions": 2
+      },
+      {
+        "number": 264,
+        "title": "Diddy Hallervorden",
+        "mentions": 2
+      },
+      {
+        "number": 267,
+        "title": "Ergüsse in Moll",
+        "mentions": 1
+      },
+      {
+        "number": 269,
+        "title": "Wurstosmose",
+        "mentions": 2
+      },
+      {
+        "number": 270,
+        "title": "Knölli",
+        "mentions": 2
+      },
+      {
+        "number": 271,
+        "title": "Höhepunkt der Fettleibigkeit",
+        "mentions": 2
+      },
+      {
+        "number": 273,
+        "title": "Temptation Island - Island",
+        "mentions": 1
+      },
+      {
+        "number": 274,
+        "title": "Schützenkönig Etienne",
+        "mentions": 1
+      },
+      {
+        "number": 275,
+        "title": "Highlight in Tüten",
+        "mentions": 2
+      },
+      {
+        "number": 276,
+        "title": "Der große Flirt",
+        "mentions": 2
+      },
+      {
+        "number": 277,
+        "title": "Einlaufkinder",
+        "mentions": 2
+      },
+      {
+        "number": 278,
+        "title": "Endlich Millionär",
+        "mentions": 2
+      },
+      {
+        "number": 279,
+        "title": "Mit dem Chaos drohen",
+        "mentions": 2
+      },
+      {
+        "number": 280,
+        "title": "Ab 18!",
+        "mentions": 2
+      },
+      {
+        "number": 281,
+        "title": "Papa Schlumpf bei Olympia",
+        "mentions": 1
+      },
+      {
+        "number": 282,
+        "title": "Du Lügengesicht!",
+        "mentions": 2
+      },
+      {
+        "number": 283,
+        "title": "Bacardiiii",
+        "mentions": 2
+      },
+      {
+        "number": 284,
+        "title": "Die Hochdruckreiniger Gang",
+        "mentions": 2
+      },
+      {
+        "number": 285,
+        "title": "Der gemütliche Kassierer",
+        "mentions": 2
+      },
+      {
+        "number": 286,
+        "title": "Endlich richtig Nageln",
+        "mentions": 2
+      },
+      {
+        "number": 287,
+        "title": "Bilderbuchautor des Kapitalismus",
+        "mentions": 2
+      },
+      {
+        "number": 289,
+        "title": "Der whatsapp Gruppen Wahnsinn",
+        "mentions": 2
+      },
+      {
+        "number": 290,
+        "title": "Das muss nicht sein!!",
+        "mentions": 2
+      },
+      {
+        "number": 291,
+        "title": "Die Mietwagen Abzocke",
+        "mentions": 2
+      },
+      {
+        "number": 292,
+        "title": "Wairwolf",
+        "mentions": 2
+      },
+      {
+        "number": 293,
+        "title": "Alarm",
+        "mentions": 2
+      },
+      {
+        "number": 294,
+        "title": "Die korrekten Kommissare",
+        "mentions": 2
+      },
+      {
+        "number": 295,
+        "title": "Das überfahrene Dings",
+        "mentions": 2
+      },
+      {
+        "number": 296,
+        "title": "Hokuspokus in Folge 299",
+        "mentions": 2
+      },
+      {
+        "number": 297,
+        "title": "Die neue Furzblase",
+        "mentions": 2
+      },
+      {
+        "number": 298,
+        "title": "Der kopflose Timmi",
+        "mentions": 1
+      },
+      {
+        "number": 299,
+        "title": "Parmesan mit Peilsender",
+        "mentions": 1
+      },
+      {
+        "number": 300,
+        "title": "Zweiter Frühling",
+        "mentions": 2
+      },
+      {
+        "number": 301,
+        "title": "Die Dubai Hantel",
+        "mentions": 2
+      },
+      {
+        "number": 302,
+        "title": "Das \"Low Impact Trampolin",
+        "mentions": 2
+      },
+      {
+        "number": 303,
+        "title": "Mundwinkelschlafsabberpfütze",
+        "mentions": 2
+      },
+      {
+        "number": 304,
+        "title": "Die Walnacht der Versuchung",
+        "mentions": 1
+      },
+      {
+        "number": 305,
+        "title": "Die Schrankstrategie beim Flaschendrehen",
+        "mentions": 1
+      },
+      {
+        "number": 306,
+        "title": "Die pfiffige Frisur",
+        "mentions": 2
+      },
+      {
+        "number": 307,
+        "title": "Return of the \"Kärcher-Gang",
+        "mentions": 2
+      },
+      {
+        "number": 308,
+        "title": "Das Klingelsäckchen Dingdong",
+        "mentions": 1
+      },
+      {
+        "number": 309,
+        "title": "Die Eier des Nachbarn sind tabu!",
+        "mentions": 2
+      },
+      {
+        "number": 310,
+        "title": "Hubschraubereinsatz",
+        "mentions": 1
+      },
+      {
+        "number": 311,
+        "title": "Der Waschanlangen Knigge",
+        "mentions": 2
+      },
+      {
+        "number": 312,
+        "title": "Der Penisangler von Spanien",
+        "mentions": 1
+      },
+      {
+        "number": 313,
+        "title": "Das Küken und die Grillsaison",
+        "mentions": 5
+      },
+      {
+        "number": 314,
+        "title": "Bei dem Preis kannste nix sagen!",
+        "mentions": 2
+      },
+      {
+        "number": 315,
+        "title": "Klebrige Froschzunge",
+        "mentions": 2
+      },
+      {
+        "number": 317,
+        "title": "Die Augentropfen-Lüge",
+        "mentions": 2
+      },
+      {
+        "number": 318,
+        "title": "Beinverlängerung - Darf es ein bisschen mehr sein?",
+        "mentions": 1
+      },
+      {
+        "number": 319,
+        "title": "Der krumme Mauszeiger",
+        "mentions": 2
+      },
+      {
+        "number": 320,
+        "title": "Der plötzlich enge Anzug",
+        "mentions": 1
+      },
+      {
+        "number": 321,
+        "title": "Gefährliche Einhorn Tasse",
+        "mentions": 2
+      },
+      {
+        "number": 322,
+        "title": "Folge ohne richtigen Namen",
+        "mentions": 1
+      },
+      {
+        "number": 323,
+        "title": "Batman und der Kometensteinpeilsender",
+        "mentions": 1
+      },
+      {
+        "number": 324,
+        "title": "Nüsselsuppe",
+        "mentions": 2
+      },
+      {
+        "number": 325,
+        "title": "Hoden sind wie Yoda",
+        "mentions": 2
+      },
+      {
+        "number": 326,
+        "title": "Superman fliegt links",
+        "mentions": 1
+      },
+      {
+        "number": 327,
+        "title": "Zappelphillipp",
+        "mentions": 2
+      },
+      {
+        "number": 328,
+        "title": "Wasserball",
+        "mentions": 1
+      },
+      {
+        "number": 329,
+        "title": "Die Perinalfeuchte",
+        "mentions": 2
+      },
+      {
+        "number": 330,
+        "title": "Achtung Pubertät",
+        "mentions": 2
+      },
+      {
+        "number": 331,
+        "title": "Forever Young",
+        "mentions": 2
+      },
+      {
+        "number": 333,
+        "title": "Auf Achse",
+        "mentions": 2
+      },
+      {
+        "number": 335,
+        "title": "Dieser JarJar Dingsda",
+        "mentions": 2
+      },
+      {
+        "number": 336,
+        "title": "Abführmittel",
+        "mentions": 2
+      },
+      {
+        "number": 337,
+        "title": "Günther Jauch und das neue Pony",
+        "mentions": 2
+      },
+      {
+        "number": 338,
+        "title": "Der Lieblingsstuhl",
+        "mentions": 2
+      },
+      {
+        "number": 339,
+        "title": "Haftbefehl und Dr. Cockzilla",
+        "mentions": 2
+      },
+      {
+        "number": 340,
+        "title": "Kein Ständer auf der ISS",
+        "mentions": 1
+      },
+      {
+        "number": 341,
+        "title": "Polarlichter und das Gute- Morgen-Bäuerchen",
+        "mentions": 1
+      },
+      {
+        "number": 342,
+        "title": "Der Schlächter von Nordfriesland",
+        "mentions": 1
+      },
+      {
+        "number": 343,
+        "title": "Revolverheld",
+        "mentions": 1
+      },
+      {
+        "number": 344,
+        "title": "Spendenskandal",
+        "mentions": 1
+      },
+      {
+        "number": 345,
+        "title": "Der total entspannte Ede",
+        "mentions": 2
+      },
+      {
+        "number": 346,
+        "title": "85 Grad...",
+        "mentions": 2
+      },
+      {
+        "number": 347,
+        "title": "Die Abrechnung",
+        "mentions": 2
+      },
+      {
+        "number": 348,
+        "title": "Gefeiert wie Einstein",
+        "mentions": 2
+      },
+      {
+        "number": 349,
+        "title": "Hells Angels im Twingo",
+        "mentions": 1
+      },
+      {
+        "number": 350,
+        "title": "Olympische Spiele - Anschieben kann jeder",
+        "mentions": 2
+      },
+      {
+        "number": 351,
+        "title": "Die Millionen-Idee",
+        "mentions": 2
+      },
+      {
+        "number": 353,
+        "title": "Häh?",
+        "mentions": 1
+      },
+      {
+        "number": 354,
+        "title": "Die Kongruenz schläft nicht",
+        "mentions": 2
+      },
+      {
+        "number": 355,
+        "title": "Feuerzauber Texas",
+        "mentions": 1
+      },
+      {
+        "number": 356,
+        "title": "Das erste date",
+        "mentions": 2
+      },
+      {
+        "number": 357,
+        "title": "Wer wird Millionär",
+        "mentions": 2
+      },
+      {
+        "number": 358,
+        "title": "Das zweite Gehirn",
+        "mentions": 1
+      },
+      {
+        "number": 360,
+        "title": "Zum Zerkleinern verdammt",
+        "mentions": 2
+      },
+      {
+        "number": 361,
+        "title": "Tennis",
+        "mentions": 2
+      }
+    ]
+  }
+}
