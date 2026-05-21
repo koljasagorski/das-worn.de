@@ -2369,6 +2369,26 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "238": {
+    "winner": "jochen",
+    "question": "Was ist ein Mutterstecher?",
+    "answer": "Ein Mitarbeiter in der Schallplattenproduktion, der die Pressform einer Schallplatte (die Mutter) mit einem Stichel überprüft und Verunreinigungen/Fehler beseitigt (Qualitätssicherung).",
+    "skipped": false,
+    "notes": "Etienne sagte am Anfang, die Antwort zu wissen und direkt zu lösen, wurde aber unterbrochen. Nach langer Rätselrunde gab Jochen die Lösung mit 'Qualitätsmanagement' und Georg akzeptierte das als ausreichend.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "239": {
+    "winner": "etienne",
+    "question": "Im Jahr 2011 verbot ein britisches Gericht, einem Mann, was zu tun?",
+    "answer": "Sex zu haben / Geschlechtsverkehr auszuüben",
+    "skipped": false,
+    "notes": "Die Lösung wurde durch die Frage 'was mit Sex zu tun? Ja' eingeleitet, die wahrscheinlich von Etienne kam. Der Dialog ist teilweise unklar strukturiert, daher ist die Zuweisung mit niedriger Konfidenz versehen.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "240": {
     "winner": "jochen",
     "question": "Was kann man durch eine SMS an die Nummer 22122 erhalten?",
@@ -2409,14 +2429,194 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "250": {
-    "winner": "jochen",
-    "question": "Warum war ein Knopfdruck seiner Freundin Anlass für einen Mann aus Florida, die Freundschaft zu beenden?",
-    "answer": "Sie drückte den Startknopf eines Glücksspielautomaten, in dem er 50 Dollar eingezahlt hatte. Nach Floridas Gesetzen gewinnt die Person, die den Knopf drückt, nicht diejenige, die das Geld eingezahlt hat. Sie behielt den 100.000-Dollar-Jackpot.",
+  "244": {
+    "winner": "etienne",
+    "question": "Wer waren Belka und Strelka?",
+    "answer": "Die ersten beiden Hunde, die ins All flogen und lebend zurückkamen. Sie wurden 1961 von der Sowjetunion ins All geschickt und kehrten erfolgreich zurück, im Gegensatz zur ersten Hündin Laika.",
     "skipped": false,
-    "notes": "Sprecherwechsel sind im Transkript nicht eindeutig markiert. Jochen stellt viele Größenfragen, könnte aber auch die entscheidende Frage 'Ist das so ein Glücksspielautomat?' gestellt haben. Es könnte auch Etienne gewesen sein.",
+    "notes": "Etienne erkennt die Lösung durch die Vermutung 'Sind es die Hunde, die lebend auch zurückgekommen sind?' und sagt selbst 'Das ist die Lösung'. Georg bestätigt dies durch 'Es gab Hunde, die zurückgekommen sind, lebend.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "245": {
+    "winner": "etienne",
+    "question": "Warum fing die Schweizer Luftwaffe ein entführtes Flugzeug nicht ab, obwohl es sich im Schweizer Luftraum befand?",
+    "answer": "Die Schweizer Luftwaffe war 2014 aus Kostengründen nur werktags von 8 bis 12 sowie 13:30 bis 17 Uhr im Dienst; die Entführung fand nachts statt.",
+    "skipped": false,
+    "notes": null,
     "_auto": true,
     "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "246": {
+    "winner": "jochen",
+    "question": "Welche bis dahin einmalige Lizenz wurde einer Grundschülerin im Jahr 2022 erteilt?",
+    "answer": "Eine Lizenz zum Halten eines Einhorns – die LA County Animal Care and Control erteilte diese humorvoll mit speziellen Auflagen wie Zugang zu Sonne-, Mondlicht und Regenbögen, biologisch abbaubarem Glitzer und wöchentlicher Reinigung.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit 'Einhorn'. Die Frage stammt von einem Hörer namens Johannes, nicht von einem der drei Hosts.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "247": {
+    "winner": "jochen",
+    "question": "Welchen Rekord hielt der Inder Ramjit Singh Raghav?",
+    "answer": "Der älteste Mann, der Vater wurde – mit 94 und 96 Jahren Vater von Kindern.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "248": {
+    "winner": "etienne",
+    "question": "Mit welchem Rekord verklagte Jonathan Lee Riches das Guinness-Buch der Rekorde im Jahr 2009?",
+    "answer": "Mit dem Rekord für die meisten Klagen eingereicht / klagefreudigster Mensch der Welt. Ironischerweise existierte dieser Rekord nie im Guinness-Buch, Riches klagte also gegen einen nicht existierenden Eintrag – obwohl er tatsächlich seit 2006 über 2600 Klagen eingereicht hatte.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel durch die Vermutung 'Den Rekord für die meisten Klagen', worauf eine positive Reaktion folgt. Die absurde Geschichte wird anschließend vollständig erläutert. Keine explizite Punktvergabe im klassischen Format, aber klare Indizien dafür, dass Etienne die richtige Antwort gibt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "249": {
+    "winner": "jochen",
+    "question": "Jaroslav Kudrinsky verursachte den Tod von 75 Menschen, als er seinem Sohn was erlaubte – was hat er ihm erlaubt?",
+    "answer": "Er erlaubte seinem Sohn, das Steuer eines Flugzeugs zu halten. Der Sohn hielt das Steuerhorn in gerader Position fest, was den Autopiloten deaktivierte und zum Absturz führte.",
+    "skipped": false,
+    "notes": "Jochen stellte die entscheidende Frage 'Hat es etwas mit einem Flugzeugabsturz zu tun?' und die weitere Auflösung erfolgte durch Ja/Nein-Fragen. Die genaue Punktvergabe ist nicht explizit benannt, aber die Struktur deutet auf Jochen hin.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "250": {
+    "winner": "jochen",
+    "question": "Warum war ein Knopfdruck seiner Freundin Anlass für einen Mann aus Florida, eben diese Freundschaft zu beenden?",
+    "answer": "Ein Mann speiste einen Geldspielautomaten mit 50 Dollar ein, seine Freundin drückte als Glücksbringer den Startknopf. Der Automat zahlte 100.000 Dollar aus. Nach Florida-Gesetzen gewinnt, wer den Knopf drückt, nicht wer das Geld einzahlte. Die Freundin behielt den gesamten Gewinn und die Freundschaft endete.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "251": {
+    "winner": "etienne",
+    "question": "Was machte Kate Winslet für 7 Minuten und 12 Sekunden am Set von Avatar 2?",
+    "answer": "Sie hielt die Luft an",
+    "skipped": false,
+    "notes": "Jochen erkannte die Lösung durch gezielte Fragen (Luftanhalten), aber Georg sagte 'Jochen, der Punkt geht nicht an dich heute'. Etienne antwortete 'Ja, aber ich hätte es auch', was andeutet, dass er schneller oder zuerst die Lösung hatte und daher den Punkt erhielt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "252": {
+    "winner": "jochen",
+    "question": "Was ist ein Tschechen-Igel oder auch tschechischer Igel?",
+    "answer": "Eine Panzersperre – eine über Kreuz angeordnete Metallkonstruktion aus Stangen, die zum Schutz vor Fahrzeugen und Panzern eingesetzt wird.",
+    "skipped": false,
+    "notes": "Jochen sagt 'Panzersperre', Georg bestätigt und erklärt ausführlich mit Saving-Private-Ryan-Referenz.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "254": {
+    "winner": "jochen",
+    "question": "Was ist die Besonderheit der Landebahn 10 des Savannah Hilton Head International Airport?",
+    "answer": "Unter der Landebahn befinden sich Gräber, insbesondere die Gräber von Catherine und Richard Dodson mit eingelassenen Grabsteinen, da diese nicht ohne Erlaubnis der Angehörigen umgebettet wurden.",
+    "skipped": false,
+    "notes": "Jochen fragt 'Ist dann Friedhof drunter?' und Georg antwortet 'Ich lasse das direkt gelten, ja', womit er Jochens Antwort als richtig akzeptiert.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "255": {
+    "winner": "jochen",
+    "question": "Was passierte Family Guy Erfinder Seth MacFarlane, nachdem er als Ehrengast bei Feierlichkeiten seiner alten Universität zu tief ins Glas geschaut hatte?",
+    "answer": "Er verpasste American Airlines Flug 11 am 11. September 2001, weil sein Reisebüro ihm die falsche Abflugszeit genannt hatte und er stark verkatert war.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel und bestätigt explizit: 'Ich bekomme den Punkt natürlich, weil ich das ja auch wusste.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "256": {
+    "winner": "jochen",
+    "question": "Mit welcher ungewöhnlichen Aktion versuchte ein damals 25-jähriger Amerikaner, Schauspielerin Jodie Foster auf sich aufmerksam zu machen?",
+    "answer": "John Hinkley Jr. versuchte, US-Präsident Ronald Reagan zu ermorden, um Jodie Foster zu beeindrucken, nachdem er von ihr nach dem Film Taxi Driver obsessiv besessen war.",
+    "skipped": false,
+    "notes": "Jochen löste das Rätsel durch systematische Fragen über Politiker/Präsident. Er deduzierten korrekt, dass es ein schauspieler-präsident sein musste und nannte Ronald Reagan. Keine explizite Punktvergabe genannt, aber Jochens Beitrag war entscheidend.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "257": {
+    "winner": "etienne",
+    "question": "Warum war es bemerkenswert, dass der spätere britische Schachmeister Robert Wade 1951 einen Simultanschachwettbewerb mit 30 Gegnern bestritt?",
+    "answer": "Weil er kein einziges Spiel gewann, sondern 20 der 30 Partien verlor und viele unentschieden spielte – gegen Schüler einer Moskauer Schachakademie.",
+    "skipped": false,
+    "notes": "Eddie löste das Rätsel mit der Frage 'Hat er keine einzige gewonnen?', worauf Georg bestätigte: 'Ja, das ist die richtige Lösung.' Die Lösung war tricky, da 'kein Spiel gewonnen' nicht identisch mit 'alle verloren' ist – Unentschieden zählten dazu. Georg machte einen humorvollen Kommentar, ob Eddie es 'aus Versehen richtig gesagt hat'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "258": {
+    "winner": "jochen",
+    "question": "Wer oder was besaß Ende 1989 die zahlenmäßig siebtgrößte U-Boot-Flotte der Welt?",
+    "answer": "Pepsi Co besaß diese Flotte als Bezahlung von der Sowjetunion für wirtschaftliche Zusammenarbeit seit den 1970ern.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "259": {
+    "winner": "jochen",
+    "question": "Was ist der Wilhelmsschrei?",
+    "answer": "Ein berühmter Schrei aus der Filmgeschichte, erstmals 1951 verwendet, der als Running Gag in über 400 Filmen und TV-Serien eingebaut wird.",
+    "skipped": false,
+    "notes": "Georg führt das Rätsel als 20-Fragen-Spiel durch, Etienne soll nicht antworten. Jochen löst es durch systematische Fragen. Georg bestätigt explizit: 'Punkt für Jochen, eindeutig, definitiv'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "260": {
+    "winner": "etienne",
+    "question": "Der Satellit Telstar war Namenspate für was?",
+    "answer": "Ein Fußball, speziell der schwarze und weiße Fußball mit schwarzen Fünfecken und weißen Sechsecken, den Adidas 1968 einführte.",
+    "skipped": false,
+    "notes": "Etienne sagte 'Fußball' und erhielt einen halben Punkt. Es gab Diskussionen über die Vollständigkeit der Antwort. Georg wollte noch weitere Details erfragen, brach das Rätsel dann aber frustriert ab.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "261": {
+    "winner": "jochen",
+    "question": "Warum müssen Wimbledon Schiedsrichter verschiedene Sprachen lernen, um ihren Job ausüben zu können?",
+    "answer": "Der Schiedsrichter muss Schimpfwörter in verschiedenen Sprachen kennen, um zu erkennen, wenn Spieler fluchen und diese zu bestrafen, da über 60 Länder vertreten sind.",
+    "skipped": false,
+    "notes": "Jochen beantwortet korrekt: 'Der Schiedsrichter muss in der Lage sein, Strafen für Spieler auszusprechen, die in ihrer Sprache fluchen.' Es folgt eine kurze kritische Diskussion über die genaue Formulierung, aber Jochen erhält den Punkt (sagt später selbst: 'Okay, ich habe einen Punkt'). Danach wird kurzzeitig die 'Spanien-Effekt'-Frage von Jochen gestellt, wird aber nicht gelöst und auf nächste Woche verschoben.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "262": {
+    "winner": null,
+    "question": "Was ist der Spanien-Effekt?",
+    "answer": "Der Motorölstand kann nur bei warmem Motor nach langen Fahrten korrekt gemessen werden, weil Verunreinigungen aus dem Öl verdampfen müssen.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "263": {
+    "winner": "jochen",
+    "question": "Was bezeichnet man als Pilo-Erektion?",
+    "answer": "Pilo-Erektion ist die medizinische Bezeichnung für Gänsehaut – das Aufstellen von Körperhaaren. Das Wort stammt vom lateinischen 'pilo' (Haar).",
+    "skipped": false,
+    "notes": "Jochen stellte die korrekte Vermutung 'Ist Pilo-Erektion sowas wie Gänsehaut' und bekam sofort die explizite Bestätigung 'Haare, die sich aufrichten, Junge. Haare, die sich aufrichten, ganz genau.'",
+    "_auto": true,
+    "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
   "275": {
