@@ -2139,6 +2139,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "215": {
+    "winner": "jochen",
+    "question": "Was sind die Omron-Ringe?",
+    "answer": "Eurion-Muster auf Banknoten als Kopierschutz zur Verhinderung von Fälschungen",
+    "skipped": false,
+    "notes": "Rätsel als Frage von Hörerin Selina präsentiert. Jochen wird mit 'Bam, bam, bam, Jochen. Danke für die Frage' kreditiert, nachdem er die Lösung (Kopierschutz auf Geldscheinen) identifiziert. Keine explizite Punktvergabe erwähnt, aber deutliche Anerkennung der Lösung durch Georg.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "216": {
     "winner": "jochen",
     "question": "Was ist das Besondere an den sechs Brücken in der Stadt Spijkernisse in den Niederlanden?",
@@ -2169,12 +2179,232 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "219": {
+    "winner": null,
+    "question": "Wogegen protestierten 7000 Studenten der Universität Texas 2015 mit deutlich sichtbaren Dildos in ihrem Gepäck?",
+    "answer": "Gegen ein Gesetz, das das Tragen von Waffen an der Universität erlaubte, während das Mitführen von Dildos (obszönen Geräten) nach Texas-Gesetz § 43 Absatz 21 von 1973 verboten war.",
+    "skipped": false,
+    "notes": "Rätsel wurde diskutiert und gelöst (Etienne erkannte den Waffen-Aspekt), aber keine formale Punktvergabe erfolgte. Die Hosts einigten sich darauf, dass die Lösung korrekt ist, ohne einen klaren Sieger zu benennen. Am Ende heißt es 'ich scheiß auf den Punkt'.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "220": {
+    "winner": "etienne",
+    "question": "Was ist ein Allemannsend?",
+    "answer": "Ein Tau am Heck eines Schiffes, das ins Wasser hängt und zum Wassertesten dient (oder als Klopapierersatz fungiert).",
+    "skipped": false,
+    "notes": "Etienne gibt die Lösung 'Klopapier' als Nutzung des Seils am Heck eines Schiffes. Georg reagiert mit 'Finde ich gut. Herzlichen Glückwunsch, echt.' Jochen hatte zuvor auch gesagt, dass er es weiß, löst aber nicht explizit. Die Antwort war zunächst auf Wassertesting fokussiert, wird dann aber humorvoll mit Klopapier-Funktion verbunden.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "221": {
+    "winner": "etienne",
+    "question": "Welche ungewöhnliche Eigenschaft hatte das auch heute noch erhältliche DDR-Spülmittel Fit?",
+    "answer": "Es wird als Katalysator zur Sichtbarmachung von Blutspuren mittels Luminol unter UV-Licht verwendet",
+    "skipped": false,
+    "notes": "Etienne löst mit der expliziten Antwort 'Blutspuren'. Jochen beansprucht danach teilweise den Punkt für seinen Beitrag zur Lösungsfindung (Hinweise auf 'Polizei' und 'Leuchte'), erhält aber keinen Punkt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "222": {
+    "winner": "jochen",
+    "question": "Welcher Service wurde im November 2022 nach 142 Jahren in Deutschland eingestellt?",
+    "answer": "Telefonzellen (die Münzannahme von Telefonzellen wurde am 21. November 2022 deaktiviert)",
+    "skipped": false,
+    "notes": "Jochen gibt die richtige Antwort 'Telefonzellen'. Etienne gratuliert ihm: 'Ich gönne dir das total von Herzen und das ist super', was auf seinen Sieg hindeutet.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "223": {
+    "winner": "jochen",
+    "question": "Worunter litt der 1893 geborene Farmer Charles Osborne 68 Jahre lang?",
+    "answer": "Unter Schluckauf, der von 1922 bis 1990 andauerte",
+    "skipped": false,
+    "notes": "Die Frage 'Hatte der 68 Jahre Schluckauf?' wird mit 'Ja' bestätigt. Jochen scheint die Frage gestellt zu haben, aber der Sieger wird nicht explizit im Text benannt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "224": {
+    "winner": null,
+    "question": "Was war das Besondere am Bell 222 SP-Helikopter, der am 6. Juni 1992 im Sauerland abstürzte?",
+    "answer": "Es war der Hubschrauber aus der TV-Serie Airwolf, der nach seiner Serienkarriere als Rettungshubschrauber eingesetzt wurde.",
+    "skipped": false,
+    "notes": "Georg stellte das Rätsel. Die Hosts ratierten (A-Team wurde erwähnt, war aber falsch), doch Georg gab die Auflösung selbst. Kein explizites Sieger-Pattern erkennbar; unklar, ob jemand einen Punkt erhielt.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "225": {
     "winner": null,
-    "question": null,
-    "answer": null,
-    "skipped": true,
-    "notes": "Kein Rätsel vorhanden. Die Folge endet mit Diskussionen über Obdachlosigkeit und einer Ankündigung für die nächste Episode. Georg stellt kein Rätsel.",
+    "question": "Robert Leandre stellte bei den Olympischen Spielen einen Weltrekord auf, aber gewann nicht. Warum?",
+    "answer": "Er trat im Mehrkampf (Pentathlon) an und stellte einen Weltrekord in einer Einzeldisziplin (Weitsprung) auf, konnte aber das Gesamtergebnis nicht gewinnen, weil er in den anderen Disziplinen schlecht abschnitt.",
+    "skipped": false,
+    "notes": "Eindeutige Rätselauflösung, aber Gewinner unklar - jemand sagt 'Punkt für mich', aber Sprecher ist in der Transkription nicht eindeutig zugeordnet. Zusätzliche Verwirrung über Validität der Antwort.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "226": {
+    "winner": null,
+    "question": "Was ist ein Zilpsal?",
+    "answer": "Ein Vogel (Weidenlaubsänger), dessen lautmalender Name ('Zilpsal' oder 'Karl Otto') seinem charakteristischen Gesang entspricht",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht mit expliziter Punktvergabe gelöst. Etienne erkannte schnell, dass es sich um einen Vogel handelt ('Ist ein Vogel, ne?'), aber Georg wollte mehr Spezifität. Nach ausführlichen Fragen ohne klare Auflösung spielte Georg schließlich einen Gesangsausschnitt ab und erklärte, dass dies der 'Karl-Otto-Vogel' aus der letzten Folge sei. Keine klare Punktvergabe vergeben.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "227": {
+    "winner": "jochen",
+    "question": "Was bezeichnete Hans Rosling als die größte Errungenschaft der industriellen Revolution?",
+    "answer": "Die Waschmaschine",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "228": {
+    "winner": null,
+    "question": "Warum war es ungewöhnlich, dass eine Firma einer Gemeinde zustimmte, einen Mobilfunkmast abzuschalten, den Bewohner aufgrund angeblicher Gesundheitsschäden erwirkt hatten?",
+    "answer": "Der Mobilfunkmast war bereits sechs Wochen vor der Gemeindebeschwerde vollständig vom Netz genommen worden. Die Firma konnte also problemlos zustimmen, da der Mast ohnehin nicht mehr in Betrieb war.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel und gibt am Ende selbst die Lösung an. Jochen vermutet Stromverbrauch-Probleme, aber das ist nicht korrekt. Keiner der Hosts löst das Rätsel tatsächlich. Georg gibt auf, da er gehen muss, und erklärt die Lösung stattdessen.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "229": {
+    "winner": "jochen",
+    "question": "Warum steckte sich Tom Cruise während des Drehs von Mission Impossible Münzen in die Schuhe?",
+    "answer": "Um sein Körpergewicht beim Abseilen auszugleichen – Pfundmünzen in den Schuhen verhinderten, dass er nach vorne kippt.",
+    "skipped": false,
+    "notes": "Jochen löste das Rätsel nach mehreren Versuchen und Hinweisen. Die Antwort wurde explizit als 'Absolut richtig' bestätigt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "230": {
+    "winner": "jochen",
+    "question": "Was ist ein Rattenblech?",
+    "answer": "Ein rundes Metallblech, das an den Festmachertauen von Schiffen befestigt wird, um zu verhindern, dass Ratten über die Taue an Bord des Schiffs klettern können.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit der Antwort 'Da hängt ein Blech um das Tau, damit die Ratten nicht am Tau aufs Schiff laufen können'. Georg bestätigt unmittelbar: 'Ganz genau so ist es.' Das Rätsel wurde von Christian eingereicht.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "231": {
+    "winner": "etienne",
+    "question": "Was konnte man auf der Insel La Réunion weltweit erstmalig tun (ab 2002)?",
+    "answer": "Mit dem Euro bezahlen (ab 1. Januar 2002, da La Réunion ein französisches Übersee-Departement ist).",
+    "skipped": false,
+    "notes": "Patreon-Frage von Henrik. Etienne löst das Rätsel mit 'Man kann man im Euro bezahlen', nachdem Georg aufgibt und mehrere Fragen systematisch gestellt wurden. Die genaue Zuordnung ist durch fehlende explizite Sprecher-Labels nur medium-confident.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "232": {
+    "winner": "jochen",
+    "question": "Warum hat die Air Force One mehr Starts als Landungen?",
+    "answer": "Die Air Force One ist nur die Air Force One, wenn sie den amtierenden Präsidenten befördert. Am 9. August 1974 startete Präsident Richard Nixon mit der Maschine, verlor aber während des Fluges sein Amt an Gerald Ford, weshalb sie nicht mehr die Air Force One war, sondern als SAM 700 landete.",
+    "skipped": false,
+    "notes": "Jochen löste es nach hartnäckigem Nachfragen und mehreren Hinweisen durch Verständnis, dass die Air Force One ein Rufzeichen ist, das nur mit dem amtierenden Präsidenten an Bord gilt. Georg bestätigte explizit: 'Ja, durch hartnäckiges, sehr intelligentes Nachsitzen.'",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "233": {
+    "winner": "jochen",
+    "question": "Was endet am 14. März 2039?",
+    "answer": "Georgs World of Warcraft-Abo, das er mit Gold gekauft und bis zu seinem Renteneintritt bezahlt hat.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit 'Endet da dein WoOW-Abo?' und Georg bestätigt: 'Ja. Das ist die Korrekte.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "234": {
+    "winner": "jochen",
+    "question": "Was ist der Besentest (Broom-Test auf Englisch)?",
+    "answer": "Ein Test mit einem Strohbesen, um unsichtbares Feuer (besonders Wasserstofffeuern) zu erkennen, indem man prüft, ob die Borsten Feuer fangen.",
+    "skipped": false,
+    "notes": "Jochen erhielt 50% der Punkte für seine Erklärung über das Testen von unsichtbarem Feuer in Bereichen, die man nicht sieht. Georg akzeptierte die Antwort, war aber nicht hundertprozentig sicher, dass dies die vollständig korrekte Lösung war.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "235": {
+    "winner": "jochen",
+    "question": "Wodurch wurde Walter Ulmenhofers brandneuer 1970er Oldsmobile am 12. November 1970 zerstört?",
+    "answer": "Ein über 100 Kilo schweres Stück eines explodierenden Pottwal, der von Behörden mit zu viel Dynamit gesprengt wurde, traf das Auto.",
+    "skipped": false,
+    "notes": "Jochen erhielt einen Viertelpunkt, da er korrekt erkannte, dass ein Wal explodiert war und Teile davon das Auto trafen. Georg gewährte explizit 'einen Viertelpunkt', weil die aufgeblähte Walexplosion richtig war, aber nicht die vollständige Lösung. Die komplette Auflösung wurde von Georg vorgelesen, nicht von einem der Hosts gelöst.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "236": {
+    "winner": "etienne",
+    "question": "Warum verabreichte der spanische Geheimdienst König Juan Carlos I. laut einem ehemaligen Polizeimitarbeiter Hormonpräparate?",
+    "answer": "Um seinen Sexualtrieb zu unterdrücken, da sein Verhalten aufgrund seiner zahlreichen Affären als Sicherheitsrisiko betrachtet wurde.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel durch die korrekte Vermutung, dass der Geheimdienst dem König Hormone verabreichte. Georg bestätigt mit 'Glückwunsch zum Punkt' und verweist danach auf Etiennes 'Genie-Moment beim Konzert' (Bill-Burr-Konzert in Berlin).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "237": {
+    "winner": "etienne",
+    "question": "Warum musste Joe Horn 30.000 Dollar für einen Anruf zahlen, bei dem nicht einmal eine Verbindung zustande kam?",
+    "answer": "Joe Horn, Spieler der New Orleans Saints, erzielte 2003 einen Touchdown und jubelte exzessiv, indem er ein in der Torpfosten verstecktes Mobiltelefon nutzte, um vorzutäuschen, seinen Sohn anzurufen. Dies führte zu einer 30.000-Dollar-Strafe durch die NFL.",
+    "skipped": false,
+    "notes": "Etienne gibt die richtige Lösung mit 'Er hat einen Touchdown erzielt... exzessives Jubeln während eines Footballspiels' und wird unmittelbar durch die ausführliche Erklärung bestätigt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "240": {
+    "winner": "jochen",
+    "question": "Was kann man durch eine SMS an die Nummer 22122 erhalten?",
+    "answer": "Briefmarken – einen zwölfstelligen Code, der auf einen Brief geschrieben eine vollwertige Briefmarke ersetzt.",
+    "skipped": false,
+    "notes": "Jochen formuliert die Antwort als Frage ('Briefmarken?'), Etienne bestätigt sofort explizit: 'Absolut richtig, das ist die Lösung.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "241": {
+    "winner": "jochen",
+    "question": "Warum trug Frank Sinatra von Ende 1963 bis zu seinem Lebensende immer 10 Cent-Münzen bei sich?",
+    "answer": "Sein Sohn wurde 1963 entführt, und die Entführer kontaktierten Sinatra über öffentliche Münztelefone. Sinatra hielt daher immer mindestens zehn Dimes bei sich, um erreichbar zu sein und Rückrufe tätigen zu können.",
+    "skipped": false,
+    "notes": "Jochen löst mit 'Der muss den Rückruf tätigen' und Georg akzeptiert explizit mit 'Ja, lass ich gelten.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "242": {
+    "winner": "jochen",
+    "question": "Danny Trejo hält den Rekord für was?",
+    "answer": "Die meisten Onscreen-Tode (65 Onscreen-Tode, mehr als Sean Bean mit 24).",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit der Vermutung 'Hält er den Rekord für die meisten Onscreen-Tode?' Georg bestätigt explizit: 'Ja, das ist die Lösung.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "243": {
+    "winner": "etienne",
+    "question": "Was hat Craig McTavish als letzter getan?",
+    "answer": "Craig McTavish war der letzte Eishockeyspieler, der ohne Helm spielte. Nach der Saison 1997 beendete er seine Karriere.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit der Antwort, dass McTavish der letzte Eishockeyspieler ohne Helm war. Die Auflösung wird bestätigt.",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
