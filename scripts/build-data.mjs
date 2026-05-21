@@ -280,12 +280,15 @@ async function main() {
         autoDetected: raetsel.found,
         startIndex: raetsel.startIndex,
         heuristicWinner: heuristicW,
-        // Manual override fields
+        // Override / annotation fields
         winner: override.winner || null,
         question: override.question || null,
         answer: override.answer || null,
         skipped: override.skipped || false,
         notes: override.notes || null,
+        autoExtracted: override._auto || false,
+        confidence: override._confidence || null,
+        model: override._model || null,
       },
       topWords: top,
       funCounts: fun,
@@ -299,11 +302,25 @@ async function main() {
   const totalChars = episodes.reduce((s, e) => s + e.charCount, 0);
   const avgWords = Math.round(totalWords / episodes.length);
 
-  // Winner tally
+  // Winner tally — only count winners we trust:
+  //   - manual override (no _auto flag) → always count
+  //   - auto-extracted with confidence high/medium → count
+  //   - heuristic match → count
+  // Low-confidence auto results don't count toward the leaderboard.
   const winners = { etienne: 0, jochen: 0, georg: 0, unknown: 0 };
+  let skippedCount = 0;
   for (const e of episodes) {
-    if (e.raetsel.skipped) continue;
-    const w = e.raetsel.winner || e.raetsel.heuristicWinner;
+    if (e.raetsel.skipped) { skippedCount++; continue; }
+    let w = null;
+    if (e.raetsel.winner) {
+      const conf = e.raetsel.confidence;
+      const isAuto = e.raetsel.autoExtracted;
+      if (!isAuto || conf === "high" || conf === "medium") {
+        w = e.raetsel.winner;
+      }
+    } else if (e.raetsel.heuristicWinner) {
+      w = e.raetsel.heuristicWinner;
+    }
     if (w && winners[w] !== undefined) winners[w]++;
     else winners.unknown++;
   }
@@ -351,6 +368,7 @@ async function main() {
 
   const stats = {
     episodeCount: episodes.length,
+    skippedRaetselCount: skippedCount,
     totalWords,
     totalChars,
     avgWords,
