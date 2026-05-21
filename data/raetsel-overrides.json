@@ -1879,6 +1879,26 @@
     "_confidence": "medium",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "189": {
+    "winner": "etienne",
+    "question": "Ein britischer Arzt verlor 2020 seine Lizenz für fünf Monate und zahlte 10.000 Pfund Strafe. Warum?",
+    "answer": "Er benutzte einen Argon-Plasma-Strahl, um seine Initialen auf die Leber zweier Patienten zu schreiben.",
+    "skipped": false,
+    "notes": "Etienne sagte zunächst 'Er hat geschrieben' und Georg bestätigte mit 'Ja, doch'. Etienne gab später die volle Lösung mit den Initialen und dem Argon-Plasma-Strahl. Georg akzeptierte die Antwort nicht sofort als komplett und erklärte die Lösung selbst nochmal ausführlicher. Am Ende sagt Georg 'Punkt. Glückwunsch' ohne explizit zu nennen zu wem, aber Etiennes Reaktion ('da gab es schon die eine oder andere Situation, wo man ja vorher schon den Punkt hätte geben können') deutet an, dass er den Punkt bekam.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "190": {
+    "winner": null,
+    "question": "Was ist eine Marderlatte?",
+    "answer": "Eine provisorische Holzlatte mit eingezeichneten Höhenmaßen eines Panzers, um zu prüfen, ob dieser aus einer Stellung heraus uneingeschränkt agieren kann.",
+    "skipped": false,
+    "notes": "Niemand hat das Rätsel korrekt gelöst. Eddie und Jochen kamen nahe heran (erkannten Messlatte-Funktion, Ausrichtungs-Gedanken), aber die genaue Antwort wurde nicht gegeben. Das Rätsel wurde am Ende einfach aufgelöst.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "191": {
     "winner": "etienne",
     "question": "Warum wuchs der damals 51-Jährige Scott Kelly innerhalb eines Jahres um knapp 5 Zentimeter?",
@@ -1909,14 +1929,214 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "200": {
-    "winner": "jochen",
-    "question": "Welche Angewohnheit des Deutschen Boris Becker fiel Andre Agassi auf, die ihm half, 10 von 11 Matches gegen Becker zu gewinnen?",
-    "answer": "Boris Becker streckte seine Zunge kurz vor dem Aufschlag in die Richtung aus, in die er den Ball schlagen würde.",
+  "194": {
+    "winner": "etienne",
+    "question": "Was macht die Winston Churchill Avenue in Gibraltar besonders?",
+    "answer": "Die Straße wird mehrmals täglich gesperrt, wenn Flugzeuge starten oder landen, weil die Start- und Landebahn des Flughafens diese Straße kreuzt.",
     "skipped": false,
-    "notes": "Etienne erwähnte die Zunge zuerst ('Ich hab doch ihm gesagt, die Zunge'), aber Jochen stellte die konkrete Frage 'Hat das was mit der Zunge zu tun?'. Georg antwortet darauf mit 'du hast absolut recht und herzlichen Glückwunsch zu den Punkt', was auf Jochen hindeutet. Etienne hätte die Antwort präziser formulieren sollen.",
+    "notes": "Jochen hatte die richtige Vermutung bereits ('Flugzeuge'), Etienne formuliert aber die klare Antwort. Georg bestätigt mit 'Lass ich gelten'. Jochen kommentiert später 'du abstauben kannst', was impliziert, dass Etienne den Punkt bekommt.",
     "_auto": true,
     "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "195": {
+    "winner": "jochen",
+    "question": "Was wird jeden Tag mit LKWs aus dem höchsten Gebäude der Welt (Burj Khalifa) abtransportiert?",
+    "answer": "Fäkalien und Abwässer (etwa 15 Tonnen täglich), da das Gebäude aus Kostengründen nicht an Dubais Abwassersystem angeschlossen wurde.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "196": {
+    "winner": "etienne",
+    "question": "Welche einzigartige Eigenschaft hatte der Mann, der im Jahr 2006 half, zwei Delfinen das Leben zu retten?",
+    "answer": "Er war der größte Mann der Welt, der mongolische Hirte Bao Xiun, mit 1,3 m langen Armen, die es ihm ermöglichten, in den Magen der Delfine zu greifen und verschlucktes Plastik zu entfernen.",
+    "skipped": false,
+    "notes": "Etienne formulierte die richtige Antwort (große Körpergröße/lange Arme). Georg bestätigt explizit 'Das ist völlig richtig' und sagt im Scherz 'Jochen, fuck you', was bedeutet, dass Jochen es nicht gelöst hat. Am Ende sagen sie 'Wir haben es gemeinsam gelöst' – dies deutet darauf hin, dass beide Spieler durch ihre Fragen zum Erfolg beitrugen, aber Etienne erhielt den Punkt für die Lösung.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "197": {
+    "winner": "jochen",
+    "question": "Warum legt ein britischer Koffeinpulverhersteller seit 2021 einen kleinen Messlöffel in seine 100g-Packungen?",
+    "answer": "Eine Person (Tom Mansfield) starb an einer tödlichen Überdosis Koffeinpulver, die durch Fehlmessung mit einer ungenauen Küchenwaage verursacht wurde. Der Hersteller fügt nun einen Messlöffel bei, um Überdosierungen zu verhindern.",
+    "skipped": false,
+    "notes": "Jochen identifizierte den Todefall als Auslöser korrekt, musste aber die Punkt-Vergabe anfechten und argumentieren, um ihn zu erhalten. Nach Dispute einigten sich die Hosts darauf, dass er den Punkt erhält.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "198": {
+    "winner": "jochen",
+    "question": "Welchen Rekord hält die Nanjing Younga River Bridge?",
+    "answer": "Die Brücke hält den Rekord für die meisten dokumentierten Selbstmorde (etwa 2000 Fälle), nachdem die Golden Gate Bridge lange Zeit diesen Negativrekord hielt.",
+    "skipped": false,
+    "notes": "Trauriger Negativrekord. Das Rätsel dauerte längere Zeit, weil die Hosts zunächst an physische Merkmale dachten. Georg gab den entscheidenden Tipp mit 'Negativrekord', worauf Jochen die Lösung erkannte. Er hatte vorher über die Golden Gate Bridge gelesen.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "199": {
+    "winner": "etienne",
+    "question": "Was muss die Band KISS in Deutschland tun, um nicht gegen das Gesetz zu verstoßen?",
+    "answer": "Die beiden S-Buchstaben des Logos müssen anders gestaltet werden, da die Blitze als SS-Runen aussehen und nach § 86a StGB verboten sind. KISS verwendet daher in Deutschland ein anderes Logo als im Rest der Welt.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel, Etienne löst es schnell und sicher. Georg bestätigt mit 'Absolut richtig. Das ist die Lösung.' Erklärung wird danach detailliert gegeben.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "200": {
+    "winner": "etienne",
+    "question": "Was ist die Angewohnheit von Boris Becker, die Andre Agassi nutzen konnte, um gegen ihn zu gewinnen?",
+    "answer": "Boris Becker streckt seine Zunge kurz vor dem Aufschlag in die Richtung aus, in die er aufschlägt.",
+    "skipped": false,
+    "notes": "Jochen identifizierte zuerst 'Die Zunge' (mit Führungsfragen von Etienne), aber Etienne wird am Ende für die Lösung beglückwünscht, da er die Antwort durch Lesen von Georgs Gesichtsausdrücken erkannt hat – parallel zur Riddle-Struktur, wonach Agassi Becker durch das Zungenlesen entzifferte. Sarcasm und Meta-Ebene führen zu Ambiguität.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "201": {
+    "winner": "etienne",
+    "question": "Victor Whitmill verklagte die Macher des Films Hangover 2 erfolgreich weswegen?",
+    "answer": "Der Tattoo-Designer Victor Whitmill verklagte Warner Brothers erfolgreich, weil Schauspieler Ed Helms im Film ein Mike Tyson Tattoo trug, das Whitmills urheberrechtlich geschütztes Kunstwerk war.",
+    "skipped": false,
+    "notes": "Etienne sagte gleich am Anfang 'das weiß ich' und erkannte später die Lösung mit dem Mike Tyson Tattoo/Copyright-Problem. Die Antwort wurde am Ende vollständig bestätigt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "202": {
+    "winner": "etienne",
+    "question": "Was ist eine Hühnerkanone und wofür wird sie verwendet?",
+    "answer": "Eine Pressluftkanone, die Geflügel auf Flugzeuge abfeuert, um die Sicherheit von Windschutzscheiben und Flugzeugbauteilen bei Vogelschlägen im Flugverkehr zu testen.",
+    "skipped": false,
+    "notes": "Mehrdeutige Siegabrechnung. Nach längerer Diskussion wird die richtige Antwort gemeinsam erarbeitet. Es gibt eine längere Debatte am Ende, wer das Transportmittel 'Flugzeug' zuerst genannt hat. Die Indizien ('Ja, du hast es nicht gesagt' zu Jochen) deuten auf Etienne hin, aber dies wird nicht eindeutig bestätigt.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "203": {
+    "winner": null,
+    "question": "Warum verließen viele Zuschauer bei der Premiere von Joe Black 1998 in den USA die Kinos, bevor der Film anfing?",
+    "answer": "Sie waren nur ins Kino gegangen, um den Star Wars Episode 1 Trailer zu sehen, und verließen danach wieder.",
+    "skipped": false,
+    "notes": "Keiner der Hosts löst das Rätsel richtig. Georg (Rätselsteller) löst am Ende auf. Jochen bestätigt explizit: 'Ja, dann löst auf, aber da kriegt auch keiner den Punkt.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "204": {
+    "winner": "jochen",
+    "question": "Was ist der Charlie Sheen-Effekt?",
+    "answer": "Charlie Sheen outed himself öffentlich als HIV-positiv, woraufhin es zu erheblich gesteigerten HIV-Testraten kam und deutlich mehr Menschen sich über HIV/AIDS und Übertragungswege informierten.",
+    "skipped": false,
+    "notes": "Winner identifiziert durch 'Glückwunsch zum Punkt, ne?chen' gegen Ende des Rätsels. Die genaue Auflösung wurde von Georg präsentiert mit: 'Es hat erheblich gesteigerte HIV-Testraten gegeben' und 'deutlich mehr Leute haben sich zum Thema HIV und AIDS informiert'. Die Lösung kam nach mehreren Versuchen zustande.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "205": {
+    "winner": "jochen",
+    "question": "Warum verzögerte sich der Abflug einer 737 der Alaska Airlines am 30. März 1987 um eine Stunde?",
+    "answer": "Ein Weißkopf-Seadler ließ während des Fluges einen Fisch fallen, der das Cockpit-Fenster der 737 traf, weshalb das Flugzeug zur Schadensuntersuchung verzögert wurde.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel durch systematische Fragen (Fisch, Vogel, Adler). Der Punkt wird geteilt; Jochen erhält zusätzlich einen Sonderpunkt für die korrekte Vogelart-Identifikation (Seadler).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "206": {
+    "winner": "etienne",
+    "question": "Was dürfen Fußballstadien der höchsten UEFA-Kategorie 4 nicht haben?",
+    "answer": "Ein Zaun (zwischen Fanlagern oder zur Abgrenzung des Spielfelds).",
+    "skipped": false,
+    "notes": "Georg stellt die Frage, die Lösung wird explizit bestätigt: 'Ein Zaun. Das ist die richtige Antwort.' Danach: 'Glückwunsch zum Punkt, Eddie.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "207": {
+    "winner": "jochen",
+    "question": "Was regelt das nach dem gleichnamigen Serienmörder benannte Son of Sam Gesetz?",
+    "answer": "Das Gesetz verhindert, dass Verbrecher von Verwertungsrechten ihrer Verbrechen profitieren, z.B. durch Buch- oder Filmrechte.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "208": {
+    "winner": "etienne",
+    "question": "Was verhinderte eine Spam-SMS mit Neujahrsglückwünschen im Jahr 2011?",
+    "answer": "Eine Neujahrsglückwunsch-SMS löste einen als Sprengzünder modifizierten Handy einer Attentäterin aus und verhinderte damit unbeabsichtigt einen geplanten Selbstmordanschlag.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "209": {
+    "winner": "etienne",
+    "question": "Welches ungewöhnliche Phänomen konnten Passagiere der Concorde bei einem abendlichen Flug von Europa nach Amerika beobachten?",
+    "answer": "Sie sahen einen Sonnenaufgang im Westen, weil die Concorde schneller als die Erddrehung nach Westen flog und damit die Erdrotation überholte.",
+    "skipped": false,
+    "notes": "Etienne nennt zuerst die Kernlösung ('Sonnenuntergang und Sonnenaufgang in wenigen Minuten'), Jochen präzisiert sie. Georg bestätigt deutlich 'Ich gebe ihm schon'. Concorde war die einzige Passagiermaschine, bei der dieses Phänomen möglich war; sie landete in New York etwa anderthalb Stunden früher in Ortszeit, als sie in London abflog.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "210": {
+    "winner": null,
+    "question": "Warum wurde Drehbuchautor John Hensley im Jahr 1995 zu einem Gespräch mit dem FBI gebeten?",
+    "answer": "Der realistische Bankraub-Plot mit Tunnelsystem in seinem Film 'Die Hard with a Vengeance' (Stirb langsam jetzt erst recht) weckte das FBI's Aufmerksamkeit, da der Plot technisch durchführbar schien und die Filmbank dem Original zu ähnlich war.",
+    "skipped": false,
+    "notes": "Jochen nennt den Filmtitel 'Stirb langsam 3' korrekt, aber Georg löst das Rätsel schließlich selbst auf, ohne explizit einen Punkt zu vergeben, da er zeitlich unter Druck stand und gehen musste. Kein eindeutiger Sieger bestätigt.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "211": {
+    "winner": "jochen",
+    "question": "Welche Handlung verbraucht laut Bundeszentrale für gesundheitliche Aufklärung etwa 2-3.000 Kalorien?",
+    "answer": "Blutspenden (genauer: die Neuproduktion des Blutes durch den Körper nach einer Blutspende)",
+    "skipped": false,
+    "notes": "Jochen stellt die meisten Ratfragen und scheint die Lösung zu sagen. Die genaue Auflösung ist nicht das Spenden selbst, sondern die biologische Reaktion des Körpers darauf.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "212": {
+    "winner": "jochen",
+    "question": "Was ist das Besondere am Pyrenäen Steinbock?",
+    "answer": "Der Pyrenäen Steinbock ist die einzige Tierart, die zweimal ausgestorben ist: Das ursprüngliche Tier starb 2000 aus, woraufhin man von dem letzten Weibchen (Celia) eine Zellprobe klonte. Der Klon wurde 2003 geboren, starb aber nach wenigen Minuten.",
+    "skipped": false,
+    "notes": "Jochen kam zur finalen Antwort 'Der ist zweimal ausgestorben. Die einzige Tier, die zweimal ausgestorben ist.' Georg bestätigte: 'Ja, das ist die Lösung.' Die Lösung wurde dann detailliert erklärt: 1918 Artenschutz, 2000 natürliches Aussterben, 2003 Klon-Versuch gescheitert.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "213": {
+    "winner": "etienne",
+    "question": "Rund 100 Menschen, die glaubten, an einem Gewinnspiel für Superbowl-Tickets teilzunehmen, passierte stattdessen was?",
+    "answer": "Sie wurden von der Polizei festgenommen, denn es war eine Sting-Operation (Operation Flagstaff) der US Marshals und Polizei von Washington DC, um gesuchte Verbrecher zu verhaften.",
+    "skipped": false,
+    "notes": "Etienne löste das Rätsel nach mehreren Runden systematisch auf. Georg bestätigte explizit mit 'Das ist richtig. Sehr gut.' und gab dann die detaillierte Auflösung der historischen Operation Flagstaff aus den 1980ern.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "216": {
+    "winner": "jochen",
+    "question": "Was ist das Besondere an den sechs Brücken in der Stadt Spijkernisse in den Niederlanden?",
+    "answer": "Die Brücken sind Nachbauten der fiktiven Brücken, die auf den Euroscheinen abgebildet sind.",
+    "skipped": false,
+    "notes": "Georg stellte die Frage (von Hörer Felix). Nach langem Ratespiel löst Jochen mit der Idee der Geldscheine, Georg bestätigt mit 'Das war ein Volltreffer, ey'. Etienne erklärt anschließend die vollständige Lösung.",
+    "_auto": true,
+    "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
   "225": {
