@@ -1039,6 +1039,16 @@
     "_confidence": "medium",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "105": {
+    "winner": "jochen",
+    "question": "Was ist eine Tellerwende?",
+    "answer": "Eine Wende beim Rückenschwimmen, bei der der Schwimmer die Wand mit flacher Hand berührt und sich 180 Grad dreht, um sich mit den Füßen abzustoßen.",
+    "skipped": false,
+    "notes": "Listener-Frage von Vivian. Der Name stammt daher, dass man eine flache Hand wie einen Teller gegen die Wand macht. Georg bestätigt mit 'Ja, genau'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "106": {
     "winner": "jochen",
     "question": "Was verkaufte Sylvester Stallone für 40 Dollar, nur um es später für 15.000 Dollar zurückzukaufen?",
@@ -1059,12 +1069,282 @@
     "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "125": {
+  "108": {
     "winner": null,
-    "question": null,
-    "answer": null,
-    "skipped": true,
-    "notes": "Folge endet mit Diskussionen über Frösche und einer Aussage zu Tiefkühlpommes. Keine klassische Rätsel-Struktur erkennbar. Kein formales Rätsel von Georg, das die anderen raten müssen.",
+    "question": "Woran erkannten die Porsche-Ingenieure einen lebensbedrohlichen Designfehler im Porsche 917 Rennwagen?",
+    "answer": "An fehlenden toten Insekten auf dem Heckspoiler – dies zeigte ihnen, dass der Luftstrom das Bauteil nicht erreichte und es nicht genug Druck aufbaute.",
+    "skipped": false,
+    "notes": "Etienne und Jochen gaben auf, nachdem sie lange Zeit rateten. Georg gab dann die Lösung am Ende, ohne dass einer der beiden das Rätsel selbst gelöst hätte. Jochen war mit dem Ansatz 'zu wenig Druck' auf dem richtigen Weg, aber keine offizielle Punktvergabe erfolgte.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "109": {
+    "winner": "etienne",
+    "question": "Was ist eine Pompfe?",
+    "answer": "Ein mit Schaumstoff gepolsterter Stab, das Sportgerät der Sportart Jugger",
+    "skipped": false,
+    "notes": "Etienne (Eddie) gewinnt, indem er durch Fragen herausfindet, dass die Pompfe eine Schlagwaffe gegen Gegner ist. Jochen bestätigt deutlich: 'Aber ein Punkt für Eddie auf alle Fälle.' Das Rätsel wurde von Hörer Patrick eingereicht. Die vollständige Lösung mit Erklärung (Sportart Jugger) wird anschließend aufgelöst.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "110": {
+    "winner": "etienne",
+    "question": "Was ist Kleptoparasitismus?",
+    "answer": "Das Ausnutzen von Leistungen anderer Lebensformen, beispielsweise das Stehlen von Nahrung oder das Ausnutzen fremder Nistgelegenheiten durch Tiere.",
+    "skipped": false,
+    "notes": "Etienne gewinnt explizit: 'Ich habe diese Woche gewonnen gegen Jochen.' Jochen ratet mit Fragen, Etienne gibt die zusammenfassende Erklärung und wird zum Sieger erklärt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "111": {
+    "winner": "georg",
+    "question": "Welche Erfindung profitierte maßgeblich von einer Naturkatastrophe?",
+    "answer": "Das Fahrrad (Laufmaschine): Nach dem Vulkanausbruch des Tambora 1815 und dem Jahr ohne Sommer 1816 starben Pferde aus oder wurden geschlachtet. Dies führte zu erhöhter Nachfrage nach alternativen Fortbewegungsmitteln, weshalb Karl Friedrich Dreis' Laufmaschine 1817–1818 großen Erfolg hatte.",
+    "skipped": false,
+    "notes": "Georg sagte \"Fahrrad\", Etienne bestätigte mit \"Richtig\". Am Ende der Folge wird explizit gesagt: \"Gratulation an Georg. Ja, erster Punkt für dich, Georg.\"",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "112": {
+    "winner": "jochen",
+    "question": "Was war das Besondere am Bombendetektor ADE 651?",
+    "answer": "Ein betrügerisches, völlig funktionsunfähiges Gerät, das fälschlicherweise als Bombendetektor für bis zu 60.000 Dollar pro Stück vermarktet und in 20 Länder verkauft wurde, während Gründer James McCormick zu zehn Jahren Haft verurteilt wurde.",
+    "skipped": false,
+    "notes": "Jochen erhält den Punkt nach einer großzügigen Bewertung durch Georg. Jochens anfängliche Antwort 'es ist ein Tier' wird anfangs abgelehnt, aber später werden Hunde als Sprengstoffdetektoren anerkannt. Georg gibt jedoch die vollständige Auflösung und erkennt Jochens Gedanke an.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "113": {
+    "winner": "jochen",
+    "question": "Was verkauft VW unter der Bauteilnummer 199398500?",
+    "answer": "Currywurst - VW produziert seit 1973 und verkauft Currywurst, auch über diese Bauteilnummer bei Vertragshändlern.",
+    "skipped": false,
+    "notes": "Jochen identifiziert die Lösung als Currywurst. Georg bestätigt durch Auflösung der historischen Hintergründe (seit 1973, im Jahr 2015 mehr Currywürste als Autos verkauft).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "114": {
+    "winner": "etienne",
+    "question": "Was versteht man unter dem Sauernay-Syndrom?",
+    "answer": "Eine Geschmackssaversion gegen bestimmte Speisen oder Getränke, benannt nach dem Psychologen Martin Selig, der nach einer Magen-Darm-Grippe einen dauerhaften Ekel gegen Sauce Béarnaise entwickelte.",
+    "skipped": false,
+    "notes": "Jochen wird aufgefordert zu raten, gibt aber auf ('Jetzt bin ich raus'). Etienne gibt die beste Antwort und kommt sehr nah an die korrekte Lösung heran. Eine explizite Punktevergabe fehlt allerdings.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "115": {
+    "winner": "jochen",
+    "question": "Was ist das Valsalva-Manöver?",
+    "answer": "Das Valsalva-Manöver ist ein medizinisches Verfahren, bei dem man die Nase zuhält und gegen sie drückt (z.B. zum Druckausgleich im Flugzeug). Es wird auch bei Untersuchung von Beinvenen und gegen Herzrasen angewendet.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit 'Druckausgleich' und sagt explizit 'den Scheißpunkt her'. Der Tipp war entscheidend: 'Man macht das üblicherweise nach einer bestimmten Art und Weise zu verreisen' (nach dem Fliegen).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "116": {
+    "winner": "jochen",
+    "question": "Warum musste nach dem Absturz des Avianca-Fluges 052 nach New York bewaffnete Wachen an den Leichenbewahrungsräumen platziert werden?",
+    "answer": "Weil einige Passagiere größere Mengen Kokain im Körper geschmuggelt hatten und die Polizei befürchtete, dass die vorgesehenen Empfänger versuchen könnten, die Leichen zu entwenden.",
+    "skipped": false,
+    "notes": "Jochen stellte die entscheidende Frage zu Drogenschmuggel. Georg bestätigte: 'Das ist im Prinzip die Lösung.' Rätsel wurde von Georg gestellt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "117": {
+    "winner": "jochen",
+    "question": "Was ist der Zipfelbund?",
+    "answer": "Der Zipfelbund ist der Zusammenschluss der nördlichsten (List), östlichsten (Görlitz), südlichsten (Oberstdorf) und westlichsten (Selfkant) Gemeinden Deutschlands.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "118": {
+    "winner": "etienne",
+    "question": "Was war 1992 für Unruhen auf den Philippinen verantwortlich, die letztlich fünf Menschen das Leben kosteten?",
+    "answer": "Das Pepsi-Gewinnspiel 'Pepsi Number Fever', bei dem 800.000 Flaschen mit korrektem Gewinncode, aber fehlender Sicherheitsmarke produziert wurden und zu Protesten führte.",
+    "skipped": false,
+    "notes": "Georg explizit: 'Ich finde, der Punkt geht an Eddie, der war am nächsten dran.' Eddie hatte richtig erraten, dass es um ein Gewinnspiel mit begrenztem Produkt ging.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "119": {
+    "winner": "jochen",
+    "question": "Was ist in der Türkei seit 1935 Pflicht?",
+    "answer": "Seit 1935 müssen alle Türken einen Nachnamen haben, der aus türkischen Wörtern gebildet sein muss.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "120": {
+    "winner": null,
+    "question": "Welche schlaue Idee rettete dem zum Tode verurteilten Hofnarren, König Ludwig Xölften das Leben?",
+    "answer": "Der Hofnarr entschuldigte sich damit, dass er den König mit der Königin verwechselt hatte, was den König so amüsierte, dass dieser ihm verzieh.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht gelöst. Georg stellte es, Etienne und Jochen gaben viele Vermutungen ab (Henkersmahlzeit, Todesart aussuchen, an Altersschwäche sterben etc.), kamen aber nicht zur korrekten Lösung. Georg gab die Lösung am Ende selbst auf, nachdem Jochen sagte 'Ich gebe auf'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "121": {
+    "winner": "etienne",
+    "question": "Was ist eine Trap Street?",
+    "answer": "Eine bewusst fälschlich abgebildete Straße auf Karten, die in Wirklichkeit nicht vorhanden ist, oft aus Copyright-Gründen um Kartenkopien nachzuweisen, oder historisch militärisch eingesetzt.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel durch schrittweise Annäherung. Jochen fordert anschließend auch Punkt ein (\"Aber eigentlich hätte ich den Punkt doch eigentlich auch verdient, oder?\"), wird aber abgewimmelt. Georg bestätigt die Antwort am Ende mit \"Genau, ein bisschen wie ein Wasserzeichen\".",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "122": {
+    "winner": "jochen",
+    "question": "Die niederländische Stadt Den Haag gab im Jahr 2012 rund 150.000 Euro für eine Brücke aus, die welchem Zweck dienen sollte?",
+    "answer": "Eine Brücke, die Eichhörnchen ermöglichen soll, eine vierspurige Straße sicher zu überqueren, um Inzuchtprobleme zu vermeiden. In den ersten Jahren wurde sie aber kaum bis gar nicht von Eichhörnchen genutzt.",
+    "skipped": false,
+    "notes": "Jochen löst mit 'Eichhörnchenbrücke' das Rätsel aus. Georg bestätigt die richtige Antwort und liefert detaillierte Hintergrundinformationen mit konkreten Zahlen (0, 3, 1 Eichhörnchen in den Jahren 2012-2015).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "123": {
+    "winner": "etienne",
+    "question": "Was ist das Besondere an der Ehe des Sohnes von Bill Wyman, dem ehemaligen Bassist der Rolling Stones?",
+    "answer": "Steven Wyman heiratete Patsy Smith, die Mutter von Bills Ex-Frau Mandy Smith. Dadurch wurde Bill nicht nur Schwiegervater seiner Ex-Schwiegermutter, sondern auch Stiefgroßvater seiner ehemaligen Gattin.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit: 'Stevens Frau ist Mandys Mutter.' Jochen bestätigt sofort: 'Das ist korrekt.' Ein zweites, ungelöstes Rätsel über Gullideckel-Abdeckungen wird den Hörern zur Beantwortung gestellt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "124": {
+    "winner": "jochen",
+    "question": "Wie half ein 1822 erlegter Weißstorch bei der Klärung der Frage, was Zugvögel im Winter machen?",
+    "answer": "Der Storch hatte einen Pfeil im Hals aus Afrika, was bewies, dass Zugvögel nach Afrika fliegen und zurückkehren.",
+    "skipped": false,
+    "notes": "Jochen deduzierte systematisch, dass der Storch von afrikanischen Jägern gejagt wurde und mit einem Pfeil im Hals nach Europa zurückkehrte. Georg bestätigt diese Lösung, aber es gibt keine explizite Punktvergabe.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "125": {
+    "winner": "etienne",
+    "question": "Welche Stadt wurde 2005 in einem UNICEF-Werbeclip bombardiert?",
+    "answer": "Schlumpfhausen aus dem Comic Die Schlümpfe – eine fiktive Stadt, die versehentlich in Stock-Footage des Werbeclips erkennbar war.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel durch systematisches Fragen. Georg gratuliert ihm explizit: 'Herz Lichen Glückwunsch zum Rätsel, Eddie.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "126": {
+    "winner": "etienne",
+    "question": "Wofür drohte einem 16-jährigen Amerikaner neben anderen Strafen eine mehrjährige Haftstrafe nach Erwachsenenstrafrecht?",
+    "answer": "Weil er Nacktbilder von sich selbst auf dem Handy hatte, was in bestimmten US-Bundesländern wie North Carolina als Schwerverbrechen (Felony) gewertet wird.",
+    "skipped": false,
+    "notes": "Etienne gab die Antwort 'Er selbst?' nach Georgs Hinweis-Frage. Georg bestätigte mit 'Bingo'. Transkript-Zuordnung zwischen Etienne und Jochen nicht völlig eindeutig, aber Etienne wird basierend auf Gesprächsfluss und Kontext bevorzugt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "127": {
+    "winner": "etienne",
+    "question": "Was ist das Besondere am Kohleminenbrand von 1962 in Centralia, Pennsylvania?",
+    "answer": "Das Kohlefeuer brennt seit mindestens dem 27. Mai 1962 und konnte trotz zahlreicher Löschversuche nie gelöscht werden - es brennt bis heute.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "128": {
+    "winner": "etienne",
+    "question": "Mit welcher Geste ordneten römische Herrscher den Tod eines Gladiators an?",
+    "answer": "Mit dem Daumen nach oben",
+    "skipped": false,
+    "notes": "Jochen riet zuerst falsch 'Daumen nach unten'. Etienne löst das Rätsel mit 'Daumen nach oben'. Georg bestätigt und erklärt, dass die Hollywood-Darstellung mit Daumen-nach-unten ein Mythos ist, basierend auf einem Gemälde von 1872.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "129": {
+    "winner": "jochen",
+    "question": "Welchen Rekord stellte die Technische Universität Helsinki im Jahr 2000 auf?",
+    "answer": "Sie erzeugten die kälteste künstliche Temperatur im Labor, indem sie Materie auf etwa -273°C (nah am absoluten Nullpunkt) kühlten – kälter als die kälteste natürlich vorkommende Stelle im Universum.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "130": {
+    "winner": "jochen",
+    "question": "Mit welcher Erfindung brachen Menschen als erstes die Schallmauer?",
+    "answer": "Eine Peitsche - der Knall entsteht durch einen Mini-Überschallknall einer sich beschleunigenden Schlaufe.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "131": {
+    "winner": "jochen",
+    "question": "Was ist ein F-Loch?",
+    "answer": "Das F-Loch sind die schlitzförmigen Öffnungen auf einer Geige/einem Streichinstrument, die wie der Buchstabe F aussehen.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Jochen rätselt lange und errät schließlich, dass es sich um eine Geige handelt. Georg bestätigt explizit: 'Der Punkt geht an dich, der kommt von Herzen, definitiv.' Die Ratezeit war relativ lang und es gab viele falsche Fährten (Handwerk, Labor, Feuerwehr, etc.).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "132": {
+    "winner": "etienne",
+    "question": "Was ist das Besondere am Gefängnis der kanadischen Stadt Churchill?",
+    "answer": "Es ist ein Gefängnis für Eisbären, das in den 1980er Jahren errichtet wurde, um Problembären aufzunehmen, bevor diese ausgesiedelt werden.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "133": {
+    "winner": "etienne",
+    "question": "Warum brauchte Sandra Bon die Zustimmung des französischen Präsidenten, um in Frankreich zu heiraten?",
+    "answer": "Weil sie einen Toten heiraten wollte. Seit 1959 gibt es in Frankreich ein Gesetz, das postmortale Eheschließungen (Leichentrauung) mit Genehmigung des Präsidenten erlaubt. Ihr Verlobter Sebastian Deves war 2008 bei einem Attentat in Afghanistan getötet worden.",
+    "skipped": false,
+    "notes": "Rätsel war eine Einsendung von Andi. Etienne stellte die entscheidende Frage 'War diese Person tot?' und erhielt die Bestätigung 'Ja, und das ist auch die Lösung.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "136": {
+    "winner": "jochen",
+    "question": "Was haben die Pittsburgh Steelers seit 1969 zweimal gemacht?",
+    "answer": "Sie haben nur zweimal ihren Head Coach gewechselt: 1969 Chuck Noll, 1992 Bill Cowher, seit 2007 Mike Tomlin.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "137": {
+    "winner": "georg",
+    "question": "Was kann oder macht der Wombat als einziger im Tierreich?",
+    "answer": "Der Wombat kackt würfelförmig – er ist das einzige Tier mit würfelförmigen Exkrementen.",
+    "skipped": false,
+    "notes": null,
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
