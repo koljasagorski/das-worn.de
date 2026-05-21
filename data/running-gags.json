@@ -1,0 +1,66 @@
+{
+  "_comment": "Running Gags / Lore. Felder: name (Anzeigename), emoji, description (Hintergrund), origin (kurzer Erst-Vorfall), pattern (Regex-Pattern für Folgenzählung, ohne Flags), dedicatedEpisodes (Folgen-Nummern mit eigener Folge zum Thema), host (welcher Host es eingeführt hat).",
+  "kreidefrau": {
+    "name": "Die Kreidefrau",
+    "emoji": "🖍️",
+    "description": "Eine Frau in Jochens Viertel schreibt mit Kreide Anti-Müll-Botschaften auf den Bürgersteig: 'Wirf keinen Müll und keine Kippen auf die Erde'. Jochen sieht sie öfter, hat aber laut eigener Aussage festgestellt, dass sie 'immun gegen alle Waffen' sei, die ihm zur Verfügung stehen – inklusive Rechtschreib-Korrekturen. Die Kreidefrau erlangt im Laufe des Podcasts Berühmtheit: Hörer schicken Fotos von ihren Kreidezeichnungen, sogar das Umweltbundesamt postet welche auf Instagram.",
+    "origin": "Erste Sichtung dokumentiert in Folge #30. Es gibt eine eigene Themenfolge #35 'Die Rückkehr der Kreidefrau'.",
+    "pattern": "kreidefra[uw]",
+    "dedicatedEpisodes": [35],
+    "host": "jochen"
+  },
+  "porsche": {
+    "name": "Der vergammelnde Porsche",
+    "emoji": "🚗",
+    "description": "Ein silbergrauer Porsche 911 (996er-Baureihe) steht in Jochens Viertel vor einem Haus geparkt. Jochen ist seit seiner Kindheit Fan dieser Baureihe, was den Verfall des Wagens umso schmerzhafter macht: Frontleuchten ausgebaut, Stoßstange weggeflext, Lack abblättert. In schöner Regelmäßigkeit gibt Jochen Verfalls-Updates.",
+    "origin": "Erste Bestandsaufnahme in Folge #34, danach in unregelmäßigen Abständen.",
+    "pattern": "porsche",
+    "dedicatedEpisodes": [],
+    "host": "jochen"
+  },
+  "stradivari": {
+    "name": "Die Dachboden-Stradivari",
+    "emoji": "🎻",
+    "description": "Beim Kauf eines Hauses werden Schränke und ein alter Geigenkasten zurückgelassen. Im Kasten steht 'Antonius Stradivari, Cremonensis 1730'. Echt oder Fake? Wenn echt, wären die Hosts auf einen Schlag Millionäre. Die Antwort bleibt offen – das Wiki wäre dann vermutlich aus Marketing-Gründen kein Wiki mehr.",
+    "origin": "Eigene Folge #54 'Stradivari'.",
+    "pattern": "stradivari",
+    "dedicatedEpisodes": [54],
+    "host": "jochen"
+  },
+  "poppy": {
+    "name": "Poppy",
+    "emoji": "🐕",
+    "description": "Jochens Hund. Hatte mal ein gerissenes Band. Tritt immer wieder in Geschichten auf: Begegnungen im Park, Spaziergänge durchs Viertel (wo dann häufig Kreidefrau- oder Porsche-Sichtungen passieren). Sozusagen der heimliche vierte Host.",
+    "origin": "Wird ab Folge #1 immer wieder erwähnt.",
+    "pattern": "poppy",
+    "dedicatedEpisodes": [],
+    "host": "jochen"
+  },
+  "lobberich": {
+    "name": "FC Lobberich-Dick",
+    "emoji": "⚽",
+    "description": "Ein lokaler Fußballverein vom Niederrhein, dessen Name die Hosts dauerhaft amüsiert. Es gibt Merch (Lobberich-Dick-Hoodies & T-Shirts) und regelmäßige Spielbericht-Updates – inklusive einem epischen Spielabbruch, bei dem der Gegner mit zu wenig Spielern antrat, das Spiel abbrach und so 100 € Strafe an den Verband sparte (Wertung 2:0 für Lobberich).",
+    "origin": "Erste Erwähnung um Folge #130.",
+    "pattern": "lobberich",
+    "dedicatedEpisodes": [],
+    "host": "georg"
+  },
+  "kaercher": {
+    "name": "Der Kimmen-Kärcher",
+    "emoji": "🚿",
+    "description": "Eine offenbar wahre Geschichte aus dem Bekanntenkreis um einen Hochdruckreiniger und sehr persönliche Hygiene. Der 'Kimmen-Kärcher' hat eine eigene Folge und kehrt später als 'Return of the Kärcher-Gang' (#307) zurück.",
+    "origin": "Eigene Folge #33 'Der Kimmen-Kärcher', Rückkehr in #307.",
+    "pattern": "k(ä|ae)rcher",
+    "dedicatedEpisodes": [33, 307],
+    "host": "georg"
+  },
+  "tiefkuehlpommes": {
+    "name": "Tiefkühlpommes in der Mikrowelle",
+    "emoji": "🍟",
+    "description": "Etienne hat einmal allen Ernstes versucht, Tiefkühlpommes in der Mikrowelle zuzubereiten. Diese eine Tat hat solche Schmach hervorgerufen, dass sie in den offiziellen Intro-Jingle aufgenommen wurde: 'Du hast nicht ernsthaft versucht, Tiefkühlpommes in der Mikrowelle zu machen.' Der Wiki-Stat-Counter 'Pommes' geht zu wesentlichen Teilen darauf zurück.",
+    "origin": "Die ursprüngliche Tat liegt im Dunkeln, aber das Intro begleitet die Hörer seitdem.",
+    "pattern": "tiefk(ü|ue)hl[\\s-]?pommes",
+    "dedicatedEpisodes": [],
+    "host": "etienne"
+  }
+}

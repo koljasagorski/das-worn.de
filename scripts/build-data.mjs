@@ -10,6 +10,7 @@ const TRANSCRIPT_DIR = join(ROOT, "transscript");
 const DATA_DIR = join(ROOT, "data");
 const OUT_FILE = join(DATA_DIR, "episodes.json");
 const OVERRIDES_FILE = join(DATA_DIR, "raetsel-overrides.json");
+const GAGS_FILE = join(DATA_DIR, "running-gags.json");
 
 // Stop words for top-word extraction (German + casual filler words)
 const STOP_WORDS = new Set([
@@ -236,6 +237,23 @@ async function main() {
     console.log(`  ${Object.keys(overrides).length} manuelle Overrides geladen.`);
   }
 
+  // Load running gags definitions
+  let gagDefs = {};
+  if (existsSync(GAGS_FILE)) {
+    gagDefs = JSON.parse(readFileSync(GAGS_FILE, "utf-8"));
+  }
+  // Pre-compile gag patterns
+  const gagPatterns = {};
+  for (const [key, gag] of Object.entries(gagDefs)) {
+    if (key.startsWith("_") || !gag.pattern) continue;
+    gagPatterns[key] = new RegExp(gag.pattern, "i");
+  }
+  // Per-gag accumulator: { episodes: [{number, title}], totalMentions: N }
+  const gagStats = {};
+  for (const key of Object.keys(gagPatterns)) {
+    gagStats[key] = { episodes: [], totalMentions: 0 };
+  }
+
   const episodes = [];
   let parseFailures = 0;
 
@@ -259,6 +277,22 @@ async function main() {
     const heuristicW = heuristicWinner(raetsel.excerpt);
     const top = topWords(cleaned, 15);
     const fun = funCounts(cleaned);
+
+    // Tally running-gag mentions for this episode
+    const gagsInEp = [];
+    for (const [key, re] of Object.entries(gagPatterns)) {
+      const globalRe = new RegExp(re.source, "gi");
+      const matches = cleaned.match(globalRe);
+      if (matches && matches.length) {
+        gagStats[key].totalMentions += matches.length;
+        gagStats[key].episodes.push({
+          number: parsed.number,
+          title: parsed.title,
+          mentions: matches.length,
+        });
+        gagsInEp.push(key);
+      }
+    }
 
     // Take a teaser: first 2-3 sentences
     const teaser = sentences.slice(0, 3).join(" ").slice(0, 400);
@@ -292,10 +326,16 @@ async function main() {
       },
       topWords: top,
       funCounts: fun,
+      gags: gagsInEp,
     });
   }
 
   episodes.sort((a, b) => a.number - b.number);
+
+  // Sort gag episode lists by number ascending
+  for (const k of Object.keys(gagStats)) {
+    gagStats[k].episodes.sort((a, b) => a.number - b.number);
+  }
 
   // Compute aggregate stats
   const totalWords = episodes.reduce((s, e) => s + e.wordCount, 0);
@@ -394,16 +434,31 @@ async function main() {
     raetselSkipped: e.raetsel.skipped,
   }));
 
+  // Merge gag definitions with extracted stats
+  const gagsOut = {};
+  for (const [key, def] of Object.entries(gagDefs)) {
+    if (key.startsWith("_")) continue;
+    gagsOut[key] = {
+      ...def,
+      key,
+      episodeCount: gagStats[key]?.episodes.length || 0,
+      totalMentions: gagStats[key]?.totalMentions || 0,
+      episodes: gagStats[key]?.episodes || [],
+    };
+  }
+
   // Write episodes index + full data
   await writeFile(join(DATA_DIR, "episodes-slim.json"), JSON.stringify(slim, null, 0));
   await writeFile(join(DATA_DIR, "episodes.json"), JSON.stringify(episodes, null, 0));
   await writeFile(join(DATA_DIR, "stats.json"), JSON.stringify(stats, null, 2));
+  await writeFile(join(DATA_DIR, "gags-resolved.json"), JSON.stringify(gagsOut, null, 2));
 
   console.log(`\n✓ Verarbeitet: ${episodes.length} Folgen`);
   console.log(`  Parse-Fehler: ${parseFailures}`);
   console.log(`  Gesamtwörter: ${totalWords.toLocaleString("de-DE")}`);
   console.log(`  Geschätzte Hörzeit: ~${stats.estimatedHours}h`);
   console.log(`  Rätsel-Sieger (heuristisch): Etienne=${winners.etienne}, Jochen=${winners.jochen}, Georg=${winners.georg}, unbekannt=${winners.unknown}`);
+  console.log(`  Running Gags: ${Object.values(gagsOut).map(g => `${g.name}=${g.episodeCount}`).join(", ")}`);
   console.log(`  Daten geschrieben nach data/`);
 }
 

@@ -25,9 +25,104 @@ const HOST_INFO = {
 };
 
 // ─────────────────────────────────────────────────────────────
+// Running Gags / Lore
+// ─────────────────────────────────────────────────────────────
+export function renderLoreIndex({ gags }) {
+  const cards = Object.entries(gags)
+    .sort((a, b) => b[1].episodeCount - a[1].episodeCount)
+    .map(([key, g]) => {
+      const hostBadge = g.host
+        ? html`<span class="host-badge host-${g.host}" style="background:${HOST_INFO[g.host].color}">${HOST_INFO[g.host].name}</span>`
+        : "";
+      return html`
+        <a class="gag-card" href="/lore/${key}">
+          <div class="gag-emoji">${g.emoji || "🎲"}</div>
+          <div class="gag-info">
+            <h3>${g.name}</h3>
+            <p class="gag-desc">${g.description.slice(0, 180)}${g.description.length > 180 ? "…" : ""}</p>
+            <div class="gag-meta">
+              <span class="ep-count">${g.episodeCount} Folgen</span>
+              <span class="mention-count">${g.totalMentions} Erwähnungen</span>
+              ${raw(hostBadge)}
+            </div>
+          </div>
+        </a>
+      `;
+    });
+
+  const body = html`
+    <h1>🎲 Running Gags & Lore</h1>
+    <p>Wiederkehrende Themen, Anekdoten und Insider, die sich durch die Folgen ziehen.</p>
+    <div class="gag-grid">${cards}</div>
+  `;
+  return layout({ title: "Running Gags", body, currentNav: "lore" });
+}
+
+export function renderLoreDetail({ gag, episodes }) {
+  if (!gag) return renderNotFound();
+
+  const hostBadge = gag.host
+    ? html`<span class="host-badge" style="background:${HOST_INFO[gag.host].color}">eingebracht von ${HOST_INFO[gag.host].name}</span>`
+    : "";
+
+  const dedicatedEpisodesByNum = new Set(gag.dedicatedEpisodes || []);
+  const dedicatedRows = (gag.dedicatedEpisodes || [])
+    .map((num) => {
+      const ep = episodes.find((e) => e.number === num);
+      return ep
+        ? html`<a class="ep-row" href="/folge/${ep.number}"><span class="ep-num">#${ep.number}</span><span class="ep-title">${ep.title}</span><span class="ep-meta">eigene Folge</span></a>`
+        : "";
+    });
+
+  const allRows = (gag.episodes || []).map((ep) => html`
+    <a class="ep-row" href="/folge/${ep.number}">
+      <span class="ep-num">#${ep.number}</span>
+      <span class="ep-title">${ep.title}</span>
+      <span class="ep-meta">${ep.mentions}× erwähnt${dedicatedEpisodesByNum.has(ep.number) ? " · ⭐ eigene Folge" : ""}</span>
+    </a>
+  `);
+
+  const body = html`
+    <p class="back-link"><a href="/lore">← Alle Running Gags</a></p>
+    <div class="gag-detail-header">
+      <div class="gag-emoji-big">${gag.emoji || "🎲"}</div>
+      <div>
+        <h1>${gag.name}</h1>
+        <div class="gag-meta">
+          <span class="badge">${gag.episodeCount} Folgen</span>
+          <span class="badge">${gag.totalMentions} Erwähnungen</span>
+          ${raw(hostBadge)}
+        </div>
+      </div>
+    </div>
+
+    <section class="card-section">
+      <h2>Hintergrund</h2>
+      <p>${gag.description}</p>
+      ${gag.origin ? html`<p class="muted"><strong>Ursprung:</strong> ${gag.origin}</p>` : ""}
+    </section>
+
+    ${dedicatedRows.length ? html`
+      <section class="card-section">
+        <h2>Eigene Folgen zum Thema</h2>
+        <div class="ep-list">${dedicatedRows}</div>
+      </section>
+    ` : ""}
+
+    <section class="card-section">
+      <h2>Alle Folgen mit Erwähnung (${gag.episodes.length})</h2>
+      ${gag.episodes.length
+        ? html`<div class="ep-list">${allRows}</div>`
+        : html`<p class="muted">Keine Erwähnungen gefunden.</p>`}
+    </section>
+  `;
+  return layout({ title: gag.name, body, currentNav: "lore" });
+}
+
+// ─────────────────────────────────────────────────────────────
 // Start page
 // ─────────────────────────────────────────────────────────────
-export function renderHome({ stats, episodes }) {
+export function renderHome({ stats, episodes, gags }) {
   const recent = [...episodes].sort((a, b) => b.number - a.number).slice(0, 6);
   const recentCards = recent
     .map(
@@ -82,6 +177,26 @@ export function renderHome({ stats, episodes }) {
       <div class="card-grid">${raw(recentCards)}</div>
       <p><a class="link-arrow" href="/folgen">Alle ${stats.episodeCount} Folgen ansehen →</a></p>
     </section>
+
+    ${gags ? html`
+      <section>
+        <h2>Running Gags</h2>
+        <p class="muted">Dinge, die sich durch die Folgen ziehen.</p>
+        <div class="gag-strip">
+          ${Object.entries(gags)
+            .sort((a, b) => b[1].episodeCount - a[1].episodeCount)
+            .slice(0, 4)
+            .map(([key, g]) => html`
+              <a class="gag-chip" href="/lore/${key}">
+                <span class="gag-chip-emoji">${g.emoji || "🎲"}</span>
+                <span class="gag-chip-name">${g.name}</span>
+                <span class="gag-chip-meta">${g.episodeCount} Folgen</span>
+              </a>
+            `)}
+        </div>
+        <p><a class="link-arrow" href="/lore">Alle Running Gags →</a></p>
+      </section>
+    ` : ""}
 
     <section class="dual">
       <div>

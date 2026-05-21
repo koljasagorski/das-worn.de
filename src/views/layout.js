@@ -47,6 +47,7 @@ export function layout({ title, body, currentNav = "" }) {
     { href: "/", label: "Start", id: "start" },
     { href: "/folgen", label: "Folgen", id: "folgen" },
     { href: "/raetsel", label: "Rätsel & Punkte", id: "raetsel" },
+    { href: "/lore", label: "Running Gags", id: "lore" },
     { href: "/hosts", label: "Hosts", id: "hosts" },
     { href: "/statistiken", label: "Statistiken", id: "stats" },
     { href: "/random", label: "Random Folge", id: "random" },

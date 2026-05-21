@@ -344,6 +344,60 @@ section { margin: 2rem 0; }
 .fun-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .6rem;
 }
+
+/* ─── Running Gags ────────────────────────────────────────── */
+.gag-strip {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .6rem;
+}
+.gag-chip {
+  display: flex; align-items: center; gap: .6rem;
+  padding: .8rem 1rem;
+  background: var(--bg-elev); border: 1px solid var(--border); border-radius: 10px;
+  text-decoration: none; color: var(--text);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.gag-chip:hover { border-color: var(--accent); color: var(--text); text-decoration: none; transform: translateY(-2px); }
+.gag-chip-emoji { font-size: 1.6rem; }
+.gag-chip-name { font-weight: 600; flex: 1; }
+.gag-chip-meta { color: var(--text-dim); font-size: .8rem; }
+
+.gag-grid {
+  display: grid; grid-template-columns: 1fr;
+  gap: 1rem; margin: 1.5rem 0;
+}
+.gag-card {
+  display: flex; gap: 1.2rem; align-items: flex-start;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px;
+  text-decoration: none; color: var(--text);
+  transition: border-color .15s ease, transform .15s ease;
+}
+.gag-card:hover { border-color: var(--accent); color: var(--text); text-decoration: none; transform: translateY(-2px); }
+.gag-emoji { font-size: 2.4rem; flex-shrink: 0; }
+.gag-info { flex: 1; }
+.gag-info h3 { margin: 0 0 .35rem; color: var(--accent); }
+.gag-desc { color: var(--text-dim); font-size: .92rem; margin-bottom: .6rem; }
+.gag-meta {
+  display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
+  font-size: .8rem; color: var(--text-dim);
+}
+.gag-meta .ep-count { font-weight: 600; color: var(--accent); }
+.host-badge {
+  padding: .15rem .6rem; border-radius: 999px; color: white;
+  font-size: .75rem; font-weight: 600;
+}
+
+.gag-detail-header {
+  display: flex; gap: 1.5rem; align-items: center;
+  background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px;
+  padding: 1.5rem 2rem; margin-bottom: 1.5rem;
+}
+.gag-emoji-big { font-size: 4rem; line-height: 1; }
+.gag-detail-header h1 { margin: 0 0 .5rem; }
+
+.back-link { margin-top: -.5rem; }
+.back-link a { color: var(--text-dim); font-size: .9rem; }
 .fun-tile {
   background: var(--bg-elev); border: 1px solid var(--border); border-radius: 10px;
   padding: 1rem; text-align: center;
