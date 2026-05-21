@@ -1539,6 +1539,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "155": {
+    "winner": "jochen",
+    "question": "Was ließ sich Astronaut Scott Kelly unbemerkt vom Rest der Crew an Bord der ISS liefern?",
+    "answer": "Ein Gorilla-Kostüm, das sein Zwillingsbruder Marc ihm schickte, um die andere Crew zu überraschen.",
+    "skipped": false,
+    "notes": "Etienne sagte fälschlicherweise 'Godzilla' und erkannte an, keinen Punkt zu bekommen. Jochen sagte richtig 'Gorilla'. Am Ende sagt vermutlich Jochen 'Punkt für mich'.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "156": {
     "winner": null,
     "question": "Warum hielt der ehemalige New Yorker Bürgermeister Giuliani kurz nach der Präsidentschaftswahl 2020 eine Pressekonferenz vor dem Garagentor eines Landschaftsgärtnereigebäudes?",
@@ -1589,6 +1599,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "161": {
+    "winner": "jochen",
+    "question": "Wer ist die von Michael Jackson in Smooth Criminal besungene Annie?",
+    "answer": "Eine CPR-Reanimationspuppe (Annie), deren Gesicht nach einer 17-jährigen Frau modelliert wurde. Sie wird als Trainingspuppe verwendet und der medizinische Begriff CPR-Annie ist nach ihr benannt.",
+    "skipped": false,
+    "notes": "Jochen findet die Lösung durch systematisches Raten: 'Ist es so eine medizinische Puppe? Ja.' Etienne zweifelt später an, ob Jochen selbst auf die Lösung gekommen ist oder gegoogelt hat, bestätigt aber, dass Jochen die richtige Antwort gibt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "162": {
     "winner": "jochen",
     "question": "Das Holz des ehemaligen Forschungsschiffes HMS Resolute wird bis heute als was genutzt?",
@@ -1599,14 +1619,254 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "175": {
+  "163": {
     "winner": null,
-    "question": null,
-    "answer": null,
-    "skipped": true,
-    "notes": "Die Folge endet mit der Beantwortung von Hörer-Fragen (Florian, Martin) und einer regulären Verabschiedung. Kein Rätsel von Georg erkennbar.",
+    "question": "Was ist der Paranus-Effekt?",
+    "answer": "In granulären Medien (wie Müsli) wandern die großen Teile nach oben, wenn man die Mischung durchschüttelt – auch Müsli-Effekt genannt.",
+    "skipped": false,
+    "notes": "Patreon-Frage von Harald. Weder Jochen noch Etienne lösten es korrekt. Georg gab die Auflösung, nachdem beide aufgaben.",
     "_auto": true,
     "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "164": {
+    "winner": "jochen",
+    "question": "Der Lebensmittelzusatzstoff E175 ist koscher, Halal und vegan. Unter welchem Namen kennen wir ihn besser?",
+    "answer": "Gold",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "165": {
+    "winner": "etienne",
+    "question": "Wofür hält der Andromeda-Nebel in 2,5 Millionen Lichtjahren Entfernung den Rekord?",
+    "answer": "Das am weitesten entfernte Objekt, das man mit bloßem Auge sehen kann",
+    "skipped": false,
+    "notes": "Etiennes Vermutung war sehr nah dran; Georg bestätigte am Ende explizit mit 'Eddie, Glückwunsch'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "166": {
+    "winner": "georg",
+    "question": "Was sind Scheißtage?",
+    "answer": "Scheißtage waren in Süddeutschland und Österreich unter Knechten und Dienstboten zusätzliche ein bis drei unbezahlte Arbeitstage, die die beanspruchte Zeit für die Verrichtung des Stuhlgangs während der vereinbarten Anstellung ausgleichen sollten.",
+    "skipped": false,
+    "notes": "Georg löst das Rätsel mit der korrekten Vermutung zur kumulierten Zeit auf dem Klo, die von der Arbeitszeit abgezogen wird. Die Auflösung ist explizit bestätigt mit 'Ja, genau das sind die Scheißtage'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "167": {
+    "winner": "etienne",
+    "question": "Welches Land hat die höchste Verbrechensrate der Welt?",
+    "answer": "Vatikanstadt - gemessen an Verbrechen pro Einwohner erreicht es über 1, etwa 20 Mal höher als Deutschland (0,06), weil die wenigen hundert Einwohner gegen 18 Millionen Touristen pro Jahr stehen und besonders Diebstähle und Taschendiebstähle die Statistik aufblähen.",
+    "skipped": false,
+    "notes": "Georg stellt die Frage. Die Antwort 'Vatikan' wird gegeben und bestätigt. Etwas Unsicherheit bei der Speaker-Attribution, aber die Antwort ist eindeutig korrekt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "168": {
+    "winner": "etienne",
+    "question": "Warum empfahlen Ärzte früher das strikte Vermeiden von Alkohol bei der Einnahme von Antibiotika?",
+    "answer": "Um zu verhindern, dass alkoholbetrunkene Patienten durch Hemmungslosigkeit ungeschützten Geschlechtsverkehr haben und bakterielle Geschlechtskrankheiten weitergeben.",
+    "skipped": false,
+    "notes": "Längerer Lösungsprozess mit schrittweisen Hinweisen von Georg über Alkoholwirkung und Geschlechtskrankheiten. Sprecher-Zuordnung teilweise unklar, aber Kontext deutet auf Etienne als Gewinner hin, der die Lösung zu Krankheitsübertragung gab.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "169": {
+    "winner": "etienne",
+    "question": "Was ist die am längsten laufende Fernsehserie der Welt?",
+    "answer": "Das Sandmännchen (seit 1959 ausgestrahlt mit über 20.000 Folgen).",
+    "skipped": false,
+    "notes": "Gewinner basierend auf Reaktionsmuster identifiziert: 'Ah, es ist das Sandmännchen' wird direkt nach Georgs Hint zur Wende-Änderung gesagt. Georg scheint der Fragesteller zu sein, Jochen und Etienne raten. Keine explizite Punkt-Vergabe im Transkript.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "170": {
+    "winner": "jochen",
+    "question": "Was sind Kulturflüchter?",
+    "answer": "Lebewesen (Tiere und Pflanzen), die von Menschen verursachte Umstände und Veränderungen der Kulturlandschaft (Felder, Bauwerke, Staudämme) meiden und in andere Lebensräume flüchten.",
+    "skipped": false,
+    "notes": "Georg bestätigt explizit: 'Ja, Glückwunsch, Jochen' nach Jochens korrekter Antwort.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "171": {
+    "winner": "jochen",
+    "question": "Pablo Picasso wurde im Jahr 1911 verdächtigt, was getan zu haben?",
+    "answer": "Die Mona Lisa aus dem Louvre gestohlen zu haben (Picasso war verdächtig, weil er kurz zuvor zwei aus dem Louvre geklaute Statuen gekauft hatte und über diese Verbindung in Verdacht geriet, war aber unschuldig).",
+    "skipped": false,
+    "notes": "Jochen gibt die explizite korrekte Antwort 'Im Louvre ist es die fucking Mona Lisa' und Georg antwortet mit 'Ja', wodurch die Lösung bestätigt wird.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "172": {
+    "winner": "jochen",
+    "question": "Was ist abgesehen von der Höhe das Besondere am höchsten Baum der Welt?",
+    "answer": "Der genaue Standort des Hyperion-Baums (116m, Küstenmammutbaum im Redwood National Park) wird nicht öffentlich gemacht, um das Wurzelwerk vor Verdichtung durch zu viele Besucher zu schützen.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel; Georg akzeptiert seine Antwort mit 'Ich lasse es gelten' und bestätigt danach mit 'Sehr gut'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "173": {
+    "winner": "jochen",
+    "question": "Warum müssen Interstate-Brücken in den USA eine Durchfahrtshöhe von mindestens 16 Fuß haben?",
+    "answer": "Um interkontinentale Abwehrraketen/Trägerraketen vom Typ Atlas zu transportieren, die das Verteidigungsministerium nach dem russischen Raumfahrtprogramm anforderte.",
+    "skipped": false,
+    "notes": "Jochen erkannte zuerst die korrekte Richtung (Militärfahrzeuge). Obwohl Etienne näher an der vollständigen Antwort (Raketen/Trägerraketen) kam, erhält Jochen den Punkt 'mit drei Augen zugedrückt' für das 'Erfolgserlebnis'. Es gab kurze Diskussionen über die Präzision, aber die Hosts einigen sich darauf, dass Jochen den Punkt erhält.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "174": {
+    "winner": "georg",
+    "question": "Von welchem Gegenstand dürfen die Menschen in Texas maximal nur sechs besitzen?",
+    "answer": "Dildos – in Texas existiert seit 1970 ein Gesetz, das den Besitz von maximal 6 Dildos/Sexspielzeugen begrenzt.",
+    "skipped": false,
+    "notes": "Georg löst das Rätsel zuerst durch die Antwort 'Dildos' und wird explizit mit 'Glückwunsch, Georg' benannt. Jochen stellt das Rätsel.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "175": {
+    "winner": "jochen",
+    "question": "Was sind die Golden Records?",
+    "answer": "Datenplatten mit Bild- und Audiodaten an Bord der 1977 gestarteten Voyager-Raumsonden, die als interstellare Botschaft der Menschheit ins All geschickt wurden.",
+    "skipped": false,
+    "notes": "Jochen löst die Frage mit 'Raumsonden' als Antwort. Georg akzeptiert dies explizit: 'damit hast du den Punkt, Raumsonden'. Zuvor hatte Etienne versucht zu lösen, aber die Antwort war nicht präzise genug.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "176": {
+    "winner": "jochen",
+    "question": "Was besagt die Whatsworth Konstante über YouTube-Videos?",
+    "answer": "Die Watsworth Konstante besagt, dass man die ersten 30% von YouTube-Videos überspringen kann, ohne wichtige Inhalte zu verpassen. Sie ist nach einem Reddit-User namens Watsworth benannt, der 2011 bemerkte, dass er bei How-To-Videos immer das erste Drittel überspring.",
+    "skipped": false,
+    "notes": "Jochen identifizierte das Kernkonzept (Anmoderation/Intro), Georg bestätigte und erklärte dann die vollständige Antwort.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "177": {
+    "winner": "jochen",
+    "question": "Geschäfte in Großbritannien machen im Jahr etwa eine Viertelmilliarde Gewinn mit was?",
+    "answer": "Mit nicht eingelösten Geschenkgutscheinen",
+    "skipped": false,
+    "notes": "Der Rätsel-Löser wird nicht explizit benannt. Die Frage 'Hat es etwas mit Gutscheinen zu tun?' wird gestellt, Georg bestätigt mit 'Ja', und die Antwort 'mit Gutscheinen, die nicht eingetauscht werden' wird gegeben. Georg bestätigt: 'Absolut richtig'. Basierend auf Gesprächsfluss wahrscheinlich Jochen, aber nicht eindeutig.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "178": {
+    "winner": "georg",
+    "question": "Was war die Folge der Kollision zweier Schiffe im Hafen von Halifax am 6. Dezember 1917 bei einer Geschwindigkeit von unter 2 km/h?",
+    "answer": "Die französische Mont Blanc mit Sprengstoff an Bord (Benzol, Schießbaumwolle, Pikrinäure, TNT) explodierte - die größte menschengemachte Explosion der damaligen Zeit mit einer Sprengkraft von etwa 2,9 Kilotonnen TNT-Äquivalent.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Jochen kommt nah dran mit seiner Vermutung, wird aber von Georg korrigiert. Georg erklärt die vollständige Antwort und sagt explizit: 'der Punkt geht natürlich folgerichtig an mich'. Halifax-Explosion von 1917.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "179": {
+    "winner": "georg",
+    "question": "Franklin D. Roosevelt hält mit 3687 den Rekord aller US-Präsidenten - mit was?",
+    "answer": "Mit 3687 Begnadigungen (Pardons), mehr als jeder andere US-Präsident.",
+    "skipped": false,
+    "notes": "Spezialfolge mit 3 Rätseln. Georg gewann die ersten 2 Rätsel (je 1.0 Punkt): dieses Rätsel und das Phone-Numbers-Rätsel mit den Drama Numbers. Jochen und Etienne teilten sich das dritte Rätsel über den britischen Centurion-Panzer-Wasserkocher (je 0.5 Punkte).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "180": {
+    "winner": "jochen",
+    "question": "Was ist eine Dickstrichkette?",
+    "answer": "Der Zebrastreifen – eine Fahrbahnmarkierung mit dicken weißen Strichen.",
+    "skipped": false,
+    "notes": "Etienne gab zuerst eine richtige, aber zu allgemeine Antwort (‚Anordnung von Straßenbemalung, Zebrastreifen'). Der Rätselsteller bestätigte das mit ‚Ja, absolut richtig', aber Jochen erhielt den Punkt für die spezifischere Antwort (‚Dicke weiße Striche'). Es gab Verärgerung von Etienne, da er die Antwort zuerst aufzählte, ohne sie als formale Lösung zu präsentieren.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "181": {
+    "winner": "jochen",
+    "question": "Als am 21. September 1956 zum ersten Mal eine F-11 Tiger abgeschossen wurde, war das weshalb ungewöhnlich?",
+    "answer": "Der Testpilot schoss sein eigenes Flugzeug mit den Bordkanonen ab, indem er in einen steileren Sinkflug überging und dabei die ballistische Flugbahn seiner früheren MG-Salven erneut kreuzte.",
+    "skipped": false,
+    "notes": "Georg bestätigt am Ende explizit: 'Sehr gut, Jochen.' Jochen hatte multiple Vermutungen angestellt und wird für die korrekte Lösung gelobt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "183": {
+    "winner": "jochen",
+    "question": "Warum ist ein 1974 ausgestellter Reisepass für einen Ägypter als der ungewöhnlichste der Welt bekannt?",
+    "answer": "Weil es ein Reisepass für die Mumie des Pharaos Ramses II. war, der für eine Konservierungsreise nach Paris ausgestellt wurde.",
+    "skipped": false,
+    "notes": "Jochen errät systematisch 'sehr lange verstorben', dann 'Mumie', dann 'Ramses'. Georg akzeptiert die Lösung nach anfänglichem Zögern ('Das reicht mir noch nicht'). Expliziter Siegervortrag nicht direkt benannt, aber Konversationsverlauf deutet auf Jochen als Sieger.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "184": {
+    "winner": null,
+    "question": "Was ist der Cocktail-Party-Effekt?",
+    "answer": "Die Fähigkeit des menschlichen Gehirns, Störschallquellen zu unterdrücken und sich auf eine bestimmte Schallquelle zu konzentrieren – man kann auf einer Cocktailparty einem einzelnen Sprecher problemlos zuhören, auch wenn rundherum alle in vergleichbarer Lautstärke reden.",
+    "skipped": false,
+    "notes": "Rätsel wurde nicht gelöst. Etienne und Jochen sind mehrfach nah dran, kommen aber nicht auf die richtige Antwort. Georg löst das Rätsel letztendlich selbst auf, nachdem er ein Hartes Nein zu einer finalen Vermutung gab.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "185": {
+    "winner": "jochen",
+    "question": "Was ist der Apfelsaft-Paragraf?",
+    "answer": "Ein Paragraf, der besagt, dass Kneipen, die alkoholische Getränke anbieten, auch ein alkoholfreies Getränk (z.B. Apfelsaft) anbieten müssen, das nicht teurer als das billigste alkoholhaltige Getränk sein darf.",
+    "skipped": false,
+    "notes": "Jochen behauptet, das Rätsel schon vorher gestellt zu haben, kann dies aber nicht nachweisen. Georg bietet einen extra Punkt als Herausforderung an, wenn Jochen nachweisen könnte, dass das Rätsel in einer früheren Folge gestellt wurde. Dies bleibt ungeklärt. Die Folge hat nur dieses eine Rätsel, danach wechseln sie zu Q&A.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "186": {
+    "winner": "etienne",
+    "question": "Ein deutschstämmiger Spieler der St. Louis Rams bekam von der NFL erstmalig in der Liga-Geschichte die Erlaubnis, was zu tun?",
+    "answer": "Tommy Nütton durfte als erster Spieler ein Umlaut (Ü) in seinem Namen auf dem Trikot tragen.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel durch die Erkenntnis mit Umlauten und formuliert korrekt: 'Er hatte die Erlaubnis, als erster ein Umaut in seinem Namen auf den Trikot zu führen.' Georg bestätigt und erläutert die vollständige Geschichte zu Tommy Nütton.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "187": {
+    "winner": "etienne",
+    "question": "Warum flutete Rosemary Harding einen Teil ihrer Farm in Wimpstone, Warwickshire, England?",
+    "answer": "Die Farm war Drehort der Kinder-TV-Serie Teletubbies, und ungebetene Fans kletterten über Zäune und wanderten übers Weideland für Fotos, weshalb sie die Farm flutete.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "188": {
+    "winner": "jochen",
+    "question": "Wie stellte Christian VI. von Dänemark sicher, dass Schiffe, die den Öresund durchfuhren, den korrekten Wert ihrer Ladung angaben?",
+    "answer": "Der König behielt sich das Recht vor, die Ware zum angegebenen Preis aufzukaufen.",
+    "skipped": false,
+    "notes": "Halber Punkt geteilt mit Etienne. Jochen war näher an der Lösung mit seiner Vermutung, dass der König einen Teil der Ware garantiert abnehmen würde.",
+    "_auto": true,
+    "_confidence": "medium",
     "_model": "claude-haiku-4-5-20251001"
   },
   "200": {
