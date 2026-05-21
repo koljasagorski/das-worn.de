@@ -2129,12 +2129,42 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "214": {
+    "winner": "etienne",
+    "question": "Für welchen Rekord ist der saudische Mann Khalid Binmosen Shari bekannt?",
+    "answer": "Den größten Gewichtsverlust eines Menschen mit 542 Kilogramm (von 610 kg auf 68 kg).",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "216": {
     "winner": "jochen",
     "question": "Was ist das Besondere an den sechs Brücken in der Stadt Spijkernisse in den Niederlanden?",
     "answer": "Die Brücken sind Nachbauten der fiktiven Brücken, die auf den Euroscheinen abgebildet sind.",
     "skipped": false,
     "notes": "Georg stellte die Frage (von Hörer Felix). Nach langem Ratespiel löst Jochen mit der Idee der Geldscheine, Georg bestätigt mit 'Das war ein Volltreffer, ey'. Etienne erklärt anschließend die vollständige Lösung.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "217": {
+    "winner": "jochen",
+    "question": "Was ist die Fick-Formel?",
+    "answer": "Eine Formel von Adolf Fick zur Berechnung des Herzminutenvolumens (die Menge Blut, die das Herz pro Minute pumpt).",
+    "skipped": false,
+    "notes": "Jochen löst die Frage auf und erhält 85% des Punktes. Etienne bekommt 15-20% Anteil, da er mit Hinweisen unterstützte. Fraktionaler Punkt anerkannt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "218": {
+    "winner": null,
+    "question": "Wer ist Mr. Irrelevant?",
+    "answer": "Der letzte Spieler, der pro Jahr im NFL Draft ausgewählt wird (seit 1976).",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Jochen kommt sehr nah heran ('der letzte Spieler, den jemand wollte, also der letzte, der gepickt wird'), erhält aber von Georg die Antwort 'Verdammt nah dran, aber falsch'. Georg offenbart die Lösung schließlich selbst, ohne dass jemand exakt richtig antwortet.",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
