@@ -2849,6 +2849,26 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "287": {
+    "winner": "jochen",
+    "question": "Um eine Beschädigung ihrer Fahrräder beim Transport zu verhindern, machte ein niederländischer Fahrradhersteller was?",
+    "answer": "Der Hersteller druckte ein Fernseher-Bild auf die Transportbox, damit Versandarbeiter vorsichtiger damit umgehen. Die Beschädigungen sanken dadurch um 70%.",
+    "skipped": false,
+    "notes": "Jochen löst mit 'Es ist ein Fernseher, ein LED-Fernseher, ein Flachbildschirm.' Georg bestätigt sofort mit 'Richtig, ein Schls Screen TV ist es.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "288": {
+    "winner": "jochen",
+    "question": "Was passiert in jedem amerikanischen Baseballspiel zur gleichen Zeit seit über 100 Jahren?",
+    "answer": "Der Seven Inning Stretch / Lucky Seven: eine Choreografie, bei der alle Zuschauer sich in der Hälfte des siebten Innings erheben und gemeinsam 'Take Me out to the Ball Game' singen.",
+    "skipped": false,
+    "notes": "Jochen war der erste, der die richtige Richtung erkannte, indem er fragte: 'Aber geht es um eine bestimmte Choreografie, die immer zur gleichen Zeit das Publikum macht?' Georg bestätigte sofort mit 'Ja'. Georg (Rätsellsteller) gab anschließend die vollständige Erklärung mit allen Details.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "289": {
     "winner": "etienne",
     "question": "Wodurch schrieb Dan Jensen in einem Spiel der Toronto Bluejays gegen die Boston Red Sox Geschichte?",
