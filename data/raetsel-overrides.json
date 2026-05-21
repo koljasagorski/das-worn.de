@@ -2519,6 +2519,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "253": {
+    "winner": "jochen",
+    "question": "Was ist das Besondere am Anna Tower Projekt?",
+    "answer": "Ein Turm, der von einem im Weltall eingefangenen Asteroiden in geostationärer Umlaufbahn aus wie eine Brücke nach unten hängt und Manhattans Atmosphäre erreicht",
+    "skipped": false,
+    "notes": "Jochen errät den fliegenden Turm relativ schnell, da er das Projekt bereits kennt; Etienne zeigt sich überrascht.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "254": {
     "winner": "jochen",
     "question": "Was ist die Besonderheit der Landebahn 10 des Savannah Hilton Head International Airport?",
@@ -2629,6 +2639,26 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "265": {
+    "winner": "etienne",
+    "question": "Was macht man mit einem Nippelspanner?",
+    "answer": "Mit einem Nippelspanner spannt man die Speichennippel von Fahrrad- oder Motorradrädern.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "266": {
+    "winner": "jochen",
+    "question": "Was misst man auf der Bristol Skala?",
+    "answer": "Die Konsistenz und Form des Stuhls / Stuhl",
+    "skipped": false,
+    "notes": "Jochen antwortete 'Stuhl'. Georg bestätigt 'Richtig', merkt aber an, dass 'Konsistenz des Stuhls' die präzisere Antwort wäre. Es gibt Diskussion über die Fairness ('unverdient'). Vermutlich Halbpunkt oder 50-50 Chance, wie auch gesagt wird.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "267": {
     "winner": "jochen",
     "question": "Warum änderte der philippinische Diktator Ferdinand Marcos in den 80er Jahren die Grenzen der Provinz Kalinga?",
@@ -2639,12 +2669,192 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "275": {
+  "268": {
+    "winner": "etienne",
+    "question": "Warum ging ein Mann, der sich auf Colorados höchstem Berg verirrt hatte, nicht ans Telefon, als Bergretter versuchten, ihn zu erreichen?",
+    "answer": "Er beantwortete die Anrufe nicht, weil sie von einer unbekannten Nummer kamen und er dachte, es wären Spam-Anrufe, nicht wissend, dass es der Rettungsdienst war.",
+    "skipped": false,
+    "notes": "Die richtige Antwort (unbekannte Nummer) wurde identifiziert und bestätigt. Am Ende bietet Etienne an: 'wir kriegen jeder einen Punkt', was auf einen Punkttausch hinweist. Die genaue Punktverteilung ist unklar, da mehrere Hosts zur Lösung beigetragen haben.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "269": {
+    "winner": "jochen",
+    "question": "Warum nahm Indien nicht an der Fußball-WM 1950 teil?",
+    "answer": "Weil die FIFA das Fußballspielen ohne Schuhe verboten hatte und Indien barfuß spielen wollte. Weitere Gründe waren finanzielle Belastung und die lange Reise.",
+    "skipped": false,
+    "notes": "Georg bestätigt Jochens Antwort 'Die wollten barfuß spielen' explizit als '100-prozentig richtig'. Es wird jedoch erwähnt, dass es sich teilweise um Urban Legend handelt und es mehrere Begründungen gab.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "270": {
+    "winner": "etienne",
+    "question": "Was ist der holländische Griff?",
+    "answer": "Ein Griff, bei dem man mit der rechten Hand (Fahrerseite) oder linken Hand (Beifahrerseite) die Autotür öffnet, um sich zum Schulterblick zu zwingen und Fahrradfahrer nicht durch die aufgehende Tür zu gefährden (Dooring-Unfälle vermeiden).",
+    "skipped": false,
+    "notes": "Jochen trug zum Lösungsweg bei (erkannte Verbindung zu Fahrradfahrer-Sicherheit), aber Etienne/Eddie gab die vollständige korrekte Antwort mit der Erklärung des Schulterblich-Mechanismus. Georg bestätigt explizit: 'Das ist es. Völlig richtig gesagt... Jetzt gratuliere ich.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "271": {
     "winner": null,
-    "question": null,
-    "answer": null,
-    "skipped": true,
-    "notes": "Die Folge endet mit Diskussionen über Terrassenprojekt und Bohrmaschinen-Ausstattung, gefolgt vom Standard-Outro. Kein klassisches Rätsel mit Frage und Lösung vorhanden.",
+    "question": "Was ist das Besondere an Burj Al Babas?",
+    "answer": "Eine Geisterstadt in der Türkei mit etwa 400-587 identischen Villen im Disney-Schloss-Stil, völlig leer und verlassen nach Insolvenz der Investorengruppe 2019.",
+    "skipped": false,
+    "notes": "Rätsel wurde nicht gelöst. Etienne und Jochen stellten viele Fragen (Märchen, Western, Mittelalter), kamen aber nicht zur korrekten Lösung. Georg löste es am Ende selbst auf.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "272": {
+    "winner": "etienne",
+    "question": "Zwischen 2002 und 2012 wurden auf den Philippinen mindestens sechs Menschen getötet, nachdem sie was getan hatten – was ist mit den sogenannten 'My Way Killings' gemeint?",
+    "answer": "Die Opfer sangen das Lied 'My Way' von Frank Sinatra in Karaoke-Bars, woraufhin sie von anderen Gästen ermordet wurden.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Etienne nennt zuerst 'My Way' und 'Ein Song von Frank Sinatra' als Lösung. Jochen spricht die vollständige Antwort aus. Georg bestätigt mit 'Mein Respekt hast du, Eddie' gegenüber Etienne.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "273": {
+    "winner": "etienne",
+    "question": "1991 musste NBA-Profi Lionel Simmons zwei Spiele verletzt aussetzen – wie zog er sich die Verletzung zu?",
+    "answer": "Sehnenentzündung im rechten Handgelenk und Unterarm vom Game Boy spielen im Hotelzimmer",
+    "skipped": false,
+    "notes": "Etienne identifizierte 'Game Boy' als Lösung mit den Worten 'Game Boy. Das ist die Lösung.' – dies ist die korrekte Antwort. Georg bestätigte dies später mit der Auflösung, dass Lionel Simmons sich beim Gameboy spielen eine Sehnenentzündung zugezogen hatte. Es wurde jedoch keine explizite Punktvergabe ausgesprochen.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "274": {
+    "winner": "jochen",
+    "question": "Warum wurden amerikanische Soldaten während des Zweiten Weltkriegs angehalten, Passwörter zu benutzen und Losungen, in denen der Buchstabe L vorkommt?",
+    "answer": "Weil japanische Soldaten Schwierigkeiten haben, den Laut 'L' auszusprechen und ihn stattdessen wie ein rollendes R aussprechen. Ein bekanntes Passwort war 'Lolaalusa', das Japaner als 'Rora Pala' aussprechen würden.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit der korrekten Antwort zum Japan-L/R-Vertauschungsklischee. Georg bestätigt explizit: 'Das ist vollkommen richtig. Das ist die richtige Antwort.' Zusätzliche historische Beispiele erwähnt: Holländer verwendeten 'Scheveningen' gegen Deutsche, Amerikaner 'Humor' gegen Deutsche.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "275": {
+    "winner": "georg",
+    "question": "Was erfand der Regisseur und Autor Fritz Lang 1929 mit seinem Stummfilm Frau im Mond?",
+    "answer": "Der Countdown - die Rückwärtszählung vor einem Raketenstart als dramaturgisches Element.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "276": {
+    "winner": "jochen",
+    "question": "Was ist das Besondere an Turritopsis dohrnii?",
+    "answer": "Das Tier ist biologisch unsterblich und kann potenziell unendlich alt werden, da es sich unter bestimmten Umständen zu einer genetisch identischen, sexuell unreifen Lebensform zurückentwickeln kann.",
+    "skipped": false,
+    "notes": "Gewinner nicht explizit beim Namen genannt im Transkript; Jochen scheint Löser zu sein basierend auf intensivem Fragen-Muster und Dialog-Fluss. Jemand sagt 'Alle Ja, ich nehme den Sieg an' und Georg reagiert mit 'es ärgert mich schon ein bisschen, dass du es rausgefunden hast', was auf Jochen hindeutet.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "277": {
+    "winner": "etienne",
+    "question": "Warum wurde Roberto Rochas von der FIFA lebenslang gesperrt?",
+    "answer": "Weil er sich als Torwart mit einer Rasierklinge, die er in seinen Handschuhen versteckt hatte, selbst verletzte und damit einen Spielabbruch in einem Weltmeisterschaftsqualifikationsspiel zwischen Brasilien und Chile provozieren wollte.",
+    "skipped": false,
+    "notes": "Etienne sagt 'Eine Rasierklinge' als Teil einer Aufzählung möglicher scharfer Gegenstände. Georg bestätigt unmittelbar, dass das die richtige Lösung ist. Das Rätsel bezieht sich auf ein Weltmeisterschaftsqualifikationsspiel für die WM 1990 zwischen Brasilien und Chile, bei dem Rochas spät im Spiel (0:1 Rückstand) einen Pyrowurf als Anlass nutzte, um sich selbst mit einer in seinem Handschuh versteckten Rasierklinge zu verletzen und dadurch einen Spielabbruch zu provozieren.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "278": {
+    "winner": "jochen",
+    "question": "Was zeichnet die Farbe Pantone 448C aus?",
+    "answer": "Pantone 448C ist eine grünbraun/olivbraune Farbe, die als die hässlichste Farbe der Welt gilt. Sie wird bei Zigarettenpackungen als Pflichtdruck verwendet, um den Konsum zu reduzieren, da Menschen diese Farbe unbewusst negative Reaktionen auslöst.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit der Frage 'Hat es was mit Zigaretten zu tun?' und wird explizit bestätigt ('Das Geld ist richtig'). Georg gibt die vollständige Auflösung: Pantone 448C muss auf Zigarettenpackungen in Ländern wie Australien, Frankreich, Kanada, Belgien, Niederlande und Großbritannien gedruckt werden.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "279": {
+    "winner": "etienne",
+    "question": "Was ist ein Dackelschneider?",
+    "answer": "Ein besonders schmaler Fahrradreifen, etwa 23 mm breit oder bis zu 18 mm breit, ursprünglich in der Hoffnung gedacht, Fahrräder schneller zu machen.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit 'Der Dackelschneider ist ein besonders schmaler Reifen'. Georg bestätigt die Antwort. Jochen kommentiert anschließend, dass der Punkt hätte früher gegeben werden können, was darauf hindeutet, dass er nicht der Sieger ist.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "280": {
+    "winner": "etienne",
+    "question": "Warum gibt es in Boliviens Hauptstadt La Paz nur zwei Feuerwehrfahrzeuge?",
+    "answer": "La Paz liegt auf 3500 Metern Höhe mit sehr dünner Luft und wenig Sauerstoff, weshalb Feuer sich schwerer entzündet und langsamer ausbreitet.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel durch logisches Denken (Sauerstoffmangel in der Höhe). Georg bestätigt explizit: 'So ungern ich dir das sage, Etienne, aber das ist völlig richtig.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "282": {
+    "winner": null,
+    "question": "Welche Eigenschaft von Straftätern kann dazu führen, dass sie bis zu dreimal so lange Strafen bekommen?",
+    "answer": "Unattraktivität – hässliche Menschen bekommen bis zu dreimal längere Strafen als attraktive Täter für die gleiche Straftat.",
+    "skipped": false,
+    "notes": "Rätsel wurde nicht gelöst. Jochen und Etienne gaben mehrere falsche Antworten (Vorsatz, Ausländerstatus, Lügengesicht, etc.). Georg löste am Ende auf. Keiner der Hosts bekam den Punkt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "283": {
+    "winner": null,
+    "question": "Wofür ist die Duke of Wellington Reiterstatue in Glasgow bekannt?",
+    "answer": "Die Statue wird seit den 1980ern regelmäßig von Bürgern mit einem orangenen Verkehrspylon ausgestattet, weswegen die Stadt vergeblich versucht, diesen zu entfernen.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde von Etienne und Jochen nicht gelöst. Sie gaben auf und Georg las die Auflösung vor.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "284": {
+    "winner": null,
+    "question": "Bei welchem Rekord hält Metal Gear Solid 4: Guns of the Patriots?",
+    "answer": "Das Spiel hält den Rekord für die längste Cutscene mit 71 Minuten Länge in der finalen Sequenz.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht gelöst; Georg gab auf und verriet die Antwort selbst. Etienne war mit seiner Vermutung über 'zusammengerechnet längste Zwischensequenzen' sehr nah dran ('Verdammt nah dran, aber falsch'), bekam aber keinen Punkt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "285": {
+    "winner": "jochen",
+    "question": "Was bauen Ferrari und Lamborghini nicht mehr serienmäßig ein?",
+    "answer": "Sie bauen keine manuellen Schaltgetriebe mit Kupplungen mehr, sondern nur noch Automatik.",
+    "skipped": false,
+    "notes": "Jochen sagte 'Es gibt nur noch Automatik' – Georg bestätigte 'Richtig, Jochen'. Etienne hatte mit 'Kupplung' schon einen großen Teil der Lösung gefunden; Georg bot ihm einen halben Punkt an, den Etienne aber ablehnte.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "286": {
+    "winner": "jochen",
+    "question": "Was benötigt ziemlich genau 50.000 Kilokalorien, und was ist der Unterschied zwischen Kilokalorien und Kalorien?",
+    "answer": "Eine Schwangerschaft verbraucht während der Schwangerschaft etwa 50.000 Kilokalorien zusätzlich. Kilokalorien sind 1.000 Kalorien.",
+    "skipped": false,
+    "notes": "Jochen löst es mit 'Die Entwicklung des Kindes / Schwangerschaft'. Etienne bestätigt explizit: 'Richtig. Die Schwangerschaft.' Das Rätsel ist eines der längeren in der Folge mit vielen falschen Versuchen (Kacken, Onanieren, etc.) bevor Jochen die richtige Antwort gibt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "289": {
+    "winner": "etienne",
+    "question": "Wodurch schrieb Dan Jensen in einem Spiel der Toronto Bluejays gegen die Boston Red Sox Geschichte?",
+    "answer": "Er spielte für beide Teams im selben Spiel: Zunächst für die Bluejays am 26. Juni 2024, dann wechselte er während der regenbedingten Spielunterbrechung zu den Red Sox und spielte für diese, als das Spiel im August fortgesetzt wurde.",
+    "skipped": false,
+    "notes": "Etienne löste das Rätsel durch die Antwort 'Er hat für beide Teams im selben Spiel gespielt' und wurde von Georg sofort mit 'Das ist ja geil' bestätigt.",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
