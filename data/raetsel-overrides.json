@@ -1029,6 +1029,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "104": {
+    "winner": "etienne",
+    "question": "Was investierte Pink Floyd-Drummer Nick Mason 1977 für 37.000 Pfund, das heute über 37 Millionen wert ist?",
+    "answer": "Ein Ferrari 250 GTO",
+    "skipped": false,
+    "notes": "Etienne/Eddie guessed Ferrari und erhielt die Bestätigung 'Ja, richtig. Ein Ferrari 250 GTO' von Georg. Exakte Sprecher-Attribution aus dem Transkript nicht vollständig eindeutig.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "106": {
     "winner": "jochen",
     "question": "Was verkaufte Sylvester Stallone für 40 Dollar, nur um es später für 15.000 Dollar zurückzukaufen?",
@@ -1037,6 +1047,16 @@
     "notes": "Georg bestätigt explizit: 'Ja, du hast gelöst.' Jochen hatte die Lösung durch gezieltes Fragen zu Lebewesen und dann konkrete Nennung von 'Hund' herausgefunden. Das Rätsel dauerte relativ lange mit vielen Tipps.",
     "_auto": true,
     "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "107": {
+    "winner": "jochen",
+    "question": "Weshalb war es für Kyle McDonald 2006 besonders, in ein zweistöckiges Haus in Kipling, Saskatchewan einzuziehen?",
+    "answer": "Kyle McDonald erlangte das Haus durch eine Kette von 14 Tauschgeschäften (One Red Paperclip), die mit einer roten Büroklammer begannen.",
+    "skipped": false,
+    "notes": "Streitiges Rätsel. Jochen wollte zuerst mit 'Tauschgeschäft' lösen, war aber nicht dran. Etienne war dran und antwortete falsch (nannte stattdessen Hans im Glück / Gans-Geschichte). Georg erklärt die richtige Antwort (One Red Paperclip Story). Jochen beschwert sich, betrogen worden zu sein. Punkt-Vergabe wird nicht eindeutig geklärt, aber Jochen hatte die richtige Antwort zuerst, deshalb erhält er wahrscheinlich den Punkt.",
+    "_auto": true,
+    "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
   "125": {
