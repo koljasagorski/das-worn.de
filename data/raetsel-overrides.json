@@ -1329,6 +1329,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "134": {
+    "winner": "jochen",
+    "question": "Was ist der Affenindex?",
+    "answer": "Das Verhältnis der Armspannweite zur Körpergröße – ein Maß in verschiedenen Sportarten (Klettersport, Basketball, Schwimmen), das angibt, wie die Spannweite im Vergleich zur Körpergröße ausfällt.",
+    "skipped": false,
+    "notes": "Explizit am Ende gesagt: 'Respekt, Glückwunsch, Jochen, für den Punkt.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "136": {
     "winner": "jochen",
     "question": "Was haben die Pittsburgh Steelers seit 1969 zweimal gemacht?",
@@ -1345,6 +1355,36 @@
     "answer": "Der Wombat kackt würfelförmig – er ist das einzige Tier mit würfelförmigen Exkrementen.",
     "skipped": false,
     "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "139": {
+    "winner": "georg",
+    "question": "Welche besondere Fähigkeit hat der Krallenfrosch?",
+    "answer": "Der Krallenfrosch wurde in den 1940er Jahren als Schwangerschaftstest verwendet – Apotheker injizierten Morgenurrin einer möglicherweise schwangeren Frau einem geschlechtsreifen Krallenfroschweibchen und konnten innerhalb von 18 Stunden das Ergebnis ablesen.",
+    "skipped": false,
+    "notes": "Georg löst das Rätsel durch die Frage zur Schwangerschaft. Jochen hatte das Rätsel zugeschickt bekommen von 'dummer Pinguin'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "140": {
+    "winner": "jochen",
+    "question": "Was ist das Lieblingsgetränk des Fernsehdetektivs Magnum?",
+    "answer": "Altbier / Old Düsseldorf (eine fiktive Marke aus der Serie)",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit 'Alt' / Altbier. Georg bestätigt sofort 'Ja, he trinkt... Altbier trinkt der'. Jochen gab die richtige Antwort nach systematischen Ja/Nein-Fragen.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "141": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Diese Folge enthält explizit kein Rätsel. Etienne erklärt am Anfang: 'weil wir das Rätsel heute weglassen. Deshalb wird die Folge ein bisschen kürzer.' Es ist eine Sonderfolge, da Jochen im Urlaub ist. Am Ende wird nochmal klargestellt: 'wir machen heute auch keine Fragen, keine Antworten. Das lassen wir heute alles weg.' Stattdessen wird eine separate Bonusfolge nur mit Rätseln aufgenommen.",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
