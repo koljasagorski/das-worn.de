@@ -519,12 +519,42 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "53": {
+    "winner": null,
+    "question": "Welche Besonderheit zeichnet den Bordeaux-Brief aus?",
+    "answer": "Der Bordeaux-Brief ist das einzige bekannte Schriftstück, auf dem sowohl die rote als auch die blaue Mauritius-Briefmarke kleben.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde korrekt gelöst (Antwort wurde gegeben: rote und blaue Mauritius-Briefmarken), Georg bestätigte mit 'Richtig', verweigerte aber die Punktvergabe mit 'Für keinen einen Punkt'. Jochen protestierte dagegen und sagte, er würde Etienne einen Punkt geben.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "54": {
+    "winner": "etienne",
+    "question": "Welche gar nicht so ungewöhnliche Eigenschaft wies nach Franklin D. Roosevelt kein weiterer US-Präsident auf?",
+    "answer": "Roosevelt war der letzte US-Präsident, der flüssig mehrere Sprachen beherrschte.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "55": {
     "winner": "georg",
     "question": "Im Januar 1960 schafften ein Schweizer und ein Amerikaner etwas, das erst in diesem Jahr (2019) wieder gelang. Was?",
     "answer": "Sie tauchten in einem U-Boot zum Marianengraben ab und stellten einen Tiefenrekord auf, den erst 2019 Victor Vesovo erneut brach.",
     "skipped": false,
     "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "57": {
+    "winner": "jochen",
+    "question": "Wozu sah sich das Weiße Haus im Jahr 2013 nach einer Unterschriftensammlung von über 34.435 Befürwortern offiziell gezwungen?",
+    "answer": "Sich mit einer Petition von Star Wars Fans zum Bau eines Todessterns auseinanderzusetzen.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel: 'Diese Petition ist natürlich von Star Wars Fans entstanden. Die wollten, dass ein Todesstern gebaut wird.' Georg bestätigt: 'Das ist richtig.' Georg gratuliert danach: 'Ja, räme dich nicht, Jochen, das passiert... diesmal hast du echt.' Offizielle Antwort des Weißen Hauses besagte unter anderem: Warum ein Todesstern bauen, wenn er von einem Ein-Mann-Raumschiff zerstört werden kann?",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
