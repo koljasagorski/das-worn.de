@@ -3049,6 +3049,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "306": {
+    "winner": "jochen",
+    "question": "Welche Besonderheit zeichnet das Estadio Milton Dias Korrea in Brasilien aus?",
+    "answer": "Der Äquator verläuft durch die Mittellinie des Stadions, sodass die Mannschaften beim Seitenwechsel die Hemisphäre wechseln.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "307": {
     "winner": "etienne",
     "question": "Was ist ein Scheißtag?",
@@ -3119,6 +3129,16 @@
     "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "314": {
+    "winner": "etienne",
+    "question": "Was sind Modalfilter?",
+    "answer": "Bauliche Sperrvorrichtungen (Pöller, Betonpfosten) zur Filterung von Fahrzeugen nach Breite oder Gewicht, um beispielsweise Brückenschäden zu verhindern.",
+    "skipped": false,
+    "notes": "Etienne gab die Antwort mit mehreren fehlerhaften Details. Georg kritisierte dies stark, ließ das Kernkonzept aber letztendlich gelten mit 'Ich lass das mal gelten'. Etienne behielt seinen Punkt trotz der Kritik.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "315": {
     "winner": "etienne",
     "question": "Was war ungewöhnlich an FDC Willard, der in den 70er Jahren zwei Arbeiten zum Thema Tieftemperatur veröffentlichte?",
@@ -3129,12 +3149,242 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "325": {
+  "316": {
+    "winner": "jochen",
+    "question": "Wozu dient der Penistest?",
+    "answer": "Zur Feststellung von Übergewicht bei Männern, wenn die Penisspitze von oben nicht mehr sichtbar ist.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Jochen löst es und wird von Georg explizit mit '100% richtig, Jochen' bestätigt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "317": {
+    "winner": "etienne",
+    "question": "Was ist Heterochromie?",
+    "answer": "Heterochromie ist die unterschiedliche Färbung der Augen (Iris-Heterochromie), verursacht durch eine Pigmentstörung der Iris, die bei Menschen und Tieren wie Huskys vorkommt.",
+    "skipped": false,
+    "notes": "Etienne wird von Georg explizit als Sieger benannt: 'habe quasi den entscheidenden Tipp gegeben, dem lieben Etienne', nachdem Etienne die Antwort 'unterschiedliche Augenfarben' gegeben hatte.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "318": {
+    "winner": "etienne",
+    "question": "Warum stellte Ruth Lee beim Sonnenbaden eine chinesische Flagge neben sich auf?",
+    "answer": "Ruth Lee, eine Frau mit chinesischen Wurzeln, wollte sich nach Japans Angriff auf Pearl Harbor 1941 schützen, indem sie mit der chinesischen Flagge signalisierte, dass sie Chinesin ist und keine Japanerin, um nicht angegriffen zu werden.",
+    "skipped": false,
+    "notes": "Georg bestätigt Etiennes Antwort explizit mit 'Ja, sehr gut'. Etienne kombiniert die Hinweise selbstständig zur korrekten Lösung.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "319": {
+    "winner": "jochen",
+    "question": "1992 forderte der amtierende US-Präsident George Bush Senior den Stab des Weißen Hauses auf, was nicht zu tun?",
+    "answer": "George Bush Senior verbot dem Stab des Weißen Hauses, seinen Hund Ranger zu füttern, weil dieser übergewichtig wurde.",
+    "skipped": false,
+    "notes": "Georg bestätigt explizit 'Glückwunsch Jochen', nachdem Jochen 'Einen Hund sollte man nicht füttern' antwortet. Georg kommentiert anschließend sarkastisch, dies sei 'der unverdienste Punkt in der Geschichte aller Rätsel', da die Rätselmeisterführung verwirrend war, bestätigt aber klar, dass Jochen den Punkt erhält.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "320": {
+    "winner": "etienne",
+    "question": "Seit 1962 hat jeder Schweizer ein Recht auf was?",
+    "answer": "Jeder Schweizer hat das Recht auf einen Bunkerplatz gemäß dem Bundesgesetz über den Bevölkerungs- und Zivilschutz.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel, nachdem er direkt angesprochen wurde ('Etienne, jetzt sag was') und Jochen mehrere fehlgeschlagene Versuche unternommen hatte. Georg bestätigt mit '100% richtig'.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "321": {
+    "winner": "jochen",
+    "question": "Warum kann ein Teilabschnitt der französischen Nationalstraße 148 nur wenige Stunden am Tag befahren werden?",
+    "answer": "Die Straße (Passage du Gois im Westen Frankreichs) wird bei Flut überflutet und liegt dann 2–4 Meter unter dem Meeresspiegel; sie ist nur bei Ebbe nutzbar.",
+    "skipped": false,
+    "notes": "Jochen löst durch die Frage nach den Gezeiten. Georg bestätigt explizit mit 'völlig richtig' und reagiert mit 'Jochen, mach mir Angst', was die richtige Lösung signalisiert.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "322": {
+    "winner": "etienne",
+    "question": "Wer oder was ist der Newcastle Big Boy?",
+    "answer": "Eine der giftigsten australischen Spinnenarten aus der Newcastle-Region in Australien, mit etwa 10cm Durchmesser (inklusive Beine).",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "323": {
+    "winner": "jochen",
+    "question": "Was macht der Chaos-Modus?",
+    "answer": "Der Chaos-Modus ist der Auftaumodus der Gefriertruhe, der chaotische, unterschiedlich starke Impulse sendet, damit Lebensmittel gleichmäßig aufgetaut werden und nicht gekocht werden.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "324": {
     "winner": null,
-    "question": null,
-    "answer": null,
-    "skipped": true,
-    "notes": "Folge endet abrupt ohne Rätsel-Struktur. Die Herr-der-Ringe-Diskussion ist normaler Dialog, nicht ein vom Host gestelltes Rätsel. Keine Frage-Antwort-Winner-Sequenz erkennbar.",
+    "question": "Was hat Britney Gallivan am 27. Januar 2002 erreicht, was keiner vor ihr geschafft hat?",
+    "answer": "Sie hat ein Papier zum zwölften Mal hintereinander gefaltet und damit einen Guinness-Weltrekord aufgestellt.",
+    "skipped": false,
+    "notes": "Rätsel wurde von keinem Rätsler gelöst. Etienne (Rätselsteller) gab die Auflösung selbst, nachdem sowohl Jochen als auch Georg aufgaben.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "325": {
+    "winner": "etienne",
+    "question": "Welches Verhalten von KI-Nutzern kostet laut Sam Altman jährlich zig Millionen Dollar?",
+    "answer": "Sich bedanken – Nutzer danken der KI höflich, was Rechenressourcen verschwendet",
+    "skipped": false,
+    "notes": "Transkription in diesem Bereich schwach; Etienne antwortet mit 'Sich bedanken?', Jochen bestätigt ('Ja, hätte ich auch gesagt'), Georg (Rätselsteller) reagiert humorvoll. Rätsel stammt von Hörer Jonas.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "326": {
+    "winner": "etienne",
+    "question": "Wofür stellte das Bundesinnenministerium in den 70ern 250.000 D-Mark zur Verfügung?",
+    "answer": "Um Forschung zu betreiben, mit der Luft in den Darm von Schwimmern gepumpt wurde, um deren Wasserlage zu verbessern und sie schneller zu machen – als Reaktion auf DDR-Dopingpraktiken.",
+    "skipped": false,
+    "notes": "Etienne gibt die letzte, von Georg akzeptierte Lösung ('Sie haben etwas eingeführt bekommen... einen Luftballon... in den Hintern bekommen, in den Darm'). Georg sagt: 'Es ist nah genug dran, dass ich es gelten lasse.' Das Rätsel war länger, mit vielen Fragen und Tipps. Die exakte historische Lösung wird anschließend erläutert.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "327": {
+    "winner": "etienne",
+    "question": "Warum verübte James Richard Verone im Jahr 2011 einen Bankraub?",
+    "answer": "Er wollte ins Gefängnis gehen, um dort kostenlose medizinische Versorgung zu erhalten, die er sich ohne Krankenversicherung nicht leisten konnte.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "328": {
+    "winner": "jochen",
+    "question": "Die kanadische Stadt St. Paul hat das erste ___ der Welt",
+    "answer": "Einen UFO-Landeplatz",
+    "skipped": false,
+    "notes": "Sprecherzuordnung aus Transkript unklar. Jemand fragte 'Ist es ein UFO-Landeplatz?' und Georg bestätigte 'Ja, richtig'. Jochen wird vermutet basierend auf Dialogmustern (Bezug zu Tabletten/Aggression), aber Etienne ist auch möglich. Rätsel dauerte sehr lange mit vielen Hinweisen.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "329": {
+    "winner": "jochen",
+    "question": "Welchen inoffiziellen Rekord stellte Eric Musambani bei den Olympischen Spielen in Sydney auf?",
+    "answer": "Er schwamm die langsamste je gemessene Zeit in einem olympischen Wettkampf beim 100-Meter-Freestyle (1:52,72) und gewann seinen Lauf, da seine Konkurrenten disqualifiziert wurden.",
+    "skipped": false,
+    "notes": "Georg bestätigt Jochens Lösung explizit: 'Aus dem Nichts die richtige Lösung, Jochen. Alter, das ist doch nicht zu fassen.' Jochen löste es durch logische Deduktion.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "330": {
+    "winner": "etienne",
+    "question": "Welches ungewöhnliche Zubehör gab es im Jahr 1959 für den VW Käfer?",
+    "answer": "Eine Kaffeemaschine der Firma Herr Teller mit 6 und 12 Volt Varianten sowie Keramiktassen mit Metallplatten.",
+    "skipped": false,
+    "notes": "Etienne löste das Rätsel mit der Antwort 'Eine Kaffeemaschine'. Georg bestätigte die Lösung explizit mit 'Herz Lichen Glückwunsch' und gab Details zur Firma Herr Teller.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "331": {
+    "winner": "jochen",
+    "question": "Warum begannen Getreidelieferanten gegen Ende der 30er Jahre in den USA, bunte Blumenmuster auf Futtersäcke zu drucken?",
+    "answer": "Die Säcke wurden mit bunten Mustern bedruckt, damit die Landbevölkerung (vor allem Frauen) diese kaufte und die leeren Säcke danach zu Kleidung, Gardinen, Decken und Bezügen verarbeitete, da Baumwolle während des Krieges nicht zur Verfügung stand.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "332": {
+    "winner": "jochen",
+    "question": "Welche ungewöhnliche Verzierung befindet sich an einem der Türme der Washington National Cathedral?",
+    "answer": "Ein Wasserspeier in Form des Helms von Darth Vader, entworfen vom 13-jährigen Christopher Rader im Rahmen eines Kinder-Design-Wettbewerbs 1984.",
+    "skipped": false,
+    "notes": "Jochen erhielt den Punkt mit 'Darth Vader Helm', nachdem Etienne zuvor 'Star Wars' identifiziert hatte. Sein Sieg wird danach von Georg und Etienne stark kritisiert – sie werfen ihm vor, nicht viel zur Lösung beigetragen zu haben und möglicherweise gegoogelt zu haben.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "333": {
+    "winner": "georg",
+    "question": "Warum klingelte 1994 bei der Polizei Los Angeles das Telefon?",
+    "answer": "Während eines großflächigen Stromausfalls nach einem Erdbeben wurde die Milchstraße über Los Angeles zum ersten Mal sichtbar. Die Einwohner sahen diese riesige silberne Wolke am Himmel und hielten sie für ein unbekanntes Himmelsobjekt, weshalb sie die Notrufzentrale anriefen.",
+    "skipped": false,
+    "notes": "Georg wird explizit benannt: 'Gönne Georg aber den'. Der Rätsel-Halter akzeptiert die Lösung mit leichten Zweifeln und merkt an, dass 'Sterne' die richtige Antwort gewesen wäre.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "334": {
+    "winner": "etienne",
+    "question": "Warum mussten Autofahrer in Schweden am frühen Morgen des 3. September 1967 anhalten?",
+    "answer": "Schweden stellte an diesem Tag von Links- auf Rechtsverkehr um. Um 4:50 Uhr mussten alle Autofahrer anhalten, um dann ab 5:00 Uhr auf der anderen Seite der Straße weiterzufahren.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "335": {
+    "winner": "jochen",
+    "question": "Warum verklagte Spencer Elden die Band Nirvana?",
+    "answer": "Spencer Elden war das Baby auf dem Nevermind-Albumcover und verklagte Nirvana 30 Jahre später mit der Begründung, dass das Cover Pornografie darstelle und ihm lebenslange Schäden zugefügt habe.",
+    "skipped": false,
+    "notes": "Jochen identifizierte korrekt, dass Spencer Elden das Baby vom Albumcover ist, als er fragte: 'Klagt er, weil er das Baby ist oder war?' Georg bestätigte mit 'Ja'. Etienne trug durch die Frage zum Plattencover ebenfalls bei, aber Jochen stellte die entscheidende Vermutung auf.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "337": {
+    "winner": null,
+    "question": "Was war das Besondere an der Fiat-Teststrecke des Werks in Turin?",
+    "answer": "Die Teststrecke befand sich auf dem Dach des Fiat-Werks – ein langes Oval auf dem Dach des Komplexes, das 1923 eröffnet wurde.",
+    "skipped": false,
+    "notes": "Etienne gab die richtige Antwort (Gebäude/Dach), Georg bestätigte 'Ja! Ja!' aber sagte explizit 'Den Punkt kriegst du nicht', da Etienne die Antwort nur durch extensive Tipps und externe Hinweise herausgefunden habe, nicht selbstständig. Der Punkt wurde nicht vergeben. Es gab auch eine Diskrepanz, ob Etienne den Punkt anfechten könnte, die nicht klar aufgelöst wurde.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "340": {
+    "winner": "jochen",
+    "question": "Wofür wurde Konrad Schumann berühmt?",
+    "answer": "Er war der Soldat, der 1961 mit einem Sprung über den Stacheldraht aus der DDR floh (berühmtes Foto 'Sprung in die Freiheit').",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "341": {
+    "winner": "etienne",
+    "question": "Was haben Jean Dupont, Jan Kowalski und Mario Rossi gemeinsam?",
+    "answer": "Sie sind die internationalen Varianten von Max Mustermann/Erika Mustermann – typische Musternamen für Personalausweise in Frankreich, Polen und Italien.",
+    "skipped": false,
+    "notes": "Georg bestätigt Etiennes Antwort explizit mit 'Völlig richtig'. Das Rätsel wurde nach vielen binären Hinweisen gelöst.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "344": {
+    "winner": "jochen",
+    "question": "Warum wurde einer Mieterin im Jahre 1981 fristlos das Mietverhältnis gekündigt?",
+    "answer": "Sie hatte Surströming-Brühe (vergorener schwedischer Fisch) im Treppenhaus verteilt, was einen unerträglichen Gestank verursachte. Das Landgericht Köln hielt die Kündigung 1984 aufrecht.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel, Jochen löst es durch gezieltes Fragen. Georg sagt am Ende explizit: 'Punkt geht an dich, Jochen.' Jochen antwortet: 'Ach, herrlich, endlich wieder ein Punkt.'",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
