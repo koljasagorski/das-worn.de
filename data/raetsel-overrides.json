@@ -289,6 +289,16 @@
     "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "30": {
+    "winner": "etienne",
+    "question": "Warum wurde Charton Athletic Torhüter Sam Bartram bei einem Spiel gegen Chelsea von einem Polizisten vom Platz eskortiert?",
+    "answer": "Das Spiel wurde wegen Nebel abgebrochen, aber der Torhüter bekam das nicht mit und stand etwa 15 Minuten allein auf dem Platz, während die anderen Teams in der Kabine waren.",
+    "skipped": false,
+    "notes": "Etienne sagt 'Nebel' und wird sofort mit der Auflösung bestätigt. Die vollständige Story wird von Georg erzählt, wird aber nicht explizit als Punkt-Vergabe formuliert. Etienne hat die Lösung zuerst korrekt benannt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "31": {
     "winner": null,
     "question": "Warum kollabierte James McAlver, Mitglied der britischen Boyband Rewind, an Bord eines Flugzeugs?",
@@ -307,6 +317,26 @@
     "notes": "Georg stellt das Rätsel. Jochen erhält den Punkt gemäß expliziter Aussage am Ende: 'Und damit hast du es gelöst, nicht schlecht.' Die Auflösung kam durch längere Rätselsitzung mit vielen Fragen zustande.",
     "_auto": true,
     "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "33": {
+    "winner": "etienne",
+    "question": "Warum entschuldigte sich das slowakische Innenministerium für die Verhaftung eines Mannes am Flughafen von Dublin?",
+    "answer": "Slowakische Behörden versteckten in einem Sicherheitstest echten Sprengstoff im Reisegepäck von ahnungslosen Reisenden, dieser wurde nicht entdeckt, der Mann flog damit nach Dublin und wurde verhaftet.",
+    "skipped": false,
+    "notes": "Etienne explizit: 'es ist ja wichtig festzuhalten, dass ich dieses Rätsel im Alleingang gelöst habe. Jochen hat nichts dazu beigetragen.' Er stellte die entscheidenden Fragen zur Lösung.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "34": {
+    "winner": "etienne",
+    "question": "Weshalb trägt Morgan Freeman laut eigenen Angaben goldene Ohrringe?",
+    "answer": "Weil sie genug wert sind, um einen Sarg zu bezahlen, falls er an einem fremden Ort stirbt – eine Seemannstradition zur Finanzierung würdiger Bestattungen.",
+    "skipped": false,
+    "notes": "Etienne näherte sich der Lösung stark an und erkannte das Konzept der finanziellen Bestattungsabsicherung. Georg ergänzte die Seemannstradition als historischen Hintergrund.",
+    "_auto": true,
+    "_confidence": "medium",
     "_model": "claude-haiku-4-5-20251001"
   },
   "35": {
@@ -329,14 +359,174 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "37": {
+    "winner": "jochen",
+    "question": "Warum trat Italien bei den Olympischen Spielen 1920 im Wasserball mit nur einem Spieler gegen die schwedische Mannschaft an?",
+    "answer": "Das Wasser war zu kalt, weshalb die anderen italienischen Spieler nicht spielen wollten. Nur der italienische Kapitän spielte allein gegen Schweden und gab beim Stand von 0:7 auf.",
+    "skipped": false,
+    "notes": "Rätselfrage vom Hörer Holger Böschen (WWE-Kommentator). Lösung durch Teamwork ermittelt; 'Das war zu kalt' war die entscheidende Erkenntnis.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "38": {
+    "winner": "etienne",
+    "question": "Wer verklagte Robert Lee Brooke im Jahr 1995 auf 5 Millionen Dollar Schadensersatz und warum?",
+    "answer": "Robert Lee Brooke verklagte sich selbst. Er begann unter Alkoholeinfluss einen Einbruch, wurde zu 23 Jahren Haft verurteilt und forderte vom Staat Virginia 5 Millionen Dollar, da seine Religionsfreiheit durch die Haft eingebüßt ist und er keinen Unterhalt für seine Familie verdienen kann.",
+    "skipped": false,
+    "notes": "Etienne erkannte den Kern korrekt: 'Er hat sich selbst verklagt'. Die genaue Begründung wurde von Georg offenbart. Implizite Anerkennung am Ende: 'Das finde ich schon mal gut, dass wir den Schritt erraten haben mit dem Selbstvertrag', was auf einen halben oder vollen Punkt hindeutet, aber keine explizite Bestätigung erfolgt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "39": {
+    "winner": "jochen",
+    "question": "Wieso sorgte ein amerikanischer Film aus dem Jahr 1954 dafür, dass die Stadt Rom selbst über eine Million Euro jährlich bekommt?",
+    "answer": "Der Film hat den Brauch populär gemacht, Münzen in die Fontana di Trevi zu werfen, was jährlich etwa 1,4 Millionen Euro einbringt, die an die Caritas gehen.",
+    "skipped": false,
+    "notes": "Jochen gelöst das Rätsel nach langer Phase des Ratens mit der direkten Frage 'Geht es um die Fontana di Trevi?' Georg bestätigt sofort: 'Ja. Smart Motherfucker. Es geht um das Geld, was in den Springbrunnen geworfen wird. Ja. Geil, du hast es.' Der Filmtitel wird nicht explizit genannt, scheint aber auf dem Film zu basieren, der die Fontana di Trevi populär machte.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "40": {
+    "winner": "etienne",
+    "question": "Warum ist Meerschweinchen-Leasing in der Schweiz ein funktionierendes Geschäftsmodell?",
+    "answer": "In der Schweiz dürfen gesellige Tiere wie Meerschweinchen seit einer Tierschutzgesetz-Änderung nicht mehr alleine gehalten werden. Wenn ein Besitzer zwei Meerschweinchen hat und eins stirbt, darf er das andere nicht mehr allein halten – daher leiht er sich ein zweites, um die gesetzliche Regelung einzuhalten.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel nach langer Diskussion korrekt. Georg bestätigt die Lösung explizit. Das Rätsel wird ab der Spielmitte gestellt und nimmt großen Raum ein; verschiedene absurde Hypothesen werden durchdiskutiert, bevor die richtige Antwort kommt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "41": {
+    "winner": "jochen",
+    "question": "Wer oder was sind Pollex und Halux?",
+    "answer": "Pollex und Halux sind die lateinischen Namen für den Daumen und den großen Zeh.",
+    "skipped": false,
+    "notes": "Jochen erkannte zuerst 'Halux ist der dicke Zeh' und erhielt 'Ja' von Georg. Später präsentierte Etienne (Eddie) die vollständige Lösung mit Pollex als Daumen. Könnte als halber Punkt für jeden interpretiert werden, da beide einen wesentlichen Teil beitrugen.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "42": {
+    "winner": null,
+    "question": "Warum lief Hollywood-Regisseur Mel Brooks eine Zeit lang mit sechs Fingern durch die Gegend?",
+    "answer": "Er ließ sich einen künstlichen Finger anbringen und steckte elf Finger in den Zementabdruck beim Man's Chinese Theatre auf dem Hollywood-Boulevard, um sich dort mit sechs Fingern an einer Hand zu verewigen.",
+    "skipped": false,
+    "notes": "Rätsel wurde nicht von den Ratenden gelöst. Georg und Jochen stellten viele Fragen und Hypothesen auf, kamen aber nicht auf die richtige Antwort. Etienne löste sein eigenes Rätsel auf.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "43": {
+    "winner": "jochen",
+    "question": "Auf welche ungewöhnliche Art und Weise erfuhr Donald Cooper von der Schwangerschaft seiner Partnerin?",
+    "answer": "Durch einen Dopingtest: Er gab seinen Urin nicht ab, sondern versehentlich den Urin seiner Partnerin. Dieser wurde positiv auf das Schwangerschaftshormon HCG getestet, und so erfuhr er von ihrer Schwangerschaft.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "44": {
+    "winner": "jochen",
+    "question": "Was versuchte Theo Albrecht im Jahr 1979 erfolglos von der Steuer abzusetzen?",
+    "answer": "Das Lösegeld von sieben Millionen DM aus seiner Entführung 1971",
+    "skipped": false,
+    "notes": "Halber Punkt (half point). Answer explicitly confirmed with 'Richtig'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "45": {
+    "winner": "jochen",
+    "question": "Charlie Sheen zahlte im Jahr 1996 6500 Dollar, um was zu tun?",
+    "answer": "Er kaufte 2615 Tickets im Leftfield des Anheim Stadium, um sicherzustellen, dass er im Falle eines Homeruns der Einzige wäre, der den Ball fangen könnte. Es gab allerdings in dem Spiel gar keinen Homerun.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit der Antwort zu den Baseballtickets. Georg bestätigt mit 'Absolut richtig. Bam.' und erzählt dann die vollständige und unterhaltsame Auflösung inklusive des Jay Leno Witzes.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "46": {
+    "winner": null,
+    "question": "Im September 1869 malte der Astronom Richard Carrington ein Bild. 17 Stunden später staunten viele Menschen über eine unglaubliche Farbenpracht. Warum?",
+    "answer": "Richard Carrington beobachtete einen Sonnensturm (Weißlicht-Flare) und malte die Sonnenflecken auf. Dieser Sonnensturm verursachte das sogenannte Carrington-Ereignis, das weltweit intensive Polarlichter erzeugte, die selbst in der Karibik sichtbar waren.",
+    "skipped": false,
+    "notes": "Rätsel wurde nicht gelöst. Georg und Etienne kamen Polarlichtern nahe, aber weder formulated die komplette Lösung. Jochen musste die Antwort selbst geben. Jochen beschwerte sich danach, dass das Rätsel zu schwierig und unfair gestellt war. Sein erstes Rätsel als Host.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "47": {
+    "winner": "etienne",
+    "question": "Was kostet laut einem Bericht des Institute of Medicine im Jahr 2006 etwa 7000 Menschen pro Jahr in den USA das Leben?",
+    "answer": "Schlechte, unleserliche Handschrift von Ärzten auf Rezepten, die zu Verwechslungen und falscher Medikamentenvergabe in der Apotheke führt.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit der korrekten Antwort zur Handschrift von Ärzten. Georg bestätigt mit '100% richtig' und später explizit 'Glückwunsch, Eddie'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "48": {
+    "winner": "etienne",
+    "question": "Was ist der Tetris-Effekt?",
+    "answer": "Der Tetris-Effekt tritt auf, wenn man so viel Zeit in eine Aktivität steckt, dass diese anfängt, das Denken, bildliche Vorstellungen und Träume zu gestalten, besonders bei Videospielen wie Tetris.",
+    "skipped": false,
+    "notes": "Etienne wird als Sieger bestätigt, als er selbst sagt 'Das dritte, glaube ich, Rätsel in Folge, das ich gelöst habe.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "49": {
+    "winner": null,
+    "question": "Was verbot George Bush Senior im Jahr 1992 dem gesamten Personal des Weißen Hauses?",
+    "answer": "George Bush Senior verbot seinen Mitarbeitern, seinen übergewichtigen Hund Ranger zu füttern, und verlangte einen Schwur sowie Meldung von Verstößen.",
+    "skipped": false,
+    "notes": "Rätsel wurde von Georg gestellt und nach langer Diskussion ohne erfolgreiche Lösung durch Etienne oder Jochen von Georg selbst aufgelöst. Hosts bestätigen: 'Das ist ein sehr gutes Rätsel, wir sind einfach zu doof.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "50": {
     "winner": "etienne",
     "question": "Warum sorgten schneefreie Dächer in der Vergangenheit für ungewollten Polizeibesuch mit juristischem Nachspiel?",
-    "answer": "Illegale Marihuana-Plantagen auf Dächern. Die Wärmelampen zum Anbau produzierten so viel Hitze, dass der Schnee auf den Dächern schmolz, was die Polizei aufgrund von Wärmebildaufnahmen auf die Schliche brachte.",
+    "answer": "Illegale Marihuana-Plantagen auf Dachböden mit starken Wachstums-Lampen produzierten so viel Wärmestrahlung, dass Schnee auf diesen Dächern schmolz, während er auf benachbarten Dächern liegen blieb, wodurch die Plantagen der Polizei auffielen.",
     "skipped": false,
-    "notes": "Etienne stellt zielgerichtete Fragen (Schnee schmilzt, Hitze, Strom), die zur Lösung führen. Georg bestätigt am Ende mit 'Und du hast es gelöst'. Das war eines der kürzesten Rätsel der Folge. Etienne teilt danach einen ähnlichen Fall aus England mit.",
+    "notes": "Georg stellt das Rätsel. Etienne löst es mit 'Marihuana' / 'Plantage oben'. Georg bestätigt explizit: 'Und du hast es gelöst.'",
     "_auto": true,
-    "_confidence": "medium",
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "51": {
+    "winner": "jochen",
+    "question": "Warum ließ Stalin beim Staatsbesuch Maos spezielle Toiletten für diesen aufstellen?",
+    "answer": "Stalin wollte Maos Stuhl analysieren, um mittels Stuhlanalyse psychologische Profile zu erstellen. Die Toiletten leiteten die Ausscheidungen nicht in die Kanalisation, sondern in ein Labor der Geheimdienste.",
+    "skipped": false,
+    "notes": "Jochen löst es mit 'Stuhl untersuchen'. Etienne moderiert das Rätsel und bestätigt klar: 'Ja, genau'. Rätsel wurde von Patreon-Unterstützer L Knuffel eingereicht.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "52": {
+    "winner": "etienne",
+    "question": "Wofür zahlt man in New York bis zu 300.000 Dollar im Jahr?",
+    "answer": "Man braucht eine Lizenz von der Stadt New York, um einen Hotdog-Stand zu betreiben, besonders in der Nähe des Central Parks. Ein Hotdog-Stand-Betreiber auf der Fifth Avenue zahlt beispielsweise 289.500 Dollar pro Jahr.",
+    "skipped": false,
+    "notes": "Georg bestätigt explizit: 'Der Etienne hat da gewonnen'. Jochen war mit 'Hot Dogs' nah dran, aber Etienne hatte die Antwort zuerst mit dem richtigen Kontext.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "55": {
+    "winner": "georg",
+    "question": "Im Januar 1960 schafften ein Schweizer und ein Amerikaner etwas, das erst in diesem Jahr (2019) wieder gelang. Was?",
+    "answer": "Sie tauchten in einem U-Boot zum Marianengraben ab und stellten einen Tiefenrekord auf, den erst 2019 Victor Vesovo erneut brach.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
   "75": {
