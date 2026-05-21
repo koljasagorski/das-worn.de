@@ -3369,6 +3369,26 @@
     "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "338": {
+    "winner": "etienne",
+    "question": "Der schottische Filmschauspieler Michael Sheard hat häufiger als jeder andere Schauspieler welche historische Figur in verschiedenen Filmen gespielt?",
+    "answer": "Adolf Hitler (5 mal in völlig unabhängigen Filmen) und Heinrich Himmler (3 mal), unter anderem in Indiana Jones.",
+    "skipped": false,
+    "notes": "Etienne löste das Rätsel mit der Vermutung 'Er spielt Hitler?' Georg bestätigte mit 'Ja, hast du gut geraten.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "339": {
+    "winner": "etienne",
+    "question": "Warum mussten 2006 im Jugendgefängnis von Theltham alle Schlüssel und Schlösser ausgetauscht werden?",
+    "answer": "Ein Fernsehsender zeigte einen Anstaltsschlüssel in einer Sendung, wodurch das Gefängnis befürchtete, dass jemand einen Ersatzschlüssel anfertigen könnte",
+    "skipped": false,
+    "notes": "Jochen erhält ebenfalls einen Punkt (beide je 1 Punkt nach Entscheidung von Etienne als Schiedsrichter)",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "340": {
     "winner": "jochen",
     "question": "Wofür wurde Konrad Schumann berühmt?",
@@ -3385,6 +3405,16 @@
     "answer": "Sie sind die internationalen Varianten von Max Mustermann/Erika Mustermann – typische Musternamen für Personalausweise in Frankreich, Polen und Italien.",
     "skipped": false,
     "notes": "Georg bestätigt Etiennes Antwort explizit mit 'Völlig richtig'. Das Rätsel wurde nach vielen binären Hinweisen gelöst.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "342": {
+    "winner": "etienne",
+    "question": "Welche ungewöhnliche Eigenschaft haben Operationsleuchten?",
+    "answer": "Sie werfen keinen Schatten.",
+    "skipped": false,
+    "notes": null,
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
@@ -3409,24 +3439,174 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "350": {
+  "345": {
     "winner": "etienne",
-    "question": "Was kam erstmalig im Jahr 1983 für fast 4000 US-Dollar auf den Markt?",
-    "answer": "Das Motorola DynaTAC 8000X - das erste Mobiltelefon mit dem Spitznamen 'The Brick' für etwa $3.995.",
+    "question": "Im gesamten US-Bundesstaat Wyoming gibt es nur zwei was?",
+    "answer": "Rolltreppen (Escalators). Beide befinden sich in Banken in der Stadt Casper.",
     "skipped": false,
-    "notes": "Etienne löst das Rätsel mit 'Handy/Mobiltelefon'. Georg bestätigt explizit die Auflösung mit allen Details (Preis, Gewicht, Spitzname, Modell).",
+    "notes": "Etienne sagt explizit 'Ja, ich nehme den Punkt' und betont, dass er während des Rätsels 'sehr gut gefragt' hat. Die Transkription macht unklar, wer exakt die finale Frage 'Sind es Rolltreppen?' stellte, aber Etiennes Aussage deutet stark darauf hin, dass er die Antwort gab. Georg bestätigt mit 'Ja, ist die richtige Antwort' und erklärt dann die Lösung.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "346": {
+    "winner": "jochen",
+    "question": "Als Strafe für Wilderei wurde ein Mann in Missouri verurteilt – welche ungewöhnliche Strafe bekam er?",
+    "answer": "Er musste mindestens einmal im Monat Disneys Bambi anschauen.",
+    "skipped": false,
+    "notes": null,
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "360": {
-    "winner": null,
-    "question": null,
-    "answer": null,
-    "skipped": true,
-    "notes": "Keine klassisches Rätsel-Format vorhanden. Folge endet mit Diskussion von Listener-Fragen (Papierfrage, Gewürz-im-Restaurant-Frage von Florian) und anschließender Verabschiedung, nicht mit einem Rätsel, das gestellt und gelöst wird.",
+  "347": {
+    "winner": "jochen",
+    "question": "Die neugeborene Intensivstation eines Krankenhauses in London holte sich wessen Hilfe, um die Behandlung von Frühgeburten zu verbessern?",
+    "answer": "Das Ferrari Formel-1-Team (Pit Crew). Zwei Ärzte sahen 2001 einen Pitstop und realisierten, dass diese Prozessoptimierung auf die Frühchenstation übertragbar ist.",
+    "skipped": false,
+    "notes": "Jochen gab die Antwort 'Pitstop', Etienne ließ das gelten. Georg war nah dran mit 'Boxengasse', aber Jochen lieferte die finale korrekte Antwort.",
     "_auto": true,
     "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "348": {
+    "winner": "jochen",
+    "question": "Was ist der Pfeil auf der Tankanzeige eines Autos?",
+    "answer": "Der Pfeil zeigt an, auf welcher Seite des Autos sich der Tankdeckel befindet.",
+    "skipped": false,
+    "notes": "Jochen wird mit 'Das ist jetzt dein fünftes Rätsel in Folge' beglückwünscht und bestätigt dies selbst. Georg offenbarte die Antwort teilweise ('zeigt es an, auf welcher Seite der Tankdeckel ist'), statt dass Jochen sie vollständig selbst nannte. Die genaue Lösungs-Mechanik ist daher unklar, aber der explizite Glückwunsch deutet auf Jochen als Gewinner.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "349": {
+    "winner": "jochen",
+    "question": "Wofür muss eine TikTokerin aus North Carolina 1,75 Millionen US-Dollar zahlen?",
+    "answer": "Sie hatte eine Affäre mit dem verheirateten Manager und wurde von dessen Ehefrau auf Schadensersatz verklagt (Alienation of Affection).",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "350": {
+    "winner": "etienne",
+    "question": "Was kam erstmalig im Jahr 1983 für fast 4000 US-Dollar auf den Markt?",
+    "answer": "Das Motorola DynaTAC 8000X, das erste tragbare Mobiltelefon (spitzname 'The Brick'), mit etwa 2 kg Gewicht und 30 Minuten Akkulaufzeit bei 10 Stunden Ladezeit.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "351": {
+    "winner": "etienne",
+    "question": "Wodurch erlangte Banksy Girl with Balloon unmittelbar nach seiner Versteigerung weltweite Berühmtheit?",
+    "answer": "Das Kunstwerk wurde im Auktionsrahmen automatisch geschreddert/zerstört",
+    "skipped": false,
+    "notes": "Etienne war schneller, aber beide Etienne und Jochen kannten die Antwort. Georg fand es unfair, dass nur einer den Punkt bekommt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "352": {
+    "winner": "jochen",
+    "question": "Im Jahr 1986 lernte Nadine Vaujour Helikopter fliegen, um was zu tun?",
+    "answer": "Um ihren Mann mittels Helikopter aus einem französischen Gefängnis zu befreien, wo dieser noch 28 Jahre für Mord und Bankraub hätte verbringen sollen.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel. Die Flucht war erfolgreich, aber das Paar wurde nach vier Monaten gefasst. Der Mann ist als Ausbrecherkönig in Frankreich bekannt. Dialog ist leicht mehrdeutig, aber 'Es freut mich für dich, Jochen. Endlich mal.' deutet klar auf Jochen als Gewinner hin.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "353": {
+    "winner": "jochen",
+    "question": "Der 80-fache englische Nationalspieler Gary Linneker hat während seiner gesamten Profikarriere niemals... was?",
+    "answer": "Er hat nie eine gelbe Karte (Verwarnung) bekommen.",
+    "skipped": false,
+    "notes": "Jochen sagte zunächst 'Verwarnung', dann 'Gelb'. Es gab eine Diskussion über die genaue Formulierung, ob 'Verwarnung' ausreicht oder ob 'gelbe Karte' gesagt werden muss. Georg gab Jochen schließlich einen halben Punkt für diese Antwort.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "354": {
+    "winner": "etienne",
+    "question": "In Finnland erhält man ein Schwert und einen Zylinder, wenn man was tut.",
+    "answer": "Wenn man einen Doktortitel an der Universität erlangt. Der Zylinder symbolisiert akademische Freiheit, das Schwert die Verteidigung von Wissen, Wahrheit und Wissenschaft.",
+    "skipped": false,
+    "notes": "Jochen stellte die entscheidende Frage 'Hat es was mit dem Doktortitel zu tun?', erhielt aber nicht den Punkt. Etienne erhielt wahrscheinlich den Punkt (basierend auf 'während ich auf der Erfolgswelle surfe'). Transkription teilweise mehrdeutig, aber Aussage 'Jochen ja den Punkt nicht gekriegt' deutet klar an, dass Jochen nicht gewann.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "355": {
+    "winner": "jochen",
+    "question": "Was macht George Clooney laut einem Interview mit Jimmy Kimmel seit vielen Jahren?",
+    "answer": "Er schneidet sich die Haare mit einem Flobie (einem Staubsauger-Haarschneider).",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "356": {
+    "winner": "jochen",
+    "question": "Ein Fahrzeughalter in England erhielt fälschlicherweise einen Strafzettel für das unerlaubte Benutzen einer Busspur – was war passiert?",
+    "answer": "Ein automatisiertes Nummernschild-Erkennungssystem verwechselte den Schriftzug auf dem Sweatshirt einer Passantin mit dem Nummernschild des Fahrzeugs.",
+    "skipped": false,
+    "notes": "Jochen löste das Rätsel durch systematische Fragen und bestätigte selbst: 'Ich habe die meiste Arbeit wieder gemacht durch kluge Fragen.' Georg stellte das Rätsel.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "357": {
+    "winner": null,
+    "question": "Was hat die Band Grateful Dead mit unserem Podcast zu tun?",
+    "answer": "Dave Weiner demonstrierte am 11. Januar 2001 erstmals die Einbettung von Audiodateien in RSS-Feeds mit einem Song von Grateful Dead, was die technologische Grundlage für Podcasts schuf.",
+    "skipped": false,
+    "notes": "Rätsel wurde gestellt und bearbeitet. Nach der Lösung weigerte sich einer der Löser (vermutlich Georg), den Punkt zu akzeptieren, da die weiteren Fragen noch näher zur Antwort hätten führen können. Kein Punkt wurde endgültig vergeben.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "358": {
+    "winner": "georg",
+    "question": "Warum erhielt das Etikett eines großen Ketchupherstellers in der Türkei einen roten Rahmen?",
+    "answer": "Die Rahmenfarbe entspricht der Farbe des Original-Ketchups, sodass Straßenverkäufer und Restaurants die Flaschen nicht mehr unbemerkt mit Billigware auffüllen können.",
+    "skipped": false,
+    "notes": "Langes Rätsel mit mehreren Versuchen. Georg nähert sich sukzessive der Antwort ('Plagiatsicherung'), worauf Etienne mit 'Lasse ich gelten, ja. Das ist es.' antwortet. Danach Diskussion über Punktverteilung ('wer wie viel Prozent'), wodurch unklar bleibt, ob voller oder halber Punkt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "359": {
+    "winner": "etienne",
+    "question": "Was ist das Besondere am Gangar Pensum?",
+    "answer": "Es ist der höchste unbestiegene Berg der Welt.",
+    "skipped": false,
+    "notes": "Etienne löst mit 'höchster nicht bestiegener Berg'. Georg gibt den Punkt mit deutlichem Vorbehalt und zweifelt an, ob die Antwort vollständig korrekt formuliert ist. Vorbehalt-Punkt für Etienne/Eddie.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "360": {
+    "winner": "jochen",
+    "question": "Was ist das Besondere an Touritopsis Dorni?",
+    "answer": "Das Tier ist biologisch unsterblich – es kann sich durch Transdifferenzierung zurück zu einer unreifen Polypenform entwickeln.",
+    "skipped": false,
+    "notes": "Rätsel von Richard eingereicht. Jochen löste es durch die Frage 'Ist das Tier unsterblich?' – bestätigte mit 'Ja, Herzlichen Glückwunsch'. Später stellt sich heraus, dass dies eine Duplikatfrage aus Folge 276 (28.06.2024) ist. Jochen verteidigte seinen Punkt gegen die Kritik des Wiederholungsrätsel.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "361": {
+    "winner": "etienne",
+    "question": "Welchen Rekord hält der Highway 10 in Saudi-Arabien?",
+    "answer": "Das längste gerade Straßenstück der Welt mit etwa 240-250 Kilometern.",
+    "skipped": false,
+    "notes": "Jochen erkannte zuerst, dass ein Straßenteil gerade ist (ohne Kurven). Etienne beanspruchte dann explizit den Punkt mit 'Ich muss mir den Punkt holen' und erhielt Bestätigung. Die Ambiguität entsteht, weil Jochen die Lösung zunächst formulierte, Etienne aber den Punkt aktiv einforderte und zu erhalten schien.",
+    "_auto": true,
+    "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
   "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string)."
