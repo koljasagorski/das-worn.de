@@ -44,9 +44,10 @@ export function renderHome({ stats, episodes }) {
   const winnersTotal = stats.winners.etienne + stats.winners.jochen + stats.winners.georg;
   const body = html`
     <section class="hero">
-      <h1>Der Podcast ohne richtigen Namen</h1>
+      <h1>das worn</h1>
+      <p class="hero-tagline"><strong>W</strong>iki <strong>O</strong>hne <strong>R</strong>ichtigen <strong>N</strong>amen – zum Podcast ohne richtigen Namen.</p>
       <p class="hero-sub">
-        Ein Fan-Wiki über <strong>${stats.episodeCount}</strong> Folgen mit <strong>Etienne</strong>, <strong>Jochen</strong> und <strong>Georg</strong>.
+        Über <strong>${stats.episodeCount}</strong> Folgen mit <strong>Etienne</strong>, <strong>Jochen</strong> und <strong>Georg</strong>.
         Geschätzte Hörzeit: <strong>${stats.estimatedHours} Stunden</strong>.
         ${stats.totalWords.toLocaleString("de-DE")} Wörter Quatsch.
       </p>
@@ -562,7 +563,8 @@ export function renderAbout({ stats }) {
   const body = html`
     <h1>Über dieses Wiki</h1>
     <p>
-      <strong>das-worn.de</strong> ist ein inoffizielles Fan-Wiki rund um den
+      <strong>das worn</strong> steht für <strong>W</strong>iki <strong>O</strong>hne
+      <strong>R</strong>ichtigen <strong>N</strong>amen – eine kleine Hommage an den
       <em>Podcast ohne richtigen Namen</em> mit Etienne Garde, Jochen und Georg.
       Die Inhalte basieren auf den Transkripten der Folgen, die hier maschinell
       ausgewertet wurden.
