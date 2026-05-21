@@ -62,18 +62,18 @@ export function layout({ title, body, currentNav = "" }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${escapeHtml(title)} – das-worn.de</title>
-<meta name="description" content="Inoffizielles Fan-Wiki zum Podcast ohne richtigen Namen mit Etienne Garde, Jochen und Georg.">
+<title>${escapeHtml(title)} – das worn</title>
+<meta name="description" content="das worn: Das Wiki Ohne Richtigen Namen zum Podcast ohne richtigen Namen mit Etienne Garde, Jochen und Georg.">
 <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🎙️</text></svg>">
 </head>
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/">
+    <a class="brand" href="/" title="Das Wiki Ohne Richtigen Namen">
       <span class="brand-emoji">🎙️</span>
-      <span class="brand-text">das-worn.de</span>
-      <span class="brand-sub">Fan-Wiki für den Podcast ohne richtigen Namen</span>
+      <span class="brand-text">das <span class="brand-worn"><span class="acr">W</span><span class="acr">O</span><span class="acr">R</span><span class="acr">N</span></span></span>
+      <span class="brand-sub"><strong>W</strong>iki <strong>O</strong>hne <strong>R</strong>ichtigen <strong>N</strong>amen</span>
     </a>
     <nav class="main-nav">${nav}</nav>
   </div>
@@ -83,7 +83,7 @@ ${bodyStr}
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <p>Inoffizielles Fan-Projekt. Keine Verbindung zum Podcast oder seinen Hosts.</p>
+    <p><strong>das worn</strong> – Wiki Ohne Richtigen Namen. Ein inoffizielles Fan-Projekt. Keine Verbindung zum Podcast oder seinen Hosts.</p>
     <p class="footer-meta">Läuft auf Cloudflare Workers · <a href="/about">Über dieses Wiki</a></p>
   </div>
 </footer>

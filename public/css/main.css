@@ -63,7 +63,10 @@ pre code { background: transparent; padding: 0; }
 .brand:hover { color: var(--accent); text-decoration: none; }
 .brand-emoji { font-size: 1.5rem; }
 .brand-text { font-size: 1.15rem; letter-spacing: -.01em; }
+.brand-worn { color: var(--accent); font-weight: 800; letter-spacing: .02em; }
+.brand-worn .acr { display: inline-block; }
 .brand-sub { color: var(--text-dim); font-weight: 400; font-size: .85rem; }
+.brand-sub strong { color: var(--accent); font-weight: 700; }
 .main-nav { display: flex; gap: .3rem; flex-wrap: wrap; margin-left: auto; }
 .main-nav a {
   color: var(--text-dim); padding: .45rem .75rem; border-radius: 6px;
@@ -87,7 +90,9 @@ section { margin: 2rem 0; }
   text-align: center;
   margin-top: 1rem;
 }
-.hero h1 { background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero h1 { background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: clamp(2.4rem, 5vw, 3.6rem); }
+.hero-tagline { font-size: 1.1rem; color: var(--text); max-width: 700px; margin: 0 auto .6rem; }
+.hero-tagline strong { color: var(--accent); font-weight: 800; }
 .hero-sub { font-size: 1.05rem; color: var(--text-dim); max-width: 700px; margin: 0 auto 1.5rem; }
 .hero-buttons { display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap; }
 .btn {

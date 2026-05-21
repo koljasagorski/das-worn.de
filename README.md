@@ -1,6 +1,6 @@
-# das-worn.de
+# das worn
 
-Inoffizielles Fan-Wiki für den **Podcast ohne richtigen Namen** mit Etienne Garde, Jochen und Georg. Läuft als Cloudflare Worker.
+**W**iki **O**hne **R**ichtigen **N**amen – ein inoffizielles Fan-Wiki zum *Podcast ohne richtigen Namen* mit Etienne Garde, Jochen und Georg. Läuft als Cloudflare Worker auf `das-worn.de`.
 
 ## Was drin ist
 
