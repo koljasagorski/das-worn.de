@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build:data": "node scripts/build-data.mjs",
+    "extract:raetsel": "node scripts/extract-raetsel.mjs",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "start": "wrangler dev"

@@ -201,13 +201,16 @@ export function renderEpisode({ episode, prev, next }) {
       <section class="card-section">
         <h2>🧩 Rätsel</h2>
         ${
-          r.question
+          r.question || r.answer
             ? html`
               <div class="raetsel-card">
-                <h3>Frage</h3>
-                <p>${r.question}</p>
+                ${r.autoExtracted ? html`<div class="auto-banner">
+                  🤖 Automatisch extrahiert mit ${r.model || "LLM"}
+                  ${r.confidence ? html`<span class="conf conf-${r.confidence}">Confidence: ${r.confidence}</span>` : ""}
+                </div>` : ""}
+                ${r.question ? html`<h3>Frage</h3><p>${r.question}</p>` : ""}
                 ${r.answer ? html`<h3>Antwort</h3><p>${r.answer}</p>` : ""}
-                ${r.winner ? html`<p><strong>Punkt für:</strong> ${HOST_INFO[r.winner]?.name || r.winner}</p>` : ""}
+                ${r.winner ? html`<p><strong>Punkt für:</strong> ${HOST_INFO[r.winner]?.name || r.winner}</p>` : html`<p class="muted">Sieger nicht eindeutig zugeordnet.</p>`}
                 ${r.notes ? html`<p class="note">${r.notes}</p>` : ""}
               </div>
             `
@@ -219,7 +222,7 @@ export function renderEpisode({ episode, prev, next }) {
                 <div class="raetsel-excerpt">${r.excerpt}</div>
                 ${r.heuristicWinner
                   ? html`<p class="hint">Heuristik vermutet Sieger: <strong>${HOST_INFO[r.heuristicWinner]?.name || r.heuristicWinner}</strong></p>`
-                  : html`<p class="hint">Heuristik konnte keinen Sieger erkennen. Bitte manuell in <code>data/raetsel-overrides.json</code> nachtragen.</p>`}
+                  : html`<p class="hint">Heuristik konnte keinen Sieger erkennen. Lass das Extraktions-Skript laufen oder trag den Sieger in <code>data/raetsel-overrides.json</code> nach.</p>`}
               </details>
             `
         }
@@ -328,47 +331,91 @@ export function renderRaetsel({ episodes, stats }) {
     })
     .join("");
 
-  // List of episodes where we have winner info
+  // Categorize episodes
   const withWinners = episodes
-    .filter((e) => (e.raetsel.winner || e.raetsel.heuristicWinner) && !e.raetsel.skipped)
-    .sort((a, b) => b.number - a.number);
-  const withWinnerRows = withWinners
-    .slice(0, 100)
-    .map((e) => {
+    .filter((e) => {
+      if (e.raetsel.skipped) return false;
       const w = e.raetsel.winner || e.raetsel.heuristicWinner;
-      return html`
-        <a class="ep-row" href="/folge/${e.number}">
-          <span class="ep-num">#${e.number}</span>
-          <span class="ep-title">${e.title}</span>
-          <span class="winner-tag" style="background:${HOST_INFO[w].color}">${HOST_INFO[w].name}</span>
-        </a>
-      `;
+      if (!w) return false;
+      const isAuto = e.raetsel.autoExtracted;
+      const conf = e.raetsel.confidence;
+      return !isAuto || conf === "high" || conf === "medium";
     })
-    .join("");
+    .sort((a, b) => b.number - a.number);
 
-  const unknownCount = episodes.length - total - episodes.filter((e) => e.raetsel.skipped).length;
+  const lowConfWinners = episodes
+    .filter((e) => !e.raetsel.skipped && e.raetsel.winner && e.raetsel.autoExtracted && e.raetsel.confidence === "low")
+    .sort((a, b) => b.number - a.number);
+
+  const skippedEpisodes = episodes.filter((e) => e.raetsel.skipped).sort((a, b) => b.number - a.number);
+  const unclearEpisodes = episodes.filter((e) => !e.raetsel.skipped && !e.raetsel.winner && !e.raetsel.heuristicWinner).sort((a, b) => b.number - a.number);
+
+  const renderEpisodeRow = (e, withConf = false) => {
+    const w = e.raetsel.winner || e.raetsel.heuristicWinner;
+    const confBadge = withConf && e.raetsel.confidence
+      ? html`<span class="conf conf-${e.raetsel.confidence}">${e.raetsel.confidence}</span>`
+      : "";
+    return html`
+      <a class="ep-row" href="/folge/${e.number}">
+        <span class="ep-num">#${e.number}</span>
+        <span class="ep-title">${e.title}</span>
+        ${confBadge}
+        ${w ? html`<span class="winner-tag" style="background:${HOST_INFO[w].color}">${HOST_INFO[w].name}</span>` : ""}
+      </a>
+    `;
+  };
 
   const body = html`
     <h1>🧩 Rätsel & Punkte</h1>
     <p>
-      Am Ende fast jeder Folge stellt Georg ein Rätsel. Wer es löst, bekommt den Punkt.
-      Diese Seite zeigt die aktuelle Punktetabelle.
+      Fast jede Folge endet (oder hat irgendwo) ein Rätsel. Wer es löst, bekommt den Punkt.
+      Halbe und Viertelpunkte fließen vereinfacht als ganzer Punkt zum jeweiligen Sieger ein.
     </p>
 
     <section>
       <h2>Aktuelle Punktetabelle</h2>
       <div class="leaderboard">${raw(ranked)}</div>
       <p class="muted small">
-        Hinweis: Bisher sind <strong>${total}</strong> Rätsel-Sieger erfasst.
-        ${unknownCount} Folgen sind noch nicht zugeordnet – die werden manuell in
-        <code>data/raetsel-overrides.json</code> nachgepflegt.
+        <strong>${total}</strong> bestätigte Sieger · <strong>${lowConfWinners.length}</strong> mit niedriger Confidence (nicht gewertet) ·
+        <strong>${unclearEpisodes.length}</strong> unklar · <strong>${skippedEpisodes.length}</strong> Folgen ohne Rätsel.
       </p>
     </section>
 
     <section>
-      <h2>Folgen mit erfassten Siegern (neueste zuerst)</h2>
-      ${withWinnerRows ? html`<div class="ep-list">${raw(withWinnerRows)}</div>` : html`<p class="muted">Noch keine Folgen mit erkannten Siegern. Trag sie in <code>data/raetsel-overrides.json</code> nach.</p>`}
+      <h2>Folgen mit Siegern (${withWinners.length})</h2>
+      ${withWinners.length
+        ? html`<div class="ep-list">${withWinners.map((e) => renderEpisodeRow(e, true))}</div>`
+        : html`<p class="muted">Noch keine Folgen mit erkannten Siegern.</p>`}
     </section>
+
+    ${lowConfWinners.length ? html`
+      <section>
+        <h2>Niedrige Confidence (${lowConfWinners.length})</h2>
+        <p class="muted small">Diese Sieger sind unsicher (halbe Punkte, Mehrdeutigkeit, …) und gehen nicht in die Tabelle ein.</p>
+        <div class="ep-list">${lowConfWinners.map((e) => renderEpisodeRow(e, true))}</div>
+      </section>
+    ` : ""}
+
+    ${unclearEpisodes.length ? html`
+      <section>
+        <h2>Unklare Folgen (${unclearEpisodes.length})</h2>
+        <p class="muted small">Hier wurde ein Rätsel erkannt, aber kein eindeutiger Sieger. Manuell in <code>data/raetsel-overrides.json</code> nachtragen.</p>
+        <details>
+          <summary>Liste anzeigen</summary>
+          <div class="ep-list">${unclearEpisodes.slice(0, 60).map((e) => renderEpisodeRow(e, false))}</div>
+        </details>
+      </section>
+    ` : ""}
+
+    ${skippedEpisodes.length ? html`
+      <section>
+        <h2>Folgen ohne Rätsel (${skippedEpisodes.length})</h2>
+        <details>
+          <summary>Liste anzeigen</summary>
+          <div class="ep-list">${skippedEpisodes.slice(0, 60).map((e) => renderEpisodeRow(e, false))}</div>
+        </details>
+      </section>
+    ` : ""}
   `;
   return layout({ title: "Rätsel & Punkte", body, currentNav: "raetsel" });
 }

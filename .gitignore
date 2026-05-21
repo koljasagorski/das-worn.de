@@ -3,5 +3,6 @@ node_modules/
 dist/
 .DS_Store
 *.log
+*.bak
 .env
 .env.local

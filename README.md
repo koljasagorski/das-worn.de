@@ -44,9 +44,31 @@ Vorher: `npx wrangler login` und ggf. `name` in `wrangler.toml` anpassen.
 
 Die Heuristik fängt nur einen Bruchteil der Sieger, weil die Hosts frei sprechen ("Wir werden den im Nachhinein anerkennen, wenn du es wirklich gelöst hast"). Deshalb gibt es manuelle Overrides.
 
-## Rätsel-Sieger nachpflegen
+## Rätsel-Sieger automatisch extrahieren
 
-In `data/raetsel-overrides.json`:
+`scripts/extract-raetsel.mjs` schickt jede Folge an Claude Haiku 4.5 und extrahiert Frage, Antwort und Sieger als JSON. Die Ergebnisse landen in `data/raetsel-overrides.json` mit einem `_auto: true`-Flag und einer `_confidence`-Angabe (`high` | `medium` | `low`).
+
+```bash
+# Pilotlauf auf 15 verteilten Folgen
+node scripts/extract-raetsel.mjs
+
+# Konkrete Folgen
+node scripts/extract-raetsel.mjs 1 50 100
+
+# Alle 361 Folgen (parallel mit 6 Workern, ~30-60 Min, ~$10)
+CONCURRENCY=6 node scripts/extract-raetsel.mjs --all
+
+# Nur fehlende Folgen verarbeiten
+SKIP_DONE=1 node scripts/extract-raetsel.mjs --all
+```
+
+Voraussetzung: `claude` CLI installiert (Cloudflare-Workers-Web-Sessions haben das mit dabei).
+
+Nur Sieger mit `confidence: high` oder `medium` werden in die Punktetabelle gezählt. Low-Confidence-Treffer landen in einem separaten Abschnitt zur manuellen Sichtung.
+
+## Rätsel-Sieger manuell nachpflegen
+
+Direkt in `data/raetsel-overrides.json` für einzelne Folgen:
 
 ```json
 {
@@ -66,10 +88,10 @@ In `data/raetsel-overrides.json`:
 Felder:
 
 - `winner`: `"etienne"`, `"jochen"`, `"georg"` oder `null`.
-- `question`: Wortlaut der Frage (optional).
-- `answer`: Auflösung (optional).
-- `skipped`: `true` wenn die Folge gar kein Rätsel hatte (taucht dann nicht in der Statistik auf).
-- `notes`: Freitext.
+- `question` / `answer`: Wortlaut (optional).
+- `skipped`: `true` wenn die Folge gar kein Rätsel hatte.
+- `notes`: Freitext-Begründung.
+- `_auto` / `_confidence` / `_model`: vom Extraktor gesetzt – beim manuellen Editieren weglassen.
 
 Nach dem Editieren: `npm run build:data` neu laufen lassen.
 

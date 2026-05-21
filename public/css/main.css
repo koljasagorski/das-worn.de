@@ -256,6 +256,19 @@ section { margin: 2rem 0; }
 .raetsel-card h3 { color: var(--accent); margin-top: 1rem; }
 .raetsel-card h3:first-child { margin-top: 0; }
 .raetsel-card .note { color: var(--text-dim); font-style: italic; margin-top: 1rem; }
+.auto-banner {
+  display: inline-flex; align-items: center; gap: .5rem;
+  background: rgba(58,134,255,.12); color: #9bb8ff;
+  border: 1px solid rgba(58,134,255,.3);
+  padding: .3rem .7rem; border-radius: 999px; font-size: .8rem;
+  margin-bottom: .8rem;
+}
+.conf {
+  padding: .15rem .55rem; border-radius: 999px; font-size: .72rem; font-weight: 600;
+}
+.conf-high { background: rgba(42,157,143,.2); color: #6dd5b5; }
+.conf-medium { background: rgba(255,185,56,.2); color: var(--accent); }
+.conf-low { background: rgba(232,90,79,.2); color: #f5a39a; }
 
 .raetsel-auto summary {
   cursor: pointer; padding: .8rem 0; color: var(--text-dim); font-weight: 500;
