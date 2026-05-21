@@ -1,0 +1,20 @@
+{
+  "name": "das-worn-de",
+  "version": "0.1.0",
+  "description": "Fan-Wiki für den Podcast ohne richtigen Namen",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251001.0",
+    "wrangler": "^3.95.0"
+  },
+  "dependencies": {
+    "hono": "^4.6.0"
+  }
+}

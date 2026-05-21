@@ -1,0 +1,265 @@
+{
+  "episodeCount": 361,
+  "totalWords": 5177810,
+  "totalChars": 30359563,
+  "avgWords": 14343,
+  "winners": {
+    "etienne": 1,
+    "jochen": 0,
+    "georg": 1,
+    "unknown": 359
+  },
+  "totalMentions": {
+    "etienne": 3409,
+    "jochen": 6308,
+    "georg": 3767
+  },
+  "topGlobal": [
+    {
+      "word": "diese",
+      "count": 8675
+    },
+    {
+      "word": "jochen",
+      "count": 5337
+    },
+    {
+      "word": "zwei",
+      "count": 4600
+    },
+    {
+      "word": "podcast",
+      "count": 4263
+    },
+    {
+      "word": "dieser",
+      "count": 2307
+    },
+    {
+      "word": "dieses",
+      "count": 2111
+    },
+    {
+      "word": "drei",
+      "count": 2011
+    },
+    {
+      "word": "ahnung",
+      "count": 1953
+    },
+    {
+      "word": "auto",
+      "count": 1860
+    },
+    {
+      "word": "euro",
+      "count": 1827
+    },
+    {
+      "word": "georg",
+      "count": 1760
+    },
+    {
+      "word": "anderen",
+      "count": 1529
+    },
+    {
+      "word": "moment",
+      "count": 1217
+    },
+    {
+      "word": "diesen",
+      "count": 953
+    },
+    {
+      "word": "namen",
+      "count": 945
+    },
+    {
+      "word": "gedacht",
+      "count": 905
+    },
+    {
+      "word": "drauf",
+      "count": 884
+    },
+    {
+      "word": "dran",
+      "count": 841
+    },
+    {
+      "word": "hund",
+      "count": 834
+    },
+    {
+      "word": "gerne",
+      "count": 763
+    },
+    {
+      "word": "andere",
+      "count": 667
+    },
+    {
+      "word": "frau",
+      "count": 585
+    },
+    {
+      "word": "ehrlich",
+      "count": 574
+    },
+    {
+      "word": "geld",
+      "count": 542
+    },
+    {
+      "word": "problem",
+      "count": 540
+    },
+    {
+      "word": "kinder",
+      "count": 514
+    },
+    {
+      "word": "rein",
+      "count": 513
+    },
+    {
+      "word": "geschichte",
+      "count": 510
+    },
+    {
+      "word": "erstmal",
+      "count": 471
+    },
+    {
+      "word": "idee",
+      "count": 466
+    }
+  ],
+  "longest": [
+    {
+      "number": 80,
+      "title": "Parkplatz-Streit",
+      "wordCount": 19469
+    },
+    {
+      "number": 37,
+      "title": "Salmonella Wursthusten",
+      "wordCount": 19028
+    },
+    {
+      "number": 62,
+      "title": "Tumor-Gemetzel",
+      "wordCount": 18303
+    },
+    {
+      "number": 56,
+      "title": "Arzt-Toilette",
+      "wordCount": 18279
+    },
+    {
+      "number": 48,
+      "title": "Falschparker",
+      "wordCount": 18267
+    }
+  ],
+  "shortest": [
+    {
+      "number": 179,
+      "title": "Rätsel-Spezial",
+      "wordCount": 4789
+    },
+    {
+      "number": 142,
+      "title": "Urlaub",
+      "wordCount": 5856
+    },
+    {
+      "number": 61,
+      "title": "Rätsel,Rätsel,Rätsel....",
+      "wordCount": 6967
+    },
+    {
+      "number": 92,
+      "title": "Gruseln in Mölln",
+      "wordCount": 7539
+    },
+    {
+      "number": 141,
+      "title": "Eddi ist der neue Bond",
+      "wordCount": 8849
+    }
+  ],
+  "mostLaughs": [
+    {
+      "number": 64,
+      "title": "Soziale Isolierung",
+      "count": 3
+    },
+    {
+      "number": 21,
+      "title": "Der erste Weihnachtsbaum",
+      "count": 2
+    },
+    {
+      "number": 199,
+      "title": "Blasen ist nicht Saugen",
+      "count": 2
+    },
+    {
+      "number": 13,
+      "title": "Die Geschichte des Jahres",
+      "count": 1
+    },
+    {
+      "number": 14,
+      "title": "Curling",
+      "count": 1
+    }
+  ],
+  "mostQuatsch": [
+    {
+      "number": 234,
+      "title": "Der kleine Zeh",
+      "count": 11
+    },
+    {
+      "number": 63,
+      "title": "Coronavirus leicht erklärt",
+      "count": 10
+    },
+    {
+      "number": 117,
+      "title": "Plastik grillen",
+      "count": 8
+    },
+    {
+      "number": 37,
+      "title": "Salmonella Wursthusten",
+      "count": 7
+    },
+    {
+      "number": 83,
+      "title": "Gelbe Gummibärchen",
+      "count": 7
+    }
+  ],
+  "totalFun": {
+    "haha": 28,
+    "quatsch": 766,
+    "cool": 1406,
+    "geil": 4031,
+    "krass": 892,
+    "digga": 26,
+    "alter": 1732,
+    "scheisse": 3208,
+    "leute": 9345,
+    "tschuess": 863,
+    "podcast": 6122,
+    "pommes": 376,
+    "nettetal": 4,
+    "lobberich": 119,
+    "nordfriese": 2
+  },
+  "estimatedHours": 664
+}
