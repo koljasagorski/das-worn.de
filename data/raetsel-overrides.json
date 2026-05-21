@@ -769,12 +769,42 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "78": {
+    "winner": "etienne",
+    "question": "Was tat ein achtjähriger Junge in der Schweiz, das einen polizeilichen Akteneintrag zur Folge hatte?",
+    "answer": "Er fragte in einem Geschäft, ob er mit Spielgeld (vom Karnevalsumzug) zahlen könne.",
+    "skipped": false,
+    "notes": "Etienne gibt die Lösungsvermutung 'Mit Falschgeldzahlen' und Georg bestätigt sofort. Der Sieger wird nicht explizit benannt, ist aber durch Georgs unmittelbare Bestätigung ableitbar. Es war ein sehr langes Rätsel mit vielen Umwegen.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "79": {
     "winner": "etienne",
     "question": "Wofür stehen die Initialen HM, die Stephen Baldwin auf seine Schulter tätowiert hat?",
     "answer": "HM steht für 'Hannah Montana'. Miley Cyrus versprach Stephen Baldwin einen Gastauftritt in der Disney-Serie Hannah Montana, wenn er sich die Initialen permanent tätowieren lässt. Er ließ sich das Tattoo machen, bekam aber letztendlich keine Rolle in der Serie.",
     "skipped": false,
     "notes": "Etienne löst das Rätsel korrekt, indem er 'Miley Cyrus' und 'Hannah Montana' nennt. Jochen (der Rätselsteller) bestätigt eindeutig: 'Es ist dein Punkt. Das ist dein Punkt, ja.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "80": {
+    "winner": null,
+    "question": "Wofür bekam eine Amerikanerin 10.000 Dollar?",
+    "answer": "Ein Versicherungsunternehmen zahlte ihr 10.000 Dollar, nachdem sie eine versteckte Klausel auf Seite 7 der Nutzungsbedingungen (AGBs) las und diese zitierend beim Unternehmen anforderte.",
+    "skipped": false,
+    "notes": "Jochen kam der Lösung am nächsten, lehnte aber explizit den Punkt ab, da er nur durch sehr starke Hinweise von Etienne (insbesondere zur Klausel in den AGBs) zur Antwort gelangte. Kein eindeutiger Sieger.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "81": {
+    "winner": "georg",
+    "question": "Welche ungewöhnliche Technik wenden E-Mail-Scammer beispielsweise bei der Masche des nigerianischen Prinzen an, um ihre Erfolgsaussichten zu erhöhen?",
+    "answer": "Sie machen die E-Mails absichtlich schlecht mit Rechtschreibfehlern und billiger Formatierung, um dumme Menschen anzulocken und intelligente Menschen abzuschrecken.",
+    "skipped": false,
+    "notes": "Georg löst das Rätsel auf, nachdem Etienne und Jochen scheitern. Jochen bestätigt explizit: 'Du hast den Punkt, Georg, oder was?' Georg antwortet zustimmend: 'Ich kriege Punkte, wenn ihr nicht löst, ist gut.'",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
@@ -789,6 +819,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "83": {
+    "winner": "etienne",
+    "question": "Wodurch sparte Northwest Airlines im Jahr 1987 500.000 Dollar ein?",
+    "answer": "Sie schnitten die Limetten in den Flugzeugetränken dünner/in kleinere Teile (statt 10 Teile in 16 Teile).",
+    "skipped": false,
+    "notes": "Etienne gibt die komplette Lösung nach mehreren Rateversuchen. Jochen kommt sehr nah dran mit 'Auf die Limette verzichtet', aber Etienne nennt die korrekte Erklärung: 'Sie haben die Limette kleiner gemacht, geteilt, in Scheiben geschnitten.' Die genaue Sprecherzuordnung im Transkript ist teilweise undeutlich, aber Etienne scheint die komplette Lösung zu formulieren.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "84": {
     "winner": null,
     "question": "Wonach ist das Rainbow Valley auf dem Mount Everest benannt?",
@@ -799,12 +839,202 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "85": {
+    "winner": "etienne",
+    "question": "Was haben Casinos in Las Vegas meistens nicht?",
+    "answer": "Fenster. Die Casinos verzichten auf Fenster, damit Spieler die Zeit vergessen und nicht anhand des Tageslichts oder der Uhrzeit merken, dass sie gehen sollten.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "86": {
+    "winner": "jochen",
+    "question": "Was war das Besondere an einem Werbedeal, den ein Reality-Darsteller im Jahr 2011 von Abercrombie und Fitch angeboten bekam?",
+    "answer": "Abercrombie und Fitch zahlten dem Jersey-Shore-Star Mike Sorrentino Geld dafür, dass er ihre Kleidung nicht trug, um Imageschäden zu vermeiden.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "87": {
+    "winner": "jochen",
+    "question": "Was ist der Kokosnusseffekt?",
+    "answer": "Der Kokosnusseffekt ist ein künstlich erzeugtes Geräusch oder Soundeffekt, das unrealistisch ist, aber dem Zuschauer glaubwürdiger vorkommt als die Realität – benannt nach der Verwendung von Kokosnussschalen zur Erzeugung von Pferdegeräuschen in Film und Fernsehen.",
+    "skipped": false,
+    "notes": "Jochen gibt die Antwort 'ein künstlich erzeugtes Geräusch, das sich anhört wie ein echtes' und Georg bestätigt direkt: 'Lass es nah dran, ich lass es gelten' – der Punkt wird anerkannt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "88": {
+    "winner": "jochen",
+    "question": "Was tut ein von Snoop Dogg angestellter Mann in Vollzeit, für das dieser ihm 40.000-50.000 Dollar pro Jahr zahlt?",
+    "answer": "Joints bauen/drehen für Snoop Dogg",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "89": {
+    "winner": "jochen",
+    "question": "Welche zwei Ereignisse überlebte Tsutomu Yamaguchi?",
+    "answer": "Tsutomu Yamaguchi überlebte beide Atombombeneinsätze: Hiroshima am 6. August 1945 und Nagasaki am 9. August 1945. Er starb 2010 im Alter von 93 Jahren.",
+    "skipped": false,
+    "notes": "Jochen figurierte das Rätsel durch Nachfragen über die Bomben heraus ('Ich möchte lösen' deutet auf seinen Lösungsversuch hin). Es gab Dispute darüber, ob die Antwort vollständig war (nur Hiroshima explizit genannt, aber zwei Ereignisse erforderlich), Georg entschied aber, es zu akzeptieren. Die genaue Zuordnung ist wegen Transkriptionsunebenheiten leicht mehrdeutig.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "90": {
+    "winner": "jochen",
+    "question": "Welche ungewöhnliche Voraussetzung müssen Menschen erfüllen, um in das chilenische Dorf Villa Las Estrellas zu ziehen?",
+    "answer": "Sie müssen nachweisen können, dass sie keinen Blinddarm haben, um potenziell tödliche Komplikationen zu vermeiden, da das Dorf sehr isoliert ist und nur einen Arzt und eine Krankenschwester hat.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit der Frage 'Blinddarm? Ja'. Es gibt jedoch Diskussion über gemeinschaftliche Punkte und ob Etienne zwei Punkte bekommen sollte. Georg ärgert sich über den schnellen Sieg ohne vollständige Begründung.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "91": {
+    "winner": "jochen",
+    "question": "Welchen ungewöhnlichen Gegenstand benutzte Georgs Mutter früher als Spardose?",
+    "answer": "Ein Geldspielautomat",
+    "skipped": false,
+    "notes": "Jochen löste das Rätsel durch systematische Fragen am Ende. Georg bestätigte explizit mit 'Ja' auf 'Spielautomat?' und bestätigte dann 'Geldspielautomat' implizit durch seine Reaktion und die detaillierte Auflösungsgeschichte über seine Mutter.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "92": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Folge 92 ist eine Live-Outdoor-Lauffolge aus Möllen. Die Hosts sagen explizit mehrmals: 'Nee, heute kein Rätsel' und 'Ach, wir haben kein Rätsel'. Die Folge besteht hauptsächlich aus Gesprächen über die Stadt Möllen, Immobilien, Nordic Walking und die Planung eines True-Crime-Comedy-Podcast-Spin-Offs. Kein Rätsel vorhanden.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "93": {
+    "winner": "jochen",
+    "question": "Welches Einstellungskriterium sorgte dafür, dass das FBI praktisch nicht in der Lage war, Cyber Security Experten einzustellen?",
+    "answer": "Ein negativer Drogentest – Kandidaten durften in den letzten 12 Monaten keine Drogen konsumiert haben, was viele potenzielle Cyber-Experten ausschloss.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "94": {
+    "winner": "etienne",
+    "question": "Was ist das Scunthorpe-Problem?",
+    "answer": "Das unbeabsichtigte Blocken von E-Mails oder Website-Einträgen, die automatisch gefiltert werden, weil die Stadt Scunthorpe das Wort \"Cunt\" enthält und als nicht erlaubte Zeichenfolge erkannt wird.",
+    "skipped": false,
+    "notes": "Etienne erkannte die Kernlösung (Wort 'Kant' in Scunthorpe führt zu Blockierungen). Georg stellte die Frage und präzisierte die Antwort später noch (E-Mail-Blockierungen als spezielles Beispiel), aber Etienne löste das Rätsel zuerst mit \"Okay, warte, warte, ich löse es.\"",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "95": {
+    "winner": "etienne",
+    "question": "Was nannte man in der Luftfahrt die Trompeten von Jericho?",
+    "answer": "Sirenen an Sturzkampfbomben (Stukas), die beim Sturzflug ein schreckenerregendes Geräusch erzeugten – als psychologische Kriegsführung zur Einschüchterung der Zivilbevölkerung.",
+    "skipped": false,
+    "notes": "Etienne nannte zuerst 'Einschüchterung' und 'psychologische Kriegsführung', worauf Georg die Antwort mit 'Und obwohl sie nachteilig waren...' implizit bestätigte. Allerdings wurde kein expliziter Punkt vergeben; Georg löste das Rätsel danach selbst auf. Punkte-Vergabe mehrdeutig.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "96": {
+    "winner": "etienne",
+    "question": "Warum wurde Emanuel Dennis von Club Brügge für das Champions-League-Spiel gegen Dortmund aus dem Kader gestrichen?",
+    "answer": "Er verließ den Mannschaftsbus, weil sein Lieblingsplatz (neben dem Fahrer) aufgrund von Corona-Schutzmaßnahmen nicht zur Verfügung stand und er daraufhin beleidigt aus dem Bus ausstieg.",
+    "skipped": false,
+    "notes": "Tagesaktuelles Rätsel von Georg über den Fußballer Emanuel Dennis. Etienne löst es durch gezielte Fragen am Ende erfolgreich. Der Sieger wird explizit bestätigt: 'Okay, jetzt hat Eddie endlich auch mal gewonnen.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "97": {
+    "winner": null,
+    "question": "Was ist die Hurenkinder-Regelung?",
+    "answer": "Eine Konvention der Typographie, wonach die letzte Zeile eines Absatzes nicht allein am Anfang einer neuen Seite stehen darf (das Gegenteil heißt Schuster-Junge).",
+    "skipped": false,
+    "notes": "Listener-Frage von Horst. Hosts konnten das Rätsel nicht lösen und die Antwort wurde aus Recherchen vorgelesen. Kein Host arbeitete sich selbstständig zur Lösung vor.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "98": {
+    "winner": "jochen",
+    "question": "Was ist die Jesusschraube oder auf Englisch Jesus Nut?",
+    "answer": "Die Hauptbefestigungsschraube für den Hauptrotor eines Helikopters; sie heißt so, weil nur noch Jesus helfen kann, wenn das Ding kaputt geht.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "99": {
+    "winner": "etienne",
+    "question": "Warum mussten 27 menschliche Gene umbenannt werden?",
+    "answer": "Weil Excel automatisch Datumsformatierung durchführt und Gen-Namen wie 'DEC1' (1. Dezember) oder 'MAR1' (1. März) automatisch als Datumswerte erkannt und umformatiert werden, was zu Datenverlusten in wissenschaftlichen Veröffentlichungen führt.",
+    "skipped": false,
+    "notes": "Jochen identifiziert zuerst Excel und Datum (halber Punkt), Etienne konkretisiert die Lösung mit 'automatische Datumsformatierung' und erklärt das Problem detailliert. Es werden halbe Punkte erwähnt, aber Etienne gibt die Kernlösung.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "100": {
     "winner": "jochen",
     "question": "Was war das Besondere an David Aris erstem Sieg als Torhüter in der NHL?",
-    "answer": "David Aris war ein Emergency Backup (IBA), ein Notfall-Torhüter, der für eine Mannschaft einsprang, weil sich beide regulären Torhüter verletzt hatten. Er war hauptberuflich Hausmeister und Fahrer der Eisaufbereitungsmaschine und fast 43 Jahre alt.",
+    "answer": "David Aris war ein Notfall-Backup-Torhüter (Emergency Backup Goaltender), der hauptberuflich Hausmeister und Fahrer der Eisaufbereitungsmaschine bei den Toronto Maple Leafs war und einsprang, weil sich beide Torhüter der gegnerischen Carolina Hurricanes verletzten. Sein Team gewann das Spiel.",
     "skipped": false,
-    "notes": "Georg stellt das Rätsel. Jochen löst es durch mehrere zielgerichtete Fragen und Vermutungen (u.a. 'zwei Torhüter verletzten sich', 'Emergency Backup'). Georg sagt explizit 'Ich lasse das so gelten' und vergibt am Ende die volle Anerkennung an Jochen.",
+    "notes": "Jochen macht die beste und nächste Deduktion mit 'zwei Torhüter haben sich verletzt'. Georg bestätigt: 'du hast jetzt quasi dreiviertelpunkt' + 'Kriegst du quasi noch den letzten Viertelpunkt' = 1 Punkt für Jochen. Etienne erhält am Anfang halben Punkt (Grund im Text unklar).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "101": {
+    "winner": "jochen",
+    "question": "Welche ungewöhnliche Hardware kommt auf US-Navy U-Booten der Virginia-Klasse zum Einsatz?",
+    "answer": "Ein Xbox-Controller wird zur Steuerung des Periskops verwendet.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "102": {
+    "winner": "jochen",
+    "question": "Warum lachten japanische Studenten über einen Witz von US-Präsident Carter, den sie nicht verstanden?",
+    "answer": "Der Simultandolmetscher sagte dem Publikum, dass der Präsident einen Witz erzählt hat, und forderte sie auf zu lachen, statt den Witz tatsächlich zu übersetzen.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "103": {
+    "winner": "etienne",
+    "question": "Was ist das Rapunzel-Syndrom?",
+    "answer": "Das Rapunzel-Syndrom ist eine psychische Störung, bei der Menschen sich die Haare ausreißen und essen (Trichophagie). Die gegessenen Haare sammeln sich im Magen an und können zu gefährlichen Magenverschlüssen oder Darmverschlüssen führen.",
+    "skipped": false,
+    "notes": "Georg bestätigt explizit 'Herzlichen Glückwunsch, Etienne' und nennt es seinen Punkt. Etienne löst mit 'dass man die isst' korrekt. Georg erklärt dann die medizinische Bezeichnung Trichophagie und die ernsthafte Gesundheitsgefahr.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "106": {
+    "winner": "jochen",
+    "question": "Was verkaufte Sylvester Stallone für 40 Dollar, nur um es später für 15.000 Dollar zurückzukaufen?",
+    "answer": "Seinen Hund Butkus – Stallone verkaufte ihn 1971 aus Geldmangel vor einem Supermarkt und kaufte ihn später nach seinem Rocky-Erfolg für 15.000 Dollar zurück.",
+    "skipped": false,
+    "notes": "Georg bestätigt explizit: 'Ja, du hast gelöst.' Jochen hatte die Lösung durch gezieltes Fragen zu Lebewesen und dann konkrete Nennung von 'Hund' herausgefunden. Das Rätsel dauerte relativ lange mit vielen Tipps.",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
