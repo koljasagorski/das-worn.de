@@ -229,6 +229,16 @@
     "_confidence": "medium",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "24": {
+    "winner": "etienne",
+    "question": "Welche gefährliche Eigenschaft hatte das Walkie-Talkie genannte Hochhaus in Fanchurch Street London während des Baus?",
+    "answer": "Die Glasfronten reflektierten und konzentrierten die Sonnenstrahlen, wodurch Temperaturen von bis zu 117 Celsius entstanden und Autos sowie Fußmatten beschädigt wurden.",
+    "skipped": false,
+    "notes": "Etienne erkannte die Lösung mit der Sonnenstrahlenreflexion durch die Fenster. Georg bestätigte: 'Der Schatten ist nicht das Gefährliche daran. Das Licht war das Gefährliche.' Jochen argumentierte, dass er mit seinen Hinweisen (z.B. zur Akustik, die Georg ausschloss) zur Lösung beigetragen hat. Die exakte Punktvergabe am Ende ('Ich schreibe mir mal meinen Punkt auf') ist bezüglich des Sprechers ambivalent, kontextuell sollte aber Etienne den Punkt erhalten.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "25": {
     "winner": null,
     "question": "Welche Aufgabe hat der NASA-Mitarbeiter George Eldridge?",
@@ -295,6 +305,26 @@
     "answer": "Ein Mann namens Oliver Barr täuschte 1974 einen Vulkanausbruch in Sitka, Alaska vor, indem er alte Autoreifen am Mount Edgecumbe anzündete und damit eine Rauchsäule erzeugte.",
     "skipped": false,
     "notes": "Georg stellt das Rätsel. Jochen erhält den Punkt gemäß expliziter Aussage am Ende: 'Und damit hast du es gelöst, nicht schlecht.' Die Auflösung kam durch längere Rätselsitzung mit vielen Fragen zustande.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "35": {
+    "winner": "jochen",
+    "question": "Welchen ungewöhnlichen Anlass nutzen Tom Hanks, Martin Short und Steve Martin alljährlich für eine Party?",
+    "answer": "Sie feiern 'Colonoscopy Eve' - ihr jährliches Treffen am Abend vor ihrer routinemäßigen Darmspiegelung (Koloskopie), bei dem sie zusammen Zeit verbringen und am nächsten Morgen gemeinsam zum Untersuchungstermin fahren.",
+    "skipped": false,
+    "notes": "Jochen gibt die vollständige Lösung am Ende und Georg bestätigt explizit: 'Ja, das ist die Lösung, das ist die Lösung.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "36": {
+    "winner": "etienne",
+    "question": "Welchen ungewöhnlichen Gegenstand bewahrt Schauspielerin Kate Winslet in ihrem Badezimmer auf?",
+    "answer": "Sie bewahrt ihren Oscar, den sie 2009 als beste weibliche Hauptdarstellerin für \"The Reader\" gewann, auf, damit ihre Gäste vor dem Spiegel Oscar-Reden üben können.",
+    "skipped": false,
+    "notes": null,
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
