@@ -1339,6 +1339,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "135": {
+    "winner": "etienne",
+    "question": "Welchen Rekord hält Francis Clifford Smith?",
+    "answer": "Er ist die längste inhaftierte Person der USA – der älteste Gefangene in Connecticut, der seit 1949 ununterbrochen für über 71 Jahre inhaftiert ist.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit der Antwort 'Weil er im Gefängnis ist'. Der Sieger wird nicht explizit benannt, aber basierend auf der Aktivität beim Raten und den präzisen Fragen scheint Etienne die Lösung zu geben.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "136": {
     "winner": "jochen",
     "question": "Was haben die Pittsburgh Steelers seit 1969 zweimal gemacht?",
@@ -1357,6 +1367,16 @@
     "notes": null,
     "_auto": true,
     "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "138": {
+    "winner": "jochen",
+    "question": "Was wurde 1914 von der US-Post verboten?",
+    "answer": "Das Verschicken von Menschen wurde nach dem Incident mit der fünfjährigen Mary Piersdorf (die als Paket mit Briefmarke zu ihren Großeltern verschickt wurde) verboten.",
+    "skipped": false,
+    "notes": "Rätsel-Prozess war chaotisch. Jochen versuchte mehrmals zu lösen und deutete 'Menschen' an. Etienne stellte hilfreiche Fragen (Lebewesen?) und riet auch (Babys - falsch). Georg gab Auflösung ohne explizit Punktvergabe. Zusätzlich war ein Windkraftanlagen-Rätsel von Georg vorhanden, wurde aber nur als Erklärung präsentiert, nicht geraten.",
+    "_auto": true,
+    "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
   "139": {
@@ -1389,10 +1409,190 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "142": {
+    "winner": "jochen",
+    "question": "Was müssen Londoner Taxis seit 1976 nicht mehr im Kofferraum haben?",
+    "answer": "Heu oder Stroh zum Füttern von Pferden, gemäß London Hackney Carriage Act von 1831",
+    "skipped": false,
+    "notes": "Sonderfolge mit drei Rätseln - eines pro Host. Jochen sagte 'Stroh' und 'Heuballen', Georg bestätigte die Antwort.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "143": {
+    "winner": "jochen",
+    "question": "Wo sind etwa 1 % aller Amerikaner in diesem Augenblick?",
+    "answer": "Im Gefängnis. In den USA sind zwischen 0,7 und 0,9 % der Bevölkerung inhaftiert.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "144": {
+    "winner": "jochen",
+    "question": "Was ist ein Phantomstau?",
+    "answer": "Ein Stau, der ohne erkennbare Behinderung oder Hindernisse entsteht, sondern durch Fehlverhalten von Autofahrern wie zu geringe Sicherheitsabstände verursacht wird.",
+    "skipped": false,
+    "notes": "Jochen löste direkt ohne zu fragen. Georg bestätigte die Antwort als 100% richtig und verlieh Jochen am Ende explizit den Punkt mit: 'gönne ich dir diesen Punkt, Jochen'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "145": {
+    "winner": "georg",
+    "question": "Was ist ein Schwanzflug?",
+    "answer": "Ein zusätzlicher Flug, der an ursprüngliche Flüge angehängt wird und durch den Wegfall des Treibstoffzuschlags auf der längsten Strecke Kosten spart, ohne dass man ihn selbst fliegt.",
+    "skipped": false,
+    "notes": "Rätsel von Loris eingeschickt. Etienne stellt es. Georg löst es mit: 'Es ist der letzte Flug aus einer Reihe von Flügen, wenn man umsteigen musste.' Anschließend wird die vollständige Lösung erklärt. Etienne sagt explizit 'Perfekt gelöst, Georg.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "146": {
+    "winner": "jochen",
+    "question": "Was stand auf dem Zettel, das Hans Christian Andersen immer an seinem Bett aufbewahrte?",
+    "answer": "Der Zettel besagte 'Ich bin nicht tot, ich schlafe nur', weil Andersen als Hypochonder Angst vor lebendig begraben zu werden hatte.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel. Der Punkt wird unter der Bedingung vergeben, dass er abgezogen werden kann, falls sich herausstellt, dass dieses Rätsel bereits in einer früheren Folge gestellt wurde. Die genaue Zuordnung der Sprecher im Transkript ist teilweise unklar.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "147": {
+    "winner": "jochen",
+    "question": "Warum wurde der Bundesliga-Trainer Peter Neurer zweimal von der Polizei gestoppt?",
+    "answer": "Er hatte ein Blaulicht auf dem Dach seines Autos montiert, obwohl er nicht berechtigt war.",
+    "skipped": false,
+    "notes": "Georg bestätigte explizit 'Blaulicht ist richtig'. Jochen kam nach längerer Frageserie durch Intuition zur Lösung.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "148": {
+    "winner": null,
+    "question": "Warum kam es beim Spiel zwischen Bosnien und der Ukraine zu Ausschreitungen zwischen bosnischen und ukrainischen Fans?",
+    "answer": "Die ukrainischen Fans protestierten mit umgedrehten russischen Flaggen gegen die russische Regierung. Die umgedrehte russische Flagge (blau-weiß) wurde von bosnischen Fans fälschlicherweise als serbische Flagge interpretiert und als Provokation verstanden.",
+    "skipped": false,
+    "notes": "Rätsel wurde von Georg gestellt, aber von Etienne und Jochen nicht korrekt gelöst. Georg gab die Lösung selbst, keiner der Rater erhielt den Punkt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "149": {
+    "winner": "etienne",
+    "question": "Eine Hörerin wollte am 9. Mai mit dem Auto ihre Mutter in Sachsen-Anhalt besuchen – weshalb kam sie nicht an?",
+    "answer": "Sie kollidierte mit einem landenden Flugzeug (Cessna), das das Bugfahrwerk in ihr Auto bohrte, während sie auf einer Kreisstraße neben dem Flugplatz Ballenstedt fuhr.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "150": {
     "winner": "jochen",
     "question": "Was ist ein Hühnergott?",
-    "answer": "Ein Stein mit einem natürlich vorkommenden Loch, der als Glücksbringer oder zum Schutz vor bösen Geistern getragen wird.",
+    "answer": "Ein in der Natur gefundener Stein mit einem natürlich vorkommenden Loch, der als Glücksbringer oder Schutzamulett getragen wird, insbesondere zum Schutz von Geflügel vor bösen Geistern.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel mit der korrekten Antwort 'Es ist ein Stein mit einem natürlich vorkommenden Loch'. Georg bestätigt die Lösung direkt und erläutert, dass seine Mutter solche Steine an Lederbändchen um den Hals trug.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "151": {
+    "winner": "etienne",
+    "question": "Was war der Zwischenfall mit dem Tourbus der Dave Matthews Band, für den sie über 300.000 Dollar Strafe zahlen mussten?",
+    "answer": "Sie entleerten den Abwassertank ihres Busses von einer Brücke (Kinsey Street Bridge in Chicago) über einem Fluss, wobei etwa 400 Liter Fäkalien und Abwasser auf ein darunter fahrendes Touristenboot mit 120 Passagieren prasselten.",
+    "skipped": false,
+    "notes": "Etienne war mit der Vermutung 'Toiletten auf der Autobahn entleert' dem Rätsel am nächsten dran. Georg bestätigte 'extrem nah dran', gab aber keinen expliziten Punkt aus. Die nachfolgende Aussage 'Glückwunsch, Jochen' ist mehrdeutig und möglicherweise sarkastisch gemeint ('Knapp daneben ist auch vorbei'). Etienne hatte die beste/nächste Vermutung.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "152": {
+    "winner": "jochen",
+    "question": "Im Jahr 2014 wurde die zehnjährige Rafia von einer westlichen Firma angeheuert, um was zu tun?",
+    "answer": "Das Kamel Rafia wurde von Google mit Streetview-Kameras ausgestattet, um wüstige Gebiete in den VAE zu fotografieren.",
+    "skipped": false,
+    "notes": "Jochen gibt die korrekte Antwort ('Es hat Streetview entlegenen Orten gemacht'). Die Hosts bestätigen daraufhin die Lösung implizit und Jochen wird mit 'Wieder mal die Vorarbeit gemacht und Jochen' anerkannt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "153": {
+    "winner": "etienne",
+    "question": "Wer ist Barbara Millicent Roberts?",
+    "answer": "Barbara Millicent Roberts ist der vollständige Name der Barbie-Puppe von Mattel.",
+    "skipped": false,
+    "notes": "Etienne (Eddie) gewinnt mit explizitem Glückwunsch am Ende. Ausführliches Rätsel mit vielen Tipps. Der Name Barbara Millicent Roberts war lange nicht öffentlich bekannt und wurde erst vor einigen Jahren durch einen Twitter-Post des Herstellers Mattel veröffentlicht.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "154": {
+    "winner": "etienne",
+    "question": "Für was genau wurde 1987 in Indiana das Mindestalter von 10 auf 16 Jahre hochgesetzt?",
+    "answer": "Das Mindestalter für die Verhängung der Todesstrafe – bis 1987 war die Hinrichtung von 10-Jährigen in Indiana legal, dann wurde das Mindestalter auf 16 Jahre erhöht.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "156": {
+    "winner": null,
+    "question": "Warum hielt der ehemalige New Yorker Bürgermeister Giuliani kurz nach der Präsidentschaftswahl 2020 eine Pressekonferenz vor dem Garagentor eines Landschaftsgärtnereigebäudes?",
+    "answer": "Die Wahlkampforganisatoren verwechselten die Gärtnerei 'Four Seasons Total Landscaping' mit einer Four-Seasons-Hotelkette.",
+    "skipped": false,
+    "notes": "Rätsel wird von keinem vollständig gelöst. Georg kündigt 'einen halben Punkt' an, spezifiziert aber nicht, wem dieser gehört. Jochen und Etienne raten herum (Motel, Hilton, Hotel), kommen aber nicht auf die Lösung. Georg löst am Ende auf ('Die Jahreszeiten' = Four Seasons), benennt aber keinen expliziten Gewinner.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "157": {
+    "winner": "etienne",
+    "question": "Was ist Brötentüten-Navigation?",
+    "answer": "Ein scherzhafter Begriff aus der Sportschifffahrt, um die Navigation in unbekannten Gewässern ohne Navigationsgeräte zu beschreiben. Man bestimmt die Position eines unbekannten Hafens anhand des Aufdrucks auf den Brötentüten des lokalen Bäckers, weil dort die Adresse draufsteht.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel, nachdem er den Vergleich zu Pizzakartons mit Bäckereiadressen zieht. Georg bestätigt: 'Ich lasse es gelten, das ist die richtige.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "158": {
+    "winner": "etienne",
+    "question": "Was wurde beim größten Raub der kanadischen Geschichte gestohlen?",
+    "answer": "3.000 Tonnen Ahornsirup (2011–2012), gestohlen aus einer Lagerfabrik der Federation of Quebec Maple Syrup Producers, im Wert von etwa 13 Millionen Dollar.",
+    "skipped": false,
+    "notes": "Etienne löste das Rätsel mit 'Ahornsirup'. Georg bestätigte sofort mit 'Ja, hat das Rätsel'. Obwohl Etienne anfangs Skepsis zeigte, war die Lösung korrekt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "159": {
+    "winner": null,
+    "question": "Was ist die Ikea-Klausel?",
+    "answer": "Eine Verbraucherschutzregelung im deutschen Recht, wonach Käufer Gewährleistungsrechte geltend machen können, wenn ein Produkt aufgrund von fehlerhaften oder unvollständigen Montageanleitungen beschädigt wird.",
+    "skipped": false,
+    "notes": "Patreon-Frage von Marius, kein klassisches Rätsel im Showformat. Jochen kommt der Lösung am nächsten, formuliert aber spiegelverkehrt. Georg erklärt die richtige Antwort, vergibt aber keinen expliziten Punkt.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "160": {
+    "winner": "etienne",
+    "question": "In vielen Haushalten befindet sich etwas, das Antimaterie produziert. Um was handelt es sich?",
+    "answer": "Bananen - sie enthalten radioaktives Potassium 40, das Positronen produziert.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "162": {
+    "winner": "jochen",
+    "question": "Das Holz des ehemaligen Forschungsschiffes HMS Resolute wird bis heute als was genutzt?",
+    "answer": "Das Holz wurde von Königin Victoria zu einem Schreibtisch (Resolute Desk) verarbeitet, der seit 1879 von US-Präsidenten als Schreibtisch im Oval Office genutzt wird.",
     "skipped": false,
     "notes": null,
     "_auto": true,
