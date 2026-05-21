@@ -2619,6 +2619,26 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "264": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Die Folge enthält kein klassisches Rätsel. Am Ende wird kurz erwähnt 'Weißt du, was Catfish ist? Dann nehmen wir das als Rätsel', aber Georg beantwortet die Frage direkt selbst ohne dass Jochen oder Etienne raten. Dies ist eine humorvolle Serienempfehlung und Erklärung, kein echtes Rätselsegment mit Lösungsprozess.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "267": {
+    "winner": "jochen",
+    "question": "Warum änderte der philippinische Diktator Ferdinand Marcos in den 80er Jahren die Grenzen der Provinz Kalinga?",
+    "answer": "Um die Provinz so zu gestalten, dass sie von oben wie sein Gesicht oder die Silhouette seines Kopfes aussieht.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "275": {
     "winner": null,
     "question": null,
