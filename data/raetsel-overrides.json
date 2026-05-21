@@ -549,6 +549,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "56": {
+    "winner": null,
+    "question": "Warum erhielt ein Amerikaner Strafzettel über mehr als 12.000 Dollar, die nicht für ihn bestimmt waren?",
+    "answer": "Sein Nummernschild war NULL (NUL); das Computersystem verknüpfte alle Strafzettel mit fehlerhaften/nicht eingegebenen Kennzeichen (die als NULL gespeichert wurden) mit seinen persönlichen Daten.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht von den Hosts gelöst. Etienne kam relativ nah mit der Vermutung eines Computerfehlers zwischen 'I' und 'L', aber die vollständige Antwort (NULL/NUL als Fehlercode in Computersystemen) wurde von Georg selbst offenbart, nachdem die Hosts mehrfach aufgaben.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "57": {
     "winner": "jochen",
     "question": "Wozu sah sich das Weiße Haus im Jahr 2013 nach einer Unterschriftensammlung von über 34.435 Befürwortern offiziell gezwungen?",
@@ -559,12 +569,232 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "58": {
+    "winner": "jochen",
+    "question": "Warum wurde Jeremiah Dentons Blinzeln während einer Pressekonferenz 1966 weltberühmt?",
+    "answer": "Er war ein amerikanischer Kriegsgefangener im Vietnamkrieg, der bei einer erzwungenen Pressekonferenz mit Morsezeichen (Buchstabe T für 'Torture') blinzelte, um seinen Kollegen zu signalisieren, dass er unter Zwang handelte.",
+    "skipped": false,
+    "notes": "Jochen sagt 'Morsezeichen' und Georg bestätigt mit 'Ja, und das lasse ich Geld'. Etienne trug auch bei (Alter, Fragen), beschwert sich später, dass er hätte lösen können, aber Jochen wird kritisiert, dass er 'nichts beigetragen' hat – deutet an, dass Jochen den Punkt bekommt.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "59": {
+    "winner": "jochen",
+    "question": "Was ist eine Sodabrücke?",
+    "answer": "Eine Brücke, die nicht genutzt wird oder funktioniert, meist mangels Zufahrten oder fehlender Finanzierung (auch als Geisterbrücke bekannt).",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel unbewusst, indem er in einer Frage 'Reservebrücke' erwähnt. Georg bestätigt, dass Jochen damit das Rätsel im Nebensatz gelöst hat und erklärt: 'Sodabrücken sind Brücken, die nicht genutzt, komplett.' Die Speaker-Zuordnung am Ende ist leicht mehrdeutig, aber Etienne sagt explizit 'Er gib dir doch schon den Punkt jetzt' (zu Jochen), worauf Jochen 'Ich nehme den Punkt' antwortet.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "60": {
+    "winner": null,
+    "question": "Warum gibt es keine Erdbeermarmelade?",
+    "answer": "Marmelade darf laut deutscher Konfitürenverordnung nur aus Zitrusfrüchten bestehen, daher kann es nur Erdbeerkonfitüre geben.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht gelöst. Nach mehreren fehlgeschlagenen Versuchen erklärte Georg die Lösung ohne dass jemand einen Punkt erhielt.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "61": {
+    "winner": "jochen",
+    "question": "Wofür nutzte ein Berliner Künstler 99 Handys und einen Bollerwagen?",
+    "answer": "Er schuf einen künstlichen Stau auf Google Maps, indem er 99 aktive Handys in einem Bollerwagen transportierte und damit langsame Geschwindigkeit auf einer Berliner Straße signalisierte, worauf Google Maps die Straße rot färbte.",
+    "skipped": false,
+    "notes": "Sonderfolge 61 ist Rätselfolge mit 4 Rätseln. Jochen kennt diese Lösung bereits und antwortet sofort: 'der hat einen künstlichen Stau produziert'.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "62": {
+    "winner": "jochen",
+    "question": "Welche ungewöhnliche physische Voraussetzung müssen Masseure in Südkorea erfüllen?",
+    "answer": "Sie müssen blind sein, um Blinden gemäß einem über 100 Jahre alten Gesetz ein sicheres Einkommen zu ermöglichen.",
+    "skipped": false,
+    "notes": "Jochen gab die Antwort 'blind sein' und erhielt ein klares 'Ja' von Georg. Georg annullierte die Rätselauflösung humorvoll, bestätigte die Antwort aber später indirekt durch die Erklärung des Gesetzes. Etienne hatte zuvor humorvoll einen Punkt für 'keine Haare am Körper' beansprucht, diese Antwort wurde aber von Georg nicht bestätigt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "63": {
+    "winner": null,
+    "question": "Was genau ist eigentlich Londons berühmter Big Ben?",
+    "answer": "Big Ben ist die Glocke, nicht das Gebäude oder der Turm – die 13,5 Tonnen schwere Glocke im Elizabeth Tower",
+    "skipped": false,
+    "notes": "Rätsel gelöst, aber Sieger unklar aufgrund verwirrter Transkription. Etienne und Georg raten mehrfach. Die Frage 'Ist Big Ben die Glocke?' wird zuerst mit 'Nein', später mit 'Ja' beantwortet. Jochen merkt an, dass es 'zu einfach' war und zu schnell gelöst wurde.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "64": {
+    "winner": null,
+    "question": "Welche Besonderheit zeichnet die Droge Derbisol aus, die einer Studie aus dem Jahr 2005 zufolge 18,2% der befragten US-amerikanischen Schüler konsumiert hatten?",
+    "answer": "Die Droge existiert nicht; es war ein Feldversuch zur Untersuchung von Self-Reported Information, um zu testen, wie viele Schüler bei der Frage nach Drogenkonsum lügen würden.",
+    "skipped": false,
+    "notes": "Rätsel wurde von niemandem vollständig gelöst. Jochen kam mit 'die haben das mit Absicht gemacht' näher dran und erhielt Bestätigung von Georg, aber es wurde kein expliziter Sieger deklariert. Etienne gab auf. Georg löste die Antwort am Ende einfach auf, ohne einen Punkt zu vergeben.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "65": {
+    "winner": "etienne",
+    "question": "Was musste Prinzessin Anne als einzige Athletin bei den Olympischen Spielen 1976 nicht tun?",
+    "answer": "Sie musste sich keinem Geschlechtstest unterziehen.",
+    "skipped": false,
+    "notes": "Etienne gab die Lösung durch die Frage nach Geschlechtstests. Jochen beschwert sich, dass er die Vorarbeit geleistet hat und behauptet, die Statistik zählt das als seinen Punkt. Mehrdeutige Zuordnung.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "66": {
+    "winner": "etienne",
+    "question": "Warum durfte ein Stuntfahrer zwölf Stunden vor einem waaghalsigen Stunt in Mad Max 2 keine Nahrung mehr zu sich nehmen?",
+    "answer": "Der Stunt wurde als so gefährlich eingestuft, dass man davon ausging, der Fahrer müsse anschließend notoperiert werden, und vor Operationen unter Vollnarkose darf man 12 Stunden nicht essen, um nicht beim Erbrechen zu ersticken.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "67": {
+    "winner": "jochen",
+    "question": "Mit welchem gegenüber dem europäischen Markt stark veränderten Bauteil stattet Audi seine Fahrzeuge in Indien aus?",
+    "answer": "Die Hupe – eine lautere und robustere Hupe, da eine Standard-Hupe in Indien nach zwei Wochen hinüber ist und der Straßenlärm zu laut ist.",
+    "skipped": false,
+    "notes": "Georg bestätigt explizit: 'du hast es gelöst, Wow!' nach Jochens Antwort zur Hupe. Etienne versuchte vorher zu lösen mit einer Vermutung zu Abständen/Kratzern, was abgelehnt wurde.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "68": {
+    "winner": "etienne",
+    "question": "Warum durften Norma Cey Hall, Buzz Corey und Jimmy Kalunga in den 60er und 70er Jahren auf gar keinen Fall zusammen Auto fahren?",
+    "answer": "Sie waren die einzigen, die die Apollo-Rettungsschirme falten konnten, und die NASA verbot ihnen, zu dritt im Auto zu fahren, um bei einem Unfall nicht alle drei gleichzeitig zu verlieren.",
+    "skipped": false,
+    "notes": "Etienne hat durch gezieltes Nachfragen systematisch die Antwort erarbeitet und die Frage 'NASA?' gestellt, worauf Georg mit 'Ja' antwortet und die Auflösung bestätigt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "69": {
+    "winner": null,
+    "question": "Warum wird ein britischer Baggersee von den Behörden regelmäßig schwarz gefärbt?",
+    "answer": null,
+    "skipped": false,
+    "notes": "Rätsel von Georg gestellt, mehrere Rateversuche (Reflexion, Farbveränderung, Sichtbarkeit) werden abgelehnt. Transkript endet, bevor die Auflösung erfolgt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "70": {
+    "winner": "jochen",
+    "question": "Warum konnte einer der schwersten Verkehrsunfälle Deutschlands (Oktober 1990, A9, 120-200 Fahrzeuge) nicht lückenlos aufgeklärt werden?",
+    "answer": "Der LKW-Fahrer des Milchlasters vernichtete absichtlich seinen Fahrtenschreiber (Tachoscheibe), um seine Überermüdung und zu hohe Geschwindigkeit zu verbergen, die zum massiven Auffahrunfall führten.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel, nachdem Georg den direkten Hinweis 'Fahrtenschreiber' gibt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "71": {
+    "winner": "jochen",
+    "question": "Welchen ungewöhnlichen Nummer-Platz belegte Monty Pythons 'Always Look on the Bright Side of Life' im Jahr 2014?",
+    "answer": "Der Song war 2014 der meistgespielte Song auf britischen Beerdigungen.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Jochen antwortet mit 'Bei Beerdigung' und wird mit 'Ja, gelöst' bestätigt. Transkription an dieser Stelle teilweise undeutlich bezüglich Sprecher-Zuordnung.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "72": {
+    "winner": "jochen",
+    "question": "Warum stiegen in jüngster Zeit viele Farmer in Bangladesch von der Hühnerzucht auf die Entenzucht um?",
+    "answer": "Bangladesch ist ein Überschwemmungsgebiet und Enten können schwimmen, während Hühner das nicht können, sodass die Tiere bei Überschwemmungen überleben können statt zu ertrinken.",
+    "skipped": false,
+    "notes": "Jochen löst es sehr schnell und direkt. Georg bestätigt die Antwort mit 'Das stimmt' und erklärt die Details (RAC, Bangladesch Rural Advancement Committee). Die anderen hosts äußern humorvoll Verdacht auf Absprache wegen der Schnelligkeit, aber Jochen versichert unter Eid, dass nicht abgesprochen wurde.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "73": {
+    "winner": null,
+    "question": "Wofür drohten dem Spanier Gabriel Granados im Jahr 1972 384.912 Jahre Haft?",
+    "answer": "Er hat 43.000 Briefe als Postangestellter gestohlen und geöffnet. Die Staatsanwaltschaft forderte etwa neun Jahre Haft pro nicht ausgeliefertem Brief.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht gelöst. Nach längeren Fragen und Tipps gaben Etienne und Jochen auf. Georg musste die Auflösung selbst präsentieren. Keiner erhält einen Punkt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "74": {
+    "winner": "etienne",
+    "question": "Was war das Besondere an Frank Hayes' Sieg beim Pferderennen in Belmont Park 1923?",
+    "answer": "Frank Hayes war während des Rennens verstorben - er erlitt einen Herzinfarkt, hielt sich aber im Sattel bis zur Ziellinie; sein Tod wurde erst bemerkt, als man ihn beglückwünschen wollte.",
+    "skipped": false,
+    "notes": "Etienne gibt entscheidenden Hinweis mit 'weil er gestorben ist' und nimmt Punkt explizit mit 'Ich nehme diesen Punkt an' an.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "75": {
     "winner": null,
-    "question": null,
-    "answer": null,
-    "skipped": true,
-    "notes": "Folge endet mit Gesprächen über Lotto, Luxemburg und Mandela-Effekt. Es gibt beiläufige Wissensfragen (z.B. zu Colt für alle Fälle, Nummer 5 lebt), aber kein strukturiertes Rätsel am Folgenende. Die Folge endet mit Verabschiedungen und Abspann.",
+    "question": "Wonach benannte sich die Stadt Hot Springs am 31. März 1950 um?",
+    "answer": "Die Stadt benannte sich nach der Radiosendung 'Truth or Consequences' um, nachdem der Moderator versprach, eine Folge dort zu produzieren.",
+    "skipped": false,
+    "notes": "Rätsel wurde von keinem gelöst. Nach langen, ergebnislosen Rateversuchen hat Georg die Lösung selbst offenbart. Etienne kapitulierte mit 'Ich möchte gerne lösen'. Georg kritisierte danach, dass niemand darauf gekommen ist.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "76": {
+    "winner": "etienne",
+    "question": "Was macht 10% des Bruttoinlandsprodukts des pazifischen Inselstaates Tuvalu aus?",
+    "answer": "Die Lizenzierung und der Verkauf der Top-Level-Domain .tv für Internetadressen",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "77": {
+    "winner": "jochen",
+    "question": "Welche Besonderheit zeichnet Brisbane Road, das Heimstadion des Leyton Orient FC (League Two), aus?",
+    "answer": "In den vier Ecken des Stadions sind Wohnhäuser/Apartmentgebäude eingebaut, deren Bewohner einen Blick auf das Spielfeld haben.",
+    "skipped": false,
+    "notes": "Jochen löste es mit 'Wohnhäuser', obwohl er technisch nicht mehr an der Reihe war. Georg gab ihm trotzdem den Punkt ('Okay, ist dein Punkt'). Die genaue Antwort wurde erläutert: 2005-2007 verkaufte Leyton Orient Flächen an einen Immobilienentwickler, der Wohnungen in allen vier Stadionecken baute, um Renovierungen zu finanzieren.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "79": {
+    "winner": "etienne",
+    "question": "Wofür stehen die Initialen HM, die Stephen Baldwin auf seine Schulter tätowiert hat?",
+    "answer": "HM steht für 'Hannah Montana'. Miley Cyrus versprach Stephen Baldwin einen Gastauftritt in der Disney-Serie Hannah Montana, wenn er sich die Initialen permanent tätowieren lässt. Er ließ sich das Tattoo machen, bekam aber letztendlich keine Rolle in der Serie.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel korrekt, indem er 'Miley Cyrus' und 'Hannah Montana' nennt. Jochen (der Rätselsteller) bestätigt eindeutig: 'Es ist dein Punkt. Das ist dein Punkt, ja.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "82": {
+    "winner": "etienne",
+    "question": "Welche Besonderheit zeichnet Sir Nils Olaf II., Brigadier ehrenhalber der königlichen Garde von Norwegen, aus?",
+    "answer": "Sir Nils Olaf II. ist ein Königspinguin aus dem Zoo von Edinburgh, der 2008 zum Ritter geschlagen wurde – der erste Pinguin der norwegischen Armee mit dieser Ehre.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "84": {
+    "winner": null,
+    "question": "Wonach ist das Rainbow Valley auf dem Mount Everest benannt?",
+    "answer": "Nach den über 100-200 bunt gekleideten Leichen verunglückter Bergsteiger, die nicht mehr geborgen werden konnten.",
+    "skipped": false,
+    "notes": "Rätsel wird von Georg gestellt. Etienne und Jochen versuchen lange zu raten (Fallschirme, Zelte, Seile, Toiletten, Sauerstoffgeräte), kommen aber nicht auf die richtige Antwort. Georg gibt die Lösung selbst auf, nachdem sie lange herumorientiert haben. Niemand von den Ratenden löst es erfolgreich, daher gibt es keinen Punkt.",
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
