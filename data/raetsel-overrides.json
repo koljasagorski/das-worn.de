@@ -1,9 +1,443 @@
 {
-  "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string).",
   "1": {
-    "question": "Welcher Politiker hat Activision wegen Call of Duty: Black Ops 2 verklagt, weil er negativ dargestellt wurde?",
-    "answer": "Manuel Noriega, ehemaliger Diktator von Panama. Die Klage wurde im Oktober 2014 abgewiesen.",
     "winner": null,
-    "notes": "Allererste Folge. Rätsel wurde nicht eindeutig einem Punkt zugeordnet."
-  }
+    "question": "Welcher Prominente verklagte im Jahr 2014 Activision und warum?",
+    "answer": "Manuel Noriega, ehemaliger Diktator von Panama, verklagte Activision, weil er in Call of Duty: Black Ops 2 negativ dargestellt wurde.",
+    "skipped": false,
+    "notes": "Rätsel wurde gestellt, aber nicht von Etienne oder Jochen gelöst. Georg musste die Auflösung geben.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "2": {
+    "winner": "jochen",
+    "question": "Welcher ungewöhnliche Verdächtige gab es im Mordfall von Kathleen Peterson?",
+    "answer": "Eine Eule war verdächtig – Federn und Krallenverletzungen deuteten auf einen Eulenattacke hin statt auf Gewaltverbrechen durch den Ehemann.",
+    "skipped": false,
+    "notes": "Jochen hat durch systematische Fragen (Tier? Vogel?) die korrekte Antwort herausgefunden. Georg bestätigte explizit: 'Ein Vogel, ja, das ist richtig. Eine Eule, genau genommen.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "3": {
+    "winner": "etienne",
+    "question": "Was beschrieb Kapitän Eric Moody des British Airways Fluges 9 im Jahr 1982 mit den Worten 'Wir haben ein kleines Problem'?",
+    "answer": "Der Ausfall aller vier Triebwerke, verursacht durch den Flug durch eine Vulkanasche-Wolke.",
+    "skipped": false,
+    "notes": "Etienne scheint 'Vulkanaschen' als Antwort gegeben zu haben. Georg bestätigt implizit mit 'Ich wollte gerade sagen, Vulkan...' und erklärt dann die ganze Geschichte selbst. Kein expliziter Punkt wird vergeben, Speaker-Zuordnung im Transkript unklar.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "4": {
+    "winner": "jochen",
+    "question": "Warum trug Daniel Radcliffe über sechs Monate lang immer dieselben Klamotten, als er in einem Theaterstück spielte?",
+    "answer": "Weil Paparazzi-Fotografen vor dem Theatereingang warteten und täglich neue Fotos schießen wollten. Durch das Tragen identischer Kleidung sah jedes Foto gleich aus, sodass Zeitungen kein Interesse mehr hatten, die immer gleichen Bilder zu drucken.",
+    "skipped": false,
+    "notes": "Jochen scheint das Rätsel mit 'Ah, ich weiß es, ja ich weiß es' gelöst zu haben, Sprecherzuordnung im Transkript aber nicht explizit. Zusätzlich gab es ein früheres Rätsel (Warum knien Torvill/Dean 1984 beim Start?): Antwort war, dass die Zeitmessung erst beim Abheben von den Kufen startete und sie so ein 4:28-Stück in 4 Minuten unterbringen konnten. Dieses Rätsel wurde nicht von den Hosts gelöst, Georg erklärte es.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "5": {
+    "winner": null,
+    "question": "Was ist das Besondere an der 2000 als Möbelmanagement und Pferdezuchtunternehmen gegründeten Firma Tillingdale?",
+    "answer": "Tillingdale ist ein Taxiunternehmen, das Ryanair-CEO Michael O'Leary gegründet hat, um damit die Taxispuren in Dublin zu nutzen und schneller zur Arbeit zu fahren.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht von Etienne oder Jochen gelöst. Georg offenbarte die Antwort, nachdem beide aufgegeben hatten und explizit sagten, sie wären nie darauf gekommen.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "6": {
+    "winner": "etienne",
+    "question": "Woher kennt man die Schule aus Silent Hill?",
+    "answer": "Aus dem Film Kindergarten Cop",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "7": {
+    "winner": null,
+    "question": "Was verbindet Christian Carombieu außer Fußball mit Deutschland?",
+    "answer": "Sein Urgroßvater wurde 1931 auf der Pariser Kolonialausstellung aus Neukaledonien ausgestellt und wurde später gegen Krokodile gegen Deutsche getauscht.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht gelöst. Jochen und Etienne raten lange herum (Kolonie, deutsche Vorfahren, etc.), kommen aber nicht auf die richtige Antwort. Georg gibt die Auflösung schließlich selbst auf.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "8": {
+    "winner": "jochen",
+    "question": "Welchen sportlichen Weltrekord solltet ihr besser nicht zu brechen versuchen?",
+    "answer": "Der Weltrekord beim Speedboat-Rennen auf Wasser mit 511 km/h (aufgestellt 1978 von Ken Warby), bei dem 85% aller Rekordversuche seit 1940 tödlich endeten.",
+    "skipped": false,
+    "notes": "Etienne erhält 0,5 Punkte für die ähnliche Antwort 'Klippenspringen'. Jochen scheint das Rätsel mit 'Motorboot fahren' zu lösen, erhält aber keine explizite Punkt-Bestätigung. Georg erklärt ausführlich, dass seit 1978 keiner mehr versucht hat, diesen Rekord zu brechen, da die Todesrate (85%) höher ist als bei Selbstmordversuchen mit Schusswaffen (82,5%).",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "9": {
+    "winner": "jochen",
+    "question": "Warum war die Crew von Malcolm in the Middle glücklich, als Brian Cranston einem Musikerverband beitrat?",
+    "answer": "Brian Cranston sang improvisiert auf dem Set. Als Urheber dieser Musikfragmente konnte er über einen Musikerverband Gebühren von der Serie einnehmen und nutzte diese quartalsweise, um regelmäßig Partys für die Crew zu schmeißen.",
+    "skipped": false,
+    "notes": "Georg bestätigt Jochens Antwort mit 'Genau, das hast du genauso gesagt.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "10": {
+    "winner": "jochen",
+    "question": "Warum war US-Außenminister Henry Kissinger 1970 außer sich über Fotos von Fußballfeldern?",
+    "answer": "Kissinger erkannte auf Satellitenfotos von Kuba Fußballfelder und folgerte daraus, dass Russen dort einen Militärstützpunkt errichteten, da Kubaner Baseball (Nationalsport) spielen, nicht Fußball – dies war ein Indikator für eine sowjetische Präsenz.",
+    "skipped": false,
+    "notes": "Jochen erhält nachträgliche Anerkennung durch Georg. Er hatte die Intuition zu Kuba und Russen-Stützpunkt, aber Etienne/Eddie gab den entscheidenden Tipp (Baseball vs. Fußball), und Georg erklärte die vollständige historische Auflösung (Raketen, Balance of Power). Georg bestätigt explizit: 'Wir werden dir den Punkt nachträglich anerkennen, wenn du es wirklich gelöst hast.'",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "11": {
+    "winner": "etienne",
+    "question": "Was ist der Cobra-Effekt?",
+    "answer": "Ein Phänomen, bei dem Maßnahmen zur Problemlösung oder Gefabrenvermeidung das Problem verschärfen, exemplifiziert durch einen Gouverneur, der Kopfgeld auf tote Kobras setzte, was zur Zucht von Kobras führte.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit der Erklärung, dass man durch Vermeidung der Gefahr diese auslösen kann. Georg akzeptiert die Antwort mit 'Ja, also genau, das ist es, ne?' Es gibt ein zweites Rätsel (Terminator/Sayonara Baby), das Jochen löst, aber das Cobra-Effekt-Rätsel ist das Haupt-Rätsel der Folge.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "12": {
+    "winner": "etienne",
+    "question": "Warum waren viele Passagiere des Eastern Airline Fluges 7 wenig besorgt, als die Maschine entführt wurde?",
+    "answer": "Die Passagiere dachten, die Entführung sei eine Aufzeichnung für die Sendung 'Versteckte Kamera', da der Moderator dieser hidden-camera show an Bord war.",
+    "skipped": false,
+    "notes": "Etienne kam zuerst mit der Theorie einer Hollywood-Filmproduktion sehr nah an die richtige Lösung heran, bevor die korrekte Antwort zur versteckten Kamera-Sendung gelüftet wurde. Georg bestätigt explizit: 'Und du hast einen Punkt gekriegt, Tien.'",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "13": {
+    "winner": "etienne",
+    "question": "Warum leben Merkätze gefährlich?",
+    "answer": "Merkätze sind die mörderischsten Tiere überhaupt - etwa 20% aller Merkätze-Tode werden durch andere Merkätze verursacht, eine deutlich höhere Rate als bei allen anderen Tieren einschließlich Menschen.",
+    "skipped": false,
+    "notes": "Halber Punkt für Etienne nach längerer Verhandlung. Etienne war der erste, der sagte, dass sich Merkätze gegenseitig angreifen/umbringen, aber die spezifische Lösung (höchste Tötungsrate aller Tiere) wurde von Georg offenbart. Georg weigerte sich zunächst, einen Punkt zu geben, sie einigten sich auf Unentschieden mit halbem Punkt.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "14": {
+    "winner": "jochen",
+    "question": "Was machte Steven Bradburys Olympiasieg 2002 zu einem der ungewöhnlichsten aller Zeiten?",
+    "answer": "Steven Bradbury gewann Gold beim Short-Track-Eisschnelllauf 2002 in Salt Lake City, weil alle seine Gegner in verschiedenen Runden stürzten oder disqualifiziert wurden, während er als einziger ohne Sturz ins Ziel kam.",
+    "skipped": false,
+    "notes": "Jochen löst das Rätsel, das Georg stellt. Georg antwortet explizit 'Hundertprozentig korrekt' auf Jochens Lösung. Jochen betont, dass er geraten hat, aber die Antwort war vollkommen richtig.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "15": {
+    "winner": null,
+    "question": "Warum hielten manche Schäfer Gerüchten zufolge eine bestimmte Ziegenart in ihrer Schafherde?",
+    "answer": "Sie hielten sogenannte Ohnmachtziegen (Fainting Goats) als Ablenkung für Fressfeinde, da diese durch ihren genetischen Defekt bei Schreck für etwa zehn Sekunden erstarren und umkippen, während die Schafe davonlaufen können.",
+    "skipped": false,
+    "notes": "Etienne gibt die Antwort 'Köderziege', aber Georg lehnt diese explizit ab ('Nein!'). Georg löst das Rätsel dann selbst auf mit der genauen Antwort 'Ohnmachtsziege'/'Fainting Goat' und erklärt den genetischen Defekt. Niemand hat das Rätsel korrekt gelöst.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "16": {
+    "winner": null,
+    "question": "Was befand sich in einem verdächtig aussehenden Paket, das ein Bombenentschärfungstrupp 1993 außerhalb eines Armeestützpunktes in Bristol sprengen musste?",
+    "answer": "Flugblätter mit Anleitungen über den korrekten Umgang mit verdächtigen Paketen.",
+    "skipped": false,
+    "notes": "Georg stellte das Rätsel und löste es auf. Jochen und Etienne kamen der Lösung teilweise nahe (Papier, Dokumente, Bombenbastelleitung), aber keiner löste es vollständig. Georg bestätigte explizit: 'Nein. Keiner von uns. Kein Punkt.' Ironisch: Das Paket mit Sicherheitsanleitungen wurde selbst gesprengt, obwohl es genau das Gegenteil (sicherer Umgang) enthielt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "17": {
+    "winner": "jochen",
+    "question": "Was passierte in Frankreich nach dem Erscheinen von Star Wars Anfang der 80er Jahre?",
+    "answer": "Die Guillotine wurde abgeschafft; die letzte Hinrichtung mit der Guillotine in Frankreich fand am 10. September 1977 statt.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "18": {
+    "winner": "jochen",
+    "question": "Warum erregte der Schuh des Kickers Tom Dempsey 1970 Aufsehen, als er einen Rekord für das längste Field Goal in der NFL erzielte?",
+    "answer": "Tom Dempsey hatte keine Zehen an seinem rechten Fuß und trug einen speziellen flachen Schuh mit gerader Kante.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "19": {
+    "winner": null,
+    "question": "Wie konnte eine um 250 nach Christus verstorbene Frau (Lindo-Frau) in der Aufklärung eines Mordes in den 1980er Jahren helfen?",
+    "answer": "Im Mai 1983 wurde eine gut erhaltene mumifizierte Leiche im Moor gefunden. Die Polizei zeigte sie einem Verdächtigen eines unaufgeklärten Mordes von 1961. Der Mann hielt sie für seine 1961 ermordete Ehefrau und gestand. Später stellte sich heraus, dass die Leiche 1500 Jahre alt war. Die Verwechslung führte zum Geständnis des Mordes an seiner Frau.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde von keinem Host wirklich gelöst. Nach längerer Diskussion mit mehreren falschen Vermutungen musste Georg die komplette Lösung selbst erzählen. Jochen und Etienne kamen der Verwechslungs-These näher, aber lösten das Rätsel nicht eigenständig.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "20": {
+    "winner": null,
+    "question": "Was taten 700 Menschen zwischen dem 21. April 2016 und dem 7. Mai 2016?",
+    "answer": "Sie ehrten Prince (gestorben 21. April 2016) durch eine zweiwöchige Schweigeminute oder Trauer-Aktion als weltweiter Tribut.",
+    "skipped": false,
+    "notes": "Das Rätsel wird von Georg gestellt, Jochen und Etienne raten. Es wird teilweise gelöst: Die 700 Menschen sind weltweit verteilt, es geht um Leben und Tod, und ein Ereignis vom 21. April 2016 – Prince starb an diesem Tag. Die Vermutung der beiden ist eine zweiwöchige Schweigeminute als Tribut. Die genaue Auflösung bleibt aber unklar, da Etienne eine Pause braucht und die Folge danach nicht zu diesem Rätsel zurückkehrt. Somit gibt es keinen eindeutigen Sieger.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "21": {
+    "winner": "etienne",
+    "question": "Welchen ungewöhnlichen Zeugen rief Anwalt Mike McCray 1981 im Rahmen einer Körperverletzungsklage gegen ein neunjähriges Mädchen in den Zeugenstand?",
+    "answer": "Robert Hill, den Schauspieler im Kostüm von Winnie Pooh, der beweisen konnte, dass das Kostüm keine zielgerichteten Schläge zulässt und so freigesprochen wurde.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "22": {
+    "winner": "jochen",
+    "question": "Im Jahr 1932 hatte Winston Churchill einen Attest, der ihm was erlaubte.",
+    "answer": "Ein Attest, das ihm erlaubte, während der Prohibition in den USA Alkohol zu konsumieren – mindestens 250 Kubikzentimeter zu den Mahlzeiten.",
+    "skipped": false,
+    "notes": "Jochen stellt die entscheidende Frage zur Prohibition und Alkohol; Georg antwortet direkt mit 'Ja' und erklärt dann die vollständige Antwort.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "23": {
+    "winner": "etienne",
+    "question": "Welche besondere Motivation hatte ein Baseball-Team in den Jahren 1911 und 1912 zu gewinnen?",
+    "answer": "Es waren Todesskandidaten in einem Gefängnis, die durch Siege in der Baseball-Liga ihre Hinrichtung verschieben oder vermeiden konnten. Sie konnten sich von der Death-Row-Liste runterspielen.",
+    "skipped": false,
+    "notes": "Etienne benötigte Hilfe durch Jochen und Georg (die fragten 'Gefängnis?'), brachte aber selbst die Lösung ein. Georg validiert mit 'Das lasse ich gelten, ja'. Das tatsächliche Rätsel basierte auf einer wahren Geschichte (Wyoming, 1911-1912).",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "25": {
+    "winner": null,
+    "question": "Welche Aufgabe hat der NASA-Mitarbeiter George Eldridge?",
+    "answer": "Sein Job ist es, an allen Gegenständen zu riechen, die mit Raumflügen oder in die Raumstation genommen werden, um sicherzustellen, dass sie nicht unangenehm riechen oder die Luft in Raumschiffen verpesten, da Astronauten nicht einfach durchlüften können.",
+    "skipped": false,
+    "notes": "Das Rätsel wurde nicht explizit von Jochen oder Etienne gelöst. Obwohl sie durch gezielte Fragen dem Thema 'Nase/Riechen' nahekamen, gab Georg am Ende selbst die Auflösung. Kein Punktvergabe.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "26": {
+    "winner": null,
+    "question": "Wieso ist Sebastian Schweinsteiger nie offiziell Weltmeister geworden?",
+    "answer": "Weil der Mann, der Weltmeister, nicht Sebastian Schweinsteiger heißt, sondern Sebastian Schwein (Wortspiel mit dem Namen).",
+    "skipped": false,
+    "notes": "Scherzfrage/Wortspiel aus Etiennes Liste für eine geplante 1. April-Folge. Keiner rät die Lösung korrekt. Die Hosts lehnen diese Art von Rätsel ab und entscheiden sich, stattdessen Fragen zu stellen. Sie kündigen an, nächste Woche eine extra Folge mit echten Rätseln zu machen.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "27": {
+    "winner": "etienne",
+    "question": "Was machen UPS-Fahrer nahezu nie?",
+    "answer": "UPS-Fahrer biegen fast nie links ab – durch spezielle Routenplanungssoftware werden Linksabbiegungen vermieden und stattdessen Rechtsabbiegungen bevorzugt, um Unfälle mit Gegenverkehr zu reduzieren und Treibstoff zu sparen.",
+    "skipped": false,
+    "notes": "Etienne gibt die endgültige Lösung 'Sie biegen links ab'. Er beansprucht danach selbst, 8 von 10 Punkten bei diesem Rätsel geholt zu haben, was seinen Sieg bestätigt.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "28": {
+    "winner": "jochen",
+    "question": "Wodurch starben in den ersten drei Kriegsmonaten des Zweiten Weltkrieges die meisten Briten?",
+    "answer": "Durch Blackouts (Verdunkelungen zur Luftabwehr), die zu massiven Verkehrsunfällen mit tödlichem Ausgang führten – etwa 600 Tote pro Monat.",
+    "skipped": false,
+    "notes": "Jochen erkannte die Lösung mit 'Licht aus'/'Blackout', erhielt aber nur einen Viertelpunkt (0,25 Punkte, wie Georg mit '25 von hundert möglichen Punkten' sagte). Georg erklärte anschließend die vollständigen Details zur Lösung.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "29": {
+    "winner": "etienne",
+    "question": "Was war das Besondere an der erfolgreichen Klage einer 58-jährigen Frau gegen einen 18-jährigen Jungen, der ihr schwere Verletzungen zugefügt hatte?",
+    "answer": "Ein Zug überfahrt den 18-jährigen Jungen. Seine Leichenteile werden durch die Luft geschleudert und treffen die Frau am Rücken, die sich dabei verletzt. Sie klagt erfolgreich gegen die Familie des toten Jungen auf Schadensersatz.",
+    "skipped": false,
+    "notes": "Etienne erhält halben Punkt für die Erkenntnis, dass der 18-Jährige tot war – ein Schlüssel zur Rätsel-Lösung. Das Rätsel wird nicht vollständig von den Hosts gelöst; Georg gibt die komplette Auflösung.",
+    "_auto": true,
+    "_confidence": "low",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "31": {
+    "winner": null,
+    "question": "Warum kollabierte James McAlver, Mitglied der britischen Boyband Rewind, an Bord eines Flugzeugs?",
+    "answer": "Er trug alle seine Kleidungsstücke übereinander, um eine Übergepäck-Gebühr von 45 Pfund zu sparen, und kollabierte dadurch durch Hitzeerschöpfung.",
+    "skipped": false,
+    "notes": "Rätsel wurde nicht gelöst; Rätselsteller löste auf, nachdem beide Rater aufgaben.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "32": {
+    "winner": "jochen",
+    "question": "Warum versetzte ein April-Scherz eine kleine Stadt in Alaska in Angst und Schrecken?",
+    "answer": "Ein Mann namens Oliver Barr täuschte 1974 einen Vulkanausbruch in Sitka, Alaska vor, indem er alte Autoreifen am Mount Edgecumbe anzündete und damit eine Rauchsäule erzeugte.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Jochen erhält den Punkt gemäß expliziter Aussage am Ende: 'Und damit hast du es gelöst, nicht schlecht.' Die Auflösung kam durch längere Rätselsitzung mit vielen Fragen zustande.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "50": {
+    "winner": "etienne",
+    "question": "Warum sorgten schneefreie Dächer in der Vergangenheit für ungewollten Polizeibesuch mit juristischem Nachspiel?",
+    "answer": "Illegale Marihuana-Plantagen auf Dächern. Die Wärmelampen zum Anbau produzierten so viel Hitze, dass der Schnee auf den Dächern schmolz, was die Polizei aufgrund von Wärmebildaufnahmen auf die Schliche brachte.",
+    "skipped": false,
+    "notes": "Etienne stellt zielgerichtete Fragen (Schnee schmilzt, Hitze, Strom), die zur Lösung führen. Georg bestätigt am Ende mit 'Und du hast es gelöst'. Das war eines der kürzesten Rätsel der Folge. Etienne teilt danach einen ähnlichen Fall aus England mit.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "75": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Folge endet mit Gesprächen über Lotto, Luxemburg und Mandela-Effekt. Es gibt beiläufige Wissensfragen (z.B. zu Colt für alle Fälle, Nummer 5 lebt), aber kein strukturiertes Rätsel am Folgenende. Die Folge endet mit Verabschiedungen und Abspann.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "100": {
+    "winner": "jochen",
+    "question": "Was war das Besondere an David Aris erstem Sieg als Torhüter in der NHL?",
+    "answer": "David Aris war ein Emergency Backup (IBA), ein Notfall-Torhüter, der für eine Mannschaft einsprang, weil sich beide regulären Torhüter verletzt hatten. Er war hauptberuflich Hausmeister und Fahrer der Eisaufbereitungsmaschine und fast 43 Jahre alt.",
+    "skipped": false,
+    "notes": "Georg stellt das Rätsel. Jochen löst es durch mehrere zielgerichtete Fragen und Vermutungen (u.a. 'zwei Torhüter verletzten sich', 'Emergency Backup'). Georg sagt explizit 'Ich lasse das so gelten' und vergibt am Ende die volle Anerkennung an Jochen.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "125": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Folge endet mit Diskussionen über Frösche und einer Aussage zu Tiefkühlpommes. Keine klassische Rätsel-Struktur erkennbar. Kein formales Rätsel von Georg, das die anderen raten müssen.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "150": {
+    "winner": "jochen",
+    "question": "Was ist ein Hühnergott?",
+    "answer": "Ein Stein mit einem natürlich vorkommenden Loch, der als Glücksbringer oder zum Schutz vor bösen Geistern getragen wird.",
+    "skipped": false,
+    "notes": null,
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "175": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Die Folge endet mit der Beantwortung von Hörer-Fragen (Florian, Martin) und einer regulären Verabschiedung. Kein Rätsel von Georg erkennbar.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "200": {
+    "winner": "jochen",
+    "question": "Welche Angewohnheit des Deutschen Boris Becker fiel Andre Agassi auf, die ihm half, 10 von 11 Matches gegen Becker zu gewinnen?",
+    "answer": "Boris Becker streckte seine Zunge kurz vor dem Aufschlag in die Richtung aus, in die er den Ball schlagen würde.",
+    "skipped": false,
+    "notes": "Etienne erwähnte die Zunge zuerst ('Ich hab doch ihm gesagt, die Zunge'), aber Jochen stellte die konkrete Frage 'Hat das was mit der Zunge zu tun?'. Georg antwortet darauf mit 'du hast absolut recht und herzlichen Glückwunsch zu den Punkt', was auf Jochen hindeutet. Etienne hätte die Antwort präziser formulieren sollen.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "225": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Kein Rätsel vorhanden. Die Folge endet mit Diskussionen über Obdachlosigkeit und einer Ankündigung für die nächste Episode. Georg stellt kein Rätsel.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "250": {
+    "winner": "jochen",
+    "question": "Warum war ein Knopfdruck seiner Freundin Anlass für einen Mann aus Florida, die Freundschaft zu beenden?",
+    "answer": "Sie drückte den Startknopf eines Glücksspielautomaten, in dem er 50 Dollar eingezahlt hatte. Nach Floridas Gesetzen gewinnt die Person, die den Knopf drückt, nicht diejenige, die das Geld eingezahlt hat. Sie behielt den 100.000-Dollar-Jackpot.",
+    "skipped": false,
+    "notes": "Sprecherwechsel sind im Transkript nicht eindeutig markiert. Jochen stellt viele Größenfragen, könnte aber auch die entscheidende Frage 'Ist das so ein Glücksspielautomat?' gestellt haben. Es könnte auch Etienne gewesen sein.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "275": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Die Folge endet mit Diskussionen über Terrassenprojekt und Bohrmaschinen-Ausstattung, gefolgt vom Standard-Outro. Kein klassisches Rätsel mit Frage und Lösung vorhanden.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "300": {
+    "winner": "etienne",
+    "question": "Was ist ein Übungsgummi?",
+    "answer": "Gummiauflagen für Schlagzeug, die man auf die Trommel legt, damit diese bei geringer Lautstärke nicht so laut ist.",
+    "skipped": false,
+    "notes": "Larissa hat das Rätsel eingereicht. Am Ende der Auflösung wird 'Fredienne' als Punktgewinner genannt, was wahrscheinlich ein Tipp-Fehler für 'Etienne' ist.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "325": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Folge endet abrupt ohne Rätsel-Struktur. Die Herr-der-Ringe-Diskussion ist normaler Dialog, nicht ein vom Host gestelltes Rätsel. Keine Frage-Antwort-Winner-Sequenz erkennbar.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "350": {
+    "winner": "etienne",
+    "question": "Was kam erstmalig im Jahr 1983 für fast 4000 US-Dollar auf den Markt?",
+    "answer": "Das Motorola DynaTAC 8000X - das erste Mobiltelefon mit dem Spitznamen 'The Brick' für etwa $3.995.",
+    "skipped": false,
+    "notes": "Etienne löst das Rätsel mit 'Handy/Mobiltelefon'. Georg bestätigt explizit die Auflösung mit allen Details (Preis, Gewicht, Spitzname, Modell).",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "360": {
+    "winner": null,
+    "question": null,
+    "answer": null,
+    "skipped": true,
+    "notes": "Keine klassisches Rätsel-Format vorhanden. Folge endet mit Diskussion von Listener-Fragen (Papierfrage, Gewürz-im-Restaurant-Frage von Florian) und anschließender Verabschiedung, nicht mit einem Rätsel, das gestellt und gelöst wird.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string)."
 }
