@@ -3349,6 +3349,16 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "336": {
+    "winner": "etienne",
+    "question": "Wodurch wurde der Titelkampf zwischen Evander Holyfield und Riddick Bowe im Jahr 1993 unterbrochen?",
+    "answer": "Ein motorisierter Paraglider (Paraglide) mit einem Mann namens James Miller landete im Ring, was zu einer 21-minütigen Unterbrechung führte.",
+    "skipped": false,
+    "notes": "Jochen hatte 'Fallschirm' geraten, was nah dran war, aber Georg stoppte das Rätsel ab und gab die richtige Auflösung. Etienne erhält den Punkt, möglicherweise weil er die richtige Frage zu 'Open Air' gestellt hatte. Georg kritisiert anschließend sarkastisch, dass Etienne 'zu viele Punkte abstaubt'. Die genaue Vergabe ist etwas unklar, da Jochen argumentiert, dass seine Antwort 'Fallschirm' nahe genug war.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "337": {
     "winner": null,
     "question": "Was war das Besondere an der Fiat-Teststrecke des Werks in Turin?",
@@ -3375,6 +3385,16 @@
     "answer": "Sie sind die internationalen Varianten von Max Mustermann/Erika Mustermann – typische Musternamen für Personalausweise in Frankreich, Polen und Italien.",
     "skipped": false,
     "notes": "Georg bestätigt Etiennes Antwort explizit mit 'Völlig richtig'. Das Rätsel wurde nach vielen binären Hinweisen gelöst.",
+    "_auto": true,
+    "_confidence": "high",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "343": {
+    "winner": "etienne",
+    "question": "Wer entdeckte Anzeichen für den ersten US-amerikanischen Nukleartest?",
+    "answer": "Ein Kodak-Mitarbeiter (H. Web) bemerkte beschädigte Filmmaterialien durch radioaktiven Niederschlag vom Trinity-Test 1945",
+    "skipped": false,
+    "notes": null,
     "_auto": true,
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
