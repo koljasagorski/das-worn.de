@@ -892,7 +892,7 @@ export function renderRaetsel({ episodes, stats }) {
     </p>
     <p class="source-note">
       📊 Die offizielle Punktetabelle inklusive aller Fragen, Antworten und Quellen pflegt <strong>Marcel S.</strong> – riesigen Dank dafür!
-      Quelle: <a href="http://tinyurl.com/wergoggletkriegtaufsmaul" rel="noopener" target="_blank">tinyurl.com/wergoggletkriegtaufsmaul</a> („Wergoogelt kriegt aufs Maul").
+      Quelle: <a href="https://docs.google.com/spreadsheets/d/1KWKEnYUxpWjTSyTAtDyjs-SzTrEFnqXaqkknKR-F5Bs/edit?gid=577384979#gid=577384979" rel="noopener" target="_blank">„Wergoogelt kriegt aufs Maul" (Google Sheets)</a>.
     </p>
 
     <section>
