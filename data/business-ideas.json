@@ -4604,6 +4604,22 @@
     "episodeTitle": "Wer wird Millionär",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "358": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Content Creator Attribution Platform",
+        "summary": "A database platform where content creators register original ideas, jokes, and trends with timestamps across all social media platforms to establish who created something first and prevent plagiarism.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "App/Software"
+      }
+    ],
+    "notes": "Idea proposed by Patreon member Rudi Randale and discussed seriously by the hosts as a viable solution to prevent content plagiarism. Hosts acknowledged it as 'keine schlechte Idee' (not a bad idea). No other substantive business ideas were seriously proposed or developed by the hosts in this episode.",
+    "episodeNumber": 358,
+    "episodeTitle": "Das zweite Gehirn",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "359": {
     "hasIdea": true,
     "ideas": [
