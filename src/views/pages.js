@@ -689,6 +689,22 @@ export function renderHosts({ stats }) {
     <h1>Die Hosts</h1>
     <p>Drei Männer, ein Mikrofon-Setup, kein Name für den Podcast. NBC Giga in Düsseldorf, vor ungefähr 25 Jahren.</p>
     <div class="host-grid">${cards}</div>
+
+    <section class="patreon-cta">
+      <div class="patreon-cta-emoji">🎙️💸</div>
+      <h2>Die drei brauchen unser Geld!</h2>
+      <p>
+        Etiennes Mikrowelle wird nicht jünger, Jochens Hund Poppy frisst gerne und Georgs orange Brillengläser müssen
+        ja auch irgendwo herkommen. Ohne Patreon-Support keine ${stats.episodeCount} Folgen Quatsch.
+      </p>
+      <p class="patreon-cta-sub">
+        Im Ernst: Wenn dir der Podcast Freude macht, hau ein paar Euro raus. Reicht für einen Sack Tiefkühlpommes,
+        die sie diesmal hoffentlich nicht in der Mikrowelle machen.
+      </p>
+      <a class="btn primary patreon-btn" href="https://www.patreon.com/podcastohnenamen" rel="noopener" target="_blank">
+        ❤️ Auf Patreon unterstützen
+      </a>
+    </section>
   `;
   return layout({ title: "Hosts", body, currentNav: "hosts" });
 }

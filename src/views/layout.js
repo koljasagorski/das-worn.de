@@ -169,6 +169,7 @@ export function layout({ title, body, currentNav = "" }) {
       <a class="listen-link spotify" href="https://open.spotify.com/show/337WgqUhBAcKQwlA2MZJtu" rel="noopener" target="_blank">Spotify</a>
       <a class="listen-link apple" href="https://podcasts.apple.com/de/podcast/podcast-ohne-richtigen-namen/id1351207963" rel="noopener" target="_blank">Apple Podcasts</a>
       <a class="listen-link web" href="https://www.podcastohnerichtigennamen.de" rel="noopener" target="_blank">Website</a>
+      <a class="listen-link patreon" href="https://www.patreon.com/podcastohnenamen" rel="noopener" target="_blank">Patreon ❤️</a>
     </div>
   </div>
 </header>
@@ -183,11 +184,17 @@ ${bodyStr}
       <a href="https://github.com/koljasagorski/das-worn.de" rel="noopener">trag was zum GitHub-Projekt bei</a>.
     </div>
     <p><strong>das worn</strong> – Wiki Ohne Richtigen Namen. Ein inoffizielles Fan-Projekt. Keine Verbindung zum Podcast oder seinen Hosts.</p>
+    <div class="footer-patreon">
+      🎙️ <strong>Apropos Geld:</strong> Etienne, Jochen und Georg machen den Podcast nicht ohne Grund freiwillig –
+      <a href="https://www.patreon.com/podcastohnenamen" rel="noopener" target="_blank">unterstütze die drei auf Patreon</a>
+      und Etiennes Mikrowelle, Jochens Hund Poppy und Georgs Brille danken's dir.
+    </div>
     <nav class="footer-social" aria-label="Social Media">
+      <a href="https://www.patreon.com/podcastohnenamen" rel="noopener" target="_blank" title="Den Podcast unterstützen">🎙️ Patreon (Podcast)</a>
       <a href="https://github.com/koljasagorski/das-worn.de" rel="noopener" title="Code beitragen">🐙 GitHub</a>
       <a href="https://www.linkedin.com/in/koljasagorski/" rel="noopener" title="LinkedIn-Profil von Kolja">💼 LinkedIn</a>
       <a href="https://www.instagram.com/keepcalmanddrinkchampagne/" rel="noopener" title="Instagram-Profil von Kolja">📷 Instagram</a>
-      <a href="https://paypal.me/gigalogi" rel="noopener" title="Wenn dir das Wiki gefällt – paypal@koljasagorski.de">☕ Spende</a>
+      <a href="https://paypal.me/gigalogi" rel="noopener" title="Wiki-Bauer Kolja unterstützen – paypal@koljasagorski.de">☕ Wiki-Spende</a>
     </nav>
     <p class="footer-meta">Läuft auf Cloudflare Workers · <a href="/about">Über dieses Wiki</a></p>
   </div>
