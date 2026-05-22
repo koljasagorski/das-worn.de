@@ -115,6 +115,19 @@ Nach dem Editieren: `npm run build:data` neu laufen lassen.
 wrangler.toml              # Cloudflare-Worker-Konfig
 ```
 
+## Chat-Assistent aktivieren
+
+Der Worker hat eine kleine Chat-KI auf `/chat`, die per `POST /api/chat` Claude Haiku aufruft. Damit das in der Produktion funktioniert, einmalig den API-Key als Worker-Secret setzen:
+
+```bash
+wrangler secret put ANTHROPIC_API_KEY
+# (API-Key aus https://console.anthropic.com einfügen)
+```
+
+Ohne Secret antwortet die API mit einem klaren 503-Hinweis. Die System-Prompt enthält Folgen-Index, Host-Bios, Running-Gag-Zusammenfassungen und die aktuelle Punktetabelle. Nach jeder dritten Frage hängt der Worker einen kleinen PayPal-Hinweis ans Antwortende.
+
+Lokal nur testen mit Antwort: vorher eine `.dev.vars` mit `ANTHROPIC_API_KEY=sk-…` anlegen.
+
 ## Tech-Stack
 
 - **[Hono](https://hono.dev/)** als minimales Router-Framework für Workers.
