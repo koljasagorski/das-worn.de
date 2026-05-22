@@ -1435,6 +1435,36 @@
     "episodeTitle": "Notruf und Ostereier",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "116": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Barlos Tubenbutter",
+        "summary": "Butter in Tubenform zum leichten Verstreichen, ähnlich wie Zahnpasta. Soll das mühsame Verstreichen mit dem Messer überflüssig machen.",
+        "originator": null,
+        "viability": "ernsthaft",
+        "category": "Produkt"
+      },
+      {
+        "name": "Tischtennisplatte mit abgerundeten Ecken",
+        "summary": "Tischtennisplatte mit abgerundeten statt ganz runder Ecken für Schulen und öffentliche Plätze. Georg plant konkret, eine solche Platte zu spenden und den Schulleiter zu kontaktieren.",
+        "originator": "georg",
+        "viability": "ernsthaft",
+        "category": "Produkt"
+      },
+      {
+        "name": "Man vs. Nature (TV-Format)",
+        "summary": "TV-Show, in der ein Jiu-Jitsu-Schwarzgürtel gegen verschiedene Tiere antritt; Schwierigkeit steigt von kleinen Tieren bis zu großen Raubtieren und Meeresgetieren pro Staffel.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      }
+    ],
+    "notes": "Barlos Tubenbutter ist eine frühere Idee, die von Patreon-Hörer Julius Helbig wieder aufgegriffen wird; Hosts halten sie noch immer für 'großartig'. Tischtennisplatte: Georg plant ernsthaft, damit zur Schulleitung zu gehen. Man vs. Nature entsteht aus humorvoller Diskussion, wird aber von der Gruppe mit konkreten Details ausgearbeitet.",
+    "episodeNumber": 116,
+    "episodeTitle": "Das gefährliche Pferd",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "117": {
     "hasIdea": false,
     "ideas": [],
@@ -1852,6 +1882,30 @@
     "notes": "Die Folge enthält mehrere Anekdoten und Diskussionen (Flugzeug-Koffer-Vorfall, Parkhaus-Gebühren, historische Kaffeeriecher, Fußball, Weihnachtslied), aber keine ernst gemeinten Geschäfts-/Start-up-Ideen. Eine humorvolle Erwähnung einer App zur Gewalt-Vermittlung ist reiner Sarkasmus und Quatsch, keine substanzielle Geschäftsidee.",
     "episodeNumber": 149,
     "episodeTitle": "Kofferangriff",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "150": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine echten Geschäfts-/Start-up-Ideen identifiziert. Die Folge behandelt persönliche Anekdoten (Impfzentrum, Schlangenstehen), gesellschaftliche Diskussionen (Waffen in USA, Marihuana-Legalisierung, WM in Katar), Rätsel (Hühnergötter), Evolution/Biologie und Fußball. Die kurze Erwähnung von Shooting Ranges ist eher eine theoretische Diskussion über existierende Geschäftsmodelle, nicht eine neue Idee. Das Marihuana-Sondersendungs-Format ist eine Podcast-Spezial-Edition, keine Geschäftsidee. Ballastaffen und Giraffen mit Trapezstangen sind reiner Quatsch ohne Substanz.",
+    "episodeNumber": 150,
+    "episodeTitle": "Squidgames in der Impfschlange",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "151": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript enthält keine ernsthaft diskutierten Geschäfts- oder Start-up-Ideen. Die Hosts sprechen über persönliche Anekdoten (Weihnachtsmarkt, Bank-Schlangen, Taxi-Fahrten), existierende Technologien (Netflix, Spiele), ihr eigenes Patreon/Merchandise-Geschäft und führen ein Quiz durch. Eine mögliche 'Idee' zur Optimierung von Warteschlangen wird nur flüchtig und humorvoll erwähnt ('Haben wir da eine Marktlücke?'), wird aber sofort wieder verworfen und nicht konkret besprochen. Keine substanzielle Geschäftsidee vorhanden.",
+    "episodeNumber": 151,
+    "episodeTitle": "Weihnachtsmarkt",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "152": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Folge behandelt hauptsächlich bestehende Medienformate (Seven vs. Wild, Pam and Tommy Serie), humorvolle Diskussionen über Gangsterboss-Namen und Foltermethoden als Witzideen ohne geschäftliche Substanz, ein Rätselspiel, persönliche Jobgeschichten und Merch-Shop-Hinweise. Keine neuen oder ernsthaft diskutierten Geschäfts-/Start-up-Ideen vorhanden.",
+    "episodeNumber": 152,
+    "episodeTitle": "7 vs. Wild",
     "_model": "claude-haiku-4-5-20251001"
   }
 }
