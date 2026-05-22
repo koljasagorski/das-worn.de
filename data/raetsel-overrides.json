@@ -3609,5 +3609,15 @@
     "_confidence": "low",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "362": {
+    "winner": "etienne",
+    "question": "Warum gab Pokerspielerin Victoria Coran den Versuch auf, ihre Flugangst zu therapieren?",
+    "answer": "Ihr Therapeut starb bei einem Flugzeugabsturz, weshalb sie den Therapieversuch aufgab.",
+    "skipped": false,
+    "notes": "Etienne sagt explizit: 'als dass ich den Punkt jetzt habe'. Die entscheidenden Fragen waren 'Hat es etwas mit einem Todesfall zu tun?' (wahrscheinlich Etienne) und 'Ist der Therapeut bei einem Flugzeugabsturz gestorben?' (Jochen). Etienne scheint den Punkt bekommen zu haben, wahrscheinlich weil er die erste Frage stellte, die zum Todesfall führte.",
+    "_auto": true,
+    "_confidence": "medium",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string)."
 }
