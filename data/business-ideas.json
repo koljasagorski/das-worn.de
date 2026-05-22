@@ -712,12 +712,65 @@
     "episodeTitle": "Soziale Isolierung",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "65": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Twitter-Account Positive Nachrichten",
+        "summary": "Social-Media-Kanal, der ausschließlich positive Nachrichten und uplifting Stories verbreitet als Gegengewicht zu reißerischer Berichterstattung. Wird als potenziell massiv erfolgreich diskutiert.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "App/Software"
+      },
+      {
+        "name": "Porsche-Restaurierungsprojekt",
+        "summary": "Kauf eines gebrauchten Porsches und dessen Aufmöbelung/Restaurierung als großes Projekt, vermutlich für Content-Zwecke (z.B. YouTube).",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      }
+    ],
+    "notes": "Zwei halbernst diskutierte, aber echte Geschäftsideen. Originator der Twitter-Idee aus Transkript unklar (wahrscheinlich Jochen oder Georg). Weitere erwähnte Pläne (Hometrainer-Ausleihe, Teich-Projekt, Käse-Empfehlungen) sind private Hobbys, keine kommerziellen Ideen.",
+    "episodeNumber": 65,
+    "episodeTitle": "Etienne im Tigerentenclub",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "66": {
     "hasIdea": false,
     "ideas": [],
     "notes": "Transcript contains discussions of existing problems (streaming series availability, cable management, subscription tracking), references to existing apps/products (Finanzguru, Netflix, Amazon), personal activities (learning guitar, considering getting a pet), and jokes (testing playground safety with dummy dolls). No serious new business or startup ideas are proposed or discussed.",
     "episodeNumber": 66,
     "episodeTitle": "Gittarenspieler Etienne",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "67": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Mundschutz-Ohren-Entlastung",
+        "summary": "3D-gedruckte Klammer, die das Gummi des Mundschutzes hinter dem Kopf statt an den Ohren hält, um Druckstellen zu vermeiden.",
+        "originator": null,
+        "viability": "ernsthaft",
+        "category": "Produkt"
+      },
+      {
+        "name": "Pop-up Bar nach Corona",
+        "summary": "3-Monate-Lokal nach Lockdown-Ende, um schnell hohe Umsätze aus erwarteter Kundennachfrage zu generieren.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Service"
+      },
+      {
+        "name": "Musik-Podcast mit Anekdoten",
+        "summary": "Podcast mit Live-Gitarre und persönlichen Geschichten zwischen den Songs, finanziert durch virtuelles Trinkgeld-System.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Mundschutz-Idee eines 13-Jährigen wird ernsthaft als viables Geschäftsmodell diskutiert; Pop-up Bar wird mit Gegendargumentation (fehlender USP) verworfen; Musik-Podcast wird als spontane Überlegung mit Tipping-Modell erwähnt.",
+    "episodeNumber": 67,
+    "episodeTitle": "Lieblingsserien der Kindheit",
     "_model": "claude-haiku-4-5-20251001"
   },
   "68": {
@@ -799,6 +852,29 @@
     "episodeTitle": "Loch in der Hand",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "73": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Tattoo-Entfernungs-Service",
+        "summary": "Ein Service-Angebot zur Entfernung von Tattoos via Laser, basierend auf der erkannten Marktlücke: Mit steigender Anzahl tätowierter Menschen wächst auch die Nachfrage nach Entfernung.",
+        "originator": "jochen",
+        "viability": "ernsthaft",
+        "category": "Service"
+      },
+      {
+        "name": "Virtual Reality Fußball-Stadion-Tickets",
+        "summary": "Virtuelle Ticketverkäufe für Fußballspiele, bei denen Zuschauer von zu Hause virtuell im Stadion sitzen, sich umschauen und Platzposition sowie Avatar-Nachbarn wählen können.",
+        "originator": "jochen",
+        "viability": "ernsthaft",
+        "category": "Service"
+      }
+    ],
+    "notes": "Beide Ideen werden von Jochen ernsthaft präsentiert. Bei der VR-Fußball-Idee sprechen die Hosts von einer 'Milliardenidee' und planen konkrete Schritte (Kontakt zu Viertliga-Vereinen zur Testung). Sie folgen dem 'iPhone-Hülle'-Konzept: Marktlücken in bestehenden/zukünftigen Märkten erkennen.",
+    "episodeNumber": 73,
+    "episodeTitle": "Achtung Gitarre!",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "74": {
     "hasIdea": false,
     "ideas": [],
@@ -815,6 +891,22 @@
     "episodeTitle": "E.T. ist ein Arsch",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "76": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Mutters Küche",
+        "summary": "Restaurant/Imbiss, das Original-Hausrezepte von Müttern und Großmüttern anbietet. Fokus auf wenige, hochwertige Gerichte statt vieler mittelmäßiger Optionen. Eltern kochen initial, schulen später Köche ein.",
+        "originator": "jochen",
+        "viability": "ernsthaft",
+        "category": "Service"
+      }
+    ],
+    "notes": "Konkrete Geschäftsdiskussion mit Überlegungen zu Fokus, Differenzierung und Skalierbarkeit. Humorvoll-ernsthaft, aber substanziell genug.",
+    "episodeNumber": 76,
+    "episodeTitle": "Kondome im Pokal",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "77": {
     "hasIdea": true,
     "ideas": [
@@ -829,6 +921,158 @@
     "notes": "Jochen stellt diese als 'Millionenidee' vor, die bereits monetarisierbar ist. Hosts diskutieren Geschäftsmodell, Franchising-Potenzial und Monetarisierung ernsthaft. Georg sagt explizit: 'Das ist wirklich eine gute Idee'. Call-out an bestehende Tanzschulen, ein wöchentliches TikTok-Tanzangebot zu schaffen.",
     "episodeNumber": 77,
     "episodeTitle": "Schnauze, Brigitte!",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "78": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Reallife-Social-Media-Serie",
+        "summary": "Ein Social-Media-Channel (Instagram/TikTok), der bewusst echtes Leben statt inszenierter Erfolgsgeschichten zeigt - ungeschminkt, mit Bauch, Trainingskleidung, Kaffee statt Smoothies.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Konkret besprochen als machbar: 'wenn du bereit bist, Georg, sag Bescheid, wir machen das zu Kind-Story draus'. Humorvoll aber mit echtem Geschaeftsinteresse als Gegenbewegung zu Influencer-Fake-Content.",
+    "episodeNumber": 78,
+    "episodeTitle": "Flamingo im Studio",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "79": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Tortilla España - Fertig-Tortillas für Deutschland",
+        "summary": "Vorgefertigte spanische Tortillas (Kartoffeln, Eier, Zwiebeln) in Vakuumverpackung nach Deutschland bringen. Distribution über Universitätsmensen und Supermärkte mit Franchise-Modell, Massenproduktion und Marketing-Kampagne ('Tortilla ist fertig').",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Die Idee wird konkret mit geschäftlichen Überlegungen diskutiert (Produktion, Mensakooperation, vegane Varianten, Skalierung, Marketing), allerdings durchzogen mit Humor. Sie suchen explizit nach Gastronomie-Partnern.",
+    "episodeNumber": 79,
+    "episodeTitle": "Etienne auf Reisen",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "80": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript enthält keine echten Geschäfts-/Start-up-Ideen. Diskussionen über Meerschweinchen sind persönlich motiviert. Die Anus-Bleaching-Studio-Idee wird humorvoll erwähnt, aber nicht substanziell als Geschäftskonzept entwickelt. Andere Punkte behandeln existierende Produkte (Aktenvernichter, Scanner-NAS-Systeme, Rechnungssoftware) und das Yellow Dog Program für Hunde. Keine dieser Diskussionen erreicht den Schwellwert für eine echte/halbernst gemeinte Geschäftsidee.",
+    "episodeNumber": 80,
+    "episodeTitle": "Parkplatz-Streit",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "81": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "MAGA Mundschutz",
+        "summary": "Mundschutz mit 'Make America Great Again'-Motiv für Trump-Anhänger verkaufen. Diese würden die Masken tragen, um die Botschaft zu verbreiten, obwohl sie normalerweise Maskengegner sind – zwei Fliegen mit einer Klatsche.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Überwiegend persönliche Anekdoten, Straßenverkehr-Diskussionen und UFO-Talk. MAGA-Mundschutz wird kurz erwähnt und humorvoll diskutiert, aber nicht ernsthaft weiterverfolgt. Stern-Taufen/Straßennamen-Verkauf zu oberflächlich für echte Ideen.",
+    "episodeNumber": 81,
+    "episodeTitle": "Das beschissene Geschenk",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "82": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "PR-Agentur für kontrollierte Kontroversen",
+        "summary": "Eine Werbeagentur erstellt bewusst harmlose Werbespots und orchestriert dann künstliche Shitstorms via Social Media, um kostenlose redaktionelle Berichterstattung in zwei Wellen zu generieren. Die Firma kann dann demonstrativ auf Kritik reagieren und erhält zusätzliche positive Presse.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Georg entwickelt diese Idee mit konkreten Beispielen (Sonic-Film, Soßen-Umbenennung). Die Diskussion ist durchaus substanziell, auch wenn humorvoll. Andere erwähnte Punkte (Strandmuschel-Bedienungsanleitung, Livestream-Kochen) sind nur Anekdoten ohne echte Geschäftsambition.",
+    "episodeNumber": 82,
+    "episodeTitle": "Comic-Bestellung",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "83": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Folge enthält keine echten Geschäftsideen. Die Diskussion über 'Space Dogs' (mobile Tierärzte im Weltall) wird humorvoll als Hörspiel-Parodie behandelt und ist nicht ernsthaft gemeint. Autokinos werden als bestehend erwähnt. Rest sind persönliche Anekdoten (Darmspiegelung, Zahnpasta-Vorfall mit Sohn) und Diskussionen über existierende Produkte/Services (PS5, Bibi Blocksberg, Pizzerien).",
+    "episodeNumber": 83,
+    "episodeTitle": "Gelbe Gummibärchen",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "85": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine echte Geschäfts- oder Startup-Idee identifiziert. Thermomix wird als bestehendes Produkt kritisch hinterfragt, Drohne ist privates Hobby ohne Business-Plan, restliche Inhalte sind Anekdoten, Witze und Diskussionen über existierende Praktiken (Crowdfunding, Spendenaufrufe). Podcast ist humorvoll-anekdotisch, nicht pitching-orientiert.",
+    "episodeNumber": 85,
+    "episodeTitle": "Was ist mit dem Suppenkasper passiert",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "86": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "D-Influencer / Anti-Influencer-Marketing",
+        "summary": "Geschäftsmodell, bei dem Influencer dafür bezahlt werden, NICHT bestimmte Produkte zu tragen/zu bewerben oder um Konkurrenzprodukte bewusst schlecht darzustellen (z.B. Coca-Cola zahlt dafür, dass man sagt, Pepsi ist kacke). Mehrere Influencer können mit verschiedenen Sponsoren am gleichen Ort zusammenarbeiten.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Krabbenfischen und Anglo German Club sind persönliche Abenteuer/Gedankenexperimente, keine echten entwickelten Geschäftsideen. Die D-Influencer-Idee wird trotz humorvoller Präsentation tatsächlich konzeptionell diskutiert und weiterentwickelt.",
+    "episodeNumber": 86,
+    "episodeTitle": "Der geheime Club",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "87": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Erotische Hörspiele Sprecher",
+        "summary": "Etienne erwägt, als professioneller Sprecher für erotische Hörspiele tätig zu werden. Die Hosts diskutieren ernsthaft, ob dies ein viables Geschäftsmodell für sie ist, und kündigen an, es auszuprobieren und in der nächsten Folge über die Ergebnisse zu berichten.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Sockenproblem wird identifiziert, aber Lösungsansätze (Sprühsocken, Sockenmaschine, RFID-Chips) sind reine Witzideen ohne ernsthafte Substanz. Nur die Erotik-Hörspiel-Idee wird ernsthaft als mögliches Geschäftsmodell diskutiert.",
+    "episodeNumber": 87,
+    "episodeTitle": "Das erotische Hörspiel",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "88": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Crazy Football Statistics Website",
+        "summary": "Eine Website, die exklusiv ungewöhnliche Fußballstatistiken anbietet, die sonst niemand erhebt (z.B. Grätschzahl, Einwurfrichtungen, Kratzer-Häufigkeiten). Monetarisierung durch Verkauf an Vereine/Medien ähnlich wie Opta-Sports.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "App/Software"
+      }
+    ],
+    "notes": "Georg entwickelt die Idee beim Fußballschauen. Jochen bewertet mit 10/10, aber Etienne und die anderen weisen auf praktische Probleme hin: Wichtige Stats werden bereits erhoben, Aussagekraft fragwürdig, Erfassungsaufwand hoch (mehrere Personen pro Spiel nötig). Georg meint, Marketing und Story könnten es funktionsfähig machen, aber die Machbarkeit bleibt umstritten.",
+    "episodeNumber": 88,
+    "episodeTitle": "Wer wird Millionär?",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "89": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Episode behandelt persönliche Anekdoten (Corona-Test am Flughafen), Haustieranschaffung (Pudel), Erinnerungen an alte TV-Formate (Giga Games, Harald Schmidt) und Schulthemen. Es werden keine echten Geschäfts-/Start-up-Ideen ernsthaft diskutiert. Eine beiläufige Erwähnung eines früheren Vorschlags (Let's-Play-Format in der Nachleife bei Giga) und ein Format-Vorschlag (Sprachnachrichten-Fragen) sind zu vage und nicht substanziell genug.",
+    "episodeNumber": 89,
+    "episodeTitle": "Der Coronatest",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "90": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Folge 90 besteht hauptsächlich aus persönlichen Anekdoten, Filmempfehlungen (Ted Lasso, The Boys), Diskussionen über Umweltthemen (Plastikstrohhalme), Rätsel und Fan-Fragen. Die Erwähnung eines Spin-Off-Podcasts und einer Gitarren-Riff-Komposition ist eine interne Podcast-Planung, keine echte Geschäftsidee. Keine substanzielle Diskussion einer konkreten Geschäfts- oder Startup-Idee vorhanden.",
+    "episodeNumber": 90,
+    "episodeTitle": "Plastikstrohhalm",
     "_model": "claude-haiku-4-5-20251001"
   }
 }
