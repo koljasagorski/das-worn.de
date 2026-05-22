@@ -109,8 +109,13 @@ export function renderBusinessIdeas({ businessIdeas, episodes }) {
   for (const [numStr, entry] of Object.entries(businessIdeas)) {
     if (!entry?.ideas || !entry.ideas.length) continue;
     for (const idea of entry.ideas) {
+      // Normalize AI-side typos / synonyms.
+      let viability = idea.viability;
+      if (viability === "halbernsthaft") viability = "halbernst";
+      else if (!["ernsthaft", "halbernst", "quatsch"].includes(viability)) viability = "halbernst";
       all.push({
         ...idea,
+        viability,
         episodeNumber: parseInt(numStr, 10),
         episodeTitle: entry.episodeTitle,
       });
