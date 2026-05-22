@@ -14,8 +14,11 @@ import {
   renderLoreIndex,
   renderLoreDetail,
   renderChat,
+  renderBusinessIdeas,
+  renderPommes,
 } from "./views/pages.js";
 import { handleChat } from "./api/chat.js";
+import businessIdeas from "../data/business-ideas.json";
 
 const app = new Hono();
 
@@ -59,6 +62,15 @@ app.get("/lore/:key", (c) => {
 
 app.get("/chat", (c) => c.html(renderChat({ stats }), 200, { "Cache-Control": "public, max-age=300" }));
 app.post("/api/chat", handleChat);
+app.get("/business-ideen", (c) => html(c, renderBusinessIdeas({ businessIdeas, episodes })));
+
+// Easter egg routes
+app.get("/pommes", (c) => html(c, renderPommes()));
+app.get("/eddi", (c) => c.redirect("/hosts#etienne", 302));
+app.get("/onkel-barlow", (c) => c.redirect("/hosts#georg", 302));
+app.get("/noriega", (c) => c.redirect("/folge/1", 302));
+app.get("/kreidefrau", (c) => c.redirect("/lore/kreidefrau", 302));
+app.get("/stradivari", (c) => c.redirect("/lore/stradivari", 302));
 
 app.get("/random", (c) => {
   const ep = episodes[Math.floor(Math.random() * episodes.length)];

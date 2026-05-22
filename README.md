@@ -115,18 +115,16 @@ Nach dem Editieren: `npm run build:data` neu laufen lassen.
 wrangler.toml              # Cloudflare-Worker-Konfig
 ```
 
-## Chat-Assistent aktivieren
+## Chat-Assistent
 
-Der Worker hat eine kleine Chat-KI auf `/chat`, die per `POST /api/chat` Claude Haiku aufruft. Damit das in der Produktion funktioniert, einmalig den API-Key als Worker-Secret setzen:
+Der Worker hat eine Chat-KI auf `/chat`, die per `POST /api/chat` **Cloudflare Workers AI** aufruft – kein externer API-Key nötig.
 
-```bash
-wrangler secret put ANTHROPIC_API_KEY
-# (API-Key aus https://console.anthropic.com einfügen)
-```
+- Modell: `@cf/meta/llama-3.3-70b-instruct-fp8-fast` mit Fallback `@cf/meta/llama-3.1-8b-instruct-fast`.
+- Binding in `wrangler.toml`: `[ai]\nbinding = "AI"`.
+- System-Prompt enthält Folgen-Index, Host-Bios, Running-Gag-Zusammenfassungen und die aktuelle Punktetabelle.
+- Nach jeder dritten Frage hängt der Worker einen kleinen PayPal-Hinweis ans Antwortende.
 
-Ohne Secret antwortet die API mit einem klaren 503-Hinweis. Die System-Prompt enthält Folgen-Index, Host-Bios, Running-Gag-Zusammenfassungen und die aktuelle Punktetabelle. Nach jeder dritten Frage hängt der Worker einen kleinen PayPal-Hinweis ans Antwortende.
-
-Lokal nur testen mit Antwort: vorher eine `.dev.vars` mit `ANTHROPIC_API_KEY=sk-…` anlegen.
+Workers AI Free Tier: 10.000 Neuronen/Tag (für die paar Wiki-Anfragen locker genug).
 
 ## Tech-Stack
 

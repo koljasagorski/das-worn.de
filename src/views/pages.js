@@ -2,27 +2,175 @@ import { layout, html, raw, escapeHtml } from "./layout.js";
 
 const HOST_INFO = {
   etienne: {
-    name: "Etienne Garde",
+    name: "Etienne Gardé",
     aliases: ["Eddi", "Eddie"],
-    blurb: 'Schauspieler, Moderator, Synchronsprecher und bekannt von Rocket Beans TV. Im Podcast oft als „Eddi" angesprochen und gerne mal das Ziel kleiner Sticheleien.',
-    fun: "Hat eine türkische Wurzel, war angeblich Schützenkönig und ist laut Folge 159 ein 'Erotik-Sprecher'.",
+    blurb: 'Schauspieler, Moderator, Synchronsprecher, Mitgründer von Rocket Beans TV. Im Podcast oft als „Eddi" angesprochen und gerne mal das Ziel kleiner Sticheleien.',
+    fun: 'Hat eine türkische Wurzel, war angeblich Schützenkönig, ist laut Folge 159 „Erotik-Sprecher" – und hat (laut Intro-Jingle) ernsthaft versucht, Tiefkühlpommes in der Mikrowelle zu machen.',
     color: "#e85a4f",
+    socials: [
+      { label: "Instagram @etiennetogo", url: "https://www.instagram.com/etiennetogo/" },
+      { label: "X / Twitter @EtienneToGo", url: "https://x.com/etiennetogo" },
+      { label: "Twitch EdeLive", url: "https://www.twitch.tv/edelive" },
+      { label: "YouTube GrumpyEde", url: "https://www.youtube.com/@GrumpyEde" },
+    ],
   },
   jochen: {
-    name: "Jochen",
-    aliases: [],
-    blurb: "Der Mann mit der USB-Maus, die manchmal spinnt. Hat ein gespanntes Verhältnis zur Polizei-Hotline und ein Faible für ausführliche Anekdoten.",
-    fun: "Ruft öfter mal die 110 wegen Kleinigkeiten und hat einmal eine Marihuana-Plantage über sich wohnen gehabt (London).",
+    name: "Jochen Dominicus",
+    aliases: ["Danger Dominicus"],
+    blurb: "Der Mann mit der USB-Maus, die manchmal spinnt. Hat ein gespanntes Verhältnis zur 110, ein Faible für ausführliche Anekdoten und einen Hund namens Poppy.",
+    fun: 'Ruft öfter mal die Polizei wegen Kleinigkeiten und hat einmal eine Marihuana-Plantage über sich wohnen gehabt (London). Co-Host des Podcasts „Pinkelpause".',
     color: "#3a86ff",
+    socials: [
+      { label: "Instagram @jochendominicus", url: "https://www.instagram.com/jochendominicus/" },
+      { label: "X / Twitter @JochenDominicus", url: "https://x.com/JochenDominicus" },
+      { label: "Bluesky @danger.bsky.social", url: "https://bsky.app/profile/danger.bsky.social" },
+    ],
   },
   georg: {
-    name: "Georg",
-    aliases: [],
-    blurb: "Der Rätselmeister. Stellt am Ende fast jeder Folge das Rätsel und sitzt strategisch über den Punkten.",
-    fun: "Hat mindestens einen Fall, in dem er aus einer Karneval-Tagesinfo eine Detektivgeschichte macht.",
+    name: 'Georg „Onkel Barlow" Zaal',
+    aliases: ["Onkel Barlow"],
+    blurb: "Der Rätselmeister. Stellt am Ende fast jeder Folge das Rätsel und sitzt strategisch über den Punkten – ohne die meisten selbst zu kriegen, denn er stellt sie ja.",
+    fun: "Trägt eine orange-getönte Brille (Edgar-Davids-Fan-Geste oder niederländische Wurzeln, je nach Auslegung). Eigene Podcasts wie BMZ.",
     color: "#2a9d8f",
+    socials: [
+      { label: "Instagram @onkelbarlow", url: "https://www.instagram.com/onkelbarlow/" },
+      { label: "X / Twitter @GeorgeZaal", url: "https://x.com/georgezaal" },
+      { label: "YouTube gzaal", url: "https://www.youtube.com/user/gzaal" },
+    ],
   },
 };
+
+const PODCAST_LINKS = {
+  spotify: "https://open.spotify.com/show/337WgqUhBAcKQwlA2MZJtu",
+  apple: "https://podcasts.apple.com/de/podcast/podcast-ohne-richtigen-namen/id1351207963",
+  website: "https://www.podcastohnerichtigennamen.de",
+  twitter: "https://x.com/podcastohnename",
+  linktree: "https://linktr.ee/podcastohnenamen",
+};
+
+// ─────────────────────────────────────────────────────────────
+// Easter Egg: /pommes
+// ─────────────────────────────────────────────────────────────
+export function renderPommes() {
+  const body = html`
+    <section class="hero" style="text-align:center">
+      <div style="font-size:5rem;line-height:1">🍟🍟🍟</div>
+      <h1>Du hast nicht ernsthaft versucht…</h1>
+      <p class="hero-tagline" style="font-size:1.3rem">
+        …Tiefkühlpommes in der Mikrowelle zu machen, oder?
+      </p>
+      <p class="hero-sub">
+        Diese Tat hat den Podcast geprägt. Sie ist Teil des offiziellen Intros.
+        Etienne, wir vergessen das nie.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="/lore/tiefkuehlpommes">Zum Pommes-Lore-Eintrag</a>
+        <a class="btn" href="/">Wieder zurück zur Vernunft</a>
+      </div>
+    </section>
+    <p class="muted" style="text-align:center;margin-top:2rem">
+      🥚 Easter Egg #1 von ${5}.
+    </p>
+    <script>
+      // Trigger pommes rain on this page automatically
+      window.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowUp'}));
+      // Easier: just do it directly
+      (() => {
+        const overlay = document.createElement('div');
+        overlay.className = 'pommes-rain';
+        for (let i = 0; i < 40; i++) {
+          const s = document.createElement('span');
+          s.textContent = '🍟';
+          s.style.left = (Math.random()*100) + 'vw';
+          s.style.animationDelay = (Math.random()*2) + 's';
+          s.style.animationDuration = (3 + Math.random()*3) + 's';
+          s.style.fontSize = (1 + Math.random()*2) + 'rem';
+          overlay.appendChild(s);
+        }
+        document.body.appendChild(overlay);
+      })();
+    </script>
+  `;
+  return layout({ title: "🍟 Pommes", body, currentNav: "" });
+}
+
+// ─────────────────────────────────────────────────────────────
+// Business Ideas page
+// ─────────────────────────────────────────────────────────────
+export function renderBusinessIdeas({ businessIdeas, episodes }) {
+  // Flatten all ideas with their episode reference
+  const all = [];
+  for (const [numStr, entry] of Object.entries(businessIdeas)) {
+    if (!entry?.ideas || !entry.ideas.length) continue;
+    for (const idea of entry.ideas) {
+      all.push({
+        ...idea,
+        episodeNumber: parseInt(numStr, 10),
+        episodeTitle: entry.episodeTitle,
+      });
+    }
+  }
+  // Sort by viability (ernsthaft > halbernst > quatsch) then by episode desc
+  const viabilityOrder = { ernsthaft: 0, halbernst: 1, quatsch: 2 };
+  all.sort((a, b) => {
+    const va = viabilityOrder[a.viability] ?? 9;
+    const vb = viabilityOrder[b.viability] ?? 9;
+    if (va !== vb) return va - vb;
+    return b.episodeNumber - a.episodeNumber;
+  });
+
+  // Counts by viability
+  const counts = { ernsthaft: 0, halbernst: 0, quatsch: 0 };
+  for (const i of all) counts[i.viability] = (counts[i.viability] || 0) + 1;
+
+  const renderIdea = (i) => {
+    const vBadge =
+      i.viability === "ernsthaft" ? html`<span class="badge via-serious">💼 ernsthaft</span>`
+      : i.viability === "halbernst" ? html`<span class="badge via-half">🤔 halbernst</span>`
+      : html`<span class="badge via-joke">😅 Quatsch</span>`;
+    const oBadge = i.originator && HOST_INFO[i.originator]
+      ? html`<span class="badge" style="background:${HOST_INFO[i.originator].color};color:white">${HOST_INFO[i.originator].name}</span>`
+      : "";
+    return html`
+      <article class="idea-card">
+        <header class="idea-header">
+          <h3>${i.name}</h3>
+          <div class="idea-meta">
+            ${vBadge}
+            ${oBadge}
+            ${i.category ? html`<span class="badge">${i.category}</span>` : ""}
+          </div>
+        </header>
+        <p class="idea-summary">${i.summary}</p>
+        <p class="idea-src"><a href="/folge/${i.episodeNumber}">→ aus Folge #${i.episodeNumber}: ${i.episodeTitle}</a></p>
+      </article>
+    `;
+  };
+
+  const body = all.length === 0 ? html`
+    <h1>💼 Business-Ideen</h1>
+    <p>Die Hosts haben in den ersten Folgen offenbar noch keine Idee laut gedacht – die Extraktion läuft noch.</p>
+    <p>Sobald das Build-Skript durch ist, erscheinen hier die Start-up-Ideen, Erfindungen und ernst gemeinten Geschäftsideen.</p>
+  ` : html`
+    <h1>💼 Business-Ideen aus dem Podcast</h1>
+    <p>
+      In manchen Folgen denken die Hosts laut über Geschäftsideen, Erfindungen oder Start-ups nach.
+      Hier sind ${all.length} Ideen, AI-extrahiert aus ${Object.keys(businessIdeas).length} Folgen.
+    </p>
+
+    <div class="stat-grid">
+      <div class="stat-box"><div class="stat-num">${counts.ernsthaft || 0}</div><div class="stat-label">💼 ernsthaft</div></div>
+      <div class="stat-box"><div class="stat-num">${counts.halbernst || 0}</div><div class="stat-label">🤔 halbernst</div></div>
+      <div class="stat-box"><div class="stat-num">${counts.quatsch || 0}</div><div class="stat-label">😅 Quatsch</div></div>
+    </div>
+
+    <section>
+      <h2>Alle Ideen</h2>
+      <div class="ideas-list">${all.map(renderIdea)}</div>
+    </section>
+  `;
+  return layout({ title: "Business-Ideen", body, currentNav: "ideas" });
+}
 
 // ─────────────────────────────────────────────────────────────
 // Chat page
@@ -513,32 +661,34 @@ export function renderEpisode({ episode, prev, next }) {
 // Hosts page
 // ─────────────────────────────────────────────────────────────
 export function renderHosts({ stats }) {
-  const cards = Object.entries(HOST_INFO)
-    .map(([key, h]) => {
-      const wins = stats.winners[key];
-      const mentions = stats.totalMentions[key];
-      const aliases = h.aliases.length ? html`<p class="aliases">Auch genannt: ${h.aliases.join(", ")}</p>` : "";
-      return html`
-        <section class="host-card" id="${key}" style="--c:${h.color}">
-          <div class="host-card-header">
-            <h2>${h.name}</h2>
-            ${raw(aliases)}
+  const cards = Object.entries(HOST_INFO).map(([key, h]) => {
+    const wins = stats.winners[key];
+    const mentions = stats.totalMentions[key];
+    return html`
+      <section class="host-card" id="${key}" style="--c:${h.color}">
+        <div class="host-card-header">
+          <h2>${h.name}</h2>
+          ${h.aliases.length ? html`<p class="aliases">Auch genannt: ${h.aliases.join(", ")}</p>` : ""}
+        </div>
+        <p>${h.blurb}</p>
+        <p class="fun-fact">💡 ${h.fun}</p>
+        <div class="host-stats">
+          <div><span class="big">${wins}</span><span class="lbl">Rätsel-Punkte</span></div>
+          <div><span class="big">${mentions.toLocaleString("de-DE")}</span><span class="lbl">Erwähnungen</span></div>
+        </div>
+        ${h.socials && h.socials.length ? html`
+          <div class="host-socials">
+            ${h.socials.map((s) => html`<a href="${s.url}" rel="noopener" target="_blank">${s.label}</a>`)}
           </div>
-          <p>${h.blurb}</p>
-          <p class="fun-fact">💡 ${h.fun}</p>
-          <div class="host-stats">
-            <div><span class="big">${wins}</span><span class="lbl">Rätsel-Punkte</span></div>
-            <div><span class="big">${mentions.toLocaleString("de-DE")}</span><span class="lbl">Erwähnungen</span></div>
-          </div>
-        </section>
-      `;
-    })
-    .join("");
+        ` : ""}
+      </section>
+    `;
+  });
 
   const body = html`
     <h1>Die Hosts</h1>
-    <p>Drei Männer, ein Mikrofon-Setup, kein Name für den Podcast.</p>
-    <div class="host-grid">${raw(cards)}</div>
+    <p>Drei Männer, ein Mikrofon-Setup, kein Name für den Podcast. NBC Giga in Düsseldorf, vor ungefähr 25 Jahren.</p>
+    <div class="host-grid">${cards}</div>
   `;
   return layout({ title: "Hosts", body, currentNav: "hosts" });
 }
