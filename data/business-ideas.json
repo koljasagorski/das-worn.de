@@ -2610,6 +2610,52 @@
     "episodeTitle": "Die Küken-Kanone",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "205": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Witz ohne Ente",
+        "summary": "Ein Radio-Comedy-Format, bei dem unvollständige Witze ohne Pointe erzählt werden, gefolgt von Musik. Zuhörer müssen raten, wie sie enden.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      },
+      {
+        "name": "Haus-Renovierungs-Show",
+        "summary": "Ein Sendungsformat, in dem ein altes Haus von A bis Z renoviert wird und authentisch gezeigt wird, wie Anfänger mit echten Herausforderungen und Fehlern umgehen.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      },
+      {
+        "name": "Jochen macht es trotzdem",
+        "summary": "Eine Comedy-Serie mit Kamera-Flashbacks in Jochens Kopf, die zeigt, wie seine innere Stimme mit ihm diskutiert, während er die Ideen trotzdem umsetzt.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      }
+    ],
+    "notes": "Alle drei Ideen werden humorvoll diskutiert, aber mit echtem Substanz. 'Witz ohne Ente' war eine echte 1Live-Pitch-Idee Jochens. Haus-Renovierungs-Show wird mit konkreten Details (Bruchbude kaufen, selbst renovieren, keine Profis außer bei Sicherheit) entwickelt. 'Jochen macht es trotzdem' als konkretes Show-Konzept mit Titel und Formatbeschreibung.",
+    "episodeNumber": 205,
+    "episodeTitle": "Keiner kennt die Sesamstrasse",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "206": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Date-Domain Spekulation",
+        "summary": "Kaufe 350+ Domainnamen für verschiedene Daten und spekuliere darauf, dass an diesen Tagen bedeutsame Ereignisse eintreten, die die Domains wertvoll machen.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      }
+    ],
+    "notes": "Hosts haben bereits Domains mit dieser Strategie gekauft (z.B. 911.com, WorldTradeCenter91.com nach 9/11). Georg nennt die Idee explizit 'eine gute Idee'. Die Viabilität basiert jedoch auf Spekulation statt auf solidem Geschäftsmodell.",
+    "episodeNumber": 206,
+    "episodeTitle": "Doris61",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "207": {
     "hasIdea": false,
     "ideas": [],
@@ -2690,6 +2736,22 @@
     "episodeTitle": "\"Der Nächste bitte....nicht!\"",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "217": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Aufzüge im Rutschenpark",
+        "summary": "Fahrstuhl-System in Rutschenparks zum Transport schwerer Gummigeräte (Reifen) nach oben, um Besuchern lange Treppen zu ersparen.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Idee wird mit realer Marktlücke begründet (Besuchern müssen schwere Gummireifen manuell Treppen hochtragen und sind danach erschöpft), dann aber humorvoll behandelt und nicht weiter vertieft diskutiert.",
+    "episodeNumber": 217,
+    "episodeTitle": "Das netteste Amt der Welt",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "218": {
     "hasIdea": true,
     "ideas": [
@@ -2704,6 +2766,93 @@
     "notes": "Einzige substanzielle Geschäftsidee: Georg schlägt vor, Jochens Hautrenovierung zu streamen statt selbst zu reparieren. Etienne bestätigt: 'Das ist wirklich eine sehr gute Idee.' Rest des Transkripts behandelt: Produktdiskussionen (Dyson, Staubsauger), Medienkommentare (Dashcam-Videos), persönliche Anekdoten und allgemeine Themen.",
     "episodeNumber": 218,
     "episodeTitle": "Saug-Roboter",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "219": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Fahr mit Eddie (Taxi-Reality-Format NYC)",
+        "summary": "Unterhaltsames Reality-TV-Format, in dem Etienne als Uber/Taxi-Fahrer in New York arbeitet und von einer Kamera begleitet wird. Comedy-Reality-Serie über verrückte Fahrgäste und Abenteuer im New York Verkehr.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      }
+    ],
+    "notes": "Jochen schlägt das Format bewusst vor und argumentiert, es könne ein unterhaltsames Reality-Format sein. Wird humorvoll, aber mit erkennbarem Ernst diskutiert. Rest des Transkripts enthält Anekdoten, Hobbyvorhaben und Witzideen (z.B. Rasenmäher-Roboter klauen), aber keine substanziellen Geschäftsideen.",
+    "episodeNumber": 219,
+    "episodeTitle": "Das Ampel Dilemma",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "220": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Transkript enthält persönliche Geschichten (Tennistrainer-Suche), Unterhaltung (Star Wars-Reihenfolge, Rätsel), Diskussionen über existierende Produkte (Ali Express, Drohnen, Happy Po, Bidet-Aufsätze, Pools), humorvolle Spekulationen (Pferdepenisse-Retuschierung in Filmen) und persönliche Challenges (Gewichtsverlust). Keine neuen oder ernsthaft entwickelten Geschäfts-/Start-up-Ideen.",
+    "episodeNumber": 220,
+    "episodeTitle": "Star Wars und der große Pferdebetrug",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "222": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Drohnen-Einparkhilfe für Autos",
+        "summary": "Kleine Drohne statt 360-Grad-Kameras zur Unterstützung beim Einparken. Drohne fliegt über dem Fahrzeug und zeigt von oben die genaue Position der Parklücke und Hindernisse.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Erfindung"
+      },
+      {
+        "name": "Ferngesteuerte Auto-Parkfunktion",
+        "summary": "Fahrzeug kann von außen mit einer Fernbedienung in eine freie Parklücke gesteuert werden, während der Fahrer z.B. vom Fenster aus zusieht.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Erfindung"
+      }
+    ],
+    "notes": "Beide Ideen werden nur spekulativ und kurz diskutiert, eher als theoretische Gedankenspiele. Kein ernsthafter Entwicklungsprozess. Rest der Episode: Privatprojekte (Holzhaus, Zauberjacke reparieren), Käufe existierender Produkte (Drohne, Laubbläser, Unkrautbrenner) und Nostalgie-Themen.",
+    "episodeNumber": 222,
+    "episodeTitle": "Die Zauberjacke",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "224": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript enthält viele Diskussionen und Anekdoten (Tennis-Training, Bahnfahrten, Bank-Sicherheit, Hubschrauber-Rätsel), aber keine ernsthaft besprochenen Geschäfts- oder Start-up-Ideen. Die einzige ansatzweise Idee ist eine Algorithmus-basierte Tinder-Variante, die aber nur humorvoll und oberflächlich erwähnt wird, nicht entwickelt oder ernsthaft diskutiert wird.",
+    "episodeNumber": 224,
+    "episodeTitle": "Umkleidekabine-Knigge",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "225": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Podcast-Radiosender",
+        "summary": "Ein Radiosender (oder Streaming-Dienst), der ausschließlich Podcasts ausstrahlt – ein Podcast nach dem anderen aneinandergereiht. Zielgruppe: Autofahrer und Pendler, die unterbrechungsfrei gute Inhalte hören möchten.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Etienne schlägt die Idee vor (ca. gegen Ende der Folge), Jochen lehnt sie mit dem Argument ab, dass man stattdessen einfach Podcasts direkt hören könne. Es ist eine kurze, eher humorvolle Diskussion ohne tiefere Ausarbeitung. Alle anderen erwähnten Produkte (Spinnen-Aufheber, Salzkanone, Eiswürfelmaschine) sind bereits existierende, gekaufte Artikel, keine eigenen Geschäftsideen.",
+    "episodeNumber": 225,
+    "episodeTitle": "Maikäfer und anderes Gesocks",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "228": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Kleinanzeigen-App mit automatischer Preisbestimmung",
+        "summary": "Eine App, die ein Foto eines zu verkaufenden Gegenstands aufnimmt, diesen automatisch erkennt, seinen Marktwert bestimmt und daraus eine komplette Kleinanzeige mit Preis erstellt. Inspiriert von der Lego-App-Technologie.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "App/Software"
+      }
+    ],
+    "notes": "Die Idee kommt von Patrick (Patreon-Unterstützer), wird aber von Jochen positiv aufgegriffen. Georg kritisiert allerdings, dass die zentrale Technologie (automatische Preisbestimmung durch KI-Bilderkennung) noch nicht existiert und diese zunächst entwickelt werden müsste.",
+    "episodeNumber": 228,
+    "episodeTitle": "Schlaaaaaaaange !",
     "_model": "claude-haiku-4-5-20251001"
   }
 }
