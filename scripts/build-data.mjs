@@ -342,28 +342,41 @@ async function main() {
   const totalChars = episodes.reduce((s, e) => s + e.charCount, 0);
   const avgWords = Math.round(totalWords / episodes.length);
 
-  // Winner tally — only count winners we trust:
-  //   - manual override (no _auto flag) → always count
-  //   - auto-extracted with confidence high/medium → count
-  //   - heuristic match → count
-  // Low-confidence auto results don't count toward the leaderboard.
-  const winners = { etienne: 0, jochen: 0, georg: 0, unknown: 0 };
+  // Winner tally. Override._points takes precedence (from official PDF import:
+  // counts every Frage separately, half-credits "beiden"). Otherwise fall back
+  // to single winner / heuristic.
+  const winners = { etienne: 0, jochen: 0, georg: 0, unknown: 0, beidenEpisodes: 0, riddleCount: 0 };
   let skippedCount = 0;
   for (const e of episodes) {
     if (e.raetsel.skipped) { skippedCount++; continue; }
+    const override = overrides[String(e.number)] || {};
+    if (override._points) {
+      winners.etienne += override._points.etienne || 0;
+      winners.jochen  += override._points.jochen || 0;
+      winners.georg   += override._points.georg || 0;
+      winners.beidenEpisodes += override._beidenCount || 0;
+      winners.riddleCount += override._riddleCount || 1;
+      // Episodes with riddles but no winner at all (all "nicht gelöst")
+      if (!override._points.etienne && !override._points.jochen && !override._points.georg) {
+        winners.unknown++;
+      }
+      continue;
+    }
+    // Fallback path (heuristic / older overrides)
     let w = null;
     if (e.raetsel.winner) {
       const conf = e.raetsel.confidence;
       const isAuto = e.raetsel.autoExtracted;
-      if (!isAuto || conf === "high" || conf === "medium") {
-        w = e.raetsel.winner;
-      }
+      if (!isAuto || conf === "high" || conf === "medium") w = e.raetsel.winner;
     } else if (e.raetsel.heuristicWinner) {
       w = e.raetsel.heuristicWinner;
     }
     if (w && winners[w] !== undefined) winners[w]++;
     else winners.unknown++;
+    winners.riddleCount++;
   }
+  // Counts are now integer episode-wins (no half-points). beidenEpisodes
+  // tracks how many Folgen einen geteilten Punkt hatten.
 
   // Aggregate host mentions
   const totalMentions = { etienne: 0, jochen: 0, georg: 0 };
