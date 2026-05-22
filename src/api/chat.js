@@ -55,8 +55,6 @@ REGELN:
 
 const SYSTEM = buildSystemPrompt();
 
-const PAYPAL_NUDGE = `\n\n☕ Wenn dir das Wiki gefällt: Du kannst Kolja eine Spende dalassen via paypal.me/gigalogi.`;
-
 async function runModel(env, modelId, messages) {
   return await env.AI.run(modelId, {
     messages: [{ role: "system", content: SYSTEM }, ...messages],
@@ -96,15 +94,11 @@ export async function handleChat(c) {
     }
   }
 
-  const userTurns = messages.filter((m) => m.role === "user").length;
-  const appendNudge = userTurns >= 3 && userTurns % 3 === 0;
-
   let result;
   let usedModel = MODEL;
   try {
     result = await runModel(env, MODEL, messages);
   } catch (e) {
-    // Try fallback once on rate limit / capacity
     try {
       result = await runModel(env, FALLBACK_MODEL, messages);
       usedModel = FALLBACK_MODEL;
@@ -115,6 +109,5 @@ export async function handleChat(c) {
 
   const text = (result?.response || result?.result?.response || "").trim();
   if (!text) return c.json({ error: "Leere Antwort vom Modell" }, 502);
-  const reply = appendNudge ? text + PAYPAL_NUDGE : text;
-  return c.json({ reply, userTurns, nudgeAttached: appendNudge, model: usedModel });
+  return c.json({ reply: text, model: usedModel });
 }

@@ -54,6 +54,7 @@ pre code { background: transparent; padding: 0; }
   z-index: 100;
   animation: cookie-slide-in .4s ease-out;
 }
+.cookie-banner[hidden] { display: none !important; }
 @keyframes cookie-slide-in {
   from { transform: translateY(120%); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
@@ -604,6 +605,25 @@ section { margin: 2rem 0; }
 }
 .chat-form button:disabled { opacity: .55; cursor: wait; }
 .chat-disclaimer { margin-top: 1rem; text-align: center; }
+
+.chat-msg-hint {
+  align-self: flex-start;
+  font-size: .82rem; color: var(--text-mute);
+  font-style: italic; padding: .2rem .85rem;
+  max-width: 90%; line-height: 1.45;
+  border-left: 2px solid var(--border);
+  margin-left: .4rem;
+}
+
+.chat-donation-card {
+  background: linear-gradient(135deg, rgba(255,66,77,.12), rgba(255,185,56,.08));
+  border: 1px solid rgba(255,66,77,.35); border-radius: 12px;
+  padding: 1rem 1.2rem; align-self: stretch;
+  color: var(--text); font-size: .92rem; line-height: 1.55;
+  margin: .5rem 0;
+}
+.chat-donation-card strong { color: #ff7a59; }
+.chat-donation-card a { color: var(--accent); font-weight: 600; }
 
 /* ─── Mobile tweaks ──────────────────────────────────────────── */
 @media (max-width: 600px) {

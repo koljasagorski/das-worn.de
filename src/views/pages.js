@@ -196,9 +196,8 @@ export function renderChat({ stats }) {
         <button type="submit" id="chat-submit">Senden</button>
       </form>
       <p class="chat-disclaimer muted small">
-        Die KI nutzt Claude Haiku mit Wiki-Kontext – sie kann Folgen verwechseln oder erfinden.
-        Im Zweifel gegenchecken. Wenn dir das Wiki hilft, freue ich mich über eine kleine
-        <a href="https://paypal.me/gigalogi" rel="noopener">Spende</a>.
+        Antworten von Cloudflare Workers AI (Llama 3.3) mit Wiki-Kontext.
+        Sie kann Folgen verwechseln oder Details erfinden – im Zweifel gegenchecken.
       </p>
     </div>
 
@@ -209,6 +208,28 @@ export function renderChat({ stats }) {
       const input = document.getElementById('chat-input');
       const submit = document.getElementById('chat-submit');
       const history = [];
+
+      const COUNT_KEY = 'worn-chat-questions';
+      const DONATION_KEY = 'worn-chat-donation-shown';
+      const DONATION_THRESHOLD = 3;
+
+      // Small easter-egg hints — point at things the user can try outside the chat.
+      const EASTER_HINTS = [
+        '🥚 Tipp: Tipp mal den Konami-Code irgendwo auf der Seite (↑↑↓↓←→←→BA).',
+        '🥚 Tipp: Klick fünfmal schnell hintereinander auf das 🎙️ oben links.',
+        '🥚 Tipp: Geh mal auf /pommes – Etienne wird das nicht mögen.',
+        '🥚 Tipp: /noriega bringt dich direkt zum allerersten Rätsel.',
+        '🥚 Tipp: /kreidefrau ist eine Abkürzung zur Jochen-Lore.',
+        '🥚 Tipp: /stradivari führt zur Dachboden-Geige.',
+        '🥚 Tipp: /eddi und /onkel-barlow funktionieren auch.',
+        '🥚 Tipp: Schau dir die /lore an – sieben Running Gags warten dort.',
+        '🥚 Tipp: Auf /statistiken steht, wie oft "Pommes" wirklich vorkommt.',
+        '🥚 Tipp: /random würfelt dir eine zufällige Folge.',
+        '🥚 Tipp: Die /business-ideen sind teils ernst, teils Quatsch – meistens beides.',
+      ];
+      function pickHint() {
+        return EASTER_HINTS[Math.floor(Math.random() * EASTER_HINTS.length)];
+      }
 
       function appendMsg(role, text, opts = {}) {
         const div = document.createElement('div');
@@ -223,8 +244,30 @@ export function renderChat({ stats }) {
         return inner;
       }
 
+      function appendHint(text) {
+        const div = document.createElement('div');
+        div.className = 'chat-msg-hint';
+        div.textContent = text;
+        messagesEl.appendChild(div);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+      }
+
+      function showDonationCallout() {
+        const div = document.createElement('div');
+        div.className = 'chat-donation-card';
+        div.innerHTML =
+          '<strong>☕ Kleine Realismus-Pause:</strong> ' +
+          'Das Wiki ist ein Hobby-Projekt von Kolja, jede Chat-Antwort kostet ein paar Cent Cloudflare-Neuronen ' +
+          'und die echte Arbeit machen sowieso <a href="https://www.patreon.com/podcastohnenamen" rel="noopener" target="_blank">Etienne, Jochen und Georg auf Patreon</a>. ' +
+          'Falls dir das hier gefällt: ' +
+          '<a href="https://paypal.me/gigalogi" rel="noopener" target="_blank">paypal.me/gigalogi</a> für Kolja ' +
+          'oder <a href="https://www.patreon.com/podcastohnenamen" rel="noopener" target="_blank">Patreon</a> für den Podcast. ' +
+          'Beides freut uns.';
+        messagesEl.appendChild(div);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+      }
+
       function linkify(text) {
-        // very small markdown-ish renderer: links + line breaks + simple bold via **
         const escaped = text
           .replace(/&/g, '&amp;')
           .replace(/</g, '&lt;')
@@ -261,6 +304,19 @@ export function renderChat({ stats }) {
           const data = await r.json();
           thinking.innerHTML = linkify(data.reply || '(leere Antwort)');
           history.push({ role: 'assistant', content: data.reply || '' });
+
+          // Hint after every assistant response (10% chance to skip to avoid spam)
+          if (Math.random() > 0.1) appendHint(pickHint());
+
+          // Donation callout after threshold, once per session
+          try {
+            let count = parseInt(sessionStorage.getItem(COUNT_KEY) || '0', 10) + 1;
+            sessionStorage.setItem(COUNT_KEY, String(count));
+            if (count >= DONATION_THRESHOLD && !sessionStorage.getItem(DONATION_KEY)) {
+              sessionStorage.setItem(DONATION_KEY, '1');
+              showDonationCallout();
+            }
+          } catch (e) {}
         } catch (e) {
           thinking.textContent = 'Verbindungsfehler: ' + e.message;
           thinking.parentElement.classList.add('chat-msg-error');
