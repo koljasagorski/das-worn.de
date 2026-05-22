@@ -1791,6 +1791,36 @@
     "episodeTitle": "Der Streckenposten",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "141": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Kifferhotel",
+        "summary": "Ein Boutique-Hotel für Cannabis-Konsumenten mit Snacks, Raucherzimmern und CBD-Wellness-Angeboten.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Service"
+      },
+      {
+        "name": "Premium-Cannabis-Coffeeshop",
+        "summary": "Ein stilvoller Cannabis-Shop nach dem Vorbild von MEDMAN (LA) mit Beratung, Produktauswahl und hochwertiger Verpackung.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      },
+      {
+        "name": "Cannabis-Zubehör-Einzelhandel",
+        "summary": "Einzelhandelsbetrieb für Cannabis-Zubehör wie Papers, Filter, Aschenbecher und Joint-Drehmaschinen.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Alle Ideen basieren auf hypothetischer Cannabis-Legalisierung in Deutschland. Weitere vage Überlegungen zu Entzugskliniken und CO2-freiem Konsum werden als Scherz erwähnt.",
+    "episodeNumber": 141,
+    "episodeTitle": "Eddi ist der neue Bond",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "142": {
     "hasIdea": false,
     "ideas": [],
@@ -1876,6 +1906,22 @@
     "episodeTitle": "Laufie-Sprechie",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "148": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Automatisches Beintrainingsgerät",
+        "summary": "Ein Trainingsgerät, bei dem man die Beine einsteckt und das automatisch die Beinmuskulatur trainiert, idealerweise auch im Schlaf nutzbar. Soll den Traum ermöglichen, fit zu werden ohne aktiven Sport betreiben zu müssen.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Wird konkret diskutiert: 'Es gibt doch bestimmt Geräte, die zum Beispiel deine Beinmuskulatur trainieren. Dann legst du deine Beine in so ein Apparat...' Ein Host kommentiert 'Ich glaube, wenn man das hinkriegt, kann man reich werden.' Speaker nicht eindeutig identifizierbar im Transkript.",
+    "episodeNumber": 148,
+    "episodeTitle": "Honigperlenmelanie",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "149": {
     "hasIdea": false,
     "ideas": [],
@@ -1906,6 +1952,92 @@
     "notes": "Die Folge behandelt hauptsächlich bestehende Medienformate (Seven vs. Wild, Pam and Tommy Serie), humorvolle Diskussionen über Gangsterboss-Namen und Foltermethoden als Witzideen ohne geschäftliche Substanz, ein Rätselspiel, persönliche Jobgeschichten und Merch-Shop-Hinweise. Keine neuen oder ernsthaft diskutierten Geschäfts-/Start-up-Ideen vorhanden.",
     "episodeNumber": 152,
     "episodeTitle": "7 vs. Wild",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "153": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Auto-Message-Display mit Text-to-Speech",
+        "summary": "Ein LED-Täfelchen für Autos, mit dem Fahrer Sprachnachrichten an andere Autofahrer senden können, um Konflikte im Straßenverkehr zu vermeiden und Mitteilungen zu überbringen.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Produkt"
+      },
+      {
+        "name": "KI-generierte Soap Operas mit Unreal Engine",
+        "summary": "Eine lernfähige KI, die automatisch Serien und Geschichten in der Unreal Engine generiert. Nutzer setzen Parameter wie Charakteraussehen und Umgebung, die KI erstellt die Story selbst.",
+        "originator": "georg",
+        "viability": "ernsthaft",
+        "category": "App/Software"
+      }
+    ],
+    "notes": "Hosts erwähnen, dass ihre Geschäftsideen bereits anderen zu Milliarden verholfen haben. Die Tracker-Idee (aggressive Autofahrer mit Minus-Punkten) wurde nicht mitgenommen, da sie als Mad-Max-Fantasie ohne echte Substanz behandelt wird.",
+    "episodeNumber": 153,
+    "episodeTitle": "Akkuschrauberliebe",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "155": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Dinosaurier-Zoo mit geklonten Dinos",
+        "summary": "Ein Premium-Zoo oder Theme-Park mit geklonten ausgestorbenen Dinosauriern (z.B. T-Rex) mit Ticket-Preisen im 4-5stelligen Bereich. Hosts diskutieren konkret Besucherkapazität, Preisgestaltung und Profitabilität.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Einzige besprochene Geschäftsidee wird humorvoll aber mit konkreten ökonomischen Details diskutiert (Ticketpreis 3000-5000€, Besucherkapazität, variable Preisgestaltung). Endet mit humorvollem Hinweis auf geplantes Meeting zu neuartigem Zoo.",
+    "episodeNumber": 155,
+    "episodeTitle": "Andreas Elsholz",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "157": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript behandelt primär persönliche Geschichten (Dating-Abenteuer, Party-Erlebnisse), allgemeine Diskussionen (Corona, soziale Medien, Shitstorms, Cancel Culture, Fernsehformate) und erworbene Produkte (Monitor-Halterung, Fußkissen, Massagepistole), aber keine ernsthaft besprochene konkrete Geschäfts- oder Start-up-Idee. Die kurz erwähnten Gadgets sind gekaufte Produkte, keine neuen Geschäftsideen.",
+    "episodeNumber": 157,
+    "episodeTitle": "Party Crasher",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "159": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Qi-Lade-Schwenkarm",
+        "summary": "Ein beweglicher Schwenkarm mit integrierter Qi-Ladefunktion zum Laden von Smartphones und Tablets in beliebiger Position, ähnlich einer flexiblen Bürolampe. Georg beschwert sich, dass es das Produkt nicht gibt, obwohl es sehr praktisch wäre.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Georg beschreibt ernsthaft ein Produktproblem, das ihn frustriert (fehlende QI-Ladefunktion bei Schwenkarmen). Jochen bietet halbscherzhaft an, es zu bauen, und sie diskutieren konkret über technische Zeichnungen. Andere Inhalte (erotische Voice-Castings, Kinderverleihagentur, FC Lobberich) sind entweder Berichterstattung über bestehendes oder reiner Humor ohne Geschäftscharakter.",
+    "episodeNumber": 159,
+    "episodeTitle": "Erotik-Sprecher",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "160": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Dito - Ghost aus neuer Perspektive",
+        "summary": "Remake von 'Ghost - Nachricht von Sam' erzählt aus Demi Moores Perspektive als Hitchcock-Thriller: Der Zuschauer sieht übernatürliche Phänomene (Vasen fallen um, Türen öffnen sich), kennt aber nicht deren Grund. Der Geist von Patrick Swayze ist unsichtbar für den Zuschauer.",
+        "originator": "etienne",
+        "viability": "ernsthaft",
+        "category": "Film"
+      },
+      {
+        "name": "Der Unsichtbare",
+        "summary": "Psychologischer Thriller: Ein Film, bei dem der Zuschauer einen 'Unsichtbaren' vermutet, der Frau bedroht. Plot-Twist: Es ist ihr eigener Ehemann, den sie ignoriert - keine Übernatürlichkeit, sondern eine scheiternde Ehe.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Film"
+      }
+    ],
+    "notes": "Beide Ideen sind Filmkonzepte, die als Hollywood-Pitches präsentiert werden. Sie werden mit konkreten Plot-Details und Casting-Ideen (z.B. Demi Moore) diskutiert. Der Rest der Folge besteht aus Anekdoten (Käfer-Restauration, Vespa-Reparatur), Produktkritik (beleuchtete Mauspads) und theoretischen Diskussionen (Drohnenverkehr, autonomes Fahren), aber keine echten neuen Geschäftsideen.",
+    "episodeNumber": 160,
+    "episodeTitle": "Helene Fischer",
     "_model": "claude-haiku-4-5-20251001"
   }
 }
