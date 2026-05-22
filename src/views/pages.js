@@ -25,6 +25,126 @@ const HOST_INFO = {
 };
 
 // ─────────────────────────────────────────────────────────────
+// Chat page
+// ─────────────────────────────────────────────────────────────
+export function renderChat({ stats }) {
+  const body = html`
+    <h1>💬 Frag das Wiki</h1>
+    <p>
+      Eine kleine KI mit Kontext zu allen ${stats.episodeCount} Folgen, den Hosts und den Running Gags.
+      Frag z.B. „In welcher Folge ging es um die Kreidefrau?" oder „Wer hat das Rätsel in Folge 100 gelöst?".
+    </p>
+
+    <div id="chat-app" class="chat-app">
+      <div id="chat-messages" class="chat-messages" aria-live="polite">
+        <div class="chat-msg chat-msg-bot">
+          <div class="chat-msg-text">
+            Moin! Ich bin der Wiki-Assistent. Frag mich was zum Podcast – Folgen, Hosts, Rätsel, Running Gags. Was willst du wissen?
+          </div>
+        </div>
+      </div>
+      <form id="chat-form" class="chat-form" autocomplete="off">
+        <textarea id="chat-input" name="message" rows="2" maxlength="2000" placeholder="Schreib deine Frage…" required></textarea>
+        <button type="submit" id="chat-submit">Senden</button>
+      </form>
+      <p class="chat-disclaimer muted small">
+        Die KI nutzt Claude Haiku mit Wiki-Kontext – sie kann Folgen verwechseln oder erfinden.
+        Im Zweifel gegenchecken. Wenn dir das Wiki hilft, freue ich mich über eine kleine
+        <a href="https://paypal.me/gigalogi" rel="noopener">Spende</a>.
+      </p>
+    </div>
+
+    <script>
+    (() => {
+      const messagesEl = document.getElementById('chat-messages');
+      const form = document.getElementById('chat-form');
+      const input = document.getElementById('chat-input');
+      const submit = document.getElementById('chat-submit');
+      const history = [];
+
+      function appendMsg(role, text, opts = {}) {
+        const div = document.createElement('div');
+        div.className = 'chat-msg chat-msg-' + (role === 'user' ? 'user' : 'bot');
+        const inner = document.createElement('div');
+        inner.className = 'chat-msg-text';
+        if (opts.html) inner.innerHTML = text;
+        else inner.textContent = text;
+        div.appendChild(inner);
+        messagesEl.appendChild(div);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+        return inner;
+      }
+
+      function linkify(text) {
+        // very small markdown-ish renderer: links + line breaks + simple bold via **
+        const escaped = text
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;');
+        return escaped
+          .replace(/\\*\\*([^*]+)\\*\\*/g, '<strong>$1</strong>')
+          .replace(/\\[([^\\]]+)\\]\\((https?:\\/\\/[^)\\s]+)\\)/g, '<a href="$2" rel="noopener">$1</a>')
+          .replace(/(https?:\\/\\/[^\\s<]+)/g, (u) => '<a href="' + u + '" rel="noopener">' + u + '</a>')
+          .replace(/(?:^|\\s)#(\\d+)\\b/g, (m, n) => m.replace('#' + n, '<a href="/folge/' + n + '">#' + n + '</a>'))
+          .replace(/\\n/g, '<br>');
+      }
+
+      async function sendMessage(text) {
+        history.push({ role: 'user', content: text });
+        appendMsg('user', text);
+        input.value = '';
+        input.style.height = 'auto';
+        submit.disabled = true;
+        const thinking = appendMsg('bot', '…');
+
+        try {
+          const r = await fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ messages: history }),
+          });
+          if (!r.ok) {
+            const err = await r.json().catch(() => ({}));
+            thinking.textContent = (err.error || 'Da ist was schiefgelaufen.') + (err.detail ? ' (' + err.detail + ')' : '');
+            thinking.parentElement.classList.add('chat-msg-error');
+            submit.disabled = false;
+            return;
+          }
+          const data = await r.json();
+          thinking.innerHTML = linkify(data.reply || '(leere Antwort)');
+          history.push({ role: 'assistant', content: data.reply || '' });
+        } catch (e) {
+          thinking.textContent = 'Verbindungsfehler: ' + e.message;
+          thinking.parentElement.classList.add('chat-msg-error');
+        }
+        submit.disabled = false;
+        input.focus();
+      }
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const text = input.value.trim();
+        if (!text) return;
+        sendMessage(text);
+      });
+
+      input.addEventListener('input', () => {
+        input.style.height = 'auto';
+        input.style.height = Math.min(input.scrollHeight, 200) + 'px';
+      });
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          form.requestSubmit();
+        }
+      });
+    })();
+    </script>
+  `;
+  return layout({ title: "Chat", body, currentNav: "chat" });
+}
+
+// ─────────────────────────────────────────────────────────────
 // Running Gags / Lore
 // ─────────────────────────────────────────────────────────────
 export function renderLoreIndex({ gags }) {

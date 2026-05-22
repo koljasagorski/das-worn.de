@@ -13,7 +13,9 @@ import {
   renderNotFound,
   renderLoreIndex,
   renderLoreDetail,
+  renderChat,
 } from "./views/pages.js";
+import { handleChat } from "./api/chat.js";
 
 const app = new Hono();
 
@@ -54,6 +56,9 @@ app.get("/lore/:key", (c) => {
   if (!gag) return c.html(renderNotFound(), 404);
   return html(c, renderLoreDetail({ gag, episodes }));
 });
+
+app.get("/chat", (c) => c.html(renderChat({ stats }), 200, { "Cache-Control": "public, max-age=300" }));
+app.post("/api/chat", handleChat);
 
 app.get("/random", (c) => {
   const ep = episodes[Math.floor(Math.random() * episodes.length)];

@@ -50,6 +50,7 @@ export function layout({ title, body, currentNav = "" }) {
     { href: "/lore", label: "Running Gags", id: "lore" },
     { href: "/hosts", label: "Hosts", id: "hosts" },
     { href: "/statistiken", label: "Statistiken", id: "stats" },
+    { href: "/chat", label: "💬 Chat", id: "chat" },
     { href: "/random", label: "Random Folge", id: "random" },
   ];
   const nav = navItems
@@ -84,7 +85,18 @@ ${bodyStr}
 </main>
 <footer class="site-footer">
   <div class="wrap">
+    <div class="footer-help">
+      🆘 <strong>Hilfe gesucht!</strong> Ich suche bessere Transkripte – mit Sprecher-Namen pro Absatz und Zeitstempeln.
+      Wenn du sowas hast oder weißt wo's welche gibt, melde dich gern oder
+      <a href="https://github.com/koljasagorski/das-worn.de" rel="noopener">trag was zum GitHub-Projekt bei</a>.
+    </div>
     <p><strong>das worn</strong> – Wiki Ohne Richtigen Namen. Ein inoffizielles Fan-Projekt. Keine Verbindung zum Podcast oder seinen Hosts.</p>
+    <nav class="footer-social" aria-label="Social Media">
+      <a href="https://github.com/koljasagorski/das-worn.de" rel="noopener" title="Code beitragen">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/koljasagorski/" rel="noopener" title="LinkedIn-Profil von Kolja">💼 LinkedIn</a>
+      <a href="https://www.instagram.com/keepcalmanddrinkchampagne/" rel="noopener" title="Instagram-Profil von Kolja">📷 Instagram</a>
+      <a href="https://paypal.me/gigalogi" rel="noopener" title="Wenn dir das Wiki gefällt – paypal@koljasagorski.de">☕ Spende</a>
+    </nav>
     <p class="footer-meta">Läuft auf Cloudflare Workers · <a href="/about">Über dieses Wiki</a></p>
   </div>
 </footer>
