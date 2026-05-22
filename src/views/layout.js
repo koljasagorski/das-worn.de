@@ -139,16 +139,31 @@ export function layout({ title, body, currentNav = "", description, ogImage, ogT
     setTimeout(() => { overlay.remove(); banner.remove(); }, 6000);
   }
 
-  // ── Brand emoji click counter → confetti at 5 ──
-  let brandClicks = 0;
-  document.getElementById('brand-link')?.addEventListener('click', (e) => {
-    brandClicks++;
-    if (brandClicks >= 5) {
+  // ── Brand emoji 5× click → Pommes rain ──
+  // The brand wraps a link, so clicks on the link itself navigate.
+  // We listen ONLY on the .brand-emoji span and stopPropagation so navigation
+  // never fires when clicking the mic. Counter resets after 2 s inactivity.
+  const emoji = document.getElementById('brand-emoji');
+  if (emoji) {
+    let brandClicks = 0;
+    let resetTimer = null;
+    const onEmojiClick = (e) => {
       e.preventDefault();
-      brandClicks = 0;
-      triggerPommesRain();
-    }
-  });
+      e.stopPropagation();
+      brandClicks++;
+      if (resetTimer) clearTimeout(resetTimer);
+      if (brandClicks >= 5) {
+        brandClicks = 0;
+        triggerPommesRain();
+      } else {
+        resetTimer = setTimeout(() => { brandClicks = 0; }, 2000);
+      }
+    };
+    emoji.addEventListener('click', onEmojiClick);
+    emoji.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') onEmojiClick(e);
+    });
+  }
 })();
 `;
 
@@ -185,7 +200,7 @@ export function layout({ title, body, currentNav = "", description, ogImage, ogT
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/" title="Das Wiki Ohne Richtigen Namen" id="brand-link">
-      <span class="brand-emoji">🎙️</span>
+      <span class="brand-emoji" id="brand-emoji" role="button" tabindex="0" aria-label="Mehrfach klicken für Easter Egg" title="🎙️ Klick mich 5× schnell.">🎙️</span>
       <span class="brand-text">das <span class="brand-worn"><span class="acr">W</span><span class="acr">O</span><span class="acr">R</span><span class="acr">N</span></span></span>
       <span class="brand-sub"><strong>W</strong>iki <strong>O</strong>hne <strong>R</strong>ichtigen <strong>N</strong>amen</span>
     </a>
@@ -221,6 +236,7 @@ ${bodyStr}
       <a href="https://www.linkedin.com/in/koljasagorski/" rel="noopener" title="LinkedIn-Profil von Kolja">💼 LinkedIn</a>
       <a href="https://www.instagram.com/keepcalmanddrinkchampagne/" rel="noopener" title="Instagram-Profil von Kolja">📷 Instagram</a>
       <a href="https://paypal.me/gigalogi" rel="noopener" title="Wiki-Bauer Kolja unterstützen – paypal@koljasagorski.de">☕ Wiki-Spende</a>
+      <a href="mailto:worn@sagorski.org" title="Kontakt zum Wiki-Bauer">✉️ Kontakt</a>
     </nav>
     <p class="footer-meta">Läuft auf Cloudflare Workers · <a href="/about">Über dieses Wiki</a></p>
   </div>
