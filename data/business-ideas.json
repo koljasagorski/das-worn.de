@@ -2792,6 +2792,22 @@
     "episodeTitle": "Star Wars und der große Pferdebetrug",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "221": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Zuverlässige Service-Provider",
+        "summary": "Ein Service-Unternehmen (Tennistrainer, Klempner, etc.), das sich durch zuverlässige und schnelle Kundenreaktion von unprofessionellen Konkurrenten unterscheidet.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Etienne identifiziert eine Marktlücke: Viele Service-Provider (Tennistrainer, Klempner) antworten nicht zuverlässig auf Kundenanfragen. Ein Unternehmen könnte davon profitieren, indem es einfach professionell und zuverlässig kommuniziert. Die Diskussion erfolgt humorvoll, aber mit ernsthaftem Kern.",
+    "episodeNumber": 221,
+    "episodeTitle": "Professionelle Backpfeifen",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "222": {
     "hasIdea": true,
     "ideas": [
@@ -2813,6 +2829,29 @@
     "notes": "Beide Ideen werden nur spekulativ und kurz diskutiert, eher als theoretische Gedankenspiele. Kein ernsthafter Entwicklungsprozess. Rest der Episode: Privatprojekte (Holzhaus, Zauberjacke reparieren), Käufe existierender Produkte (Drohne, Laubbläser, Unkrautbrenner) und Nostalgie-Themen.",
     "episodeNumber": 222,
     "episodeTitle": "Die Zauberjacke",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "223": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Grumpy Ede vs. Jan: 1000 Schach-Matches",
+        "summary": "Etienne spielt gegen Schach-Großmeister Jan Guston 1000 Partien und dokumentiert diese auf YouTube mit humorvoller und analytischer Perspektive aus zwei verschiedenen Kanälen.",
+        "originator": "etienne",
+        "viability": "ernsthaft",
+        "category": "Service"
+      },
+      {
+        "name": "Challenge-Modus für Podcast-Content",
+        "summary": "Hosts geben sich gegenseitig konkrete Aufgaben (z.B. mit Motorradhelm in Bank rennen), um provozierte Stories und Situationen für den Podcast zu generieren.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Schach-Challenge wird bereits umgesetzt (Match 3 gespielt, Videos auf zwei YouTube-Kanälen geplant). Challenge-Modus ist noch in Diskussions- und Planungsphase.",
+    "episodeNumber": 223,
+    "episodeTitle": "Schachwette gegen den Bundestrainer",
     "_model": "claude-haiku-4-5-20251001"
   },
   "224": {
@@ -2839,6 +2878,22 @@
     "episodeTitle": "Maikäfer und anderes Gesocks",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "227": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "RKBMS Tenniskollektion",
+        "summary": "Etienne bringt eine Tennis-Kleidungskollektion auf den Markt. Die Idee entstand lange vor seiner Tennistrainer-Geschichte und sollte bereits vor anderthalb Jahren starten.",
+        "originator": "etienne",
+        "viability": "ernsthaft",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Der Rest des Transkripts behandelt persönliche Geschichten, Diskussionen über bestehende Produkte (z.B. Flammenwerfer-Unkrautvernichter, den Etienne gekauft hat) und allgemeine Lebensfragen, aber keine neuen Geschäftsideen.",
+    "episodeNumber": 227,
+    "episodeTitle": "Der Lügenkörper",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "228": {
     "hasIdea": true,
     "ideas": [
@@ -2853,6 +2908,164 @@
     "notes": "Die Idee kommt von Patrick (Patreon-Unterstützer), wird aber von Jochen positiv aufgegriffen. Georg kritisiert allerdings, dass die zentrale Technologie (automatische Preisbestimmung durch KI-Bilderkennung) noch nicht existiert und diese zunächst entwickelt werden müsste.",
     "episodeNumber": 228,
     "episodeTitle": "Schlaaaaaaaange !",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "229": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript enthält keine ernsthaft diskutierten Geschäfts-/Start-up-Ideen der Hosts. Es gibt nur humorvolle Scherze: 'Back for good' als Backsendung-Name (Wortspiel), einen Football-Podcast 'den ich nie mache', einen Käsekuchen-Lieferdienst (humorvoller Witz), die Idee einen Beef zwischen Podcasts anzuzetteln (Quatsch). Die Klo-Hantel ist ein persönlicher Life-Hack, keine Geschäftsidee. Das Mforll-Festival wird von einem Hörer (Patreon-Mitglied Dennis) vorgestellt, ist aber keine Idee der Hosts selbst.",
+    "episodeNumber": 229,
+    "episodeTitle": "Klo-Hanteln",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "230": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "KI-Streamer für Podcast",
+        "summary": "Einen KI-generierten Twitch-Streamer-Kanal erstellen, der automatisch Inhalte produziert und dabei ein digitales Ebenbild der Hosts darstellt. Inklusive Merch-Verkauf wie andere erfolgreiche KI-Kanäle (z.B. Neurosum).",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "App/Software"
+      }
+    ],
+    "notes": "Georg präsentiert den KI-Streamer-Kanal 'Neurosum Chillstream' von Twitch als Inspiration. Die Hosts diskutieren humorvoll, ob das auch für ihren Podcast funktionieren könnte. Sie finden das Konzept faszinierend, erkennen aber schnell praktische Probleme: Sie würde man gar nicht brauchen, der Markt sättigt sich schnell und viele ähnliche Kanäle haben nur wenige Zuschauer. Daher: halbernst statt vollständig ernsthaft.",
+    "episodeNumber": 230,
+    "episodeTitle": "Das Drohnen-Dilemma",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "231": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript enthält persönliche Anekdoten, philosophische Diskussionen über Berühmtheit und soziale Medien, Kommentare zu Unterhaltungsmedien und Rattelspiele. Jochen erwähnt kurz, dass er seine Witze für die Abi-Zeitung lizenziert hat, aber dies wird als persönliche Anekdote aus Schulzeiten präsentiert, nicht als ernsthafter aktueller Geschäftsvorschlag. Es gibt keine echten Geschäfts- oder Start-up-Ideen, die die Hosts ernsthaft diskutieren.",
+    "episodeNumber": 231,
+    "episodeTitle": "Berühmt",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "232": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Premium Portable Toiletten-Service",
+        "summary": "Mobile Toilettenlösung im mittleren Preissegment – zwischen einfachen Dixi-Klos und teuren Luxus-Toiletten-Trucks. Marktlücke für erschwinglichere, aber elegante Toiletten-Services für Veranstaltungen.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Während der Hochzeits-Anekdote wird eine mögliche Marktlücke diskutiert. Die Hosts erwähnen bereits existierende Anhänger-Lösungen, spekulieren aber, ob es noch attraktivere Mittelklasse-Optionen geben könnte. Keine konkrete Gründungsabsicht, aber substantielle geschäftliche Überlegungen.",
+    "episodeNumber": 232,
+    "episodeTitle": "Edel-Frettchen-Futterhändler",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "234": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "OnlyFans Feet Content Creator",
+        "summary": "Verkauf von Fuß-Fotoinhalten auf OnlyFans mit kreativen Szenarios und Variationen. Die Hosts diskutieren ernsthaft, ob dies insbesondere für männliche Feet als unerschlossener Markt lukrativ sein könnte.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Die Idee wird humorvoll, aber mit ernsthaften geschäftlichen Überlegungen diskutiert (Marktsegmentierung, männliche vs. weibliche Feet, Content-Variationen wie unterschiedliche Umgebungen/Nagellack, Monetarisierungspotenzial). Rest des Transkripts behandelt persönliche Anekdoten, Rätsel und Sport-Challenges, keine echten Geschäftsideen.",
+    "episodeNumber": 234,
+    "episodeTitle": "Der kleine Zeh",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "235": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Kombinationsärzte",
+        "summary": "Ärzte mehrerer Fachrichtungen (z.B. Zahnarzt + Proktologe) + Nebenservices (Friseur, Pediküre, Sehtest) in einer Praxis kombinieren für Effizienz und Kostenersparnis.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      },
+      {
+        "name": "Mobile Zahnreinigung / Zahnreinigungs-Van",
+        "summary": "Zahnreinigungen als mobiler Service direkt beim Patienten zu Hause durchführen, statt dass dieser zur Praxis kommen muss.",
+        "originator": "jochen",
+        "viability": "ernsthaft",
+        "category": "Service"
+      },
+      {
+        "name": "Twitch-Werkstätten",
+        "summary": "Kfz-Werkstätten mit Live-Stream auf Twitch zur vollständigen Transparenz von Diagnose und Reparaturprozess; Chat kann mitentscheiden; Abonnenten sehen alle Arbeitsschritte.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Alle drei Ideen werden im Kontext von Kritik an fehlender Effizienz und Transparenz in bestehenden Service-Bereichen (Arztpraxen, Zahnärzte, Kfz-Werkstätten) diskutiert.",
+    "episodeNumber": 235,
+    "episodeTitle": "Der Zahnarzt-Proktologe",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "236": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Episode enthält keine echten Geschäfts-/Start-up-Ideen. Die Diskussion über Multifunktionssporthallen in deutschen Großstädten ist eine kritische Analyse von Infrastrukturproblemen (mangelnde Hallenzeiten für Basketball), keine ernsthafte Geschäftsidee. Die Car-Sharing-Lösung beim Konzertbesuch ist ein persönlicher Life-Hack (Rucksäcke im Mietauto lagern), keine Geschäftsidee. Alle anderen Inhalte sind Diskussionen über bestehende Produkte/Services oder persönliche Anekdoten.",
+    "episodeNumber": 236,
+    "episodeTitle": "Giraffen-Huhn",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "237": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine echten Geschäfts-/Start-up-Ideen identifiziert. Das Transkript besteht überwiegend aus humorvollen Anekdoten (Wasserrohrbruch, Durchlauferhitzer-Probleme, Mausfalle), praktischen Haushalts-Tipps (Toast in der Mikrowelle, Pizza-Zubereitung), geplanten Podcast-Aktionen (Tennis-Match für Folge 300) und wissenschaftlichen Beobachtungen (Spinnennetze). Keine Diskussion über ein konkretes Produkt, Service, App oder Erfindung als Geschäftsmodell.",
+    "episodeNumber": 237,
+    "episodeTitle": "Wasser+Rohr+Bruch",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "238": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript besteht hauptsächlich aus nostalgischen Giga-Geschichten, Diskussionen über TV-Shows (Gordon Ramsay, Kitchen Nightmares), einem Rätsel über den historischen Beruf des Mutterstecchers, Analysen von Gerichtszeichnern und Produktempfehlungen (Dashcam, Körperwaage). Es werden keine echten, ernsthaft diskutierten Geschäfts- oder Start-up-Ideen behandelt.",
+    "episodeNumber": 238,
+    "episodeTitle": "Mutterkuchen des Stahls",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "239": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Folge behandelt hauptsächlich persönliche Themen (Aufräumungsproblem, alte Jobs, Sammlerleidenschaft, Rätsel). Eine kurze Spekulation über KI-generierte Pornos und virtuelle Freundinnen wird erwähnt, ist aber zu vage und futuristisch, um als konkrete Geschäftsidee zu zählen. Keine ernsthaft besprochene Geschäfts-/Start-up-Idee mit Substanz.",
+    "episodeNumber": 239,
+    "episodeTitle": "\"Das Holodeck ist zugemüllt\"",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "240": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine echten Geschäfts-/Start-up-Ideen identifiziert. Die Diskussion um eine Paketbox mit Klingel und Sensoren wird humorvoll-spekulativ behandelt (mit Hinweis auf Satire: 'mach die Glocken soar und du kriegst 1,5 Millionen Förderung'), besteht aber nur aus DIY-Hacks und bekannten Technologien, nicht aus neuen Konzepten. Der Podcast besteht hauptsächlich aus persönlichen Anekdoten (Tennis, Security-Konflikt, Pinneberg-Geschichte), einem Quiz über existierende Post-Services und Fanbefragungen.",
+    "episodeNumber": 240,
+    "episodeTitle": "Stress mit der security",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "241": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Saisonale Gastronomie auf Formentera",
+        "summary": "Während der Herbstferien sind auf Formentera alle Restaurants und Angebote geschlossen, obwohl es offensichtlich Touristen gäbe, die dort Geld ausgeben würden. Geschäftspotenzial durch Öffnung in der Nebensaison.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Etienne sagt explizit: 'damit kannst du doch Geld verdienen... dann ist ja offensichtlich noch eine Saison möglich.' Wird humorvoll verpackt, aber mit echter geschäftlicher Logik. Andere Diskussionspunkte (Avis-Overbooking, Flughafenpreise, Solar-Panels, Autoabo) sind Kritik an bestehenden Modellen oder persönliche Lebensentscheidungen, keine neuen Geschäftsideen.",
+    "episodeNumber": 241,
+    "episodeTitle": "Traumurlaub",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "242": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript besteht hauptsächlich aus ungezwungener Plauderei über Jochen's Urlaub an den Balearen, Fußball, Strandverhalten und Streaming-Dienste. Die einzige ansatzweise geschäftliche Idee ist Jochens humorvoller Vorschlag, sich am Strand mit einer Staffelei hinzustellen und Leute zu malen, um die 'aggressiv schönen' Menschen am Strand zu beschäftigen - dies ist aber offensichtlich als Witz gemeint und wird nicht ernsthaft als Business-Konzept diskutiert. Das NAS-Laufwerk, das Georg erwähnt, ist ein bestehendes Produkt, nicht eine neue Idee. Keine echten Geschäfts- oder Start-up-Ideen vorhanden.",
+    "episodeNumber": 242,
+    "episodeTitle": "Zieh den Bauch ein Dicker",
     "_model": "claude-haiku-4-5-20251001"
   }
 }
