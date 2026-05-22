@@ -2,26 +2,50 @@ import { layout, html, raw, escapeHtml } from "./layout.js";
 
 const HOST_INFO = {
   etienne: {
-    name: "Etienne Garde",
+    name: "Etienne Gardé",
     aliases: ["Eddi", "Eddie"],
-    blurb: 'Schauspieler, Moderator, Synchronsprecher und bekannt von Rocket Beans TV. Im Podcast oft als „Eddi" angesprochen und gerne mal das Ziel kleiner Sticheleien.',
-    fun: "Hat eine türkische Wurzel, war angeblich Schützenkönig und ist laut Folge 159 ein 'Erotik-Sprecher'.",
+    blurb: 'Schauspieler, Moderator, Synchronsprecher, Mitgründer von Rocket Beans TV. Im Podcast oft als „Eddi" angesprochen und gerne mal das Ziel kleiner Sticheleien.',
+    fun: 'Hat eine türkische Wurzel, war angeblich Schützenkönig, ist laut Folge 159 „Erotik-Sprecher" – und hat (laut Intro-Jingle) ernsthaft versucht, Tiefkühlpommes in der Mikrowelle zu machen.',
     color: "#e85a4f",
+    socials: [
+      { label: "Instagram @etiennetogo", url: "https://www.instagram.com/etiennetogo/" },
+      { label: "X / Twitter @EtienneToGo", url: "https://x.com/etiennetogo" },
+      { label: "Twitch EdeLive", url: "https://www.twitch.tv/edelive" },
+      { label: "YouTube GrumpyEde", url: "https://www.youtube.com/@GrumpyEde" },
+    ],
   },
   jochen: {
-    name: "Jochen",
-    aliases: [],
-    blurb: "Der Mann mit der USB-Maus, die manchmal spinnt. Hat ein gespanntes Verhältnis zur Polizei-Hotline und ein Faible für ausführliche Anekdoten.",
-    fun: "Ruft öfter mal die 110 wegen Kleinigkeiten und hat einmal eine Marihuana-Plantage über sich wohnen gehabt (London).",
+    name: "Jochen Dominicus",
+    aliases: ["Danger Dominicus"],
+    blurb: "Der Mann mit der USB-Maus, die manchmal spinnt. Hat ein gespanntes Verhältnis zur 110, ein Faible für ausführliche Anekdoten und einen Hund namens Poppy.",
+    fun: 'Ruft öfter mal die Polizei wegen Kleinigkeiten und hat einmal eine Marihuana-Plantage über sich wohnen gehabt (London). Co-Host des Podcasts „Pinkelpause".',
     color: "#3a86ff",
+    socials: [
+      { label: "Instagram @jochendominicus", url: "https://www.instagram.com/jochendominicus/" },
+      { label: "X / Twitter @JochenDominicus", url: "https://x.com/JochenDominicus" },
+      { label: "Bluesky @danger.bsky.social", url: "https://bsky.app/profile/danger.bsky.social" },
+    ],
   },
   georg: {
-    name: "Georg",
-    aliases: [],
-    blurb: "Der Rätselmeister. Stellt am Ende fast jeder Folge das Rätsel und sitzt strategisch über den Punkten.",
-    fun: "Hat mindestens einen Fall, in dem er aus einer Karneval-Tagesinfo eine Detektivgeschichte macht.",
+    name: 'Georg „Onkel Barlow" Zaal',
+    aliases: ["Onkel Barlow"],
+    blurb: "Der Rätselmeister. Stellt am Ende fast jeder Folge das Rätsel und sitzt strategisch über den Punkten – ohne die meisten selbst zu kriegen, denn er stellt sie ja.",
+    fun: "Trägt eine orange-getönte Brille (Edgar-Davids-Fan-Geste oder niederländische Wurzeln, je nach Auslegung). Eigene Podcasts wie BMZ.",
     color: "#2a9d8f",
+    socials: [
+      { label: "Instagram @onkelbarlow", url: "https://www.instagram.com/onkelbarlow/" },
+      { label: "X / Twitter @GeorgeZaal", url: "https://x.com/georgezaal" },
+      { label: "YouTube gzaal", url: "https://www.youtube.com/user/gzaal" },
+    ],
   },
+};
+
+const PODCAST_LINKS = {
+  spotify: "https://open.spotify.com/show/337WgqUhBAcKQwlA2MZJtu",
+  apple: "https://podcasts.apple.com/de/podcast/podcast-ohne-richtigen-namen/id1351207963",
+  website: "https://www.podcastohnerichtigennamen.de",
+  twitter: "https://x.com/podcastohnename",
+  linktree: "https://linktr.ee/podcastohnenamen",
 };
 
 // ─────────────────────────────────────────────────────────────
@@ -513,32 +537,34 @@ export function renderEpisode({ episode, prev, next }) {
 // Hosts page
 // ─────────────────────────────────────────────────────────────
 export function renderHosts({ stats }) {
-  const cards = Object.entries(HOST_INFO)
-    .map(([key, h]) => {
-      const wins = stats.winners[key];
-      const mentions = stats.totalMentions[key];
-      const aliases = h.aliases.length ? html`<p class="aliases">Auch genannt: ${h.aliases.join(", ")}</p>` : "";
-      return html`
-        <section class="host-card" id="${key}" style="--c:${h.color}">
-          <div class="host-card-header">
-            <h2>${h.name}</h2>
-            ${raw(aliases)}
+  const cards = Object.entries(HOST_INFO).map(([key, h]) => {
+    const wins = stats.winners[key];
+    const mentions = stats.totalMentions[key];
+    return html`
+      <section class="host-card" id="${key}" style="--c:${h.color}">
+        <div class="host-card-header">
+          <h2>${h.name}</h2>
+          ${h.aliases.length ? html`<p class="aliases">Auch genannt: ${h.aliases.join(", ")}</p>` : ""}
+        </div>
+        <p>${h.blurb}</p>
+        <p class="fun-fact">💡 ${h.fun}</p>
+        <div class="host-stats">
+          <div><span class="big">${wins}</span><span class="lbl">Rätsel-Punkte</span></div>
+          <div><span class="big">${mentions.toLocaleString("de-DE")}</span><span class="lbl">Erwähnungen</span></div>
+        </div>
+        ${h.socials && h.socials.length ? html`
+          <div class="host-socials">
+            ${h.socials.map((s) => html`<a href="${s.url}" rel="noopener" target="_blank">${s.label}</a>`)}
           </div>
-          <p>${h.blurb}</p>
-          <p class="fun-fact">💡 ${h.fun}</p>
-          <div class="host-stats">
-            <div><span class="big">${wins}</span><span class="lbl">Rätsel-Punkte</span></div>
-            <div><span class="big">${mentions.toLocaleString("de-DE")}</span><span class="lbl">Erwähnungen</span></div>
-          </div>
-        </section>
-      `;
-    })
-    .join("");
+        ` : ""}
+      </section>
+    `;
+  });
 
   const body = html`
     <h1>Die Hosts</h1>
-    <p>Drei Männer, ein Mikrofon-Setup, kein Name für den Podcast.</p>
-    <div class="host-grid">${raw(cards)}</div>
+    <p>Drei Männer, ein Mikrofon-Setup, kein Name für den Podcast. NBC Giga in Düsseldorf, vor ungefähr 25 Jahren.</p>
+    <div class="host-grid">${cards}</div>
   `;
   return layout({ title: "Hosts", body, currentNav: "hosts" });
 }

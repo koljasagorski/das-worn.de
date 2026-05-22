@@ -59,6 +59,91 @@ export function layout({ title, body, currentNav = "" }) {
 
   const bodyStr = body instanceof SafeHtml ? body.s : String(body);
 
+  const cookieBanner = `
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <img src="/cookie.png" alt="Eddi-Cookie" class="cookie-img">
+  <div class="cookie-content">
+    <p class="cookie-headline">Moin, ich bin Eddi.</p>
+    <p>
+      Ich bin kein Keks. Ich bin auch kein Cookie im Browser-Sinn –
+      <strong>das worn setzt keine Tracking-Cookies</strong>. Nur das was Cloudflare zum Funktionieren braucht.
+      Aber jeder kennt diese Banner und Etienne (alias Eddi) macht sich hier zum Cookie. So.
+    </p>
+    <p class="cookie-mini">
+      <em>(Du sahst übrigens nicht ernsthaft versucht, diesen Banner in der Mikrowelle zu schließen, oder?)</em>
+    </p>
+    <div class="cookie-actions">
+      <button id="cookie-ok" class="btn primary">Eddi schmecken lassen</button>
+      <button id="cookie-meh" class="btn">Geh weg, Eddi</button>
+    </div>
+  </div>
+</div>
+`;
+
+  // Tiny JS for: cookie banner persistence + Konami code + brand-click counter
+  const easterEggsJs = `
+(() => {
+  // ── Cookie banner ──
+  try {
+    if (!localStorage.getItem('wornCookie')) {
+      const b = document.getElementById('cookie-banner');
+      if (b) b.hidden = false;
+    }
+  } catch (e) {}
+  const dismiss = (mode) => {
+    try { localStorage.setItem('wornCookie', mode); } catch (e) {}
+    const b = document.getElementById('cookie-banner');
+    if (b) b.hidden = true;
+  };
+  document.getElementById('cookie-ok')?.addEventListener('click', () => dismiss('eaten'));
+  document.getElementById('cookie-meh')?.addEventListener('click', () => dismiss('shooed'));
+
+  // ── Konami code: ↑ ↑ ↓ ↓ ← → ← → B A ──
+  const seq = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+  let idx = 0;
+  document.addEventListener('keydown', (e) => {
+    const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+    if (k === seq[idx]) {
+      idx++;
+      if (idx === seq.length) { idx = 0; triggerPommesRain(); }
+    } else { idx = (k === seq[0]) ? 1 : 0; }
+  });
+  function triggerPommesRain() {
+    const overlay = document.createElement('div');
+    overlay.className = 'pommes-rain';
+    for (let i = 0; i < 60; i++) {
+      const s = document.createElement('span');
+      s.textContent = ['🍟','🍟','🍟','🥔','🎙️'][Math.floor(Math.random()*5)];
+      s.style.left = (Math.random()*100) + 'vw';
+      s.style.animationDelay = (Math.random()*1.2) + 's';
+      s.style.animationDuration = (2.5 + Math.random()*2.5) + 's';
+      s.style.fontSize = (1 + Math.random()*2) + 'rem';
+      overlay.appendChild(s);
+    }
+    document.body.appendChild(overlay);
+    const banner = document.createElement('div');
+    banner.className = 'pommes-banner';
+    banner.innerHTML = '🍟 Du hast nicht ernsthaft versucht, Tiefkühlpommes in der Mikrowelle zu machen!';
+    document.body.appendChild(banner);
+    setTimeout(() => { overlay.remove(); banner.remove(); }, 6000);
+  }
+
+  // ── Brand emoji click counter → confetti at 5 ──
+  let brandClicks = 0;
+  document.getElementById('brand-link')?.addEventListener('click', (e) => {
+    brandClicks++;
+    if (brandClicks >= 5) {
+      e.preventDefault();
+      brandClicks = 0;
+      triggerPommesRain();
+    }
+  });
+})();
+`;
+
+  // Build linktree-style sub-line in footer is constructed in HTML body above.
+  const inlineScript = `<script>${easterEggsJs}</script>`;
+
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -72,12 +157,18 @@ export function layout({ title, body, currentNav = "" }) {
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/" title="Das Wiki Ohne Richtigen Namen">
+    <a class="brand" href="/" title="Das Wiki Ohne Richtigen Namen" id="brand-link">
       <span class="brand-emoji">🎙️</span>
       <span class="brand-text">das <span class="brand-worn"><span class="acr">W</span><span class="acr">O</span><span class="acr">R</span><span class="acr">N</span></span></span>
       <span class="brand-sub"><strong>W</strong>iki <strong>O</strong>hne <strong>R</strong>ichtigen <strong>N</strong>amen</span>
     </a>
     <nav class="main-nav">${nav}</nav>
+    <div class="listen-strip" aria-label="Podcast hören">
+      <span class="listen-label">Podcast hören:</span>
+      <a class="listen-link spotify" href="https://open.spotify.com/show/337WgqUhBAcKQwlA2MZJtu" rel="noopener" target="_blank">Spotify</a>
+      <a class="listen-link apple" href="https://podcasts.apple.com/de/podcast/podcast-ohne-richtigen-namen/id1351207963" rel="noopener" target="_blank">Apple Podcasts</a>
+      <a class="listen-link web" href="https://www.podcastohnerichtigennamen.de" rel="noopener" target="_blank">Website</a>
+    </div>
   </div>
 </header>
 <main class="wrap">
@@ -100,6 +191,8 @@ ${bodyStr}
     <p class="footer-meta">Läuft auf Cloudflare Workers · <a href="/about">Über dieses Wiki</a></p>
   </div>
 </footer>
+${cookieBanner}
+${inlineScript}
 </body>
 </html>`;
 }
