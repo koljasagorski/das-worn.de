@@ -91,7 +91,13 @@ export function renderPommes() {
       })();
     </script>
   `;
-  return layout({ title: "🍟 Pommes", body, currentNav: "" });
+  return layout({
+    title: "🍟 Pommes",
+    body,
+    currentNav: "",
+    description: "Du hast nicht ernsthaft versucht, Tiefkühlpommes in der Mikrowelle zu machen, oder?",
+    path: "/pommes",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -169,7 +175,13 @@ export function renderBusinessIdeas({ businessIdeas, episodes }) {
       <div class="ideas-list">${all.map(renderIdea)}</div>
     </section>
   `;
-  return layout({ title: "Business-Ideen", body, currentNav: "ideas" });
+  return layout({
+    title: "Business-Ideen",
+    body,
+    currentNav: "ideas",
+    description: `${all.length} Geschäfts- und Start-up-Ideen aus dem Podcast – kategorisiert nach ernst, halbernst und reinem Quatsch.`,
+    path: "/business-ideen",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -345,7 +357,13 @@ export function renderChat({ stats }) {
     })();
     </script>
   `;
-  return layout({ title: "Chat", body, currentNav: "chat" });
+  return layout({
+    title: "Chat",
+    body,
+    currentNav: "chat",
+    description: "Frag den Wiki-Assistenten alles zum Podcast ohne richtigen Namen – Folgen, Hosts, Rätsel, Running Gags. Läuft auf Cloudflare Workers AI.",
+    path: "/chat",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -379,7 +397,13 @@ export function renderLoreIndex({ gags }) {
     <p>Wiederkehrende Themen, Anekdoten und Insider, die sich durch die Folgen ziehen.</p>
     <div class="gag-grid">${cards}</div>
   `;
-  return layout({ title: "Running Gags", body, currentNav: "lore" });
+  return layout({
+    title: "Running Gags",
+    body,
+    currentNav: "lore",
+    description: "Die Kreidefrau, der vergammelnde Porsche, die Dachboden-Stradivari, Tiefkühlpommes in der Mikrowelle: wiederkehrende Themen aus dem Podcast.",
+    path: "/lore",
+  });
 }
 
 export function renderLoreDetail({ gag, episodes }) {
@@ -440,7 +464,14 @@ export function renderLoreDetail({ gag, episodes }) {
         : html`<p class="muted">Keine Erwähnungen gefunden.</p>`}
     </section>
   `;
-  return layout({ title: gag.name, body, currentNav: "lore" });
+  return layout({
+    title: gag.name,
+    body,
+    currentNav: "lore",
+    description: `${gag.name} – ${gag.description.slice(0, 200)}`,
+    ogType: "article",
+    path: `/lore/${gag.key}`,
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -553,7 +584,13 @@ export function renderHome({ stats, episodes, gags }) {
     </section>
   `;
 
-  return layout({ title: "Start", body, currentNav: "start" });
+  return layout({
+    title: "",
+    body,
+    currentNav: "start",
+    description: `das worn ist das Fan-Wiki zum Podcast ohne richtigen Namen mit Etienne Gardé, Jochen Dominicus und Georg Zaal. ${stats.episodeCount} Folgen, ~${stats.estimatedHours}h, Rätsel-Punkte, Running Gags, Business-Ideen und ein Chat-Assistent.`,
+    path: "/",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -594,7 +631,13 @@ export function renderEpisodesList({ episodes, query }) {
     <div class="ep-list">${raw(list || "<p>Keine Folgen gefunden.</p>")}</div>
   `;
 
-  return layout({ title: "Alle Folgen", body, currentNav: "folgen" });
+  return layout({
+    title: "Alle Folgen",
+    body,
+    currentNav: "folgen",
+    description: `Alle ${episodes.length} Folgen vom Podcast ohne richtigen Namen mit Etienne, Jochen und Georg – inklusive Wortzahlen und Suche.`,
+    path: "/folgen",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -710,7 +753,16 @@ export function renderEpisode({ episode, prev, next }) {
       <div class="episode-nav">${raw(navPrev)} ${raw(navNext)}</div>
     </article>
   `;
-  return layout({ title: `#${episode.number} ${episode.title}`, body, currentNav: "folgen" });
+  const winnerStr = r.winner ? ` Punkt für ${HOST_INFO[r.winner]?.name || r.winner}.` : "";
+  const teaserStr = episode.teaser ? ` ${episode.teaser.slice(0, 120)}…` : "";
+  return layout({
+    title: `#${episode.number} ${episode.title}`,
+    body,
+    currentNav: "folgen",
+    description: `Folge #${episode.number} "${episode.title}" – ${Math.round(episode.wordCount / 130)} Min., ${episode.wordCount.toLocaleString("de-DE")} Wörter.${winnerStr}${teaserStr}`,
+    ogType: "article",
+    path: `/folge/${episode.number}`,
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -762,7 +814,13 @@ export function renderHosts({ stats }) {
       </a>
     </section>
   `;
-  return layout({ title: "Hosts", body, currentNav: "hosts" });
+  return layout({
+    title: "Hosts",
+    body,
+    currentNav: "hosts",
+    description: 'Die drei Hosts: Etienne Gardé (Rocket Beans), Jochen Dominicus und Georg „Onkel Barlow" Zaal. Mit Social-Links und Rätsel-Punktestand.',
+    path: "/hosts",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -874,7 +932,13 @@ export function renderRaetsel({ episodes, stats }) {
       </section>
     ` : ""}
   `;
-  return layout({ title: "Rätsel & Punkte", body, currentNav: "raetsel" });
+  return layout({
+    title: "Rätsel & Punkte",
+    body,
+    currentNav: "raetsel",
+    description: `Aktuelle Rätsel-Punktetabelle: Jochen ${stats.winners.jochen}, Etienne ${stats.winners.etienne}, Georg ${stats.winners.georg}. Plus alle Folgen mit erfasstem Sieger.`,
+    path: "/raetsel",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -1057,7 +1121,13 @@ export function renderStats({ stats }) {
       </div>
     </section>
   `;
-  return layout({ title: "Statistiken", body, currentNav: "stats" });
+  return layout({
+    title: "Statistiken",
+    body,
+    currentNav: "stats",
+    description: `Statistiken zum Podcast: ${stats.totalWords.toLocaleString("de-DE")} Wörter, ~${stats.estimatedHours}h Hörzeit, Top-Wörter, längste/kürzeste Folgen und lustige Counter.`,
+    path: "/statistiken",
+  });
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -1116,7 +1186,13 @@ export function renderAbout({ stats }) {
       <li><strong>Frontend</strong>: server-rendered HTML, plain CSS, kein JS-Framework.</li>
     </ul>
   `;
-  return layout({ title: "Über dieses Wiki", body, currentNav: "" });
+  return layout({
+    title: "Über dieses Wiki",
+    body,
+    currentNav: "",
+    description: "Wie das Wiki gebaut ist: Cloudflare Workers, Hono, Workers AI für den Chat und ein Node-Script für die Daten-Extraktion aus den Transkripten.",
+    path: "/about",
+  });
 }
 
 export function renderNotFound() {
@@ -1131,5 +1207,10 @@ export function renderNotFound() {
       </div>
     </section>
   `;
-  return layout({ title: "404", body, currentNav: "" });
+  return layout({
+    title: "404 – Folge nicht gefunden",
+    body,
+    currentNav: "",
+    description: "Diese Seite gibt es nicht. Vielleicht hat Jochen sie geklaut.",
+  });
 }
