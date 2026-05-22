@@ -64,6 +64,45 @@ app.get("/chat", (c) => c.html(renderChat({ stats }), 200, { "Cache-Control": "p
 app.post("/api/chat", handleChat);
 app.get("/business-ideen", (c) => html(c, renderBusinessIdeas({ businessIdeas, episodes })));
 
+// Sitemap & robots
+const SITE_URL = "https://das-worn.de";
+app.get("/sitemap.xml", (c) => {
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = [
+    { loc: "/", priority: 1.0, changefreq: "weekly" },
+    { loc: "/folgen", priority: 0.9, changefreq: "weekly" },
+    { loc: "/raetsel", priority: 0.8, changefreq: "weekly" },
+    { loc: "/lore", priority: 0.7, changefreq: "monthly" },
+    { loc: "/business-ideen", priority: 0.7, changefreq: "weekly" },
+    { loc: "/hosts", priority: 0.7, changefreq: "monthly" },
+    { loc: "/statistiken", priority: 0.6, changefreq: "weekly" },
+    { loc: "/chat", priority: 0.5, changefreq: "monthly" },
+    { loc: "/about", priority: 0.3, changefreq: "yearly" },
+  ];
+  for (const e of episodes) {
+    urls.push({ loc: `/folge/${e.number}`, priority: 0.6, changefreq: "monthly" });
+  }
+  for (const key of Object.keys(gags)) {
+    if (key.startsWith("_")) continue;
+    urls.push({ loc: `/lore/${key}`, priority: 0.5, changefreq: "monthly" });
+  }
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls
+  .map((u) => `  <url>
+    <loc>${SITE_URL}${u.loc}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>${u.changefreq}</changefreq>
+    <priority>${u.priority.toFixed(1)}</priority>
+  </url>`)
+  .join("\n")}
+</urlset>`;
+  return c.body(xml, 200, {
+    "Content-Type": "application/xml; charset=utf-8",
+    "Cache-Control": "public, max-age=3600",
+  });
+});
+
 // Easter egg routes
 app.get("/pommes", (c) => html(c, renderPommes()));
 app.get("/eddi", (c) => c.redirect("/hosts#etienne", 302));

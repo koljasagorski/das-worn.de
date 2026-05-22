@@ -42,7 +42,17 @@ export function raw(s) {
   return new SafeHtml(s);
 }
 
-export function layout({ title, body, currentNav = "" }) {
+const SITE_NAME = "das worn";
+const SITE_URL = "https://das-worn.de";
+const DEFAULT_DESCRIPTION = "das worn – das Wiki Ohne Richtigen Namen zum Podcast ohne richtigen Namen mit Etienne Gardé, Jochen Dominicus und Georg Zaal. 362+ Folgen, Rätsel-Punkte, Running Gags und ein Chat-Assistent.";
+const DEFAULT_OG_IMAGE = "/og-default.svg";
+
+export function layout({ title, body, currentNav = "", description, ogImage, ogType, path }) {
+  const desc = description || DEFAULT_DESCRIPTION;
+  const img = ogImage || DEFAULT_OG_IMAGE;
+  const type = ogType || "website";
+  const canonical = path ? SITE_URL + path : SITE_URL;
+  const fullTitle = title ? `${title} – ${SITE_NAME}` : SITE_NAME;
   const navItems = [
     { href: "/", label: "Start", id: "start" },
     { href: "/folgen", label: "Folgen", id: "folgen" },
@@ -150,10 +160,26 @@ export function layout({ title, body, currentNav = "" }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${escapeHtml(title)} – das worn</title>
-<meta name="description" content="das worn: Das Wiki Ohne Richtigen Namen zum Podcast ohne richtigen Namen mit Etienne Garde, Jochen und Georg.">
+<title>${escapeHtml(fullTitle)}</title>
+<meta name="description" content="${escapeHtml(desc)}">
+<link rel="canonical" href="${escapeHtml(canonical)}">
+<meta name="theme-color" content="#ffb938">
+<meta property="og:site_name" content="${escapeHtml(SITE_NAME)}">
+<meta property="og:title" content="${escapeHtml(fullTitle)}">
+<meta property="og:description" content="${escapeHtml(desc)}">
+<meta property="og:type" content="${escapeHtml(type)}">
+<meta property="og:url" content="${escapeHtml(canonical)}">
+<meta property="og:locale" content="de_DE">
+<meta property="og:image" content="${escapeHtml(SITE_URL + img)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${escapeHtml(fullTitle)}">
+<meta name="twitter:description" content="${escapeHtml(desc)}">
+<meta name="twitter:image" content="${escapeHtml(SITE_URL + img)}">
 <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🎙️</text></svg>">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
 </head>
 <body>
 <header class="site-header">
