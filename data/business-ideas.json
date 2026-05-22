@@ -1633,6 +1633,22 @@
     "episodeTitle": "Das Referenzloch",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "132": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Hundefutter-Duftspray",
+        "summary": "Ein Duftspray oder Hundefutter mit Aroma für Hunde, das wie Scheiße riecht (da Hunde dies bevorzugen), aber für Menschen angenehm sein soll. Ziel: Hunde zum Fressen regulären Futters bewegen.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Episode besteht überwiegend aus Urlaubsanekdoten und humorvoller Plauderei. Die Hundefutter-Idee wird explizit als 'Marktlücke' bezeichnet und gemeinsam diskutiert, aber mit humorvollem Unterton. Genaue Zuordnung des Initiators unklar. Andere Vorschläge (Gefängnis via Zertifikat, Solarium-Trick) sind reine Witze.",
+    "episodeNumber": 132,
+    "episodeTitle": "Relax, it's vacation",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "133": {
     "hasIdea": false,
     "ideas": [],
@@ -1647,6 +1663,195 @@
     "notes": "Transkript enthält keine echten Geschäfts-/Start-up-Ideen. Georg beschwert sich ausgiebig über mangelnde Fußball-Streaming-Services und erwähnt humorvoll, eine eigene Liga zu gründen oder gemeinsam Fußballrechte via Kickstarter zu kaufen, entwickelt dies aber nicht zu einer konkreten, ernsthaften Geschäftsidee aus. Der Rest des Transkripts besteht aus persönlichen Anekdoten (Toast mit Honig, Laufband, Kinderschreie) und diskutierten Alltagsthemen, keine Geschäftsideen.",
     "episodeNumber": 134,
     "episodeTitle": "\"Kennen sie Etienne?!!!\"",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "135": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "FC Lobberich Investitionsprojekt",
+        "summary": "Die Hosts investieren 1000 Euro in den lokalen Fußballverein FC Lobberich und werden Mitbesitzer. Sie planen konkrete Maßnahmen wie Spielerrekrutierung (z.B. Tim Parland), Twitch-Streaming der Spiele, Sponsoring, Infrastrukturausbau und ein Nachwuchsleistungszentrum zum Aufstieg in höhere Ligen.",
+        "originator": null,
+        "viability": "ernsthaft",
+        "category": "Service"
+      }
+    ],
+    "notes": "Ein echtes, bereits in Umsetzung befindliches Investitionsprojekt mit konkreten Business-Strategien. Die Hosts diskutieren Streaming-Setup (Twitch mit mobilen Routern), Mannschaftsfoto und Marketing, Stadion-Sponsoring, und langfristige Ziele wie TV-Rechte und Aufstieg in höhere Ligen.",
+    "episodeNumber": 135,
+    "episodeTitle": "Saisonstart",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "136": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Modularer Gaming-Fitness-Stuhl",
+        "summary": "Ein Gaming-Stuhl mit integrierbaren Fitness-Elementen (z.B. Pedalbike, Hantelbank). Mit Gamification-Features: Spiele pausieren wenn man aufhört zu trainieren, oder man verdient In-Game-Währung für Trainingsminuten.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Georg präsentiert einen modular aufgebauten Gaming-Stuhl als Geschäftsidee. Diskussion umfasst echte technische Herausforderungen (z.B. Stuhl rollt weg beim Pedaletreten), Gamification-Ansätze und mögliche Integration verschiedener Trainingsgeräte. Humorvoll, aber mit konkretem Problembewusstsein.",
+    "episodeNumber": 136,
+    "episodeTitle": "Der optimistische Muskelmann",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "137": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "FC Lobberich Live-Streaming auf Twitch",
+        "summary": "Live-Übertragung von Kreisliga-C-Fußballspielen auf Twitch mit Monetarisierungspotential durch Twitch Partner. Bereits operativ mit 300-400+ Zuschauern pro Spiel, Merchandise-Integration und geplanten Technik-Upgrades (4K-Kamera, Hochstativ).",
+        "originator": "jochen",
+        "viability": "ernsthaft",
+        "category": "Service"
+      }
+    ],
+    "notes": "Das Streaming läuft bereits konkret mit echten Zuschauerzahlen und wird ernsthaft weiterentwickelt. Weitere besprochene Konzepte wie das 'Loch-im-Atlantik' zur Meeresspiegel-Regulierung oder AI-generierte Film-Stars sind eher theoretische Gedankenexperimente ohne konkrete Geschäftspläne.",
+    "episodeNumber": 137,
+    "episodeTitle": "Der Hänger",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "138": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Flacher Kühlschrank gegen Lebensmittelverschwendung",
+        "summary": "Ein Kühlschrank mit flacher/breiter statt tiefer Bauweise, der nur Platz für eine Reihe Lebensmittel bietet. Soll Nutzer zwingen, Speisen aufzuessen, bevor Neues hinzukommt, und reduziert damit Lebensmittelverschwendung.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Jochen präsentiert die Kühlschrank-Idee als 'gute Marktlücke'. Georg kritisiert jedoch sofort praktische Aspekte (Energieeffizienz, Platzverschwendung). Weitere Vorschläge wie ein Fallschirmsystem für Flugzeuge und Hypnose-Therapie zur Motivierung zu Sport waren klare Witze ohne ernsthafte Substanz.",
+    "episodeNumber": 138,
+    "episodeTitle": "Entenhausen",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "139": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "FC Lobberich Kreisliga-Streaming auf Twitch",
+        "summary": "Streaming von Fußballspielen eines Kreisliga-C-Vereins auf Twitch mit Infrastruktur-Aufbau, Hardware-Investitionen und Plan, Twitch-Partner zu werden. Bereits 900+ Zuschauer im Peak erreicht.",
+        "originator": null,
+        "viability": "ernsthaft",
+        "category": "Service"
+      }
+    ],
+    "notes": "Dies ist die einzige echte, ernsthaft verfolgte Geschäfts-/Projekt-Idee in dieser Folge. Sie wird detailliert diskutiert mit konkreten Umsetzungsschritten (Hardware-Kauf, Zuschauer-Wachstum, Partner-Status-Ziele). Alle anderen Ideen (Taliban-Fernsehformate, CO2-Aufkleber, autonome Flugzeuge) sind humorvolle Gedankenspiele ohne Substanz.",
+    "episodeNumber": 139,
+    "episodeTitle": "Vergnügungspark",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "140": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Amateurfußball-Livestream-Service",
+        "summary": "Live-Übertragung von Spielen des Amateurfußballvereins FC Lobberich/Diek über Twitch. Projekt läuft bereits mit 600-1000 Zuschauern pro Spiel, sucht nach optimalen und günstigen Kameralösungen für professionelle Streamqualität.",
+        "originator": "etienne",
+        "viability": "ernsthaft",
+        "category": "Service"
+      }
+    ],
+    "notes": "Konkretes, laufendes Projekt mit echten Zuschauerzahlen. Technische Herausforderungen: Kamerapositionierung, Live-4K-Probleme, fehlender Kameramann. Zukünftiges Wachstum durch Sponsorships und DFB-Pokal-Möglichkeiten wird spekuliert. Twitch-Kanal: twitch.tv/FCLobberich",
+    "episodeNumber": 140,
+    "episodeTitle": "Der Streckenposten",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "142": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Folge #142 ist eine Rätsel-Sonderfolge. Die Hosts stellen sich gegenseitig Rätsel (London-Taxis, U-Boot U1206, Ballonfest 1986), diskutieren aber keine Geschäfts- oder Start-up-Ideen. Keine substanzielle Idee vorhanden.",
+    "episodeNumber": 142,
+    "episodeTitle": "Urlaub",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "143": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript enthält hauptsächlich Empfehlungen für bestehende Produkte (Duschkopf, Föhn vom Friseurbedarfsladen), persönliche Projekte (Twitch-Streaming von Etienne, FC Lobberich-Streaming von Georg), Diskussionen über bestehende Konzepte (Cold Brew Kaffee) und humorvolle Spekulationen (Haartransplantation, Laubgebläse+Heizpilz als Föhn, Geschenkgutschein-Business). Die einzigen etwas substanzialeren Gedanken (MythBusters-ähnliche Show, Geschenkgutschein-Business für einen Shop) sind zu flüchtig und werden im humorvollen Kontext geäußert, ohne dass eine echte Geschäftsidee daraus entsteht.",
+    "episodeNumber": 143,
+    "episodeTitle": "Das Flugzeugsitzenachhintenkippenproblem",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "144": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Nachbarschafts-Hilfe-App",
+        "summary": "App mit Benachrichtigungssystem: Nutzer drücken einen Knopf und Menschen im ~500m Radius werden benachrichtigt, dass Hilfe benötigt wird. Mit Alarmstufen (grün/gelb/rot) je nach Notfall-Schweregrad.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "App/Software"
+      },
+      {
+        "name": "Falschparker-Melde-App",
+        "summary": "App zum Fotografieren und Melden von falsch geparkten Fahrzeugen. Der Nutzer erhält einen Anteil des Verwarnungsgeldes vom Strafzettel.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "App/Software"
+      },
+      {
+        "name": "Live-Flohmarkt auf Twitch",
+        "summary": "Twitch-Format: Moderator präsentiert Gegenstände live auf Tisch/Hobelbank, Zuschauer bieten im Chat, gewinner wird als Verkauf registriert. Alternative: Flohmarkt-App mit KI-Bilderkennung.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Streaming-Format/App/Software"
+      }
+    ],
+    "notes": "Etienne lobt die Flohmarkt-Idee explizit als 'beste Idee, die du je hattest'. Alle drei Ideen werden mit substanziellen, praktischen Details diskutiert, nicht als reine Witze.",
+    "episodeNumber": 144,
+    "episodeTitle": "Himbärgeist",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "145": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Beheizter Fahrradsattel",
+        "summary": "Ein beheizbarer Fahrradsattel mit integrierter Wärmefunktion für kalte Wetterbedingungen. Optional auch mit beheiztem Lenker kombinierbar, ähnlich wie Lenkradheizungen im Auto.",
+        "originator": "etienne",
+        "viability": "ernsthaft",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Etienne präsentiert die Idee explizit als Geschäftskonzept mit dem Hinweis, dass Millionengewinne möglich sind. Sie diskutieren technische Machbarkeit (existierende Auto-Technologie), Vorteile für E-Bike-Fahrer und potenzielle Probleme. Dies ist die einzige konkrete Geschäftsidee in der Folge; der Rest besteht aus Anekdoten, Diskussionen über bestehende Dienste (Twitch, FC Lobberich) und ein Rätsel zum Thema Flugbuchungen.",
+    "episodeNumber": 145,
+    "episodeTitle": "Das Freitagabendprogramm",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "147": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Rätsel-Archiv Website",
+        "summary": "Website (wer-googelt-kriegt-aufs-maul.de) mit allen Podcast-Rätsel-Fragen, Antworten und Quellen. Ermöglicht Fans, Rätsel eigenständig zu spielen und als Vorlage für private Runden zu nutzen.",
+        "originator": "asmus",
+        "viability": "ernsthaft",
+        "category": "App/Software"
+      },
+      {
+        "name": "Giga-Archiv für Twitch-Streaming",
+        "summary": "Digitalisierung alter Giga-Bänder (300+ Videotapes von 2002+) und Aufbereitung des Material als Hinter-den-Kulissen-Content für Twitch-Streams.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Podcast-Sponsoring vom FC Lobberich ist Marketing-Aktion, keine neue Geschäftsidee. M&M Walnuss-Vorschlag war humorvoller Gedanke, keine ernsthafte Idee.",
+    "episodeNumber": 147,
+    "episodeTitle": "Laufie-Sprechie",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "149": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Folge enthält mehrere Anekdoten und Diskussionen (Flugzeug-Koffer-Vorfall, Parkhaus-Gebühren, historische Kaffeeriecher, Fußball, Weihnachtslied), aber keine ernst gemeinten Geschäfts-/Start-up-Ideen. Eine humorvolle Erwähnung einer App zur Gewalt-Vermittlung ist reiner Sarkasmus und Quatsch, keine substanzielle Geschäftsidee.",
+    "episodeNumber": 149,
+    "episodeTitle": "Kofferangriff",
     "_model": "claude-haiku-4-5-20251001"
   }
 }
