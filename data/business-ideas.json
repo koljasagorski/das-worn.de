@@ -420,6 +420,29 @@
     "episodeTitle": "Das CSyou Desaster",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "43": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Karnevalslied 'Ich bin Jodrupp und du drunter'",
+        "summary": "Produktion eines Karnevalssongs mit professionellem Schlagerproduzenten, Gründung eines Plattenlabels und Vermarktung über Kneipen und Karnevalszüge. Kooperation mit Micky Krause angestrebt.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Produkt"
+      },
+      {
+        "name": "YouTube-DIY-Kanal für Handwerksprojekte",
+        "summary": "Dokumentation von Handwerksprojekten (z.B. Kücheninstallation) auf YouTube als Imagewechsel und potenzielles Einkommensmodell für Handwerker.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Die Karnevalslied-Idee wird mit echten geschäftlichen Überlegungen diskutiert (Produzenten-Engagment, Label-Gründung, Live-Auftritt, konkrete Kontaktaufnahme mit Micky Krause). Die YouTube-Idee wird als konkreter Plan erwähnt, aber weniger ausgearbeitet.",
+    "episodeNumber": 43,
+    "episodeTitle": "Imagewechsel",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "44": {
     "hasIdea": true,
     "ideas": [
@@ -466,6 +489,180 @@
     "notes": "Das Transkript enthält hauptsächlich persönliche Anekdoten über Schulerlebnisse, Rätsel und Bucket-List-Ziele. Die einzige Idee, die erwähnt wird (Schulen nur für ungeimpfte Kinder als Bildungsminister-Konzept), ist eindeutig satirisch/humorvoll gemeint und wird nicht ernsthaft als Geschäftsidee diskutiert. Es gibt keine substanziellen Geschäfts- oder Start-up-Ideen.",
     "episodeNumber": 47,
     "episodeTitle": "Delfine können sich ficken",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "48": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Podcast-Radiosender",
+        "summary": "Ein Radiosender, der ausschließlich Podcasts sendet statt klassischer Musik und Unterhaltung. Hörer könnten beim Autofahren durch verschiedene Podcasts blättern wie bei klassischen Radiosendern (z.B. Podcast ohne richtigen Namen, Gemischtes Hack, Fest & Flauschig).",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Die Episode behandelt hauptsächlich humoristische und persönliche Themen. Die Podcast-Radiosender-Idee wird zwar diskutiert, aber eher als 'wäre cool' Gedanke denn als konkrete Geschäftsplanung. Alle anderen potenziellen Ideen (Podcast-Battle, Angriffsministerium, Speisen-Rezepte) sind reine Witze oder persönliche Anekdoten ohne echte Substanz.",
+    "episodeNumber": 48,
+    "episodeTitle": "Falschparker",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "49": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Handwerksbetrieb für Elektrik & Reparaturen",
+        "summary": "Gründung eines Handwerkbetriebs zur Behebung des großen Fachkräftemangels. Jochen ist ausgebildeter Energieelektroniker (Fachrichtung Betriebstechnik) und könnte Services wie Herdanschlüsse oder Elektroinstallationen anbieten.",
+        "originator": "jochen",
+        "viability": "halbernst",
+        "category": "Service"
+      },
+      {
+        "name": "Auto-Abschreck-Kamera-System",
+        "summary": "Ein am Auto anbringbares System mit rotem Licht oder Kamera, das aggressive Fahrer abschreckt, indem es anzeigt, dass das Fahrzeug aufgezeichnet wird (z.B. mit Aufkleber oder aktivierbarem Licht).",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Handwerker-Idee entsteht aus realer Diskussion über Fachkräftemangel. Auto-Idee basiert auf Etienne's Erlebnis mit aggressive Fahrern auf der Autobahn. Beide werden mit gewisser Substanz diskutiert, aber auch humorvoll präsentiert.",
+    "episodeNumber": 49,
+    "episodeTitle": "Fast überfahren",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "51": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Gegenstands-Quiz-Format",
+        "summary": "Ein Quiz-Format, bei dem Gegenstände gezeigt werden, die Hörer/Zuschauer erraten müssen. Georg hat bereits einen Gegenstand bestellt und die Hosts diskutieren eine Podcast-Fernsehsendung als Video-Spin-Off dafür.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      },
+      {
+        "name": "Ganz schön lecker (Gänseessen-Stream)",
+        "summary": "Live-Streaming des Gänseessen-Zubereitens auf Twitch. Etienne überlegt, seine tägliche Küchensession beim Gänsebraten zu streamen, ähnlich wie andere Creator auf Twitch tanzen oder kochen.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "True-Crime-Podcast wird mehrfach erwähnt, ist aber zu vage formuliert als 'irgendwann-Idee'. Schüttfix ist ein externes Startup, nicht von den Hosts erfunden. Andere genannte Produkte sind nur Anekdoten, keine echten Geschäftsideen.",
+    "episodeNumber": 51,
+    "episodeTitle": "Gans schön lecker",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "52": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Alibaba Test-Show",
+        "summary": "Ein Show-Format, bei dem man Produkte von der chinesischen E-Commerce-Plattform Alibaba bestellt und diese testet. Die Produktion soll durch chinesische Sponsoren finanziert werden.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      }
+    ],
+    "notes": "Alle anderen Diskussionspunkte sind entweder reine Unterhaltung, Humor oder Analysen bestehender Probleme (Plastikkopfkissen-Kritik, gefälschte Merchandise, Pimmelbild-Katalog als Witz). Nur die Alibaba-Show ist eine konkrete, neue Show-/Content-Idee, die zumindest mit halbernster Komponente besprochen wird.",
+    "episodeNumber": 52,
+    "episodeTitle": "Toupets und Veganer",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "53": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Transkript enthält keine ernsthaft diskutierten Geschäfts- oder Start-up-Ideen. Auslieferungsroboter werden nur kurz und oberflächlich erwähnt, nicht jedoch als konkrete Geschäftsidee entwickelt. Rest des Inhalts besteht aus persönlichen Geschichten (Arzttermin, Paketprobleme, Gänse kochen), Film-/Entertainment-Diskussionen und historischen Fakten (Bordeaux-Brief-Quiz).",
+    "episodeNumber": 53,
+    "episodeTitle": "Weihnachtszeit",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "54": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Operation Weed - WWII Serie",
+        "summary": "Britische Fallschirmspringer schmuggeln Marihuana statt Crystal Meth zu deutschen Soldaten im WWII, um deren Blitzkrieg durch verlangsamte Reaktion zu sabotieren. Englische Alternative History Comedy mit realen historischen Hintergrund.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Sonstiges"
+      }
+    ],
+    "notes": "Georg pitcht die Serie explizit als 'richtig gute Idee' mit Rechte-Vorbehalt. Später zweifelt er selbst, ob es Serie, Film oder nur Sketch sein sollte. Halbernst-Ton deutet auf Konzept-Phase hin, nicht vollständig ernsthaft. Alle anderen Themen (Stradivari-Fund, Band-Gründung, Modellbau) sind entweder persönliche Anekdoten oder reine Scherze ohne Geschäftssubstanz.",
+    "episodeNumber": 54,
+    "episodeTitle": "Stradivari",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "55": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript enthält keine ernsthaften Geschäfts- oder Start-up-Ideen. Die Hosts diskutieren humorvoll über bestehende Konzepte (Clubs, Taxis, Tennis), überlegen sarkastisch, einen Club zu eröffnen, in dem keiner reinkommt, oder machen Witze über Bestechung von Türstehern. Die konkreteste Überlegung ist eine spezielle Podcast-Folge im Taxi durch Hamburg (Moja/Taxi-Fahrt), aber das ist ein Content-Konzept für ihren bestehenden Podcast, keine neue Geschäftsidee. Der Rest sind reine Scherze und Quatsch ohne Substanz.",
+    "episodeNumber": 55,
+    "episodeTitle": "Fettleber",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "57": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Luftdichte Klopapierbox",
+        "summary": "Ein luftdicht verschließbares Behälter-System zur Lagerung von Klopapierrollen, um zu verhindern, dass diese austrocknen und brüchig werden. Georg konstatiert, dass es kein gutes System dafür gibt; Etienne konkretisiert mit Ideen wie einer Butterbrotdose-ähnlichen Lösung oder einem Klopapier-Befeuchter.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Georg diskutiert konkret eine fehlende Erfindung als Marktlücke. Rest des Transkripts behandelt Anekdoten, technische Probleme, Alltagskritik an bestehenden Produkten (Goop, Zewa-Klopapier) sowie humorvolle Joke-Ideen (z.B. Peniskerze), die keine realen Geschäftsideen darstellen.",
+    "episodeNumber": 57,
+    "episodeTitle": "18.000 Lumen",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "58": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine echten Geschäfts-/Start-up-Ideen identifiziert. Brad Pitts Oscar-Rede-Idee ist ein humorvoller Gag. Nachhilfe für erste Klassen wird als Marktlücke kurz erwähnt, sofort aber verworfen. Kreuzfahrtschiff mit Internet ist eindeutig als Witz gemeint. Podcast-Merchandise ist ihr eigenes Projekt, aber keine externe Geschäftsidee. Rest sind persönliche Diskussionen (Ernährung, Fußball, Umwelt).",
+    "episodeNumber": 58,
+    "episodeTitle": "Froschschenkel",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "59": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Holy Crab - Invasive Arten als Nahrung",
+        "summary": "Berliner Startup, das invasive Tierarten (besonders Krabben wie die Wollhandkrabbe) zur Populationskontrolle fängt und als Lebensmittel verarbeitet und verkauft.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Holy Crab wird vom Podcast als echtes bestehendes Startup diskutiert. Es wird die Idee erörtert, dass man durch den Konsum von invasiven Arten sowohl ein Naturproblem löst als auch wirtschaftlich tätig ist. Weitere kleinere Beobachtungen (z.B. unbequeme Toiletten zur Effizienzsteigerung, Stirnlampen als Zukunftstrend) sind zu flüchtig oder humoristisch für Aufnahme.",
+    "episodeNumber": 59,
+    "episodeTitle": "Bienenkotze",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "60": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Folge besteht hauptsächlich aus privaten Mitteilungen (Georgs OP-Ankündigung), humorvoller Lotto-Gedankenspielen (wie man 90 Mio Euro ausgibt), persönlichen Anekdoten (Tablettenverwechslung, WhatsApp-Missverständnis), Rätseln und Fragen von Patreon-Unterstützern (Fantasy-Welten, Partynacks, Karneval). Keine echten Geschäftsideen mit Substanz.",
+    "episodeNumber": 60,
+    "episodeTitle": "90 Millionen Euro",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "61": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Folge 61 ist eine reine Rätsel-Sonderfolge mit Wissens- und Logik-Rätseln (Michael Myers/Captain Kirk, Skispringen rückwärts, Google Maps Stau-Hack, Stallone Film, Auto-Rätsel). Der Google Maps Stau-Hack durch einen Berliner Künstler (99 Handys im Bollerwagen, 2019) wird nur als Rätsel-Antwort erwähnt und als bereits ausgeführtes Kunstprojekt beschrieben, nicht als zu entwickelnde Geschäftsidee diskutiert. Keine echten Startup-/Business-Ideen vorhanden.",
+    "episodeNumber": 61,
+    "episodeTitle": "Rätsel,Rätsel,Rätsel....",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "62": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Das Transkript behandelt hauptsächlich Georgs Krankenhaus-/Krebserlebnis, die Corona-Pandemie, Etiennes frustrierende Auto-Kauf-Erfahrung, Taxifahrer-Anekdoten und ein Rätsel über südkoreanische Masseure. Die Diskussion zu Patreon-Merchandise (Tassen, Logo, Webseite) ist Teil der Verwaltung ihres bestehenden Podcasts, keine neue Geschäftsidee. Keine substanziellen Start-up- oder Geschäftsideen erkennbar.",
+    "episodeNumber": 62,
+    "episodeTitle": "Tumor-Gemetzel",
     "_model": "claude-haiku-4-5-20251001"
   }
 }

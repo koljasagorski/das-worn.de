@@ -49,6 +49,52 @@ const PODCAST_LINKS = {
 };
 
 // ─────────────────────────────────────────────────────────────
+// Easter Egg: /pommes
+// ─────────────────────────────────────────────────────────────
+export function renderPommes() {
+  const body = html`
+    <section class="hero" style="text-align:center">
+      <div style="font-size:5rem;line-height:1">🍟🍟🍟</div>
+      <h1>Du hast nicht ernsthaft versucht…</h1>
+      <p class="hero-tagline" style="font-size:1.3rem">
+        …Tiefkühlpommes in der Mikrowelle zu machen, oder?
+      </p>
+      <p class="hero-sub">
+        Diese Tat hat den Podcast geprägt. Sie ist Teil des offiziellen Intros.
+        Etienne, wir vergessen das nie.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="/lore/tiefkuehlpommes">Zum Pommes-Lore-Eintrag</a>
+        <a class="btn" href="/">Wieder zurück zur Vernunft</a>
+      </div>
+    </section>
+    <p class="muted" style="text-align:center;margin-top:2rem">
+      🥚 Easter Egg #1 von ${5}.
+    </p>
+    <script>
+      // Trigger pommes rain on this page automatically
+      window.dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowUp'}));
+      // Easier: just do it directly
+      (() => {
+        const overlay = document.createElement('div');
+        overlay.className = 'pommes-rain';
+        for (let i = 0; i < 40; i++) {
+          const s = document.createElement('span');
+          s.textContent = '🍟';
+          s.style.left = (Math.random()*100) + 'vw';
+          s.style.animationDelay = (Math.random()*2) + 's';
+          s.style.animationDuration = (3 + Math.random()*3) + 's';
+          s.style.fontSize = (1 + Math.random()*2) + 'rem';
+          overlay.appendChild(s);
+        }
+        document.body.appendChild(overlay);
+      })();
+    </script>
+  `;
+  return layout({ title: "🍟 Pommes", body, currentNav: "" });
+}
+
+// ─────────────────────────────────────────────────────────────
 // Business Ideas page
 // ─────────────────────────────────────────────────────────────
 export function renderBusinessIdeas({ businessIdeas, episodes }) {
