@@ -530,6 +530,29 @@
     "episodeTitle": "Fast überfahren",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "50": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Bundesliga-Rechte via Crowdfunding",
+        "summary": "Per Crowdfunding die Bundesliga-Online-Rechte kaufen und Spiele kostenlos oder für günstigen Jahresbeitrag über Rocket Beans streamen.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Service"
+      },
+      {
+        "name": "Sportarten-Hype-Marketing",
+        "summary": "Unbekannte Sportart (z.B. Quidditch) in Deutschland hypen, hochwertige Berichte produzieren und Rechte dann an Medienmultis verkaufen.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Service"
+      }
+    ],
+    "notes": "Zwei als halbernst diskutierte Geschäftsideen mit Substanz: 1) Crowdfunding-finanzierter Bundesliga-Streaming (konkrete Zahlen, Geschäftsmodelle); 2) Marketing-Strategie zum Hypen unbekannter Sportarten und Rechtverkauf (Alles klar, klingt für mich wie der perfekte Plan).",
+    "episodeNumber": 50,
+    "episodeTitle": "a walk in the park",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "51": {
     "hasIdea": true,
     "ideas": [
@@ -601,6 +624,14 @@
     "episodeTitle": "Fettleber",
     "_model": "claude-haiku-4-5-20251001"
   },
+  "56": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Folge besteht hauptsächlich aus anekdotischen Geschichten (Parkstrafen, Restaurants, Arzttermine, peinliche Toiletten-Momente). Die längste Diskussion über Geschäftskonzepte war ein hypothetisches Gedankenspiel ('Annahme, jeder von euch ist Eigentümer eines Fernsehsenders mit ARD-Budget'), das nicht als echte geplante Geschäftsidee gemeint war. Ein Polizeiausrüstungsladen (Polas) wird erwähnt, aber nicht als eigene Idee diskutiert, sondern nur als Entdeckung kommentiert. Tiefkühlpommes in der Mikrowelle ist ein Running Gag/Witz ohne Substanz.",
+    "episodeNumber": 56,
+    "episodeTitle": "Arzt-Toilette",
+    "_model": "claude-haiku-4-5-20251001"
+  },
   "57": {
     "hasIdea": true,
     "ideas": [
@@ -663,6 +694,141 @@
     "notes": "Das Transkript behandelt hauptsächlich Georgs Krankenhaus-/Krebserlebnis, die Corona-Pandemie, Etiennes frustrierende Auto-Kauf-Erfahrung, Taxifahrer-Anekdoten und ein Rätsel über südkoreanische Masseure. Die Diskussion zu Patreon-Merchandise (Tassen, Logo, Webseite) ist Teil der Verwaltung ihres bestehenden Podcasts, keine neue Geschäftsidee. Keine substanziellen Start-up- oder Geschäftsideen erkennbar.",
     "episodeNumber": 62,
     "episodeTitle": "Tumor-Gemetzel",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "63": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Episode behandelt hauptsächlich Corona-Pandemie-Themen, persönliche Anekdoten (Skiurlaub, Unfälle), Serien- und Podcast-Empfehlungen sowie Patreon-Fragen. Der erwähnte 'Taxi-Podcast' ist keine eigenständige Geschäftsidee, sondern ein geplantes Special-Format für ihren bestehenden Podcast. Die diskutierten Merchandise-Tassen sind Merchandise für den Podcast selbst, keine neue Geschäftsidee.",
+    "episodeNumber": 63,
+    "episodeTitle": "Coronavirus leicht erklärt",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "64": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Podcast-Folge behandelt primär Alltagserlebnisse und Gedanken der Hosts während der Corona-Quarantäne. Vage erwähnte Ideen wie 'Stream aus Husum' oder 'Fahrdienst für alte Menschen' werden entweder sofort humorvoll verworfen oder sind zu unkonkret/spekulativ, um als echte Geschäftsideen zu zählen. Die Diskussionen über Aufzüge, Einkaufswagenverhalten und die Stradivari-Geige sind Unterhaltung, keine Geschäftskonzepte.",
+    "episodeNumber": 64,
+    "episodeTitle": "Soziale Isolierung",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "66": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Transcript contains discussions of existing problems (streaming series availability, cable management, subscription tracking), references to existing apps/products (Finanzguru, Netflix, Amazon), personal activities (learning guitar, considering getting a pet), and jokes (testing playground safety with dummy dolls). No serious new business or startup ideas are proposed or discussed.",
+    "episodeNumber": 66,
+    "episodeTitle": "Gittarenspieler Etienne",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "68": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Automatisches Toilettenbürsten-Reinigungssystem",
+        "summary": "Ein Mechanismus ähnlich japanischen Toiletten mit automatischen Wasserstrahlen, der die Toilettenbürste nach Gebrauch selbstständig reinigt und hygienische Probleme reduziert.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Einzige substantielle Geschäftsidee. Basiert auf ausführlicher Problemanalyse konventioneller Toilettenbürsten (Sauberkeit, Tropfenproblematik). Andere angesprochene Ideen (LED-Zahnbürste, Froschtunnel) sind zu oberflächlich ohne echte Diskussion.",
+    "episodeNumber": 68,
+    "episodeTitle": "Frösche und Klobrillen",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "69": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Podcast-Masken",
+        "summary": "Herstellung von COVID-19-Schutzmasken mit Podcast-Branding, zu einem fairen Preis von etwa 15 Euro pro Maske. Ziel ist Hilfe für Leute, um an Masken zu kommen, ohne Notlage auszunutzen.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Produkt"
+      },
+      {
+        "name": "Halloween-Covid-Masken",
+        "summary": "Doppelnutzungs-Masken mit Halloween-Verkleidungsdesign (z.B. Joker-Grinsen) und gleichzeitigem COVID-19-Schutz. Als kommender Trend identifiziert.",
+        "originator": null,
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Zwei Masken-Varianten wurden humorvoll-halbernst diskutiert mit konkreten Details (Material, Preis). Entstanden im Kontext der Corona-Maskenknappheit 2020. Speaker sind im Transkript nicht eindeutig zu unterscheiden.",
+    "episodeNumber": 69,
+    "episodeTitle": "Meerschweinchen",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "70": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Folge behandelt hauptsächlich Lifestyle-Tipps zu existierenden Produkten (Mikrofaser-Handtücher, Massagegürtel, Obstschäler) und Corona-Alltagsbeobachtungen. Eine vage, humorvolle Erwähnung eines 'Fake-Shops mit komischen Sachen' von Georg/Jochen ist zu unkonkret und zu humoristisch gemeint, um als echte Geschäftsidee zu zählen. Keine substanzielle Diskussion einer neuen Geschäfts- oder Start-up-Idee vorhanden.",
+    "episodeNumber": 70,
+    "episodeTitle": "Stachel auf dem Kopf",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "71": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Melbu Fit - Butter ohne Messer",
+        "summary": "Butter in Tuben-/Stiftform wie Farbrollen, die man direkt aufs Brot drücken kann ohne Messer. Mit Werbekampagne durch blonde Zwillinge und Slogan 'das geht besser ohne Messer'. Discount-Variante: Melobu-Fresh.",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Georg entwickelt die Idee detailliert aus, inkl. Produktkonzept, Markenname, Werbestrategie und Handelsmarken-Varianten. Etienne erklärt sich enthusiastisch als Investor interessiert. Diskussion ist substanziell, trotz humorvoller Präsentation.",
+    "episodeNumber": 71,
+    "episodeTitle": "Ziegelstein und Kammerjäger",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "72": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Personalisierte Masken mit Gesichtsfoto",
+        "summary": "Man druckt ein Foto des eigenen Gesichts auf eine Mundschutzmaske, um sein Gesicht trotz Maske sichtbar zu machen – besonders für Dating und Flirten in Corona-Zeiten.",
+        "originator": "etienne",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Etienne stellt die Idee vor, wird dann humorvoll weitergesponnen mit dem Gedanken an Cat-Fishing (Brad-Pitt-Masken etc.), aber es gibt einen praktischen Kern: Das Problem, dass man sein Gesicht hinter der Maske verbirgt, soll gelöst werden.",
+    "episodeNumber": 72,
+    "episodeTitle": "Loch in der Hand",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "74": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Die Folge enthält nur zwei ansatzweise verwandte Gedankenspiele, keine substanziellen Geschäftsideen: (1) Etienne schlägt vor, gestressten Managern gegen Bezahlung Handwerksprojekte (z.B. Küche bauen) zu ermöglichen. Dies wird aber sofort von Jochen als 'du hast gerade den Handwerker erfunden' abgetan und von Etienne selbst wenig später als unsinnig verworfen. (2) Die 'kitzelnde Hupe' wird erwähnt als etwas, das jemand erfunden hat, wird aber nur humorvoll und oberflächlich als 'das könnten wir auch verkaufen' kommentiert - reiner Witz ohne ernsthafte Diskussion. Der Rest der Folge besteht aus Anekdoten, Urban Legends, rechtlichen Fragen und Lifestyle-Themen.",
+    "episodeNumber": 74,
+    "episodeTitle": "Der Zaun und der Ring",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "75": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine echten Geschäftsideen identifiziert. Diskutiert werden: ein altes Kochbuch (Nadel kocht), Filmkritik (E.T., Big), ein bestehendes E-Commerce-Portal (baustoffshop.de), eine Sicherheitsproblematik bei Doppelstab-Mattenzäunen (ohne konkrete Geschäftslösung), persönliche Anekdoten (Küchenrenovierung, Influencer-Preise) und Patreon-Fragen. Keine Idee wird ernsthaft als geschäftliche Möglichkeit diskutiert oder entwickelt.",
+    "episodeNumber": 75,
+    "episodeTitle": "E.T. ist ein Arsch",
+    "_model": "claude-haiku-4-5-20251001"
+  },
+  "77": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "TikTok-Tanzschule",
+        "summary": "Spezialisierte Tanzschule für Kinder (6-16 Jahre), die aktuelle TikTok-Dance-Choreografien beibringt. Zielgruppe: Kinder, die TikTok nutzen und an viralen Dance-Challenges teilnehmen möchten.",
+        "originator": "jochen",
+        "viability": "ernsthaft",
+        "category": "Service"
+      }
+    ],
+    "notes": "Jochen stellt diese als 'Millionenidee' vor, die bereits monetarisierbar ist. Hosts diskutieren Geschäftsmodell, Franchising-Potenzial und Monetarisierung ernsthaft. Georg sagt explizit: 'Das ist wirklich eine gute Idee'. Call-out an bestehende Tanzschulen, ein wöchentliches TikTok-Tanzangebot zu schaffen.",
+    "episodeNumber": 77,
+    "episodeTitle": "Schnauze, Brigitte!",
     "_model": "claude-haiku-4-5-20251001"
   }
 }
