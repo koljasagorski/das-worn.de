@@ -1,40 +1,40 @@
 {
-  "episodeCount": 361,
+  "episodeCount": 362,
   "skippedRaetselCount": 4,
-  "totalWords": 5177810,
-  "totalChars": 30359563,
-  "avgWords": 14343,
+  "totalWords": 5193199,
+  "totalChars": 30449230,
+  "avgWords": 14346,
   "winners": {
     "etienne": 120,
     "jochen": 154,
     "georg": 13,
-    "unknown": 70
+    "unknown": 71
   },
   "totalMentions": {
-    "etienne": 3409,
-    "jochen": 6308,
-    "georg": 3767
+    "etienne": 3417,
+    "jochen": 6331,
+    "georg": 3778
   },
   "topGlobal": [
     {
       "word": "diese",
-      "count": 8675
+      "count": 8700
     },
     {
       "word": "jochen",
-      "count": 5337
+      "count": 5359
     },
     {
       "word": "zwei",
-      "count": 4600
+      "count": 4623
     },
     {
       "word": "podcast",
-      "count": 4263
+      "count": 4282
     },
     {
       "word": "dieser",
-      "count": 2307
+      "count": 2320
     },
     {
       "word": "dieses",
@@ -109,12 +109,12 @@
       "count": 574
     },
     {
-      "word": "geld",
-      "count": 542
+      "word": "problem",
+      "count": 555
     },
     {
-      "word": "problem",
-      "count": 540
+      "word": "geld",
+      "count": 542
     },
     {
       "word": "kinder",
@@ -247,20 +247,20 @@
   ],
   "totalFun": {
     "haha": 28,
-    "quatsch": 766,
-    "cool": 1406,
-    "geil": 4031,
-    "krass": 892,
+    "quatsch": 768,
+    "cool": 1410,
+    "geil": 4040,
+    "krass": 894,
     "digga": 26,
-    "alter": 1732,
-    "scheisse": 3208,
-    "leute": 9345,
-    "tschuess": 863,
-    "podcast": 6122,
-    "pommes": 376,
+    "alter": 1736,
+    "scheisse": 3223,
+    "leute": 9355,
+    "tschuess": 866,
+    "podcast": 6142,
+    "pommes": 378,
     "nettetal": 4,
     "lobberich": 119,
     "nordfriese": 2
   },
-  "estimatedHours": 664
+  "estimatedHours": 666
 }

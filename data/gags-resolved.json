@@ -1204,8 +1204,8 @@
     "dedicatedEpisodes": [],
     "host": "etienne",
     "key": "tiefkuehlpommes",
-    "episodeCount": 268,
-    "totalMentions": 470,
+    "episodeCount": 269,
+    "totalMentions": 472,
     "episodes": [
       {
         "number": 23,
@@ -2545,6 +2545,11 @@
       {
         "number": 361,
         "title": "Tennis",
+        "mentions": 2
+      },
+      {
+        "number": 362,
+        "title": "Gerangel im Checkers",
         "mentions": 2
       }
     ]
