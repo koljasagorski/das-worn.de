@@ -48,6 +48,7 @@ export function layout({ title, body, currentNav = "" }) {
     { href: "/folgen", label: "Folgen", id: "folgen" },
     { href: "/raetsel", label: "Rätsel & Punkte", id: "raetsel" },
     { href: "/lore", label: "Running Gags", id: "lore" },
+    { href: "/business-ideen", label: "Business-Ideen", id: "ideas" },
     { href: "/hosts", label: "Hosts", id: "hosts" },
     { href: "/statistiken", label: "Statistiken", id: "stats" },
     { href: "/chat", label: "💬 Chat", id: "chat" },

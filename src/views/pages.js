@@ -49,6 +49,84 @@ const PODCAST_LINKS = {
 };
 
 // ─────────────────────────────────────────────────────────────
+// Business Ideas page
+// ─────────────────────────────────────────────────────────────
+export function renderBusinessIdeas({ businessIdeas, episodes }) {
+  // Flatten all ideas with their episode reference
+  const all = [];
+  for (const [numStr, entry] of Object.entries(businessIdeas)) {
+    if (!entry?.ideas || !entry.ideas.length) continue;
+    for (const idea of entry.ideas) {
+      all.push({
+        ...idea,
+        episodeNumber: parseInt(numStr, 10),
+        episodeTitle: entry.episodeTitle,
+      });
+    }
+  }
+  // Sort by viability (ernsthaft > halbernst > quatsch) then by episode desc
+  const viabilityOrder = { ernsthaft: 0, halbernst: 1, quatsch: 2 };
+  all.sort((a, b) => {
+    const va = viabilityOrder[a.viability] ?? 9;
+    const vb = viabilityOrder[b.viability] ?? 9;
+    if (va !== vb) return va - vb;
+    return b.episodeNumber - a.episodeNumber;
+  });
+
+  // Counts by viability
+  const counts = { ernsthaft: 0, halbernst: 0, quatsch: 0 };
+  for (const i of all) counts[i.viability] = (counts[i.viability] || 0) + 1;
+
+  const renderIdea = (i) => {
+    const vBadge =
+      i.viability === "ernsthaft" ? html`<span class="badge via-serious">💼 ernsthaft</span>`
+      : i.viability === "halbernst" ? html`<span class="badge via-half">🤔 halbernst</span>`
+      : html`<span class="badge via-joke">😅 Quatsch</span>`;
+    const oBadge = i.originator && HOST_INFO[i.originator]
+      ? html`<span class="badge" style="background:${HOST_INFO[i.originator].color};color:white">${HOST_INFO[i.originator].name}</span>`
+      : "";
+    return html`
+      <article class="idea-card">
+        <header class="idea-header">
+          <h3>${i.name}</h3>
+          <div class="idea-meta">
+            ${vBadge}
+            ${oBadge}
+            ${i.category ? html`<span class="badge">${i.category}</span>` : ""}
+          </div>
+        </header>
+        <p class="idea-summary">${i.summary}</p>
+        <p class="idea-src"><a href="/folge/${i.episodeNumber}">→ aus Folge #${i.episodeNumber}: ${i.episodeTitle}</a></p>
+      </article>
+    `;
+  };
+
+  const body = all.length === 0 ? html`
+    <h1>💼 Business-Ideen</h1>
+    <p>Die Hosts haben in den ersten Folgen offenbar noch keine Idee laut gedacht – die Extraktion läuft noch.</p>
+    <p>Sobald das Build-Skript durch ist, erscheinen hier die Start-up-Ideen, Erfindungen und ernst gemeinten Geschäftsideen.</p>
+  ` : html`
+    <h1>💼 Business-Ideen aus dem Podcast</h1>
+    <p>
+      In manchen Folgen denken die Hosts laut über Geschäftsideen, Erfindungen oder Start-ups nach.
+      Hier sind ${all.length} Ideen, AI-extrahiert aus ${Object.keys(businessIdeas).length} Folgen.
+    </p>
+
+    <div class="stat-grid">
+      <div class="stat-box"><div class="stat-num">${counts.ernsthaft || 0}</div><div class="stat-label">💼 ernsthaft</div></div>
+      <div class="stat-box"><div class="stat-num">${counts.halbernst || 0}</div><div class="stat-label">🤔 halbernst</div></div>
+      <div class="stat-box"><div class="stat-num">${counts.quatsch || 0}</div><div class="stat-label">😅 Quatsch</div></div>
+    </div>
+
+    <section>
+      <h2>Alle Ideen</h2>
+      <div class="ideas-list">${all.map(renderIdea)}</div>
+    </section>
+  `;
+  return layout({ title: "Business-Ideen", body, currentNav: "ideas" });
+}
+
+// ─────────────────────────────────────────────────────────────
 // Chat page
 // ─────────────────────────────────────────────────────────────
 export function renderChat({ stats }) {

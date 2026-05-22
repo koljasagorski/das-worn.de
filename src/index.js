@@ -14,8 +14,10 @@ import {
   renderLoreIndex,
   renderLoreDetail,
   renderChat,
+  renderBusinessIdeas,
 } from "./views/pages.js";
 import { handleChat } from "./api/chat.js";
+import businessIdeas from "../data/business-ideas.json";
 
 const app = new Hono();
 
@@ -59,6 +61,7 @@ app.get("/lore/:key", (c) => {
 
 app.get("/chat", (c) => c.html(renderChat({ stats }), 200, { "Cache-Control": "public, max-age=300" }));
 app.post("/api/chat", handleChat);
+app.get("/business-ideen", (c) => html(c, renderBusinessIdeas({ businessIdeas, episodes })));
 
 app.get("/random", (c) => {
   const ep = episodes[Math.floor(Math.random() * episodes.length)];

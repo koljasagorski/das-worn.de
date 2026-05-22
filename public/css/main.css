@@ -424,6 +424,24 @@ section { margin: 2rem 0; }
   display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .6rem;
 }
 
+/* ─── Business Ideas ────────────────────────────────────────── */
+.ideas-list {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem; margin: 1rem 0;
+}
+.idea-card {
+  background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px;
+  padding: 1.25rem;
+}
+.idea-header { display: flex; flex-direction: column; gap: .5rem; margin-bottom: .6rem; }
+.idea-header h3 { margin: 0; color: var(--accent); font-size: 1.1rem; }
+.idea-meta { display: flex; flex-wrap: wrap; gap: .35rem; }
+.idea-summary { color: var(--text); margin-bottom: .8rem; font-size: .95rem; }
+.idea-src { font-size: .85rem; }
+.via-serious { background: rgba(42,157,143,.25); color: #6dd5b5; }
+.via-half { background: rgba(255,185,56,.25); color: var(--accent); }
+.via-joke { background: rgba(232,90,79,.2); color: #f5a39a; }
+
 /* ─── Running Gags ────────────────────────────────────────── */
 .gag-strip {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
