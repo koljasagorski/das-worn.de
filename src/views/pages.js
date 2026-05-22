@@ -891,7 +891,7 @@ export function renderRaetsel({ episodes, stats }) {
       Fast jede Folge endet (oder hat irgendwo) ein Rätsel. Wer es löst, bekommt den Punkt.
     </p>
     <p class="source-note">
-      📊 Die offizielle Punktetabelle inklusive aller Fragen, Antworten und Quellen führen die Hosts selbst – riesigen Dank dafür!
+      📊 Die offizielle Punktetabelle inklusive aller Fragen, Antworten und Quellen pflegt <strong>Marcel S.</strong> – riesigen Dank dafür!
       Quelle: <a href="http://tinyurl.com/wergoggletkriegtaufsmaul" rel="noopener" target="_blank">tinyurl.com/wergoggletkriegtaufsmaul</a> („Wergoogelt kriegt aufs Maul").
     </p>
 
