@@ -6559,5 +6559,107 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string)."
+  "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string).",
+  "370": {
+    "winner": null,
+    "question": "Wer ist Jens Mustermann?",
+    "answer": "Der Platzhalter-Name, unter dem EA in FIFA den deutschen Nationaltorhüter Oliver Kahn führt, weil keine Namensrechte vorlagen.",
+    "notes": "Loeser im Transkript nicht eindeutig zuzuordnen (keine Sprecher-Labels). Loesung = Oliver Kahn.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "low"
+  },
+  "371": {
+    "winner": "jochen",
+    "question": "Im Jahr 2015 verlor Warner Music die Rechte an welchem Song?",
+    "answer": "Happy Birthday to You.",
+    "notes": "Jochen loest sofort; 'Jochen darf eins stellen beim naechsten Mal'.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "high",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "372": {
+    "winner": null,
+    "question": "Welchen Rekord hat Dr. Sudhir Srivastava im Juni 2026 aufgestellt?",
+    "answer": "Fernoperation ueber die groesste je ueberbrueckte Entfernung: Patient in Indien, Arzt in Guayana, ca. 20.000 km, Ping 290-300 ms.",
+    "notes": "Loeser im Transkript nicht eindeutig zuzuordnen (keine Sprecher-Labels). Loesung verifiziert.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "low"
+  },
+  "373": {
+    "winner": "etienne",
+    "question": "Gesucht ist ein Gegenstand: aus Holz, in allen Groessen erhaeltlich, den man werfen kann - aber nicht speziell zum Werfen gedacht.",
+    "answer": "Der Stock.",
+    "notes": "Etienne loest 'Es ist der Stock' und erklaert den Gedankengang; Georg wollte ebenfalls loesen.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 1,
+      "jochen": 0,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "374": {
+    "winner": null,
+    "question": "Mit welcher Begruendung verweigerte ein Moerder einen DNA-Test?",
+    "answer": "Aus Angst, geklont zu werden (Gary Scharer, Agawam/Massachusetts, 2017).",
+    "notes": "Loeser im Transkript nicht eindeutig zuzuordnen (keine Sprecher-Labels). Loesung verifiziert.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "low"
+  },
+  "375": {
+    "winner": "etienne",
+    "question": "Was wurde am 17. August 1982 in Langenhagen zum ersten Mal (industriell in Serie) produziert?",
+    "answer": "Die erste CD (ABBA - The Visitors im Auftrag von Polygram).",
+    "notes": "Etienne loest; 'Eddie, jetzt kannst du es zugeben, das war einfach zu glatt'.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "high",
+    "_points": {
+      "etienne": 1,
+      "jochen": 0,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "376": {
+    "winner": "etienne",
+    "question": "Warum konnte ein Formel-1-Weltmeister zwei aufeinanderfolgende Rennen nicht bestreiten?",
+    "answer": "Nigel Mansell (Weltmeister 1992) passte 1995 bei McLaren nicht ins Cockpit.",
+    "notes": "Etienne loest ('Hat der nicht ins Auto gepasst?'); 'Eddie, jetzt langsam wird es verdaechtig'.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "high",
+    "_points": {
+      "etienne": 1,
+      "jochen": 0,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "377": {
+    "winner": "jochen",
+    "question": "Warum vergruben 1.000 Schweizer jeweils zwei Unterhosen?",
+    "answer": "Es waren Landwirte, die die Unterhosen zur Foerderung der Bodenfruchtbarkeit vergruben (analog zu Demeter-Hoernern).",
+    "notes": "Jochen loest ('Jochen ist wieder viel gewiefter als wir'), Demeter-Vergleich als Loesung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  }
 }

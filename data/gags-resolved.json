@@ -169,8 +169,8 @@
     "dedicatedEpisodes": [],
     "host": "jochen",
     "key": "porsche",
-    "episodeCount": 45,
-    "totalMentions": 159,
+    "episodeCount": 46,
+    "totalMentions": 160,
     "episodes": [
       {
         "number": 34,
@@ -396,6 +396,11 @@
         "number": 363,
         "title": "Free Cash",
         "mentions": 3
+      },
+      {
+        "number": 371,
+        "title": "Snake-Man",
+        "mentions": 1
       }
     ]
   },
@@ -1010,8 +1015,8 @@
     ],
     "host": "georg",
     "key": "kaercher",
-    "episodeCount": 41,
-    "totalMentions": 118,
+    "episodeCount": 43,
+    "totalMentions": 129,
     "episodes": [
       {
         "number": 28,
@@ -1217,6 +1222,16 @@
         "number": 369,
         "title": "Brille? Teuer!",
         "mentions": 2
+      },
+      {
+        "number": 371,
+        "title": "Snake-Man",
+        "mentions": 1
+      },
+      {
+        "number": 372,
+        "title": "Eddi Zweipunktnull",
+        "mentions": 10
       }
     ]
   },
@@ -1229,8 +1244,8 @@
     "dedicatedEpisodes": [],
     "host": "etienne",
     "key": "tiefkuehlpommes",
-    "episodeCount": 272,
-    "totalMentions": 475,
+    "episodeCount": 273,
+    "totalMentions": 476,
     "episodes": [
       {
         "number": 23,
@@ -2590,6 +2605,11 @@
       {
         "number": 366,
         "title": "Chantal aus der 7e",
+        "mentions": 1
+      },
+      {
+        "number": 373,
+        "title": "Mach mal 'nen Abflug",
         "mentions": 1
       }
     ]

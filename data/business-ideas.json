@@ -4989,5 +4989,107 @@
     "episodeNumber": 368,
     "episodeTitle": "Der Pissoir Psychopath",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "370": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine eigenstaendige Geschaefts-/Start-up-Idee im Transkript (Diskussion ueber Lebensmittel-Richtlinien/Kakerlaken).",
+    "episodeNumber": 370,
+    "episodeTitle": "Die Kakerlaken in deinen Nüssen",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "371": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine eigenstaendige Geschaeftsidee; Thema sind oeffentliche Toiletten (Toiletten-Reviewer auf Instagram) - kein neues Geschaeftsmodell.",
+    "episodeNumber": 371,
+    "episodeTitle": "Snake-Man",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "372": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Live-Auktionen",
+        "summary": "Ausmist-Aktionen live per Stream versteigern (Schuppen/Wohnung aufloesen). Die Hosts hatten die Idee zuerst, eBay hat sie mit 'eBay Live' umgesetzt - daher halbernst der Plan, eBay zu verklagen.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Plattform"
+      }
+    ],
+    "notes": "Idee explizit als 'unsere Millionenidee' bezeichnet; Loeser/Urheber im Transkript nicht eindeutig zuordenbar.",
+    "episodeNumber": 372,
+    "episodeTitle": "Eddi Zweipunktnull",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "373": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine eigene Geschaeftsidee; Free-Cash-Apps werden nur als bestehendes Phaenomen besprochen.",
+    "episodeNumber": 373,
+    "episodeTitle": "Mach mal 'nen Abflug",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "374": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee; Thema sind Werbe-/Markenloyalitaet und Fliegen.",
+    "episodeNumber": 374,
+    "episodeTitle": "Traffic-Man",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "375": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Spielplatz fuer Erwachsene",
+        "summary": "Grosser Spielplatz nur fuer Erwachsene (Riesenrutschen, Wippen, Schaukeln, alles bis 200 kg, Zutritt erst ab 18).",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Freizeit"
+      },
+      {
+        "name": "Rennauto-Bett",
+        "summary": "Bett in Rennauto-Optik in Erwachsenengroesse, inkl. Service-Crew, die Reifen wechselt und das Bett aufbockt.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Produkt"
+      },
+      {
+        "name": "Streaming-Agentur fuer Bettler",
+        "summary": "Full-Service-Agentur, die Obdachlose beim Streamen unterstuetzt (QR-Codes fuer Spenden, Agentur nimmt Gebuehr auf Einnahmen).",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Dienstleistung"
+      }
+    ],
+    "notes": "Mehrere explizit als 'Millionenidee'/'Geschaeftsidee' benannte Einfaelle.",
+    "episodeNumber": 375,
+    "episodeTitle": "Spielplatz für Erwachsene",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "376": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee; Thema Messe/Party und Formel-1-Anekdote.",
+    "episodeNumber": 376,
+    "episodeTitle": "Glück gehabt",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "377": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "KI-Agent mit eigenen Finanzen",
+        "summary": "Eine KI, die sich als Mensch ausgibt und eigenstaendig Geld verdient, sobald sie ueber finanzielle Ressourcen verfuegt und Menschen beauftragen kann (KI als Arbeitgeber/Content-Produzent).",
+        "originator": "unknown",
+        "viability": "gedankenspiel",
+        "category": "KI"
+      }
+    ],
+    "notes": "Als Gedankenexperiment ausgefuehrt (KI, die Filme macht und daran verdient).",
+    "episodeNumber": 377,
+    "episodeTitle": "Fussball-Loge",
+    "_source": "transcript-mine-2026-09-17"
   }
 }
