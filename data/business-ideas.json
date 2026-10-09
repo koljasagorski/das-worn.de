@@ -4989,5 +4989,212 @@
     "episodeNumber": 368,
     "episodeTitle": "Der Pissoir Psychopath",
     "_model": "claude-haiku-4-5-20251001"
+  },
+  "370": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine eigenstaendige Geschaefts-/Start-up-Idee im Transkript (Diskussion ueber Lebensmittel-Richtlinien/Kakerlaken).",
+    "episodeNumber": 370,
+    "episodeTitle": "Die Kakerlaken in deinen Nüssen",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "371": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine eigenstaendige Geschaeftsidee; Thema sind oeffentliche Toiletten (Toiletten-Reviewer auf Instagram) - kein neues Geschaeftsmodell.",
+    "episodeNumber": 371,
+    "episodeTitle": "Snake-Man",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "372": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Live-Auktionen",
+        "summary": "Ausmist-Aktionen live per Stream versteigern (Schuppen/Wohnung aufloesen). Die Hosts hatten die Idee zuerst, eBay hat sie mit 'eBay Live' umgesetzt - daher halbernst der Plan, eBay zu verklagen.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Plattform"
+      }
+    ],
+    "notes": "Idee explizit als 'unsere Millionenidee' bezeichnet; Loeser/Urheber im Transkript nicht eindeutig zuordenbar.",
+    "episodeNumber": 372,
+    "episodeTitle": "Eddi Zweipunktnull",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "373": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine eigene Geschaeftsidee; Free-Cash-Apps werden nur als bestehendes Phaenomen besprochen.",
+    "episodeNumber": 373,
+    "episodeTitle": "Mach mal 'nen Abflug",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "374": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee; Thema sind Werbe-/Markenloyalitaet und Fliegen.",
+    "episodeNumber": 374,
+    "episodeTitle": "Traffic-Man",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "375": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Spielplatz fuer Erwachsene",
+        "summary": "Grosser Spielplatz nur fuer Erwachsene (Riesenrutschen, Wippen, Schaukeln, alles bis 200 kg, Zutritt erst ab 18).",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Freizeit"
+      },
+      {
+        "name": "Rennauto-Bett",
+        "summary": "Bett in Rennauto-Optik in Erwachsenengroesse, inkl. Service-Crew, die Reifen wechselt und das Bett aufbockt.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Produkt"
+      },
+      {
+        "name": "Streaming-Agentur fuer Bettler",
+        "summary": "Full-Service-Agentur, die Obdachlose beim Streamen unterstuetzt (QR-Codes fuer Spenden, Agentur nimmt Gebuehr auf Einnahmen).",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Dienstleistung"
+      }
+    ],
+    "notes": "Mehrere explizit als 'Millionenidee'/'Geschaeftsidee' benannte Einfaelle.",
+    "episodeNumber": 375,
+    "episodeTitle": "Spielplatz für Erwachsene",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "376": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee; Thema Messe/Party und Formel-1-Anekdote.",
+    "episodeNumber": 376,
+    "episodeTitle": "Glück gehabt",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "377": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "KI-Agent mit eigenen Finanzen",
+        "summary": "Eine KI, die sich als Mensch ausgibt und eigenstaendig Geld verdient, sobald sie ueber finanzielle Ressourcen verfuegt und Menschen beauftragen kann (KI als Arbeitgeber/Content-Produzent).",
+        "originator": "unknown",
+        "viability": "gedankenspiel",
+        "category": "KI"
+      }
+    ],
+    "notes": "Als Gedankenexperiment ausgefuehrt (KI, die Filme macht und daran verdient).",
+    "episodeNumber": 377,
+    "episodeTitle": "Fussball-Loge",
+    "_source": "transcript-mine-2026-09-17"
+  },
+  "378": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Reichen-Podcast",
+        "summary": "Exklusiver Podcast fuer zahlungskraeftige Hoerer: 1500 Euro im Monat, stark limitierte Slot-Anzahl (5 Plaetze). Der Inhalt ist bewusst nebensaechlich - verkauft wird die Exklusivitaet, damit man im Golfclub damit prahlen kann.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Plattform"
+      },
+      {
+        "name": "1400-Euro-Laden",
+        "summary": "Statt 1-Euro-Laden ein Laden, in dem alles 1400 Euro kostet - dasselbe Prinzip, nur nach oben gedreht (Georgs Einfall).",
+        "originator": "georg",
+        "viability": "gedankenspiel",
+        "category": "Handel"
+      }
+    ],
+    "notes": "Explizit als 'super Idee'/'Millionenidee' eingefuehrt; Kernaussage: Qualitaetsanspruch loswerden, Exklusivitaet verkaufen.",
+    "episodeNumber": 378,
+    "episodeTitle": "Das sauteure Shirt",
+    "_source": "transcript-mine-2026-10-03"
+  },
+  "379": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Webseite fuer gebrauchte Brillen",
+        "summary": "Marktplatz fuer Second-Hand-Brillen: Bestand kommt aus Wohnungsaufloesungen (bisher gehen die Brillen als Tonnenware nach Afrika), Kauf ueber Dioptrien-Zahl. Alte Brillenglaeser sind teuer (bis 1000 Euro), der Restwert wird unterschaetzt.",
+        "originator": "unknown",
+        "viability": "ernst",
+        "category": "Plattform"
+      },
+      {
+        "name": "Gebrauchte Zaehne",
+        "summary": "Weiterdrehung des Brillen-Gedankens: gebrauchte Zaehne bzw. Goldzaehne weiterverkaufen, weil Zaehne extrem teuer sind.",
+        "originator": "unknown",
+        "viability": "gedankenspiel",
+        "category": "Handel"
+      },
+      {
+        "name": "Fernbedienung gegen Tiergeraeusche",
+        "summary": "Fernbedienung fuer Hundebesitzer, mit der sich Tiergeraeusche im laufenden Film/Serie abschalten lassen (Hund bellt sonst mit, wenn im Film ein Schaeferhund einen Einbrecher stellt).",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Mehrere Ideen explizit als Geschaeftsidee diskutiert; die Brillen-Idee wird am ausfuehrlichsten verfolgt.",
+    "episodeNumber": 379,
+    "episodeTitle": "Koksende Erstklässler",
+    "_source": "transcript-mine-2026-10-03"
+  },
+  "380": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee; Themen Jugendsprache ('Gude Kaese'), Raetsel-Skandal und Rocket-Beans-Buch.",
+    "episodeNumber": 380,
+    "episodeTitle": "Gude Käse",
+    "_source": "transcript-mine-2026-10-03"
+  },
+  "381": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "365-Tage-Kalender",
+        "summary": "Ganzjahres-Adventskalender mit 365 Tuerchen: jeden Tag eine kleine Belohnung fuers Aufstehen und Motivieren, statt nur im Dezember Suessigkeiten. Damit wuerde man das komplette Kalendergeschaeft uebernehmen ('es gibt nur noch Tuerchen').",
+        "originator": "georg",
+        "viability": "halbernst",
+        "category": "Produkt"
+      },
+      {
+        "name": "Geburtstags- und Nachtragskalender",
+        "summary": "Individualkalender, der am eigenen Geburtstag beginnt und bis zum naechsten Geburtstag laeuft - inkl. Kundenwuenschen zu Startdatum und Design, online konfigurierbar. Fuer vergessene Geburtstage gibt es den Nachtragskalender, der dann bis zum naechsten Geburtstag laeuft.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Produkt"
+      },
+      {
+        "name": "Wiederbefuellbarer Luxus-Kalender",
+        "summary": "Einmalig gekaufter, hochwertiger Kalender (Marmor mit Goldtuerchen), der jaehrlich vom 'Befueller' neu bestueckt wird - 'wie beim Sarg: es gibt den billigen Holzsarg und den geilen Sarg'. Variante: 2x3-Meter-Kalender, wandfuellend, monatlich per Truck geliefert und montiert.",
+        "originator": "jochen",
+        "viability": "gedankenspiel",
+        "category": "Produkt"
+      },
+      {
+        "name": "Ganzjahres-Ernaehrungskalender",
+        "summary": "Tuerchen passen sich dem Jahresverlauf an: Januar (Fitnessstudio-Vorsatz) Aepfel, gegen Jahresende immer ungesuender bis Marzipan, Spekulatius und Schokolade - 'die heilige Dreifaltigkeit der ekeligen Sachen'.",
+        "originator": "unknown",
+        "viability": "gedankenspiel",
+        "category": "Produkt"
+      },
+      {
+        "name": "Zahn-Airline (Luftzahnsa)",
+        "summary": "Wortspiel-Airline rund um Zahnreisen: 'Luftzahnsa' bzw. 'Dental Wings' - der Titelgeber der Folge, entstanden aus dem Wunsch nach einem amerikanischen Schauspieler-Gebiss inkl. Anreise.",
+        "originator": "etienne",
+        "viability": "witz",
+        "category": "Marketing"
+      }
+    ],
+    "notes": "Der Kalender-Block ist explizit als Millionenidee ausgefuehrt ('Wir waren noch so nah dran an der Million'); die Luftzahnsa-/Dental-Wings-Nummer ist der Namensgag der Folge (Episodentitel).",
+    "episodeNumber": 381,
+    "episodeTitle": "Ab in den Urlaub mit Luftzahnsa",
+    "_source": "transcript-mine-2026-10-09"
   }
 }
