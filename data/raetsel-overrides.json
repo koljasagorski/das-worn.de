@@ -6711,9 +6711,66 @@
     "winner": null,
     "question": "Woher hat das SHH-Protein seinen Namen?",
     "answer": "SHH = Sonic Hedgehog. Das Gen gehoert zur Hedgehog-Genfamilie, die bei Fruchtfliegen entdeckt wurde (Mutation mit ungewoehnlich stacheligem Koerper), benannt nach dem Igel Sonic the Hedgehog.",
-    "notes": "Loeser nicht eindeutig zuzuordnen (keine Sprecher-Diarisierung). Geloest wird mit 'Ich moechte loesen. Es ist Sonic the Hedgehog.' Georg bestaetigt direkt ('Korrekt') - das spricht fuer Jochen, der laut Georg den ganzen Endspurt ueber am Zug bleibt ('pass mal auf, Jochen, du bleibst mal weiterhin dran'). Dagegen spricht der direkt folgende Satz 'Ich hasse dein sueffisantes Grinsen. Endlich wieder Gerechtigkeit' (passt besser zu Etienne nach der Jochengate-Serie #378-#380). Beim naechsten Feed-Update gegenpruefen - die Zuhoerer-Kommentare in #382 sollten es aufloesen (so wie #380 die Faelle #379/#380 geklaert hat).",
+    "notes": "Loeser nicht eindeutig zuzuordnen (keine Sprecher-Diarisierung). Geloest wird mit 'Ich moechte loesen. Es ist Sonic the Hedgehog.' Georg bestaetigt direkt ('Korrekt') - das spricht fuer Jochen, der laut Georg den ganzen Endspurt ueber am Zug bleibt ('pass mal auf, Jochen, du bleibst mal weiterhin dran'). Dagegen spricht der direkt folgende Satz 'Ich hasse dein sueffisantes Grinsen. Endlich wieder Gerechtigkeit' (passt besser zu Etienne nach der Jochengate-Serie #378-#380). Nachtrag 2026-11-15: die Kommentare in #382 erwaehnen das Raetsel nicht - bleibt offen, ggf. ueber die offizielle Punktetabelle klaeren.",
     "skipped": false,
     "_source": "transcript-mine-2026-10-09",
     "_confidence": "low"
+  },
+  "382": {
+    "winner": null,
+    "question": "Wie kann eine Strasse eine Melodie spielen?",
+    "answer": "Honda Civic Musical Road in Lancaster, Kalifornien: in unterschiedlichen Abstaenden in den Asphalt gefraeste Rillen, ueber die die Reifen fahren und so verschiedene Toene erzeugen. Gespielt wird die Ouvertuere von Wilhelm Tell; die Strasse war Teil eines Werbespots fuer den Honda Civic.",
+    "notes": "Loeser nicht eindeutig zuzuordnen (keine Diarisierung). Georg laesst 'Rillen' gelten ('Bei Rillen habe ich ein Ja gekriegt ... Ich lasse es gelten') und spricht vorher von einem Bonuspunkt ('Ich ueberlege, ob das ein Bonuspunkt ist und ich dir schon einen Punkt gebe. Ich bin der Meinung, Jochen darf es jetzt auch nochmal versuchen'). Danach: 'Ich nehme den Punkt gerne.' Ohne Sprecherzuordnung bleibt der Sieger offen.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "low"
+  },
+  "383": {
+    "winner": "jochen",
+    "question": "Wie bewahrte FedEx-Gruender Fred Smith das Unternehmen 1973 kurzfristig vor der Pleite?",
+    "answer": "Er spielte mit dem letzten Vermoegen der Firma Blackjack und verliess den Tisch mit 27.000 Dollar - genug, um die 24.000 Dollar Treibstoffschulden zu bezahlen. Das langfristige Ueberleben sicherte spaeter eine Zusage ueber 11 Millionen Dollar.",
+    "notes": "Georg nach der richtigen Antwort ('Er ist ins Casino gegangen und hat Geld gewonnen. War in der Spielbank.'): 'Es ist 100% richtig ... Jock hat wieder seinen genialen Moment.' Vorher hatte Etienne mit 'der Gruender hat selber Pakete ausgeliefert' danebengelegen ('Nee, du kriegst nicht zwei Punkte'). Zuordnung ueber die Namensnennung im Lob, keine Diarisierung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "384": {
+    "winner": null,
+    "question": "Was ist ungewoehnlich an den Zwillingen Jordan und Jake Wallman?",
+    "answer": "Sie kamen am 31.12.1999 eine Minute vor und eine Minute nach Mitternacht per Kaiserschnitt zur Welt - also in unterschiedlichen Jahren. Auf dem Papier gelten sie dadurch nicht als Zwillinge (unterschiedliche Geburtsdaten/Jahrgaenge).",
+    "notes": "Georg vergibt ausdruecklich nur einen halben Punkt ('Halber Punkt. Halber Punkt.'), nachdem die Spieler Geburtsjahr/Silvester richtig einkreisten. Ohne Diarisierung ist nicht zuordenbar, wer den halben Punkt bekam.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "low"
+  },
+  "385": {
+    "winner": null,
+    "question": "Warum hat Boeing im Jahr 2012 rund neun Tonnen Kartoffeln gekauft?",
+    "answer": "Als Ersatz fuer Passagiere in Tests: Kartoffelsaecke haben aehnliche Masse, Dichte und Wassergehalt wie ein menschlicher Koerper und simulieren dessen Einfluss auf Funksignale - so wurden Beladung und Bord-Technik (u.a. WLAN/Entertainment) ohne echte Passagiere getestet.",
+    "notes": "Georg will die Loesung als einzelnes Wort hoeren ('Ein Wort, wer es nennt, kriegt den Punkt') und verifiziert danach noch Materialfragen (Stahl/Pappe/Granitblock als Gegenproben). Der Sprecher des Loesungsworts ist ohne Diarisierung nicht zuzuordnen.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "low"
+  },
+  "386": {
+    "winner": "jochen",
+    "question": "Woher hat der Riddler (Batman) den Namen Patrick Parker?",
+    "answer": "Aus einem Hoax-Edit bei Wikipedia: 2013 wurde der Alias 'Patrick Parker' dort ohne Quellenangabe eingefuegt. Spaeter uebernahmen Comics und der Film 'The Batman' (2022) den Namen, wodurch er rueckwirkend offiziell wurde.",
+    "notes": "Georg gibt Jochen ausdruecklich den Zug ('Jochen, du darfst.'), Jochen antwortet 'Wikipedia' statt 'DC-Wiki' und bekommt den Punkt zugesprochen ('Da kann man aber sagen, den Punkt bilde ich dir'). Zuordnung ueber Namensnennung + Punktvergabe, keine Diarisierung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
   }
 }

@@ -1,42 +1,42 @@
 {
-  "episodeCount": 381,
+  "episodeCount": 386,
   "skippedRaetselCount": 0,
-  "totalWords": 5457292,
-  "totalChars": 31999729,
-  "avgWords": 14324,
+  "totalWords": 5526192,
+  "totalChars": 32404751,
+  "avgWords": 14317,
   "winners": {
     "etienne": 168,
-    "jochen": 133,
+    "jochen": 135,
     "georg": 19,
-    "unknown": 75,
+    "unknown": 78,
     "beidenEpisodes": 12,
-    "riddleCount": 398
+    "riddleCount": 403
   },
   "totalMentions": {
-    "etienne": 3581,
-    "jochen": 6608,
-    "georg": 3939
+    "etienne": 3619,
+    "jochen": 6690,
+    "georg": 3961
   },
   "topGlobal": [
     {
       "word": "diese",
-      "count": 9121
+      "count": 9227
     },
     {
       "word": "jochen",
-      "count": 5573
+      "count": 5633
     },
     {
       "word": "zwei",
-      "count": 4945
+      "count": 5015
     },
     {
       "word": "podcast",
-      "count": 4416
+      "count": 4484
     },
     {
       "word": "dieser",
-      "count": 2474
+      "count": 2501
     },
     {
       "word": "dieses",
@@ -44,11 +44,11 @@
     },
     {
       "word": "drei",
-      "count": 2151
+      "count": 2164
     },
     {
       "word": "euro",
-      "count": 1972
+      "count": 2029
     },
     {
       "word": "auto",
@@ -72,27 +72,27 @@
     },
     {
       "word": "namen",
-      "count": 990
+      "count": 1061
     },
     {
       "word": "diesen",
-      "count": 983
+      "count": 1004
+    },
+    {
+      "word": "drauf",
+      "count": 934
     },
     {
       "word": "gedacht",
       "count": 934
     },
     {
-      "word": "drauf",
-      "count": 917
-    },
-    {
       "word": "dran",
-      "count": 853
+      "count": 870
     },
     {
       "word": "hund",
-      "count": 834
+      "count": 849
     },
     {
       "word": "gerne",
@@ -108,35 +108,35 @@
     },
     {
       "word": "problem",
-      "count": 603
+      "count": 616
+    },
+    {
+      "word": "geld",
+      "count": 599
     },
     {
       "word": "ehrlich",
       "count": 593
     },
     {
-      "word": "geld",
-      "count": 584
+      "word": "rein",
+      "count": 554
     },
     {
-      "word": "rein",
-      "count": 540
+      "word": "idee",
+      "count": 532
     },
     {
       "word": "kinder",
       "count": 532
     },
     {
+      "word": "scheiße",
+      "count": 520
+    },
+    {
       "word": "geschichte",
       "count": 510
-    },
-    {
-      "word": "erstmal",
-      "count": 493
-    },
-    {
-      "word": "idee",
-      "count": 491
     }
   ],
   "longest": [
@@ -249,20 +249,20 @@
   ],
   "totalFun": {
     "haha": 29,
-    "quatsch": 808,
-    "cool": 1494,
-    "geil": 4270,
-    "krass": 963,
-    "digga": 28,
-    "alter": 1818,
-    "scheisse": 3419,
-    "leute": 9798,
-    "tschuess": 911,
-    "podcast": 6402,
+    "quatsch": 821,
+    "cool": 1512,
+    "geil": 4328,
+    "krass": 973,
+    "digga": 29,
+    "alter": 1833,
+    "scheisse": 3500,
+    "leute": 9897,
+    "tschuess": 922,
+    "podcast": 6491,
     "pommes": 428,
     "nettetal": 4,
     "lobberich": 119,
     "nordfriese": 2
   },
-  "estimatedHours": 700
+  "estimatedHours": 708
 }

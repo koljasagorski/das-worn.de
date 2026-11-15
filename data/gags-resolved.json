@@ -1020,8 +1020,8 @@
     ],
     "host": "georg",
     "key": "kaercher",
-    "episodeCount": 43,
-    "totalMentions": 129,
+    "episodeCount": 44,
+    "totalMentions": 131,
     "episodes": [
       {
         "number": 28,
@@ -1237,6 +1237,11 @@
         "number": 372,
         "title": "Eddi Zweipunktnull",
         "mentions": 10
+      },
+      {
+        "number": 385,
+        "title": "Nur ein Schritt entfernt",
+        "mentions": 2
       }
     ]
   },
@@ -1249,8 +1254,8 @@
     "dedicatedEpisodes": [],
     "host": "etienne",
     "key": "tiefkuehlpommes",
-    "episodeCount": 273,
-    "totalMentions": 476,
+    "episodeCount": 274,
+    "totalMentions": 477,
     "episodes": [
       {
         "number": 23,
@@ -2615,6 +2620,11 @@
       {
         "number": 373,
         "title": "Mach mal 'nen Abflug",
+        "mentions": 1
+      },
+      {
+        "number": 382,
+        "title": "UPS die Pannenshow",
         "mentions": 1
       }
     ]

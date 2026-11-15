@@ -5196,5 +5196,68 @@
     "episodeNumber": 381,
     "episodeTitle": "Ab in den Urlaub mit Luftzahnsa",
     "_source": "transcript-mine-2026-10-09"
+  },
+  "382": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Bauchtisch",
+        "summary": "Tisch, den man sich wie einen Latz um den Bauch schnallt (Teleskop-Ausleger, hoehenverstellbar), damit man den Sitzplatz-Klapptisch im Flugzeug nicht braucht - nutzbar ueberall, wo man sitzt (Strand, Bushaltestelle). Beim Karneval laesst sich die Flaeche als Werbeflaeche vermieten.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Produkt"
+      }
+    ],
+    "notes": "Explizit 'Aufschreiben fuer die Millionen-Idee' - entstanden aus dem Aergernis ueber teures Wasser, enge Sitze und defekte Klapptische.",
+    "episodeNumber": 382,
+    "episodeTitle": "UPS die Pannenshow",
+    "_source": "transcript-mine-2026-11-15"
+  },
+  "383": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee. Der ausfuehrlichste Einfall ist ein Marketing-Gag: sich als Presse fuer Klopp-Pressekonferenzen akkreditieren und den Podcast ins Mikrofon schmuggeln (inkl. Idee, den Podcast in 'Podcast-Club' umzubenennen, weil die Abkuerzung PORN immer Probleme macht).",
+    "episodeNumber": 383,
+    "episodeTitle": "Das unangenehmste Wort der Welt",
+    "_source": "transcript-mine-2026-11-15"
+  },
+  "384": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee; Themen Flugmodus/Flugangst, Zwillinge an Silvester und McDonalds-McDrive-Anekdoten.",
+    "episodeNumber": 384,
+    "episodeTitle": "Flugmodus",
+    "_source": "transcript-mine-2026-11-15"
+  },
+  "385": {
+    "hasIdea": true,
+    "ideas": [
+      {
+        "name": "Stullenladen",
+        "summary": "Laden, der nur belegte Brote macht: gutes Bauernbrot, Butter, Frischkaeuse/Radieschen statt Currywurst - zum Mitnehmen, ohne Café-Betrieb. Als Erweiterung eines reinen Cheesecake-Ladens gedacht.",
+        "originator": "unknown",
+        "viability": "halbernst",
+        "category": "Handel"
+      },
+      {
+        "name": "Cheesecake-Laden",
+        "summary": "Laden, der ausschliesslich Cheesecake verkauft - laut Folge in Hamburg bereits umgesetzt ('Jeffs Cheesecake' am Stadtpark), weshalb die Idee als geklaut gilt.",
+        "originator": "unknown",
+        "viability": "ernst",
+        "category": "Handel"
+      }
+    ],
+    "notes": "Die Ideen entstehen aus einer Cheesecake-Story; der Stullenladen wird als naechster Schritt diskutiert.",
+    "episodeNumber": 385,
+    "episodeTitle": "Nur ein Schritt entfernt",
+    "_source": "transcript-mine-2026-11-15"
+  },
+  "386": {
+    "hasIdea": false,
+    "ideas": [],
+    "notes": "Keine Geschaeftsidee; Themen Pilotenschein in zwei Wochen, Riddler-Raetsel und Namenssuche fuer Streams.",
+    "episodeNumber": 386,
+    "episodeTitle": "Der Lötkolben ist heiß",
+    "_source": "transcript-mine-2026-11-15"
   }
 }
