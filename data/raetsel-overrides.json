@@ -6559,5 +6559,233 @@
     "_confidence": "high",
     "_model": "claude-haiku-4-5-20251001"
   },
-  "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string)."
+  "_comment": "Manuelle Annotationen für Rätsel-Sieger. Key = Folgennummer. Override-Felder: winner (etienne|jochen|georg|null), question (string), answer (string), skipped (bool für Folgen ohne Rätsel), notes (string).",
+  "370": {
+    "winner": null,
+    "question": "Wer ist Jens Mustermann?",
+    "answer": "Der Platzhalter-Name, unter dem EA in FIFA den deutschen Nationaltorhüter Oliver Kahn führt, weil keine Namensrechte vorlagen.",
+    "notes": "Loeser im Transkript nicht eindeutig zuzuordnen (keine Sprecher-Labels). Loesung = Oliver Kahn.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "low"
+  },
+  "371": {
+    "winner": "jochen",
+    "question": "Im Jahr 2015 verlor Warner Music die Rechte an welchem Song?",
+    "answer": "Happy Birthday to You.",
+    "notes": "Jochen loest sofort; 'Jochen darf eins stellen beim naechsten Mal'.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "high",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "372": {
+    "winner": null,
+    "question": "Welchen Rekord hat Dr. Sudhir Srivastava im Juni 2026 aufgestellt?",
+    "answer": "Fernoperation ueber die groesste je ueberbrueckte Entfernung: Patient in Indien, Arzt in Guayana, ca. 20.000 km, Ping 290-300 ms.",
+    "notes": "Loeser im Transkript nicht eindeutig zuzuordnen (keine Sprecher-Labels). Loesung verifiziert.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "low"
+  },
+  "373": {
+    "winner": "etienne",
+    "question": "Gesucht ist ein Gegenstand: aus Holz, in allen Groessen erhaeltlich, den man werfen kann - aber nicht speziell zum Werfen gedacht.",
+    "answer": "Der Stock.",
+    "notes": "Etienne loest 'Es ist der Stock' und erklaert den Gedankengang; Georg wollte ebenfalls loesen.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 1,
+      "jochen": 0,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "374": {
+    "winner": null,
+    "question": "Mit welcher Begruendung verweigerte ein Moerder einen DNA-Test?",
+    "answer": "Aus Angst, geklont zu werden (Gary Scharer, Agawam/Massachusetts, 2017).",
+    "notes": "Loeser im Transkript nicht eindeutig zuzuordnen (keine Sprecher-Labels). Loesung verifiziert.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "low"
+  },
+  "375": {
+    "winner": "etienne",
+    "question": "Was wurde am 17. August 1982 in Langenhagen zum ersten Mal (industriell in Serie) produziert?",
+    "answer": "Die erste CD (ABBA - The Visitors im Auftrag von Polygram).",
+    "notes": "Etienne loest; 'Eddie, jetzt kannst du es zugeben, das war einfach zu glatt'.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "high",
+    "_points": {
+      "etienne": 1,
+      "jochen": 0,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "376": {
+    "winner": "etienne",
+    "question": "Warum konnte ein Formel-1-Weltmeister zwei aufeinanderfolgende Rennen nicht bestreiten?",
+    "answer": "Nigel Mansell (Weltmeister 1992) passte 1995 bei McLaren nicht ins Cockpit.",
+    "notes": "Etienne loest ('Hat der nicht ins Auto gepasst?'); 'Eddie, jetzt langsam wird es verdaechtig'.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "high",
+    "_points": {
+      "etienne": 1,
+      "jochen": 0,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "377": {
+    "winner": "jochen",
+    "question": "Warum vergruben 1.000 Schweizer jeweils zwei Unterhosen?",
+    "answer": "Es waren Landwirte, die die Unterhosen zur Foerderung der Bodenfruchtbarkeit vergruben (analog zu Demeter-Hoernern).",
+    "notes": "Jochen loest ('Jochen ist wieder viel gewiefter als wir'), Demeter-Vergleich als Loesung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-09-17",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "378": {
+    "winner": "jochen",
+    "question": "Welcher ungewoehnliche Weg, Erdbebenopfer medizinisch zu versorgen, wurde erfolgreich an der Universitaet von Queensland getestet?",
+    "answer": "Cyborg-Kakerlaken: die schwerste Kakerlakenart der Region (ca. 40 g, bis 10 cm) wird mit Mini-Kameras bzw. Injektionsmechanismen ausgestattet und per elektrischen Signalen gesteuert, um Verschüttete in eingestürzten Gebaeuden zu finden (95 % Genauigkeit auf 15 cm Entfernung).",
+    "notes": "Jochen antwortet 'Sind es Kakerlaken?' -> 'Du hast geloest'. Zuordnung nur ueber die Redezug-Reihenfolge ('Ist noch dran, Jochen', vorher hatte Etienne 'Ameisen' geraten) - keine Sprecher-Diarisierung. Passt zur Zuhoerer-Kritik in #380 ('seit drei Folgen cheatest du dich hier nach vorne, Jochen').",
+    "skipped": false,
+    "_source": "transcript-mine-2026-10-03",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "379": {
+    "winner": "jochen",
+    "question": "Was ist das Besondere an Plymouth, der Hauptstadt von Montserrat?",
+    "answer": "Plymouth ist die einzige Hauptstadt der Welt, die komplett verlassen ist (Geisterstadt): nach den Vulkanausbruechen ab 1995 wurde die Stadt 1997 aufgegeben, das Betreten ist verboten - null Einwohner.",
+    "notes": "Georg gibt den ersten Punkt vorab an Jochen ('Du hast den Punkt. Etienne kann aber ausgleichen ...'). Die praezise Antwort ('Es ist die Stadt mit keinem Einwohner') nimmt derselbe Spieler mit ('Ich nehme die beiden Punkte', 'Zwei Punkte mit einem Witz') -> 2 Punkte. Zuschauer-Kritik in #380 bestaetigt Jochens Punkt ('Jochen bekommt fuer eine eigentlich nicht relevante Aussage vorab den Punkt'). Keine Diarisierung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-10-03",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 2,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "380": {
+    "winner": "jochen",
+    "question": "Warum mussten rund 400 Verkehrssuender in Sachsen-Anhalt kein Bussgeld zahlen, obwohl sie zu schnell gefahren waren?",
+    "answer": "Ein Unbekannter hatte in Haldensleben ein Tempo-70-Schild aufgestellt, wo Tempo 50 galt. Weil die Stadt nicht nachweisen konnte, ab wann das gefaelschte Schild dort stand, mussten mehr als 400 Bussgeldverfahren eingestellt werden - auch gegen Fahrer, die schneller als 70 unterwegs waren.",
+    "notes": "Jochen loest mit 'Irgendein Idiot hat es hingestellt' -> 'Du hast geloest'; Eddie protestiert ('Seit drei Folgen cheatest du dich hier nach vorne, Jochen', 'Schon wieder ein Punkt').",
+    "skipped": false,
+    "_source": "transcript-mine-2026-10-03",
+    "_confidence": "high",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "381": {
+    "winner": null,
+    "question": "Woher hat das SHH-Protein seinen Namen?",
+    "answer": "SHH = Sonic Hedgehog. Das Gen gehoert zur Hedgehog-Genfamilie, die bei Fruchtfliegen entdeckt wurde (Mutation mit ungewoehnlich stacheligem Koerper), benannt nach dem Igel Sonic the Hedgehog.",
+    "notes": "Loeser nicht eindeutig zuzuordnen (keine Sprecher-Diarisierung). Geloest wird mit 'Ich moechte loesen. Es ist Sonic the Hedgehog.' Georg bestaetigt direkt ('Korrekt') - das spricht fuer Jochen, der laut Georg den ganzen Endspurt ueber am Zug bleibt ('pass mal auf, Jochen, du bleibst mal weiterhin dran'). Dagegen spricht der direkt folgende Satz 'Ich hasse dein sueffisantes Grinsen. Endlich wieder Gerechtigkeit' (passt besser zu Etienne nach der Jochengate-Serie #378-#380). Nachtrag 2026-11-15: die Kommentare in #382 erwaehnen das Raetsel nicht - bleibt offen, ggf. ueber die offizielle Punktetabelle klaeren.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-10-09",
+    "_confidence": "low"
+  },
+  "382": {
+    "winner": null,
+    "question": "Wie kann eine Strasse eine Melodie spielen?",
+    "answer": "Honda Civic Musical Road in Lancaster, Kalifornien: in unterschiedlichen Abstaenden in den Asphalt gefraeste Rillen, ueber die die Reifen fahren und so verschiedene Toene erzeugen. Gespielt wird die Ouvertuere von Wilhelm Tell; die Strasse war Teil eines Werbespots fuer den Honda Civic.",
+    "notes": "Loeser nicht eindeutig zuzuordnen (keine Diarisierung). Georg laesst 'Rillen' gelten ('Bei Rillen habe ich ein Ja gekriegt ... Ich lasse es gelten') und spricht vorher von einem Bonuspunkt ('Ich ueberlege, ob das ein Bonuspunkt ist und ich dir schon einen Punkt gebe. Ich bin der Meinung, Jochen darf es jetzt auch nochmal versuchen'). Danach: 'Ich nehme den Punkt gerne.' Ohne Sprecherzuordnung bleibt der Sieger offen.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "low"
+  },
+  "383": {
+    "winner": "jochen",
+    "question": "Wie bewahrte FedEx-Gruender Fred Smith das Unternehmen 1973 kurzfristig vor der Pleite?",
+    "answer": "Er spielte mit dem letzten Vermoegen der Firma Blackjack und verliess den Tisch mit 27.000 Dollar - genug, um die 24.000 Dollar Treibstoffschulden zu bezahlen. Das langfristige Ueberleben sicherte spaeter eine Zusage ueber 11 Millionen Dollar.",
+    "notes": "Georg nach der richtigen Antwort ('Er ist ins Casino gegangen und hat Geld gewonnen. War in der Spielbank.'): 'Es ist 100% richtig ... Jock hat wieder seinen genialen Moment.' Vorher hatte Etienne mit 'der Gruender hat selber Pakete ausgeliefert' danebengelegen ('Nee, du kriegst nicht zwei Punkte'). Zuordnung ueber die Namensnennung im Lob, keine Diarisierung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "384": {
+    "winner": null,
+    "question": "Was ist ungewoehnlich an den Zwillingen Jordan und Jake Wallman?",
+    "answer": "Sie kamen am 31.12.1999 eine Minute vor und eine Minute nach Mitternacht per Kaiserschnitt zur Welt - also in unterschiedlichen Jahren. Auf dem Papier gelten sie dadurch nicht als Zwillinge (unterschiedliche Geburtsdaten/Jahrgaenge).",
+    "notes": "Georg vergibt ausdruecklich nur einen halben Punkt ('Halber Punkt. Halber Punkt.'), nachdem die Spieler Geburtsjahr/Silvester richtig einkreisten. Ohne Diarisierung ist nicht zuordenbar, wer den halben Punkt bekam.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "low"
+  },
+  "385": {
+    "winner": null,
+    "question": "Warum hat Boeing im Jahr 2012 rund neun Tonnen Kartoffeln gekauft?",
+    "answer": "Als Ersatz fuer Passagiere in Tests: Kartoffelsaecke haben aehnliche Masse, Dichte und Wassergehalt wie ein menschlicher Koerper und simulieren dessen Einfluss auf Funksignale - so wurden Beladung und Bord-Technik (u.a. WLAN/Entertainment) ohne echte Passagiere getestet.",
+    "notes": "Georg will die Loesung als einzelnes Wort hoeren ('Ein Wort, wer es nennt, kriegt den Punkt') und verifiziert danach noch Materialfragen (Stahl/Pappe/Granitblock als Gegenproben). Der Sprecher des Loesungsworts ist ohne Diarisierung nicht zuzuordnen.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "low"
+  },
+  "386": {
+    "winner": "jochen",
+    "question": "Woher hat der Riddler (Batman) den Namen Patrick Parker?",
+    "answer": "Aus einem Hoax-Edit bei Wikipedia: 2013 wurde der Alias 'Patrick Parker' dort ohne Quellenangabe eingefuegt. Spaeter uebernahmen Comics und der Film 'The Batman' (2022) den Namen, wodurch er rueckwirkend offiziell wurde.",
+    "notes": "Georg gibt Jochen ausdruecklich den Zug ('Jochen, du darfst.'), Jochen antwortet 'Wikipedia' statt 'DC-Wiki' und bekommt den Punkt zugesprochen ('Da kann man aber sagen, den Punkt bilde ich dir'). Zuordnung ueber Namensnennung + Punktvergabe, keine Diarisierung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-15",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 1,
+      "georg": 0
+    },
+    "_riddleCount": 1
+  },
+  "387": {
+    "winner": "georg",
+    "question": "Was ist der/die/das Mondopoint?",
+    "answer": "Mondopoint (MP) ist ein international genormtes Schuhgroessen-System: Grundlage ist die tatsaechliche Fusslaenge (in der ISO 9407 auch die Fussbreite), Einheit urspruenglich Millimeter - z.B. 280 steht fuer 28 cm Fusslaenge.",
+    "notes": "Ausnahme: heute stellt Etienne das Raetsel (sonst Georg), dadurch kann Georg mitspielen. Georg meldet sich vorher als Wisser ('Du weisst es, Georg? Ja.'), fragt dann nach der Bestimmung der Schuhgroesse ueber einen Punkt am Fuss und bekommt 'Exakt.' - Zuordnung ueber Namensnennung, keine Diarisierung.",
+    "skipped": false,
+    "_source": "transcript-mine-2026-11-25",
+    "_confidence": "medium",
+    "_points": {
+      "etienne": 0,
+      "jochen": 0,
+      "georg": 1
+    },
+    "_riddleCount": 1
+  }
 }

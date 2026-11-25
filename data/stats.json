@@ -1,98 +1,98 @@
 {
-  "episodeCount": 369,
+  "episodeCount": 387,
   "skippedRaetselCount": 0,
-  "totalWords": 5287161,
-  "totalChars": 30998433,
-  "avgWords": 14328,
+  "totalWords": 5540301,
+  "totalChars": 32488386,
+  "avgWords": 14316,
   "winners": {
-    "etienne": 165,
-    "jochen": 127,
-    "georg": 19,
-    "unknown": 71,
+    "etienne": 168,
+    "jochen": 135,
+    "georg": 20,
+    "unknown": 78,
     "beidenEpisodes": 12,
-    "riddleCount": 386
+    "riddleCount": 404
   },
   "totalMentions": {
-    "etienne": 3469,
-    "jochen": 6416,
-    "georg": 3835
+    "etienne": 3625,
+    "jochen": 6707,
+    "georg": 3972
   },
   "topGlobal": [
     {
       "word": "diese",
-      "count": 8859
+      "count": 9227
     },
     {
       "word": "jochen",
-      "count": 5396
+      "count": 5650
     },
     {
       "word": "zwei",
-      "count": 4740
+      "count": 5029
     },
     {
       "word": "podcast",
-      "count": 4310
+      "count": 4498
     },
     {
       "word": "dieser",
-      "count": 2373
+      "count": 2514
     },
     {
       "word": "dieses",
-      "count": 2188
+      "count": 2308
     },
     {
       "word": "drei",
-      "count": 2096
-    },
-    {
-      "word": "ahnung",
-      "count": 1953
+      "count": 2164
     },
     {
       "word": "euro",
-      "count": 1898
+      "count": 2045
     },
     {
       "word": "auto",
-      "count": 1887
+      "count": 1969
+    },
+    {
+      "word": "ahnung",
+      "count": 1967
     },
     {
       "word": "georg",
-      "count": 1773
+      "count": 1804
     },
     {
       "word": "anderen",
-      "count": 1540
+      "count": 1584
     },
     {
       "word": "moment",
-      "count": 1245
-    },
-    {
-      "word": "diesen",
-      "count": 969
+      "count": 1298
     },
     {
       "word": "namen",
-      "count": 945
+      "count": 1061
+    },
+    {
+      "word": "diesen",
+      "count": 1004
     },
     {
       "word": "gedacht",
-      "count": 922
+      "count": 952
     },
     {
       "word": "drauf",
-      "count": 884
+      "count": 934
     },
     {
       "word": "dran",
-      "count": 853
+      "count": 870
     },
     {
       "word": "hund",
-      "count": 834
+      "count": 849
     },
     {
       "word": "gerne",
@@ -100,43 +100,43 @@
     },
     {
       "word": "andere",
-      "count": 692
-    },
-    {
-      "word": "problem",
-      "count": 603
+      "count": 718
     },
     {
       "word": "frau",
-      "count": 603
+      "count": 635
     },
     {
-      "word": "ehrlich",
-      "count": 574
+      "word": "problem",
+      "count": 616
     },
     {
       "word": "geld",
-      "count": 559
+      "count": 599
+    },
+    {
+      "word": "ehrlich",
+      "count": 593
     },
     {
       "word": "rein",
-      "count": 528
+      "count": 554
+    },
+    {
+      "word": "idee",
+      "count": 532
     },
     {
       "word": "kinder",
-      "count": 514
+      "count": 532
+    },
+    {
+      "word": "scheiße",
+      "count": 520
     },
     {
       "word": "geschichte",
       "count": 510
-    },
-    {
-      "word": "erstmal",
-      "count": 493
-    },
-    {
-      "word": "idee",
-      "count": 480
     }
   ],
   "longest": [
@@ -249,20 +249,20 @@
   ],
   "totalFun": {
     "haha": 29,
-    "quatsch": 787,
-    "cool": 1438,
-    "geil": 4130,
-    "krass": 928,
-    "digga": 26,
-    "alter": 1761,
-    "scheisse": 3293,
-    "leute": 9512,
-    "tschuess": 881,
-    "podcast": 6213,
-    "pommes": 378,
+    "quatsch": 821,
+    "cool": 1512,
+    "geil": 4338,
+    "krass": 976,
+    "digga": 29,
+    "alter": 1835,
+    "scheisse": 3503,
+    "leute": 9923,
+    "tschuess": 924,
+    "podcast": 6506,
+    "pommes": 430,
     "nettetal": 4,
     "lobberich": 119,
     "nordfriese": 2
   },
-  "estimatedHours": 678
+  "estimatedHours": 710
 }
